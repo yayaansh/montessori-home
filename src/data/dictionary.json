@@ -1,0 +1,914 @@
+[
+ {
+  "word": "aciculate",
+  "language": "Latin",
+  "root": "acicula",
+  "meaning": "needle"
+ },
+ {
+  "word": "acute",
+  "language": "Latin",
+  "root": "ang(u)ere",
+  "meaning": "sharp, to strangle"
+ },
+ {
+  "word": "adjective",
+  "language": "Latin",
+  "root": "adjectivum",
+  "meaning": "to add to the noun"
+ },
+ {
+  "word": "Africa",
+  "language": "Phoenician",
+  "root": "afar",
+  "meaning": "dust (speculation)"
+ },
+ {
+  "word": "amphibian",
+  "language": "Greek",
+  "root": "amphi+bian",
+  "meaning": "double life"
+ },
+ {
+  "word": "androecium",
+  "language": "Greek",
+  "root": "andr+oikion",
+  "meaning": "man house"
+ },
+ {
+  "word": "anurans",
+  "language": "Greek",
+  "root": "an+oura",
+  "meaning": "no tail"
+ },
+ {
+  "word": "anseriformes",
+  "language": "Greek",
+  "root": "anser +iformes",
+  "meaning": "geese shaped"
+ },
+ {
+  "word": "anther",
+  "language": "Greek",
+  "root": "anthera",
+  "meaning": "flower"
+ },
+ {
+  "word": "Arctic",
+  "language": "Greek",
+  "root": "arktos",
+  "meaning": "bear"
+ },
+ {
+  "word": "arthropods",
+  "language": "Greek",
+  "root": "arthro+pod",
+  "meaning": "joined legs"
+ },
+ {
+  "word": "Asia",
+  "language": "Greek",
+  "root": "Akkadian",
+  "meaning": "to rise (speculation)"
+ },
+ {
+  "word": "attraction",
+  "language": "Latin",
+  "root": "atrahere",
+  "meaning": "to draw to"
+ },
+ {
+  "word": "Australia",
+  "language": "Latin",
+  "root": "Terra Australis",
+  "meaning": "southern land"
+ },
+ {
+  "word": "barycenter",
+  "language": "Greek",
+  "root": "Barus+center",
+  "meaning": "heavy center"
+ },
+ {
+  "word": "cambrian",
+  "language": "",
+  "root": "",
+  "meaning": "Old name for Wales as the first fossils were found in Wales"
+ },
+ {
+  "word": "capsule",
+  "language": "Latin",
+  "root": "capsula",
+  "meaning": "little box"
+ },
+ {
+  "word": "Carboniferous",
+  "language": "Latin",
+  "root": "carbo+ferous",
+  "meaning": "containing carbon"
+ },
+ {
+  "word": "Carnivores",
+  "language": "Latin",
+  "root": "carni+vore",
+  "meaning": "meat eater"
+ },
+ {
+  "word": "cenozoic",
+  "language": "Greek",
+  "root": "kainos+zoon",
+  "meaning": "recent life/animals"
+ },
+ {
+  "word": "centroid",
+  "language": "Greek",
+  "root": "centrum+oid",
+  "meaning": "like a center"
+ },
+ {
+  "word": "cetacean",
+  "language": "Greek",
+  "root": "cetos",
+  "meaning": "whale"
+ },
+ {
+  "word": "chelonian",
+  "language": "Greek",
+  "root": "chelōnē",
+  "meaning": "turtle"
+ },
+ {
+  "word": "Chiropterans",
+  "language": "Latin",
+  "root": "cheir+pteran",
+  "meaning": "hand wings"
+ },
+ {
+  "word": "ciconiiformes",
+  "language": "Greek",
+  "root": "ciconia + iformes",
+  "meaning": "stork shaped"
+ },
+ {
+  "word": "circle",
+  "language": "Latin",
+  "root": "circulus",
+  "meaning": "small ring/hoop"
+ },
+ {
+  "word": "circumcenter",
+  "language": "Latin",
+  "root": "Circum+centrum",
+  "meaning": "around the center"
+ },
+ {
+  "word": "colenterate",
+  "language": "Greek",
+  "root": "koilos+enteron",
+  "meaning": "hollow intestine"
+ },
+ {
+  "word": "coleopteran",
+  "language": "Greek",
+  "root": "coleos+ptera",
+  "meaning": "stealth wings"
+ },
+ {
+  "word": "columbiformes",
+  "language": "Greek",
+  "root": "columbi + iformes",
+  "meaning": "pigeon shaped"
+ },
+ {
+  "word": "concave",
+  "language": "Latin",
+  "root": "convexus",
+  "meaning": "hollow, hole"
+ },
+ {
+  "word": "cone",
+  "language": "Greek",
+  "root": "Konos",
+  "meaning": "spinning top/cone"
+ },
+ {
+  "word": "consonant",
+  "language": "Latin",
+  "root": "consonantem",
+  "meaning": "sounding together"
+ },
+ {
+  "word": "convergent",
+  "language": "Latin",
+  "root": "con+vergere",
+  "meaning": "move together"
+ },
+ {
+  "word": "convex",
+  "language": "Latin",
+  "root": "convexus",
+  "meaning": "arched, rounded"
+ },
+ {
+  "word": "corrola",
+  "language": "Latin",
+  "root": "corona",
+  "meaning": "crown"
+ },
+ {
+  "word": "cretaceous",
+  "language": "Latin",
+  "root": "cretaceous",
+  "meaning": "chalk like for the chalk formations"
+ },
+ {
+  "word": "Crustaceous",
+  "language": "Latin",
+  "root": "crustaceus",
+  "meaning": "hard shelled"
+ },
+ {
+  "word": "cube",
+  "language": "Greek",
+  "root": "kybos",
+  "meaning": "six-sided die"
+ },
+ {
+  "word": "curve",
+  "language": "Latin",
+  "root": "curvare",
+  "meaning": "to bend"
+ },
+ {
+  "word": "cylinder",
+  "language": "Greek",
+  "root": "kylindein",
+  "meaning": "to roll, something that rolls"
+ },
+ {
+  "word": "denominator",
+  "language": "Latin",
+  "root": "de+nominare",
+  "meaning": "to give name"
+ },
+ {
+  "word": "devonian",
+  "language": "Celtic + Latin",
+  "root": "devon+ian",
+  "meaning": "of or pertaining to Devonshire;"
+ },
+ {
+  "word": "diagonal",
+  "language": "Greek",
+  "root": "dia+gonia",
+  "meaning": "across the angle"
+ },
+ {
+  "word": "dipnoans",
+  "language": "Greek",
+  "root": "di+pnein",
+  "meaning": "two ways to breath"
+ },
+ {
+  "word": "dipterans",
+  "language": "Greek",
+  "root": "di+ptera",
+  "meaning": "two wings"
+ },
+ {
+  "word": "divergent",
+  "language": "Latin",
+  "root": "di+vergere",
+  "meaning": "move apart"
+ },
+ {
+  "word": "edentates",
+  "language": "Latin",
+  "root": "edentate",
+  "meaning": "missing teeth"
+ },
+ {
+  "word": "elastic",
+  "language": "Latin",
+  "root": "elasticus",
+  "meaning": "impusilve"
+ },
+ {
+  "word": "ellipse",
+  "language": "Greek",
+  "root": "elleipsis",
+  "meaning": "something missing"
+ },
+ {
+  "word": "ellipsoid",
+  "language": "Greek",
+  "root": "elleipsis +oid",
+  "meaning": "like an ellipse"
+ },
+ {
+  "word": "equilateral",
+  "language": "Latin",
+  "root": "aequilateralis",
+  "meaning": "having all sides equal"
+ },
+ {
+  "word": "equinoderm",
+  "language": "Greek",
+  "root": "ekhinos+derma",
+  "meaning": "spiky skin"
+ },
+ {
+  "word": "equivalent",
+  "language": "Latin",
+  "root": "aequus+valere",
+  "meaning": "equal value"
+ },
+ {
+  "word": "Europe",
+  "language": "Greek",
+  "root": "eurys+ops",
+  "meaning": "broad/wide face"
+ },
+ {
+  "word": "Falconiformes",
+  "language": "Latin",
+  "root": "falcon+iformes",
+  "meaning": "falcon shaped"
+ },
+ {
+  "word": "filament",
+  "language": "Latin",
+  "root": "filamentum",
+  "meaning": "thread"
+ },
+ {
+  "word": "fraction",
+  "language": "Latin",
+  "root": "frangere",
+  "meaning": "to break"
+ },
+ {
+  "word": "fluid",
+  "language": "Latin",
+  "root": "fluere",
+  "meaning": "to flow"
+ },
+ {
+  "word": "galliformes",
+  "language": "Greek",
+  "root": "gallus +iformes",
+  "meaning": "rooster shaped"
+ },
+ {
+  "word": "ganoids",
+  "language": "Greek",
+  "root": "ganois+oid",
+  "meaning": "bright like/resembling"
+ },
+ {
+  "word": "gravity",
+  "language": "Latin",
+  "root": "gravitas",
+  "meaning": "heavy"
+ },
+ {
+  "word": "geometry",
+  "language": "Greek",
+  "root": "Gea + metrys",
+  "meaning": "Earth + measurement"
+ },
+ {
+  "word": "geography",
+  "language": "Greek",
+  "root": "Gea + graphia",
+  "meaning": "Earth + description"
+ },
+ {
+  "word": "gynoecium",
+  "language": "Greek",
+  "root": "gyno+oikion",
+  "meaning": "woman house"
+ },
+ {
+  "word": "hastate",
+  "language": "Latin",
+  "root": "hasta",
+  "meaning": "spear"
+ },
+ {
+  "word": "hemipterans",
+  "language": "Greek",
+  "root": "hemi+pteron",
+  "meaning": "half wings"
+ },
+ {
+  "word": "horizon",
+  "language": "Latin",
+  "root": "horizontem",
+  "meaning": "horizon"
+ },
+ {
+  "word": "hymenopteran",
+  "language": "Greek",
+  "root": "hymeno+pteron",
+  "meaning": "membrane wings"
+ },
+ {
+  "word": "hypotenuse",
+  "language": "Latin",
+  "root": "hypotenusa",
+  "meaning": "stretched bellow"
+ },
+ {
+  "word": "insect",
+  "language": "Latin",
+  "root": "in+secare",
+  "meaning": "in cuts"
+ },
+ {
+  "word": "insectivore",
+  "language": "Latin",
+  "root": "insect +vore",
+  "meaning": "insect eater"
+ },
+ {
+  "word": "island",
+  "language": "Old English",
+  "root": "igland",
+  "meaning": "a watery place"
+ },
+ {
+  "word": "isosceles",
+  "language": "Greek",
+  "root": "isos + skelos",
+  "meaning": "equal legs"
+ },
+ {
+  "word": "isthmus",
+  "language": "Greek",
+  "root": "isthmos",
+  "meaning": "narrow passage"
+ },
+ {
+  "word": "jurassic",
+  "language": "French",
+  "root": "jurassique",
+  "meaning": "of the Jura mountains between France and Switzerland, whose limestone were laid down during this geological period."
+ },
+ {
+  "word": "lepidopteran",
+  "language": "Greek",
+  "root": "lepido+ptera",
+  "meaning": "scaly wings"
+ },
+ {
+  "word": "line",
+  "language": "Latin",
+  "root": "linum",
+  "meaning": "line"
+ },
+ {
+  "word": "marsupials",
+  "language": "Latin",
+  "root": "marsupium",
+  "meaning": "pouch"
+ },
+ {
+  "word": "monotreme",
+  "language": "Latin",
+  "root": "mono+treme",
+  "meaning": "one opening"
+ },
+ {
+  "word": "myriapods",
+  "language": "Greek",
+  "root": "myriad+pods",
+  "meaning": "many legs"
+ },
+ {
+  "word": "neozoic",
+  "language": "Latin",
+  "root": "neo+zoon",
+  "meaning": "new life/animals"
+ },
+ {
+  "word": "node",
+  "language": "Latin",
+  "root": "nodus",
+  "meaning": "knot"
+ },
+ {
+  "word": "noun",
+  "language": "Latin",
+  "root": "nomen",
+  "meaning": "name"
+ },
+ {
+  "word": "numerator",
+  "language": "Latin",
+  "root": "numerare",
+  "meaning": "to number, to count"
+ },
+ {
+  "word": "oblique",
+  "language": "Latin",
+  "root": "Obliqus",
+  "meaning": "slanted"
+ },
+ {
+  "word": "obtuse",
+  "language": "Latin",
+  "root": "obtundere",
+  "meaning": "to make dull, blunt"
+ },
+ {
+  "word": "odonates",
+  "language": "Greek",
+  "root": "odon",
+  "meaning": "tooth"
+ },
+ {
+  "word": "orbiculate",
+  "language": "Latin",
+  "root": "orbis",
+  "meaning": "circle"
+ },
+ {
+  "word": "ordovician",
+  "language": "Celtic",
+  "root": "ordo+weik",
+  "meaning": "those who fight with hammers. The period so called because rocks from it first were studied extensively in the region around Bala in North Wales. The tribe's name is Celtic, literally those who fight with hammers"
+ },
+ {
+  "word": "orthocenter",
+  "language": "Greek",
+  "root": "Ortho + centrum",
+  "meaning": "proper/right center"
+ },
+ {
+  "word": "orthoptera",
+  "language": "Greek",
+  "root": "Ortho + ptera",
+  "meaning": "straight wings"
+ },
+ {
+  "word": "oval",
+  "language": "Latin",
+  "root": "Ovum",
+  "meaning": "egg"
+ },
+ {
+  "word": "ovoid",
+  "language": "Latin",
+  "root": "Ocum+ oid",
+  "meaning": "like an oval"
+ },
+ {
+  "word": "paleozoic",
+  "language": "Greek",
+  "root": "palaios+zoe",
+  "meaning": "ancient life"
+ },
+ {
+  "word": "parallelogram",
+  "language": "Greek",
+  "root": "parallelogrammon",
+  "meaning": "beside one another"
+ },
+ {
+  "word": "parallel",
+  "language": "Greek",
+  "root": "para+allelos",
+  "meaning": "alonsgide one another"
+ },
+ {
+  "word": "passeriformes",
+  "language": "Greek",
+  "root": "passeri+iformes",
+  "meaning": "sparrow shaped"
+ },
+ {
+  "word": "peltate",
+  "language": "Latin",
+  "root": "pelta",
+  "meaning": "small shield"
+ },
+ {
+  "word": "peninsula",
+  "language": "Latin",
+  "root": "paeninsula",
+  "meaning": "almost an island"
+ },
+ {
+  "word": "pentagon",
+  "language": "Greek",
+  "root": "pentagonon",
+  "meaning": "five angles"
+ },
+ {
+  "word": "perimeter",
+  "language": "Greek",
+  "root": "peri+metron",
+  "meaning": "measure around"
+ },
+ {
+  "word": "permian",
+  "language": "",
+  "root": "",
+  "meaning": "For the region of Perm in northwestern Russia, where rocks from this epoch are found"
+ },
+ {
+  "word": "perpendicular",
+  "language": "Latin",
+  "root": "perpendicularis",
+  "meaning": "hanging through"
+ },
+ {
+  "word": "petiole",
+  "language": "Latin",
+  "root": "pediculus",
+  "meaning": "little foot"
+ },
+ {
+  "word": "piciformes",
+  "language": "Greek",
+  "root": "picus+iformes",
+  "meaning": "woodpecker shaped"
+ },
+ {
+  "word": "Pinnipeds",
+  "language": "Latin",
+  "root": "pinna+peds",
+  "meaning": "wing/fin footed"
+ },
+ {
+  "word": "plastic",
+  "language": "Greek",
+  "root": "plastikus",
+  "meaning": "formed"
+ },
+ {
+  "word": "point",
+  "language": "Latin",
+  "root": "punctum",
+  "meaning": "to pierce"
+ },
+ {
+  "word": "pollen",
+  "language": "Latin",
+  "root": "pollen",
+  "meaning": "fine flower"
+ },
+ {
+  "word": "polygon",
+  "language": "Greek",
+  "root": "polygonon",
+  "meaning": "many corners"
+ },
+ {
+  "word": "poriferan",
+  "language": "Latin",
+  "root": "pori+ferans",
+  "meaning": "holes to bear"
+ },
+ {
+  "word": "Primates",
+  "language": "Latin",
+  "root": "primus",
+  "meaning": "first"
+ },
+ {
+  "word": "prism",
+  "language": "Greek",
+  "root": "prizein",
+  "meaning": "something sawn"
+ },
+ {
+  "word": "protozoa",
+  "language": "Greek",
+  "root": "proto+ zoon",
+  "meaning": "first animals"
+ },
+ {
+  "word": "pyramid",
+  "language": "Greek",
+  "root": "pyramis",
+  "meaning": "fire in the middle + for the Egyptians it meant House of Gods/energy"
+ },
+ {
+  "word": "quadrilateral",
+  "language": "Latin",
+  "root": "quadri+latus",
+  "meaning": "four sides"
+ },
+ {
+  "word": "rectangle",
+  "language": "Latin",
+  "root": "rectangulum",
+  "meaning": "right angle"
+ },
+ {
+  "word": "reflex",
+  "language": "Latin",
+  "root": "rectangulum",
+  "meaning": "bending back"
+ },
+ {
+  "word": "rigid",
+  "language": "Latin",
+  "root": "rigere",
+  "meaning": "to be stiff"
+ },
+ {
+  "word": "rhombus",
+  "language": "Greek",
+  "root": "rhombos",
+  "meaning": "to whirl/to spin"
+ },
+ {
+  "word": "rhynchota",
+  "language": "Greek",
+  "root": "rhynchos",
+  "meaning": "nose"
+ },
+ {
+  "word": "rodents",
+  "language": "Latin",
+  "root": "rodere",
+  "meaning": "gnaw"
+ },
+ {
+  "word": "sagittate",
+  "language": "Latin",
+  "root": "sagitta",
+  "meaning": "arrow"
+ },
+ {
+  "word": "saurian",
+  "language": "Greek",
+  "root": "sauros",
+  "meaning": "lizzard"
+ },
+ {
+  "word": "scalene",
+  "language": "Greek",
+  "root": "skalenos",
+  "meaning": "unequal"
+ },
+ {
+  "word": "segment",
+  "language": "Latin",
+  "root": "secare",
+  "meaning": "to cut"
+ },
+ {
+  "word": "selachians",
+  "language": "Greek",
+  "root": "selache",
+  "meaning": "shark"
+ },
+ {
+  "word": "serrate",
+  "language": "Latin",
+  "root": "serratus",
+  "meaning": "saw like"
+ },
+ {
+  "word": "silurian",
+  "language": "Latin",
+  "root": "siluris",
+  "meaning": "ancient British tribe inhabiting southeast Wales."
+ },
+ {
+  "word": "sirenions",
+  "language": "Latin",
+  "root": "siren",
+  "meaning": "mermaids"
+ },
+ {
+  "word": "solid",
+  "language": "Latin",
+  "root": "solidus",
+  "meaning": "firm/whole/entire"
+ },
+ {
+  "word": "sphere",
+  "language": "Greek",
+  "root": "sphaira",
+  "meaning": "ball, globe"
+ },
+ {
+  "word": "square",
+  "language": "Latin",
+  "root": "exquadra",
+  "meaning": "to square/square"
+ },
+ {
+  "word": "straight",
+  "language": "Latin",
+  "root": "streccan",
+  "meaning": "streched"
+ },
+ {
+  "word": "struthianiformes",
+  "language": "Greek",
+  "root": "struthian+iformes",
+  "meaning": "ostrich shaped"
+ },
+ {
+  "word": "style",
+  "language": "Greek",
+  "root": "stylos",
+  "meaning": "pillar"
+ },
+ {
+  "word": "surface",
+  "language": "French",
+  "root": "sur+face",
+  "meaning": "above the face"
+ },
+ {
+  "word": "tone",
+  "language": "Greek",
+  "root": "tonikos",
+  "meaning": "sound"
+ },
+ {
+  "word": "teleost",
+  "language": "Greek",
+  "root": "tele+ost",
+  "meaning": "completely bony"
+ },
+ {
+  "word": "tetrachord",
+  "language": "Greek",
+  "root": "tetrakordos",
+  "meaning": "4 strings"
+ },
+ {
+  "word": "trapezium",
+  "language": "Greek",
+  "root": "trapezion",
+  "meaning": "little table"
+ },
+ {
+  "word": "trapezoid",
+  "language": "Greek",
+  "root": "trapezoides",
+  "meaning": "table"
+ },
+ {
+  "word": "triassic",
+  "language": "Greek",
+  "root": "triad",
+  "meaning": "three. So called because it is divisible (in Germany) into three groups."
+ },
+ {
+  "word": "ungulates",
+  "language": "Latin",
+  "root": "unguis",
+  "meaning": "nail"
+ },
+ {
+  "word": "urodelan",
+  "language": "Greek",
+  "root": "uro+delan",
+  "meaning": "tail+ conspicuous (easy to observe)."
+ },
+ {
+  "word": "Verb",
+  "language": "Latin",
+  "root": "verbum",
+  "meaning": "word"
+ },
+ {
+  "word": "vertebrate",
+  "language": "Latin",
+  "root": "vertebra",
+  "meaning": "joint, articulation"
+ },
+ {
+  "word": "vertex",
+  "language": "Latin",
+  "root": "vertere",
+  "meaning": "to turn"
+ },
+ {
+  "word": "Vertical (from vertex)",
+  "language": "Latin",
+  "root": "vertere",
+  "meaning": "to turn"
+ },
+ {
+  "word": "viscous",
+  "language": "Latin",
+  "root": "viscoucus",
+  "meaning": "the sticky part of a mistletoe"
+ },
+ {
+  "word": "vowel",
+  "language": "Latin",
+  "root": "vox",
+  "meaning": "voice"
+ }
+]

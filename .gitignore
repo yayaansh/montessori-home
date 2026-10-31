@@ -1,0 +1,8 @@
+node_modules
+dist
+dev-dist
+source-material
+*.log
+.DS_Store
+tools/.tmp
+.claude/launch.json

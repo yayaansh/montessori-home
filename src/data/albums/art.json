@@ -1,0 +1,1811 @@
+{
+ "id": "art",
+ "name": "Art",
+ "source": "(Elementary) Art album.pdf",
+ "pages": 83,
+ "nodeCount": 24,
+ "lessonCount": 0,
+ "roots": [
+  {
+   "id": "art.elementary-art.19b38",
+   "title": "Elementary Art",
+   "depth": 0,
+   "page": 5,
+   "lesson": false,
+   "sections": [],
+   "images": [],
+   "children": [
+    {
+     "id": "art.introduction.6bfb2",
+     "title": "Introduction",
+     "depth": 1,
+     "page": 5,
+     "lesson": false,
+     "sections": [
+      {
+       "label": "",
+       "kind": "intro",
+       "blocks": [
+        {
+         "type": "para",
+         "text": "The word art comes from the Latin word artum meaning “a practical skill or craft”. Art can be found in all the subjects. Art is a way of self-expression so it is part of the spiritual human needs and is part of their identity."
+        },
+        {
+         "type": "para",
+         "text": "“The astonishing color drawings in motion show us that an artistic genius for drawing has existed from man’s very beginning. But those beautiful drawings were not only a means of expression or communicating pleasant ideas but there were rather expressions"
+        },
+        {
+         "type": "para",
+         "text": "of religious ideas” Maria Montessori The skills of drawing took two directions, to support the human stories and the other to reproduce with exactness the images that he humans were able to see. This later tendency of perfection was taken to such an extreme that in a point in the art history we can see pictures which almost resemble a photography of what’s being painted. With the introduction of photography the demand for realistic paintings decreased and art took again a new direction, more impressionistic or expressionistic. Art in relation with language Once human beings communicated through spoken language, they started to use language as a way not only to express direct thoughts but to embellish them, to give them the magic that stroke of the imagination. From the simple stories to myths of the Greeks and the philosophers looking for a meaning, language evolved not only as a mean of communication but almost a magical capacity of transmitting feelings, ideas and ideals. Art in relation with music, movement In the Children’s House walking on the line it is a group activity, it helps the children feel bounded. It is a group effort because they have to be mindful and control their movements always considering those who are before you and after you. For this kind of activity they need cohesion and enjoy moving together as a group with a rhythm."
+        },
+        {
+         "type": "para",
+         "text": "For the older children in elementary, playing music together, dancing or singing are extremely attractive as this activities are group activities which appeal to the developmental requirements of the age. In the Children’s House they had the opportunity to work with the Montessori bells in Elementary they have the tone bars, musical instruments and the freedom to connect the music with movement through dancing or drama."
+        },
+        {
+         "type": "sub",
+         "text": "Art in relation with mathematics"
+        },
+        {
+         "type": "para",
+         "text": "Art is deeply connected to mathematics, using the power of sequences, fractions, powers, geometry, and measurement."
+        },
+        {
+         "type": "para",
+         "text": "The harmony of art is sometimes brought by the mathematical series and proportions (E.g. Fibonacci series). It is enough to have a look at the patterns used by the artists from the pre-historic times until today in the modern architecture to see the tight connection art has with geometry and arithmetic."
+        },
+        {
+         "type": "sub",
+         "text": "Nature as inspiration for art"
+        },
+        {
+         "type": "para",
+         "text": "Nature served as inspiration for the humans from the beginnings until today. Nature made the human mind wander and try to solve all the enigmas that the nature presented to the human being. The humans used art to reproduce what impressed them and made them wonder. They used art to please the forces of nature or as a mean of communication (E.g. rain dances)."
+        },
+        {
+         "type": "sub",
+         "text": "Preparation of the child in the Children’s House"
+        },
+        {
+         "type": "para",
+         "text": "In the Children’s House it starts a preparation of the hand, of the senses helping the child to be more aware of what surrounds him and develop precision in his movements. The practical life activities help the child to strengthen the wrist muscles and to develop a precise eye-hand coordination. Even through sometimes art as such it is limited in the Children’s House, this is not an obstacle for the children to produce art spontaneously."
+        },
+        {
+         "type": "sub",
+         "text": "Art in the Elementary"
+        },
+        {
+         "type": "para",
+         "text": "If the mind and the hand are prepared the children can start drawing by themselves. The role of the guide is to give the child presentations on techniques so that the child he can use to express his own vision of the world that surrounds him. The children should be encouraged to practice without constantly comparing their work with their peers. Art is a form of self-expression and therefore each art piece has its own unique identity."
+        },
+        {
+         "type": "para",
+         "text": "The environment should have an art corner where there are no carpets, a place easy to clean after working, in order and very attractive. The children should have access to good quality supplies, even if in a more reduced quantity, giving the children an opportunity to reproduce their ideas with exactness."
+        },
+        {
+         "type": "para",
+         "text": "Beautiful work in the classroom comes from a beautiful and orderly environment with clear presentations."
+        },
+        {
+         "type": "sub",
+         "text": "Elements in art"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Line"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Shape"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Form"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Colour"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Value"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Texture"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Space"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Perspective"
+        },
+        {
+         "type": "para",
+         "text": "Principles in art"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Emphasis"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Balance"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Proportion"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Contrast"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Movement"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Rhythm"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Pattern"
+        },
+        {
+         "type": "item",
+         "level": 0,
+         "text": "Variety and harmony"
+        },
+        {
+         "type": "para",
+         "text": "The art supplies in the classroom should include: water colors, acrylic paint, brushes, colored pencils, crayons, different kinds of paper, pastels and special paper for it, ink, charcoal and special pencils for sketching. Materials for handwork like knitting, embroidery, crochets, clay and plasticine. It might be helpful to also have a place where children can let their work dry and a place store it."
+        },
+        {
+         "type": "para",
+         "text": "The children should receive presentations on technique, the correct use of the instruments. The goal is not to have a product but to experiment and improve – the work has to be ordered and show a learning process. The children have to learn to be observant, solve problems, learn about design, criticize their own work and find constructive points. The elements in art should be presented one at a time and be related with examples in art, nature and architecture. The presentation of an element can be followed by a presentation of a technique. Once all the elements are presented, it is the time for the principles to be presented and help the children understand how the elements are used in art."
+        },
+        {
+         "type": "para",
+         "text": "“To confer the gift of drawing, we must create an eye that sees, a hand that obeys, a soul that feels and in this task the whole life must cooperate. In this sense life itself it is the only preparation for drawing” Maria Montessori – The Advanced Method Vol. 2"
+        },
+        {
+         "type": "para",
+         "text": "When we look around, art it is everywhere and connected with all the fields of knowledge. The human beings from all over the world always felt the need for artistic expression. Music and dance, were passed from generation to generation meanwhile the other forms of art can be seen from the physical remains (E.g. paintings, pottery, sculptures, architecture, writings, etc). We would like the child to feel that he has different means to express himself, we would like the child to feel free to explore and be creative. We would like the children understand why the artistic expression it is something that unites the human beings. Art not only that brings variety to our world, it also allows the different humans from different cultures to express themselves and preserve their culture and identity."
+        },
+        {
+         "type": "para",
+         "text": "“If you hear a voice within you say ‘you cannot paint’, then by all means paint and that voice will be silenced” Vincent van Gogh"
+        }
+       ]
+      }
+     ],
+     "images": [],
+     "children": []
+    },
+    {
+     "id": "art.elements-of-art.3a18b",
+     "title": "Elements of art",
+     "depth": 1,
+     "page": 9,
+     "lesson": false,
+     "sections": [],
+     "images": [
+      "/images/albums/art/807e4a3468cd.jpg",
+      "/images/albums/art/808ef2085e7f.jpg",
+      "/images/albums/art/d7c1800e611f.jpg",
+      "/images/albums/art/72111541b0c1.jpg"
+     ],
+     "children": [
+      {
+       "id": "art.color.b3780",
+       "title": "Color",
+       "depth": 2,
+       "page": 9,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can introduce the colour wheel to the children. The guide introduces the primary colours: red blue and yellow and the secondary colours: green, orange and purple. On the colour wheel we can see the complementary/contrast colours: blue- orange, red-green and purple-yellow."
+          },
+          {
+           "type": "para",
+           "text": "The guide can introduce the colour wheel depending on the temperature of the colours. The wheel can be divided in cold colours and warm colours."
+          },
+          {
+           "type": "para",
+           "text": "The next step would be to have a look at the colours in different pictures or paintings and identify them, not only by the name of the colours also as contrasting colours, the colour temperature and of the colours are primary or secondary."
+          },
+          {
+           "type": "sub",
+           "text": "Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Cosmic Synchromy, Russel."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Water lilies, Monet 1916."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Composition A, Mondrian 1923. Primary colours with white and black that are the extremes of colours mixtures."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Bedroom Arles, Van Gogh 1888. Contrasting colours 2."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Turning Road, Andre Derain 1906. Warm colours and contrast."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Untitled, Ton Schulten 2000. Very easy to do with children with a quick result."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [],
+       "children": []
+      },
+      {
+       "id": "art.line.ea043",
+       "title": "Line",
+       "depth": 2,
+       "page": 13,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can interconnect this lesson with the work that the children have done in geometry. A review of the kinds of lines is helpful before venturing into identifying the lines in architecture, nature or art."
+          },
+          {
+           "type": "para",
+           "text": "Line is one of the most important Elements of Art. Imagine creating a painting, sculpture or design without drawing lines to divide the paper or canvas into shapes and forms. Think about how important a role Line plays in the creation process. Lines can communicate an idea or express a feeling. They can appear static or active. Lines define objects. We will take a look at how artists use line expressively."
+          },
+          {
+           "type": "sub",
+           "text": "Line"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Is the path of a moving point: horizontal, vertical, diagonal."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Is the mark left by a tool: brush, pencil, pen, etc."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Defines the position and direction of a design, image or form."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Types of line include vertical, horizontal, diagonal, contour or a combination of these."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "They may be curved, straight, thick, thin, smooth, long, short and so forth."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Lines are used to create shape, pattern, texture, space, movement and optical illusion in design."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The use of lines allows artist to demonstrate delicacy or force."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Curves may take us slowly uphill, or turn sharply twisting our mind as they turn"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "A line can express various moods and feelings. “A line is a dot that went for a walk” Paul Klee"
+          },
+          {
+           "type": "para",
+           "text": "Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Supermarket, Ben Shahn 1975. Basically straight lines but also curved lines."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "In the Magic Mirror, Paul Klee 1934."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Untitled, (super chief), Martin Ramirez 1954"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Animals out of lines, Picasso. Quite easy for children to do."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Strip song, J. Seeley 1981."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Puddle painting, Ian Davenport, 2011."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/b7fb5d635eed.jpg",
+        "/images/albums/art/917618cae607.jpg",
+        "/images/albums/art/db404f440a25.jpg",
+        "/images/albums/art/c0ce1318fc3b.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.shape.16a01",
+       "title": "Shape",
+       "depth": 2,
+       "page": 17,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from architecture, art and nature and how the shape is present in different forms of art. When we talk about shape we think of two dimensions only. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Ctesiphone 1, Frank Stella 1968."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Pigs, Franz Marc."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Atlantis, Pesoa."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Broadway Boogie Woogie, Mondriaan 1942Supermarket, Ben Shahn 1975."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/17612022f475.jpg",
+        "/images/albums/art/a932dadbd555.jpg",
+        "/images/albums/art/e2cbb33be041.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.form.8e5d4",
+       "title": "Form",
+       "depth": 2,
+       "page": 19,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from architecture, art and nature and how the form is present in all of these. When we talk about form we think of the three dimensions. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "David, Michelangelo Buonarotti 1501. Hands are out of proportion."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Venus of Willendorf, 30.000BC."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Bust of African woman, Charles Henri Joseph Cordier 1851."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/cd1b444ace16.jpg",
+        "/images/albums/art/8ec716646007.jpg",
+        "/images/albums/art/b545d87982c0.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.texture.88326",
+       "title": "Texture",
+       "depth": 2,
+       "page": 21,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from architecture, art and nature and how the texture is present in all of these. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Giorgio V del Regno. You can almost feel the fur and the velvet. Something has been done with the brush to bring that textures so real."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Ladies of Arles Memory of the Garden at Etten, Van Gogh 1888."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Self portrait of degenerate artisti, Oskar Kokoshka 1937."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Ad Parnassum, Paul Klee. 1932."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/4a45f3c5d99f.jpg",
+        "/images/albums/art/4eefde5f79cd.jpg",
+        "/images/albums/art/177627e3aee4.jpg",
+        "/images/albums/art/68019a49a068.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.value.c5d6f",
+       "title": "Value",
+       "depth": 2,
+       "page": 23,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide makes a relation between the value of colour and the third colour box where the children might have already experimented with the value of the colour by arranging the colour tablets. The guide can show a few examples from architecture, art and nature and how the value is present in all of these. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Springendes Pferd, 1913, Franz Marc 1913. Fading of colours."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The car, John Brack 1955. Mainly all is made out of brown."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "St V Francis Kneeling, Francisco Zurbaran 1635-1639. Value has todo a lot with shadow."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Blue Nude, Picasso 1902."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "II Ramonscello, Dante Gabriel Rossetti 1856. Warm and cold colours, contrast, shade, texture, value of colours."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Land des Vergangenen Jahres, Ton Shulten 1999."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/4c4d471114f0.jpg",
+        "/images/albums/art/166685d5f634.jpg",
+        "/images/albums/art/e81d9645b399.jpg",
+        "/images/albums/art/f353608b1543.jpg",
+        "/images/albums/art/0dbc96c065ca.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.space.a7998",
+       "title": "Space",
+       "depth": 2,
+       "page": 25,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from architecture, art and nature and how the space is present in all of these. The guide can introduce the concept of positive and negative space and the shapes that the light and the absence of light create. The guide can show examples. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Springendes Pferd, 1913, Franz Marc 1913. Fading of colours."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Christine’s world, Andrew Wyeth 1917."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The Basket of Apples, Cezanne."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "La Combe III, Ellsworth Kell 1951."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The temptation of St Anthony, Salvador Dali 1946. Here we can talk of nonrealistic art, dreamy, fantastic."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Shigeo Fukuda 1975. Negative and positive spaces with white and black colours. Examples of chair and square, 2 zebras. You can ask children which one is more in the front or in the back. It is actually depending on what you focus on."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/0ee8f7a63385.jpg",
+        "/images/albums/art/4bec85aaf7c6.jpg",
+        "/images/albums/art/d8ee2d4c2976.jpg",
+        "/images/albums/art/a9d96cde984d.jpg",
+        "/images/albums/art/53ba5ec121f4.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.perspective.5c6db",
+       "title": "Perspective",
+       "depth": 2,
+       "page": 27,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from architecture, art and nature and how the perspective is present in all of these. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Ten Shulten."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Parallelepiped vents 545, Ron Davis 1977."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Rue de Paris, Wet weather, Gustave Caillebotte 1877. 2 points de fuite."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Gezicht op Delft, Johannes Vermeer 1660-1661."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Le Grand Jatte, Georges Seurat 1884-86. Warm and cold colours, perspective, line, shape, texture."
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/b92c9be66e4c.jpg",
+        "/images/albums/art/dd4cc7112e50.jpg",
+        "/images/albums/art/af5637e6a128.jpg",
+        "/images/albums/art/2888caa20490.jpg"
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "art.principles-of-art.13f4c",
+     "title": "Principles of art",
+     "depth": 1,
+     "page": 31,
+     "lesson": false,
+     "sections": [],
+     "images": [
+      "/images/albums/art/67a74c3a89d0.jpg",
+      "/images/albums/art/f609f5d1f773.jpg",
+      "/images/albums/art/2f6539082cfb.jpg",
+      "/images/albums/art/0c277bea5467.jpg"
+     ],
+     "children": [
+      {
+       "id": "art.emphasis.85b52",
+       "title": "Emphasis",
+       "depth": 2,
+       "page": 31,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "sub",
+           "text": "There are different ways to empathize something in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Through colour"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Contrast"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Shape"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Size"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Use of colour value"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Use of lines"
+          },
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from nature, photography, or architecture where emphasis is used."
+          },
+          {
+           "type": "sub",
+           "text": "Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Curiosity, Jeff Jordan, 2013"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Art of Living, Rene Magritte, 1967"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Courtney Mook"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The night watch, Rembrandt"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Composition 8, Wassily Kandinsky, 2923"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [],
+       "children": []
+      },
+      {
+       "id": "art.balance.4e721",
+       "title": "Balance",
+       "depth": 2,
+       "page": 33,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "When we speak about “balance” in art it means that the emphasis is equally distributed over the painting. Our eyes are not drawn to one point but move over the painting from one side to the other side finding balance. The guide can show a few examples from nature, photography, or architecture where balance is used. Examples in works of art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Ghent Alterpiece, Jan van Eyck, 1432"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The last supper, Leonardo da Vinci, 1495 – 1498"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Balance, Manoj Maurya, 2014"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The Car, John Brack, 1955"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Water lilies, Claude Monet, 1916"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The gleaners, Jean-Francois Millet, 1857"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Dance at le Moulin de la Galette, Edouard Manet"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/3196b25fe215.jpg",
+        "/images/albums/art/9209dbfd220a.jpg",
+        "/images/albums/art/ea6b2515ee21.jpg",
+        "/images/albums/art/b60a29eb9667.jpg",
+        "/images/albums/art/061ee332e018.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.pattern.89e89",
+       "title": "Pattern",
+       "depth": 2,
+       "page": 35,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "As we see pattern in the fur, feathers and scales of animals we can ding patterns in our surroundings and in the art. Pattern is often used as decoration; think of fabrics, carpets and wallpaper. The guide can show a few examples from nature, photography, or architecture where balance is used. Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "M. C. Escher"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The kiss, Gustav Klimt, 1907 – 1908"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Bullfighter, Ricardo Maya, 1910-1970"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Daydream, Aphonse Mucha, 1897"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/8b9732cdacaa.jpg",
+        "/images/albums/art/74b2f13e0432.jpg",
+        "/images/albums/art/28716dd39fe5.jpg",
+        "/images/albums/art/8055cad1cc92.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.rhythm.6d755",
+       "title": "Rhythm",
+       "depth": 2,
+       "page": 37,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "When we see a repeating pattern we can speak about rhythm. There are regular and irregular rhythms. The guide can show a few examples from nature, photography, or architecture where rhythm is used. Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "In a forest of dreams, Zuzanna Krol"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Krishnakali Roy"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Endless Rhythm, Robert Delaunay, 1934"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "High Sky, Bridget Riley, 1991"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Squares with Concentric cocrcle. W. Kandinsky"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Marilyn Monroe, Andy Warhol, 1962"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/86c69a138643.jpg",
+        "/images/albums/art/639f9ccaf707.jpg",
+        "/images/albums/art/c1915e26ea91.jpg",
+        "/images/albums/art/cebf033b7ef0.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.movement.e9bce",
+       "title": "Movement",
+       "depth": 2,
+       "page": 39,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "It is interesting how we can suggest “movement” on something that is actually standing still. It is interesting to ask the children to identify the movement in the pictures. The guide can show a few examples from nature, photography, or architecture where movement is used. Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Starry night, Van Gogh"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The great wave of Kanagawa, Hokusai"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Dancers in the classroom, Edgar Degas, 1880"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "The dance, Henri Matisse, 1910"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "In the car, Roy Lichtenstein, 1963"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/93d3651d58fd.jpg",
+        "/images/albums/art/e55a2796130b.jpg",
+        "/images/albums/art/550f915bc3d2.jpg",
+        "/images/albums/art/137d21255b66.jpg",
+        "/images/albums/art/93e80cca2b0c.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.proportion.034a5",
+       "title": "Proportion",
+       "depth": 2,
+       "page": 41,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "Proportion is something the artist can use to make it look realistic. When things are out of proportion it is a way to place emphasis on something. Proportion also helps to create perspective in a painting; things closet to the observer are then bigger than things there further away. The guide can show a few examples from nature, photography, or architecture where proportion is used. Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Vitruvian Man, Leonardo da Vinci"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Chirstina’s World,"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Les Valeurs Personnelles, Rene Magritte"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Elephants, Salvador Dali"
+          },
+          {
+           "type": "para",
+           "text": "Examples in nature:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/4ab27584636e.jpg",
+        "/images/albums/art/9f09edee7de5.jpg",
+        "/images/albums/art/b9f6a62ac7b8.jpg",
+        "/images/albums/art/4e75a2facfb4.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.contrast.c0b53",
+       "title": "Contrast",
+       "depth": 2,
+       "page": 43,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "sub",
+           "text": "Contrast can be used in different ways:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Contrast in colour"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Dark v.s light colours"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Warm vs cold colours"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Contrasting colours"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Contrast in shape"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Contrast in texture"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Contrast in size"
+          },
+          {
+           "type": "para",
+           "text": "The guide can show a few examples from nature, photography, or architecture where contrast is used."
+          },
+          {
+           "type": "sub",
+           "text": "Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Face, Liman"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Landscape, Stephanie Maclean"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Wheatfield with crows, van Gogh"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Harmony, Loui Jover"
+          },
+          {
+           "type": "para",
+           "text": "Examples in photography:"
+          },
+          {
+           "type": "sub",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/980e0dfc63db.jpg",
+        "/images/albums/art/5f7bb71e704a.jpg",
+        "/images/albums/art/2d33353be06a.jpg",
+        "/images/albums/art/c10e51f3785b.jpg",
+        "/images/albums/art/5d311253f507.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.variety-and-harmony.67ff2",
+       "title": "Variety and harmony",
+       "depth": 2,
+       "page": 45,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "Variety and harmony go hand in hand and are very much dependent on the opinion of the observer. Harmony is related to balance, when the viewer’s eyes is taken over the piece of art with equally distributed emphasis. Variety makes an artwork interesting: little differences that keep you looking. The guide can show a few examples from nature, photography, or architecture where variety and harmony are used. Examples in art:"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Waterliliees ,Monet"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Nature’s Harmony, Mark Keathley"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Lost love, Leonid Afremov, 2005"
+          },
+          {
+           "type": "para",
+           "text": "Examples in architecture:"
+          }
+         ]
+        }
+       ],
+       "images": [
+        "/images/albums/art/4d63b20641a5.jpg",
+        "/images/albums/art/bbd9c1ca63c1.jpg",
+        "/images/albums/art/5415557f12f2.jpg",
+        "/images/albums/art/bddd5b8b863a.jpg"
+       ],
+       "children": []
+      },
+      {
+       "id": "art.composition.8ab63",
+       "title": "Composition",
+       "depth": 2,
+       "page": 47,
+       "lesson": false,
+       "sections": [
+        {
+         "label": "",
+         "kind": "intro",
+         "blocks": [
+          {
+           "type": "para",
+           "text": "Another principle that we could add is composition. Composition has to do with how the artist placed the components in his piece of art."
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Where did he put the emphasis?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Is there a balance?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Can we see harmony?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Are objects placed in the right proportion to create a perspective?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Is there a space created by the way the components are used?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Do we see a shape in the composition?"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "Do we see lines in the composition?"
+          },
+          {
+           "type": "para",
+           "text": "The elements and the principles in art can be introduced in lower elementary and revisited in upper elementary so that the children can explore in more depth."
+          }
+         ]
+        }
+       ],
+       "images": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "id": "art.examples-of-activities.2bf47",
+     "title": "Examples of activities",
+     "depth": 1,
+     "page": 49,
+     "lesson": false,
+     "sections": [],
+     "images": [
+      "/images/albums/art/915641a94314.jpg",
+      "/images/albums/art/5284fff0d224.jpg",
+      "/images/albums/art/24ac2817e225.jpg",
+      "/images/albums/art/872f67b5eb36.jpg",
+      "/images/albums/art/990af41ad170.jpg",
+      "/images/albums/art/ff570f5d8e9a.jpg",
+      "/images/albums/art/070e3780c2b0.jpg",
+      "/images/albums/art/41b517980745.jpg",
+      "/images/albums/art/cd228837a100.jpg"
+     ],
+     "children": []
+    },
+    {
+     "id": "art.annex-a-art-periods-their-characteristics-major-works-and-hi.6c46e",
+     "title": "Annex A: Art periods, their characteristics, major works and historical events",
+     "depth": 1,
+     "page": 53,
+     "lesson": false,
+     "sections": [
+      {
+       "label": "",
+       "kind": "intro",
+       "blocks": [
+        {
+         "type": "para",
+         "text": "Art Periods/ Characteristics Chief Artists and Major Works Historical Events Movements Stone Age (30,000 BC–2500 Cave painting, fertility goddesses, Lascaux Cave Painting, Woman of Ice Age ends (10,000 BC–8,000 BC); BC) megalithic structures Willendorf, Stonehenge New Stone Age and first permanent settlements (8000 Mesopotamian (3500 BC–539 Warrior art and narration in Standard of Ur, Gate of Ishtar, Stele BC–2500 BC) BC) stone relief of Hammurabi’s Code Sumerians invent writing (3400 BC); Hammurabi writes his law Egyptian (3100 BC–30 BC) Art with an afterlife focus: Imhotep, Step Pyramid, Great code (1780 BC); Abraham founds pyramids and tomb painting Pyramids, Bust of Nefertiti monotheism Greek and Hellenistic (850 BC– Narmer unites Upper/Lower Egypt 31 BC) Greek idealism: balance, perfect Parthenon, Myron, Phidias, (3100 BC); Rameses II battles proportions; architectural Polykleitos, Praxiteles the Hittites (1274 BC); Cleopatra Roman (500 BC– AD 476) orders(Doric, Ionic, Corinthian) dies (30 BC) Augustus of Primaporta, Colosseum, Athens defeats Persia at Marathon Indian, Chinese, and Roman realism: practical and Trajan’s Column, (490 BC); Peloponnesian Japanese(653 BC–AD 1900) down to earth; the arch Pantheon Wars (431 BC–404 BC); Alexander the Great’s conquests Serene, meditative art, and Arts Gu Kaizhi, Li Cheng, Guo Xi, Hokusai, (336 BC–323 BC) of the Floating World Hiroshige Julius Caesar assassinated (44 BC); Augustus proclaimed Emperor (27 BC); Diocletian splits Empire (AD 292); Rome falls (AD 476) Birth of Buddha (563 BC); Silk Road opens (1st century BC); Buddhism spreads to China (1st– 2nd centuries AD) and Japan (5th century AD)"
+        },
+        {
+         "type": "para",
+         "text": "Byzantine and Islamic (AD 476– Heavenly Byzantine mosaics; Hagia Sophia, Andrei Rublev, Justinian partly restores Western AD1453) Islamic architecture and amazing Mosque of Córdoba, the Roman Empire (AD maze-like design Alhambra 533–AD 562); Iconoclasm Middle Ages (500–1400) Controversy (AD 726–AD Celtic art, Carolingian St. Sernin, Durham Cathedral, Notre 843); Birth of Islam (AD 610) and Early and High Renaissance Renaissance, Romanesque, Dame, Chartres, Cimabue, Muslim Conquests (AD (1400–1550) Gothic Duccio, Giotto 632–AD 732) Viking Raids (793–1066); Battle of Venetian and Northern Rebirth of classical culture Ghiberti’s Doors, Brunelleschi, Hastings (1066); Renaissance (1430–1550) Donatello, Botticelli, Crusades I–IV (1095–1204); Black Mannerism (1527–1580) The Renaissance spreads north- Leonardo, Michelangelo, Raphael Death Baroque (1600–1750) ward to France, the Low (1347–1351); Hundred Years’ War Neoclassical (1750–1850) Countries, Poland, Germany, and Bellini, Giorgione, Titian, Dürer, (1337–1453) Romanticism (1780–1850) England Bruegel, Bosch, Jan van Gutenberg invents movable type Art that breaks the rules; artifice Eyck, Rogier van der Weyden (1447); Turks conquer over nature Constantinople (1453); Columbus Splendor and flourish for God; art Tintoretto, El Greco, Pontormo, lands in New World (1492); Martin as a weapon in the religious Bronzino, Cellini Luther starts Reformation (1517) wars Reubens, Rembrandt, Caravaggio, Council of Trent and Counter- Art that recaptures Greco- Palace of Versailles Reformation (1545–1563); Roman grace and grandeur Copernicus proves the Earth David, Ingres, Greuze, Canova revolves around the Sun (1543 The triumph of imagination and Magellan circumnavigates the globe individuality Caspar Friedrich, Gericault, (1520–1522) Delacroix, Turner, Benjamin Thirty Years’ War between Catholics West and Protestants (1618–1648) Enlightenment (18th century); Industrial Revolution (1760–1850) American Revolution (1775–1783); French Revolution"
+        },
+        {
+         "type": "para",
+         "text": "Realism (1848–1900) Celebrating working class and Corot, Courbet, Daumier, Millet (1789–1799); Napoleon crowned peasants; en plein air emperor of France (1803) Impressionism (1865–1885) rustic painting European democratic revolutions of Capturing fleeting effects of 1848 Post-Impressionism (1885– natural light 1910) Monet, Manet, Renoir, Pissarro, Franco-Prussian War (1870–1871); A soft revolt against Cassatt, Morisot, Degas Unification of Germany Fauvism and Expressionism Impressionism Van Gogh, Gauguin, Cézanne, Seurat (1871) (1900–1935) Belle Époque (late-19th-century Harsh colors and flat surfaces Matisse, Kirchner, Kandinsky, Marc Golden Age); Japan Cubism, Futurism, (Fauvism); emotion distorting defeats Russia (1905) Supremativism, Constructivism, form Picasso, Braque, Leger, Boccioni, Boxer Rebellion in China (1900); De Stijl Pre– and Post–World War 1 art Severini, Malevich World War (1905–1920) experiments: new (1914–1918) Dada and Surrealism (1917– forms to express modern life Russian Revolution (1917); 1950) American women franchised Ridiculous art; painting dreams (1920) and exploring the unconscious Duchamp, Dalí, Ernst, Magritte, de Disillusionment after World War I; Chirico, Kahlo The Great Depression Abstract Expressionism (1940s– Post–World War II: pure (1929–1938); World War II (1939– 1950s) and Pop Art abstraction and expression Gorky, Pollock, de Kooning, Rothko, 1945) and Nazi horrors; (1960s) without form; popular art Warhol, Lichtenstein atomic bombs dropped on Japan absorbs consumerism (1945) Gerhard Richter, Cindy Sherman, Cold War and Vietnam War (U.S. Postmodernism and Art without a center, reworking Anselm Kiefer, Frank Gehry, Zaha enters 1965); U.S.S.R. Deconstructivism (1970– ) and mixing past styles Hadid suppresses Hungarian revolt (1956) Czechoslovakian revolt (1968) Nuclear freeze movement; Cold War fizzles; Communism collapses in Eastern Europe and U.S.S.R. (1989–1991)"
+        }
+       ]
+      }
+     ],
+     "images": [],
+     "children": []
+    },
+    {
+     "id": "art.annex-b-development-of-art-around-the-globe.30e58",
+     "title": "Annex B: Development of art around the globe",
+     "depth": 1,
+     "page": 57,
+     "lesson": false,
+     "sections": [
+      {
+       "label": "",
+       "kind": "intro",
+       "blocks": [
+        {
+         "type": "sub",
+         "text": "Australia, New"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Zeeland and the Europe Middle East"
+        },
+        {
+         "type": "para",
+         "text": "c. 28,000 BC–c. Pacific 16,000 BC"
+        },
+        {
+         "type": "para",
+         "text": "Paintings in The 'Venus' of charcoal, ochre Willendorf is one and white of the most pigments of such famous carvings animals as zebras from Europe's and Palaeolithic rhinoceroses, period. Its found on extremely portable stones corpulent figure in domestic and emphasis on debris in the the female Apollo 11 cave in reproductive Namibia, are the anatomy and lack oldest datable of facial features rock paintings in have long inspired Africa. speculation that its function was as a fertility figure."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Art 21,000 BC Zeeland and the Middle East Neolithic potters Stylized female c. 13,000 BC–c. in Japan during the Pacific figurines made of 11,000 BC Jomon period mammoth ivory produce Paintings found in from Maltá, Siberia containers that are shallow caves in are representative among the world's Arnhem Land in of portable earliest ceramic northern Australia carvings found wares and are of kangaroos, fish over a wide region characterized by and supernatural stretching from surfaces beings employ the Western Europe decorated with so-called 'X-ray' to North and cord-markings (the style, in which the Central Asia, meaning of the internal organs suggesting cultural term jomon) and and bones are exchange over dramatic shapes. depicted. These these vast areas. images are among the earliest and The images of most distinctive horses, bison, forms of Aborginal mammoth and other local animals painted on the walls of a cave at Lascaux are not only among the earliest known"
+        },
+        {
+         "type": "sub",
+         "text": "Australia, New"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Zeeland and the Europe Middle East"
+        },
+        {
+         "type": "para",
+         "text": "Pacific art and continue to examples of"
+        },
+        {
+         "type": "para",
+         "text": "be produced painting found in"
+        },
+        {
+         "type": "para",
+         "text": "today. Europe, but they"
+        },
+        {
+         "type": "para",
+         "text": "are also striking"
+        },
+        {
+         "type": "para",
+         "text": "for the keen"
+        },
+        {
+         "type": "para",
+         "text": "observation and"
+        },
+        {
+         "type": "para",
+         "text": "skilful rendering of"
+        },
+        {
+         "type": "para",
+         "text": "their animal"
+        },
+        {
+         "type": "para",
+         "text": "subjects."
+        },
+        {
+         "type": "para",
+         "text": "c. 8000 BC Rock-carvings of Beads made of large animals are clam shells, created by hunter engraved bones Jerico, built on an gatherers during and pebbles oasis on the bank the Bubalus represent an early of the River antiquus period interest in body Jordan, is the and are the oldest decoration in world's oldest city, known example of present-day with a circular rock art in Africa. Wyoming. tower and Originally these encircling wall beads were strung built of massive onto cords stones. through holes made with pointed stone tools."
+        },
+        {
+         "type": "sub",
+         "text": "Australia, New"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Zeeland and the Europe Middle East"
+        },
+        {
+         "type": "sub",
+         "text": "Pacific"
+        },
+        {
+         "type": "para",
+         "text": "7000 BC–5000 The earliest Figurines of Small, portable"
+        },
+        {
+         "type": "para",
+         "text": "BC pottery made in abstract form and carvings of animals"
+        },
+        {
+         "type": "para",
+         "text": "Africa, in the form little facial such as elk, bear"
+        },
+        {
+         "type": "para",
+         "text": "of utensils and definition made of and wild boar are"
+        },
+        {
+         "type": "para",
+         "text": "figurines, is unfired clay are made in Denmark"
+        },
+        {
+         "type": "para",
+         "text": "produced in the found in places and southern"
+        },
+        {
+         "type": "para",
+         "text": "Sahara region. such as Cowboy Sweden of"
+        },
+        {
+         "type": "para",
+         "text": "Cave in materials such as contemporary amber."
+        },
+        {
+         "type": "para",
+         "text": "Rock paintings Utah Sculptures made made in North of lime plaster Africa during the from Ain Ghazal in Pastoral period, as Jordan are among represented by the earliest scenes of cattle surviving large- herding and scale statues of vignettes of daily the human figure."
+        },
+        {
+         "type": "para",
+         "text": "life at Tassili"
+        },
+        {
+         "type": "para",
+         "text": "N'Ajjer in Algeria,"
+        },
+        {
+         "type": "para",
+         "text": "reveal an Çatal Hüyük in"
+        },
+        {
+         "type": "para",
+         "text": "increased sense of central Turkey is"
+        },
+        {
+         "type": "para",
+         "text": "naturalism and the largest"
+        },
+        {
+         "type": "para",
+         "text": "mastery of colour Neolithic"
+        },
+        {
+         "type": "para",
+         "text": "over rock art of settlement known"
+        },
+        {
+         "type": "para",
+         "text": "earlier times. in the Near East."
+        },
+        {
+         "type": "para",
+         "text": "The wall paintings,"
+        },
+        {
+         "type": "para",
+         "text": "figurines and"
+        },
+        {
+         "type": "para",
+         "text": "artefacts found"
+        },
+        {
+         "type": "para",
+         "text": "there reveal a rich"
+        },
+        {
+         "type": "para",
+         "text": "religious and"
+        },
+        {
+         "type": "para",
+         "text": "cultural tradition,"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c. 5000 BC – The paintings of Black-burnished The earliest known and some of the 3000BC boats, animals, pottery vessels Pacific pottery in Europe, oldest textile hunting and with remarkably produced by the fragments in the combat scenes, as thin walls are Legend tells that Linear Pottery world have been well as the scene distinctive to the ancient wall culture in Central found there. of a hero holding China's Neolithic depictions of the Europe, is back two lions, coastal cultures. In Aboriginal decorated with A stately that decorate the particular, the Rainbow Serpent incised lines, a procession is walls of Tomb 100 Dawenkou culture at Wirlin-gunyang technique that carved in low relief at Hierakonpolis is credited with in Australia were spread throughout on the famous are among the developing the fast painted by the much of Europe. stone Warka Vase most important potter's wheel at deities themselves of Uruk. Rows of monuments of about the same at the end of their sheep, priests and, Egypt's time as the ancient journey inland. at the top, the king Predynastic and Egyptians, present offerings Early Dynastic although there is to the periods. no indication of Mesopotamian mutual influence. goddess of love Considered and war, Inanna. ancient Egypt's This method of first great work of depicting art, the large schist important politico- Narmer Palette religious events in celebrates the horizontal glory of King registers continues to be"
+        },
+        {
+         "type": "sub",
+         "text": "Australia, New"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Zeeland and the Europe Middle East"
+        },
+        {
+         "type": "para",
+         "text": "Narmer, shown Pacific smiting his enemy. used for the next"
+        },
+        {
+         "type": "para",
+         "text": "two millennia."
+        },
+        {
+         "type": "para",
+         "text": "The large number of copper alloy maceheads, sceptres, crowns and other presitigious items found at Nahal Mishmar in Israel are among the earliest and most skilfully crafted examples of the lost-wax casting method."
+        },
+        {
+         "type": "para",
+         "text": "Animal-shaped seals from Tell Brak, Syria act as good-luck charms and votive offerings, as well as providing a recognizable image that can be stamped into soft clay to proclaim"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c. 3000 BC – 2000BC Pacific"
+        },
+        {
+         "type": "para",
+         "text": "2610 BC. The first 2700 BC. 2500 BC. Small 3200 BC – ownership of an monumental Monumental stone seals with 1600BC item. structure built temples are built short inscriptions Stonehenge, the entirely of stone is at the Pre- and figural images, awe-inspiring 2900 BC Cylinder a six-stage stepped Columbian-period frequently of a circle of massive seals are used in pyramid designed site of La Galgada horned bull, are stones topped by Mesopotamia, by the architect in the Peruvian used by the lintels arranged Iran, and Syria Imhotep for King highlands. These inhabitants of the according to during the 3rd Djoser at Saqqara, temples are later Indus Valley or astronomical millennium BC. Egypt. converted into Harappan culture, configurations, is The seal is tombs containing South Asia's unique among impressed on a ball 2551 BC. King very early earliest civilization. Neolithic sites in of clay that is then Cheops orders the examples of These seals may Europe and was used to close construction of the textiles and have served an built and rebuilt in documents, stacks Great Pyramid at jewellery. administrative several phases. of goods or doors. Giza, the largest function These figural and pyramid ever 2300 BC. Red- facilitating trade. 3000BC – textual images constructed and slipped ceramic 2000BC Stones form a rich and originally 146 figurines, often of used to construct long-lasting source metres tall. women with the Neolithic of information elaborate tombs at about this 2500 BC. The hairstyles, made by Newgrange, civilization. Great Sphinx at the people of the Ireland are Giza depicts in Valdivia culture of decorated with an 2300BC Several stone the head of coastal Ecuador, extensive array of impressive wood the Egyptian King are the earliest complex geometric Khafre atop the known pottery patterns. body of a reclining"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c. 2000 BC – 1000BC Pacific"
+        },
+        {
+         "type": "para",
+         "text": "lion. This statues of humans 2300 BC Highly lyres or harps, monumental in the Americas. stylized white capped with bull's statue guards the marble figurines, heads made of roadway to usually depictions gold and lapis Khafre's pyramid of women with lazuli, are placed in tomb. simplified tombs in the Royal geometric shapes Cemetery at Ur 1390 BC Ancient 1500 BC Jade is 1300 BC Large for bodies and and may have been Egyptian worked in Central anthropomorphic almost no facial used as part of glassmakers make America to fashion bronze statues are features, are made Sumerian funerary lively-looking small small amulets. This buried in pits along on the Cycladic rituals. bottles for scented tradition, using with elephant islands in the oils and cosmetics local stone, tusks, trees made Aegean Sea. The 1700 BC When he in a variety of produces of bronze and stream-lined unifies shapes and with ornaments for use weapons made of appearance of Mesopotamia, multiple colours. by the living and bronze and jade in these statues has King Hammurabi These core- for burials. present-day appealed to and establishes a legal formed vessels are Sanxingdui in influenced modern code to ensure artists and justice. His viewers. decrees are 1650 BC Two gold inscribed in cups, made by cuneiform on a tall Minoan craftsmen stone stele capped but found in a tomb at Vapheio near Sparta, are decorated with scenes of muscular bulls and heroes, creating a sense of power that is in"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the made by applying Sichuan county, and working China. The Pacific molten glass on a technical rigid interior base. sophistication of contrast to the by a carving ___________________ these objects and containers' showing 1300 BC King their use of diminuitive size. Hammurabi Tutankhamun is imagery that is appearing before buried in a lavish strikingly different 1300 BC One of the sun god tomb, furnished from that found in the most visually Shamash. with magnificent central China striking and jewellery, textiles, indicate that early technically 1300 BC Among throne, gold dynastic China complex works the earliest and chariots and a consists of not one from Europe's finest glass made coffin made of gold but several Bronze Age is the in ancient Iran are inlaid with glass distinctive cultural ceremonial statue fragments of and semi-precious centres. of a horse pulling a mosaic-glass stones. chariot bearing a beakers in blue, gilded sun disk turquoise and 1275 BC Ancient found in white found in the Egyptians bury Trundholm, remains of a palace finely illustrated Sweden near Hasanlu. manuscripts, known as Books of the Dead, in their tombs to provide guidance to the deceased in the trials that take place in the afterlife."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c. 1000 BC – 500BC Pacific"
+        },
+        {
+         "type": "para",
+         "text": "700 BC A wide 900 BC Colossal 500 BC Nomadic 600 BC Greek 900 BC Ancient variety of burial stone heads, peoples of Central sculptors create Phoenician urns and tomb weighing several Asia, some of free-standing craftsmen make furnishings tons, are among whom are known statues of striding, small plaques and maintained at the the earliest and as Scythians, nude males toiletry articles of Sanctuary, or most distinctive fashion gold horse (kouroi) that ivory, many of Tophet, of Tanit, creations of the trappings and effectively convey which are traded Carthage's ancient Olmec. portable volume, movement abroad over their primary goddess, Their different ornaments, often and heroic numerous and illustrate the city's features and in the shape of physiques. extensive trade religious concerns naturalism powerful animals. routes. and practices, suggests that including for a time these sculptures 500 BC Ancient 515 BC Darius the the sacrifice of might have been Etruscans placed Great constructs young children. portraits of early portraits of the the magnificent kings deceased city of Persepolis. modelled in The palace is 500 BC The key terracotta on top decorated with feature of the of their scenes in relief of Zapotec city of sarcophagi. These royal processions Monte Albán in figures, which are and hunts that Mexico is the Main painted and often convey the king's Plaza, which depict a couple, power. contains in one are striking for corner a series of their animation, stone slabs carved individuality and in low relief with cheerful images of captured expressions. and dead enemies and some of the"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the"
+        },
+        {
+         "type": "para",
+         "text": "Pacific c. 500 BC – 1 CE 500 BC Sculptors earliest known 300 BC Large 480 BC The 100 BC The in Nok, Nigeria hieroglyphs in kettledrums are Kritios Boy reveals important trading produce terracotta Mesoamerica. made of bronze Greek sculptors city of Hatra in heads, probably 300 BC Potters at and decorated first attempts to southern Iraq has for religious La Tolita on with geometric achieve a new heavily fortified purposes, that Ecuador's coast patterns and degree of walls of mud-brick seem highly make large miniature frogs, naturalism by on stone animated, numbers of mould- animals, warriors accurately foundations, four although their produced figurines and human figures capturing the shift large gates and the features are of gods, imaginary in Dong Son in of weight that Great Temple exaggerated so beings and humans northern Vietnam. takes place inside the that they appear engaged in a wide throughout the precincts. Some of slightly variety of daily 250 BC China’s human body when the kings who caricatured. activities. first emperor Qin it moves. sponsor various Shi Huangdi joined stages of the existing defensive 447 BC The construction are barrier fragments Parthenon, commemorated to establish one of dedicated to the with relief the world’s most goddess Athena, is portraits on bricks notable built as the set into the city architectural primary temple on walls. structures, the the Acropolis. Great Wall, Constructed by effectively architects Iktinos demarcating his and Kallikrates, territory as a the building is a marvel of"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Art Zeeland and the Middle East unified and mathematics and fortified nation. Pacific technology. Pheidias, the 210 BC A massive, renowned sculptor life-size army of and highly terracotta effective warriors is created organizer, by China’s first supervises and emperor Qin Shi produces a Huangdi to protect complex sculptural him in the afterlife programme of in his magnificent religious and tomb in Xi'an. historical scenes to ornament the 150 BC Relief temple. sculptures that __________________ originally decorate 150 BC Many the railings and great ancient gates of the Greek Bharhut Stupa masterpieces, such incorporate among as the marble the Venus de Milo in representations of the Louvre, survive the Buddha's life only as copies foreign imagery made by Roman and such pre- craftsmen. Buddhist indigenous deities 150 BC Mosaic- as male and female makers of Pompeii earth spirits produce"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Art Zeeland and the Middle East (yaksas and yaksis elaborately respectively) and Pacific detailed pictures serpent kings with millions of (nagarajas). small marble pieces. 65 BC Parthian coins are struck 100 BC The with figures shown Romans build an in an innovative aqueduct that frontal pose, a consists of three distinctive element tiers of arches of Parthian art that across the River appears in temple Gardon in south- sculptures as well eastern France. as portraits on This large bridge coins. survives nearly intact today and is known as the Pont du Gard."
+        },
+        {
+         "type": "para",
+         "text": "75 BC Ancient Rome's greatest amphitheatre, the elliptical Colosseum, is built to accommodate between 45,000 and 73,000 viewers for the gladiatorial games and contests"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East c.1 AD – 300 AD Zeeland and the"
+        },
+        {
+         "type": "sub",
+         "text": "Pacific"
+        },
+        {
+         "type": "para",
+         "text": "100 AD During 150 AD The AD 100 A large between men and 100 AD Massive the period of Pyramid of the Buddhist beasts. temples and Roman rule, Sun, along with its monastery is cut 113 AD Trajan's tombs, including mummies in smaller and later into the rock walls Column, set in the the Khaznat al- Faiyum, Egypt are companion the at Bamiyan, Forum of Trajan– Fir`awn (Treasury capped with highly Pyramid of the Afghanistan. Rome's largest of the Pharaoh), lifelike painted Moon, dominates Flanking the forum–celebrates are carved from portraits of the Teotihuacán's monks' cells are the victorious the stone cliffs at deceased, extensive two colossal stone battles of Emperor Petra, the capital introducing a new programme of Buddhas (destr. Trajan with a long of the Nabataean level of realism monumental 2001) that attract narrative of his kingdom in Jordan. into Egyptian art. architecture and is pilgrims from miles military conquests ____________________ the largest away and that spirals up the 200 AD Wall building ever made epitomize the surface of the paintings from the in Mesoamerica. concept of the column. Trajan synagogue in the Universal Buddha. himself is depicted Syrian city of Dura 150 AD The 60 times in this Europos provide Hopewell people 344 AD Court visual history. the earliest known construct painter Gu Kaizhi narrative depiction numerous mounds sets a style, as 118 AD Emperor of biblical scenes, at a site in Ohio. seen in his Hadrian which challenges These graves Admonitions of the commissions the the assumption contain a variety of Court Instructress, building of the that early Jewish burial goods and for figure paintings Pantheon to art prohibited ceremonial that incorporates revere the Roman figural imagery. objects, many of firm and fluid gods. This which include brushwork and concrete materials traded subtle expression, structure, which is one of the chief accomplishments of Roman"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c.300 AD – 600 from other which is revered AD regions. for millennia. Pacific"
+        },
+        {
+         "type": "para",
+         "text": "AD 300 AD 300 The AD 353 The architects, consists AD 537 After the Monumental stone Zapotec people of famous Orchid of a circular domed original 4th- obelisks are hewn Monte Albán Pavilion preface, temple and a century church is at the Ethiopian achieve their known in Chinese rectangular entry destroyed by fire, city of Aksum to highest levels in as Lanting xu, is porch. Hagia Sophia in serve as funerary ceramic written by China’s AD 400 Taking Constantinople is markers for the production, most revered advantage of rebuilt as one of uppermost producing finely calligrapher Wang stocks of elephant the most members of grained grey wares Xizhi. It forms an tusks and skilled influential society. These that are engraved important step inf craftsmen, Early Byzantine stelae, the largest and incised. the evolution of Christian icons centrally-planned, of which is a Funerary urns are writing and depicting saints domed churches. towering 33.5 among the finest brushwork from a and sacred metres tall, are pieces made. tool for scribes to narrative scenes carved to a highly expressive are carved onto resemble the AD 450 Scenes of and dynamic art ivory plaques. surfaces of battles between form. buildings. men and AD 425 The anthropomorphic 400 AD The richly Vatican Virgil is AD 600 The weapons are decorated stupa at one of the earliest earliest known clay painted on the Svayambhunatha known Latin figures in South walls of the is built and Bibles. Produced Africa, found at pyramid Huaca de becomes the most in Rome, the Lydenburg, are a La Luna at Moche important illustrations follow series of fired in Peru, reflecting Buddhist site in an illusionistic style and resemble Roman Christian mosaics of the period."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the AD 546 Emperor Pacific Justinian and his retinue are shown ceramic heads that the political and the Kathmandu in full majesty in are thought to religious concerns Valley. the opulent mosaic have been used as of the society's on the walls of S part of initiation élite. AD 450 Emperor Vitale in Ravenna. rituals. Nintoku's keyhole- Justinian's rule, AD 600 – 900 shaped tomb in marked by AD 707 The Mesoamerican central Japan is enthusiastic art sensitive painting rulers build a the largest burial patronage, is of St Anne is one of monumental city site of its type. It is considered the the earliest images at Tikal, thought to have first golden age of painted on the Guatemala as their been covered with Byzantine art. walls of the capital. This city's more than 10,000 c.600 AD – 1000 cathedral of Faras, paved Great Plaza clay haniwa AD 698 The Latin AD 629 Large AD which is the source is flanked by an offering cylinders, Lindisfarne silver plates of the best-known acropolis that including the Gospels are decorated with examples of serves as the royal earliest known one written and narrative scenes Byzantine painting cemetery, another in the shape of a illustrated at a continue the in Nubia. Her human. monastery on an classical tradition AD 500 – 800 One island in of metalworking in of the earliest Northumbria, Constantinople. sources of silk England. The One particularly outside China is illustrations impressive set Sasanian Iran, combine striking depicts the Life of which produces geometric David and is and trades silk with China. Weavers in other regions, including China, adopt and"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the"
+        },
+        {
+         "type": "para",
+         "text": "Pacific enormous eyes acropolis for rulers adapt Sasanian patterns with probably part of an and simplified and several decorative motifs. figural images imperial features continue temple-pyramids inspired by commission. Egyptian traditions for important AD 618 The Mediterranean and are ritual ceremonies Mandala of Five prototypes. AD 692 characteristic of and funerary Divinities of Jerusalem's Dome the early Faras functions Avalokitesvara is AD 670 A high- of the Rock is the images. painted on silk and ranking man is earliest important AD 900 At the stored in one of entombed in a Islamic building AD 900 Highly Mayan ceremonial the 500 cave- burial-ship with an still standing. It is accomplished site of Palenque in temples at abundant supply of decorated inside smiths at Igbo- Mexico, the ruler Dunhuang on the jewellery, metal and out with gold Ukwu in Nigeria Pacal builds the Silk Route. Elegant vessels and and green mosaics fashion elaborately Temple of the in execution and armour. When this (only the interior decorated bronze Inscriptions, which opulent in detail, grave at Sutton ones survive), containers and derives its name the colourful Hoo in England is demonstrating the ritual implements from the visualization of a discovered in most extensive use that are among the hieroglyphs saviour deity in a 1939 it provides of mosaic on a earliest items inscribed on celestial realm one of the most structure in both made of copper panels that epitomizes the important ancient and alloy in western decorate the complexity of assemblies of early medieval periods. Africa. interior. Pacal's Buddhist thought Anglo-Saxon art tomb is contained and the splendour and trade goods. AD 800 Potters in this temple. of Tang-dynasty working in art. AD 800 Samarra' under Monumental the Abbasid AD 800 stones are incised caliphate may be Borobudur, the with scenes of the first to develop largest religious ships and battles lustreware, a type structure in at Gotland in of pottery that"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c.1000 AD – 1300 AD 1000 Massive AD 1000 Gold Indonesia, is built Scandinavia. incorporates a AD stone walls are burial masks are as a monumental Pacific Related to Viking metal substance built in Great made in the stone burial practices, into the glaze to Zimbabwe, kingdom of Chimú manifestation of a AD 1000 Colossal these scenes are create an forming the largest on the northern Buddhist mandala and distinctive thought to iridescent effect ancient structure coast of Peru. and as a statues, known as represent the that resembles in sub-Saharan celebration of the moai, are carved journey to the glittering Africa. The biggest AD 1000 – 1600 power of the new from volcanic tuff afterlife in metalwork. walls, some of In addition to Shailendra on Easter Island Valhalla. which tower 11 utilitarian objects, dynasty. Over (Rapanui). AD 1169 Aleppo metres tall, form smiths of the 1300 carved AD 1200 Maoris AD 1088 The in Syria is famed the Great Chiriquí culture of panels are used to arrive in New immense third for the skill of its Enclosure. Costa Rica decorate with Zealand bringing church woodworkers. produce gold walls and woodcarving with constructed at One of the best balustrades with them. The few Cluny, mother examples, narrative reliefs. early carvings that church of the although no longer AD 1100 Fan powerful extant, is the Kuan paints one of Benedictine minbar the most famous monastic order, commissioned by Chinese paintings, sets a new Nur al-Din for the Travellers among standard of size in Aqsa Mosque in Mountains and early Romanesque Jerusalem. Streams, which architecture. epitomizes the towering peaks, diminuitive figures and varied brushstrokes of the monumental landscape tradition."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the AD 1000 – 1500 jewellery. Most AD 1020 Japanese AD 1163 AD 1250 Life-size portrait common and sculptor Jocho Pacific Construction of Metalworkers of heads made of distinctive are develops the survive show a the famed Egypt and Syria terracotta or those pieces joined-woodblock resemblance to Cathedral of produce some of bronze at Ife in derived from technique those made in Notre-Dame in the finest inlaid Nigeria are animal shapes but whereby a statue Eastern Polynesia, Paris begins. brass wares in strikingly rendered in a is made of several, the Maori's Eventually this Islamic history, naturalistic and highly stylized and hollowed-out presumed soaring structure some of gold and are pierced with abstracted sections joined homeland. comes to silver inlaid holes that may manner. together. This epitomize Gothic designs depict have allowed the system makes it AD 1200 Nan architecture, narrative scenes. attachment of AD 1100 possible to make Madol is boasts the first use crowns and facial Ceramics in larger sculptures constructed as a of the AD 1275 The hair. Southwest North with a wider cermonial centre architectural Mongol leader of America are variety of postures in Micronesia. The technique of flying Western Asia AD 1300 The dominated by that give them a stone walls and buttresses and for Ilkhan Abaqa Dogon people of Chaco-style greater sense of platforms are built a long time it is the constructs a Mali carve some of pottery that is movement and on basalt logs over tallest building in magnificent the most characterized by dynamism. This the water, creating the Western summer palace on accomplished and geometric black- method also the 'Venice of the world. the site of a former oldest surviving and-white designs. ushers in the Pacific'. Sasanian holy figural wooden workshop system. AD 1294 The centre known as statues in Africa. AD 1100 – 1400 Cathedral of S Takht-i Sulayman. While most figures Weavers in the AD 1200 Maria del Fiore in An abundance of are stylized to Chancay Valley of Sculptors in Florence, with its marble-carvings some degree and coastal Peru Sukhothai, soaring dome and and lustre-glazed emphasize produce high Thailand develop a classical forms and tiles indicate that geometric forms, quality textiles distinctive type of construction the original sculptures of with precise free-standing techniques, is one structure was women often geometric designs of the earliest striking to behold"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the precursors of the and extremely Pacific Renaissance style costly to build. in Italy. include children that are reversible. walking Buddha. c.1300 AD – 1600 and thereby Mythical figures Rendered in AD 1459 Drawing AD 1489 Bihzad, AD underscore their such as the god bronze, the arms on a lifetime of the most skilful maternal role in Virococha suggest of these figures studying Roman and influential society. inspiration from typically show one statues and Persian painter, other cultures. hand making a observing the creates his only AD 1325 The religious gesture human form, known signed Great Mosque is AD 1460 (mudra) and the Donatello casts his work, a copy of Timbuktu is built, Pachacutec erects other moving in innovative statue Sa'di's Bustan. probably at the the citadel Macchu counterbalance. of a nude David for Bihzad is one of order of King Picchu in the AD 1400 The his patron Cosimo the talented artists Mansa Musa, who Andes. This great conqueror de' Medici. and architects had just returned examples of Timur (also known working in Herat after making a mature Inca as Tamerlane) is AD 1478 Sandro at the conclusion pilgrimage to architecture buried in Botticelli paints of the Timurid Mecca. The serves as a country Samarkand in the Primavera, which period. building is retreat and fulfils Gur-i Amir, which draws its imagery reportedly personal, displays several from AD 1542 designed by an diplomatic and features typical of contemporary Continuing earlier Andalusian poet- religious functions. architecture of vernacular love traditions, the architect al-Saheli. that period, such poetry and is a Safavid rulers call AD 1475 A great as monumental manifestation of AD 1375 During statue of the Aztec size and colourful their 'Golden Age', Earth goddess and tiles. the Swahili of East mother of the Africa build stone Moon Coatlícue is AD 1406 Under made in the the orders of Emperor Yongle, construction begins on the"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the Forbidden City in Beijing. This Pacific extensive series of tombs for the Mexican city of formal audience the learning and for large and finely wealthy that are Calixtlahuaca. halls, workshops culture espoused made carpets, highly unusual and and residences at the court of produced distinctive. remains the home Lorenzo the throughout Iran in of China's Magnificent in royal workshops. AD 1500 – 1800 emperors until Florence. Over 1500 Safavid Upon his 1912. carpets (and coronation, each AD 1500 Albrecht fragments) survive king (oba) of Benin AD 1463 Dürer, one of from this period, must commission Supported by the Germany's most with many of them within his first year country's most accomplished, displaying complex of rule the powerful military versatile and designs that production of a leaders, Kano influential artists, suggest the brass Masanobu paints his last and influence of book commemorative establishes Japan's most arresting illustration. head of his father, most enduring and self-portrait in the former king, to influential school which he presents AD 1587 Safavid be placed on an of painting. The an idealized Sultan `Abbas I altar. While not Kano school version of himself instructs two court realistic portraits, derives its style and promotes the painters Sadiqi and these images are from a mastery of recognition of Riza to create a individualized and Chinese painting artists as creators version of the are meant to techniques rather than Shahnama (Book represent the adapted to form a craftsmen. of Kings) at his actual person. uniquely Japanese capital is Isfahan. style. AD 1500 The large Leonardo da Vinci manuscript pages paints the Mona are ornamented in Lisa, perhaps the the margins with world's most well-"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the sumptuous c.1600 AD – 1900 AD 1700 The AD 1768 AD 1605 The known painting. drawings. AD painting of Michael Revolutionary accomplished Pacific Leonardo the Archangel in patriot Paul artist Manohar combines AD 1630 The Shah the Church of Revere crafts one paints Emperor AD 1750 Male expressive Mosque is Debre Sina is of the most Jahangir Receiving chiefs in the painting completed by indicative of the famous examples his Two Sons, Hawaiian Islands techniques with Sultan Safi in new painting style of American combining precise wear feather capes keen observation Isfahan and, developed in presentation miniaturist and helmets that and attention to despite its large Gondar, the capital silver, the Sons of painting distinguish their the human form size, achieves a of Christian Liberty techniques, astute genealogy based and psyche to lightness in the Ethiopia, and Punchbowl. observation and on the size, design create one of the appearance of its reveals the rich colours to and types of Renaissance domes and blue- characteristic AD 1793 Work create scenes that feathers used to period's most glazed tile bright palette and begins on the US dazzle the eye and make the evocative exterior. long-faced figures. Capitol building in enhance the garments. portraits. AD 1812 Persian AD 1800 Torres AD 1622 The most painter Mihr 'Ali Strait Islanders in famous sculptor of the 17th century, Gianlorenzo Bernini carves his Apollo and Daphne, in which he brings to life the moment that Daphne turns herself into a laurel tree to escape the affections of the pursuing god."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the AD 1800 Washington DC. prestige of the AD 1642 creates the best of Europeans The structure of Mughal court. Pacific Rembrandt his series of full- become aware of the building the Pacific fashion produces one of length oil paintings Asante kente symbolizes the AD 1631 Mughal masks and his most famous of Qajar ruler Fath cloth, which composition of the Emperor Shah headdresses of paintings, the 'Ali Shah, showing involves a complex legislature: one Jahan mourns the turtle-shell and 'Night Watch', in the monarch in a weaving process flanking wing each death of his wood for use in which he succeeds gold brocade and is linked in for the Senate and beloved wife their nighttime in rendering a costume and large mythology to the House of Arjumand Banu rites of passage commissioned crown. spider god Ananse. Representatives Begum by building ceremonies. portrait of local and a central the Taj Mahal in militiamen as an AD 1892 AD 1800 The domed rotunda to Agra to serve as AD 1850 arresting historical Muhammad Yoruba develop indicate their her tomb. Craftsmen in the drama. Ghaffari combines the tradition of essential unity. western Solomon European painting making wooden AD 1645 The Islands fashion AD 1669 Louis techniques and Gelede masks for AD 1800 The Potala Palace in elaborately XIV orders the styles with local large festivals that Pomo Indians of Lhasa is rebuilt in decorated shields construction of a themes to create celebrate the North America order to serve as of cane, clay and new palace at such works as The power of the make elaborate the Dalai Lama's mother-of-pearl Versailles, outside Fortune-teller. tribe's elderly feathered bowl winter palace and inlay. Paris. The massive Given the title women. wedding baskets. the seat of and ornately Kamal al-Mulk religious and AD 1850 – 1900 decorated ('Perfection of the AD 1858 political functions. Colonists in buildings, myriad Kingdom'), he later Frederick Law Australia rapidly sculptures and founds Iran's first Olmsted and AD 1812 Persian adopt lavish gardens all fine arts academy. Calvert Vaux win painter Mihr 'Ali photographic underscore the the competition to creates the best of technologies to grandeur of the design and build his series of full- document the Sun King. Central Park in length oil paintings native landscape, New York. of Qajar ruler Fath flora, fauna and people. Landscape photography in"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Art Zeeland and the Middle East Olmsted is 'Ali Shah, showing AD 1814 inspired by his the monarch in a Pacific Francisco de Goya belief in the gold brocade particular plays a immortalizes the ennobling power costume and large key role in Spanish resistance of culture and crown. constructing a to French landscape and national identity. occupation with succeeds in Third of May making the 1808, in which he country's first focuses the large fully- viewer's attention landscaped public on the heroism park. and agony of those about to be executed by flooding them with a bright, white light."
+        },
+        {
+         "type": "sub",
+         "text": "AD 1889"
+        },
+        {
+         "type": "para",
+         "text": "Engineers Gustave Eiffel and Maurice Koechlin construct a 300-metre-tall iron tower, which is now known as the Eiffel Tower, for the Exposition Universelle in Paris."
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Australia, New Europe Middle East Zeeland and the c.1900 AD – 2000 AD 1900 Kongo AD 1907 AD 1988 South AD 1908 Henri AD 1960 Works AD carvers, working American Korean artist Nam Pacific Matisse, the by Dia Azzawi, closely with photographer June Paik's The AD 1930 Palauan principal probably Iraq’s spiritual advisers, Alfred Stieglitz More, The Better artists begin to protagonist of most influential make power takes one of his is representative depict scenes from Fauvism, paints living artist, sit figures, called most enduring of his work as one traditional legends Dinner Table alongside poet and minkisi, for use in photographs, The of the first artists and events on (Harmony in Red). artist Kadhim divination rituals Steerage. to have portable Haidar, whose to consult the comprehensively 'storyboards' and AD 1929 Ludwig white horses spirits. AD 1931 The realized the create a new and Mies van der Rohe, depicting the Empire State potential of important form of the German martyrdom and Building in New television and art in Palau, architect, builds mourning over York is completed video as an artistic Micronesia. the German Hussain Ibn Ali at only one year and medium. Pavilion for the the battle of forty-five days AD 1957 Jørn Exposición Karbala was based after work starts Utzon wins the Internacional in on his own poem. on its steel frame. competition to Barcelona, After studying in At 381 metres build Sydney's creating one of the London, he was a high, the Art Deco Opera House with most important founding member skyscraper a shell-like design buildings of the of the Institute of remained the that mimics waves Modern Arts in 1960s tallest building in and sails, both Movement. Baghdad. the world until references to the 1965. building's location."
+        },
+        {
+         "type": "para",
+         "text": "AD 1947 Jackson AD 1995 The AD 1931 Spanish Pollock, key figure booming Catalan artist of Abstract Australian art Salvador Dalí Expressionism, market generates paints landmark creates radically international Surrealist painting, acclaim for The Persistence of contemporary Memory."
+        },
+        {
+         "type": "sub",
+         "text": "Australia, New"
+        },
+        {
+         "type": "para",
+         "text": "Time period Africa Americas Asia Zeeland and the Europe Middle East"
+        },
+        {
+         "type": "para",
+         "text": "Pacific new poured or artists, bringing"
+        },
+        {
+         "type": "para",
+         "text": "'drip' paintings, works by AD 1936 Meret including: One: Aboriginal artists Oppenheim Number 31, 1950. into the spotlight. creates the A younger quintessential AD 1962 Andy generation of Surrealist work Warhol creates his artists working in with Object, a fur- tribute to installation, covered teacup Hollywood photography and that conveys the glamour and video create media evocative yet comment of focus and uneasy effect of consumer culture participate in Surrealism. with The Marilyn biennales and art Diptych, an fairs worldwide."
+        },
+        {
+         "type": "para",
+         "text": "important example"
+        },
+        {
+         "type": "para",
+         "text": "of Pop art."
+        },
+        {
+         "type": "sub",
+         "text": "AD 1974 Judy"
+        },
+        {
+         "type": "para",
+         "text": "Chicago creates a major piece of Feminist art with The Dinner Party: A Symbol of our Heritage in which she uses traditional domestic skills, such as embroidery, to"
+        },
+        {
+         "type": "sub",
+         "text": "Australia, New Art"
+        },
+        {
+         "type": "para",
+         "text": "Middle East Time period Africa Americas Asia Zeeland and the Europe"
+        },
+        {
+         "type": "para",
+         "text": "honor over 1000 Pacific women."
+        },
+        {
+         "type": "sub",
+         "text": "Source: Oxford Art Online"
+        }
+       ]
+      }
+     ],
+     "images": [
+      "/images/albums/art/8ec25db0e443.jpg"
+     ],
+     "children": []
+    }
+   ]
+  }
+ ]
+}

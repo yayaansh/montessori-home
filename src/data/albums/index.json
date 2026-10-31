@@ -1,0 +1,58 @@
+[
+ {
+  "id": "arithmetic",
+  "name": "Arithmetic",
+  "nodeCount": 283,
+  "lessonCount": 207,
+  "pages": 718
+ },
+ {
+  "id": "geometry",
+  "name": "Geometry",
+  "nodeCount": 1779,
+  "lessonCount": 235,
+  "pages": 458
+ },
+ {
+  "id": "language",
+  "name": "Language",
+  "nodeCount": 1037,
+  "lessonCount": 202,
+  "pages": 372
+ },
+ {
+  "id": "biology",
+  "name": "Biology",
+  "nodeCount": 489,
+  "lessonCount": 91,
+  "pages": 215
+ },
+ {
+  "id": "geography",
+  "name": "Geography",
+  "nodeCount": 491,
+  "lessonCount": 94,
+  "pages": 203
+ },
+ {
+  "id": "history",
+  "name": "History",
+  "nodeCount": 275,
+  "lessonCount": 58,
+  "pages": 151
+ },
+ {
+  "id": "art",
+  "name": "Art",
+  "nodeCount": 24,
+  "lessonCount": 0,
+  "pages": 83
+ },
+ {
+  "id": "theory",
+  "name": "Theory",
+  "nodeCount": 135,
+  "lessonCount": 2,
+  "pages": 90
+ }
+]
