@@ -4,7 +4,7 @@
  "source": "(Elementary) Geometry album.pdf",
  "pages": 458,
  "nodeCount": 1779,
- "lessonCount": 235,
+ "lessonCount": 236,
  "roots": [
   {
    "id": "geometry.geometry-introduction.76c82",
@@ -686,16 +686,12 @@
        "title": "Presentation tray – Children’s House",
        "depth": 2,
        "page": 15,
-       "lesson": false,
+       "lesson": true,
        "sections": [
         {
-         "label": "",
-         "kind": "intro",
+         "label": "Presentation tray – Children’s House Presentation",
+         "kind": "presentation",
          "blocks": [
-          {
-           "type": "sub",
-           "text": "Presentation tray – Children’s House Presentation"
-          },
           {
            "type": "item",
            "level": 0,
@@ -33161,13 +33157,9 @@
          "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Pre-requisites (2nd stage)",
+           "kind": "prerequisites",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Pre-requisites (2nd stage)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -37985,13 +37977,9 @@
        "lesson": false,
        "sections": [
         {
-         "label": "",
-         "kind": "intro",
+         "label": "Further exploration of congruence, similarity and equivalence",
+         "kind": "followUp",
          "blocks": [
-          {
-           "type": "sub",
-           "text": "Further exploration of congruence, similarity and equivalence"
-          },
           {
            "type": "para",
            "text": "(with constructive triangles)"
@@ -51111,12 +51099,13 @@
                 {
                  "type": "para",
                  "text": "8 -12 years old"
-                },
-                {
-                 "type": "sub",
-                 "text": "Further exploration for area for polygons with more than 4"
                 }
                ]
+              },
+              {
+               "label": "Further exploration for area for polygons with more than 4",
+               "kind": "followUp",
+               "blocks": []
               }
              ],
              "images": [],

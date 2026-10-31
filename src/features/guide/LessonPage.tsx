@@ -65,6 +65,8 @@ export default function LessonPage() {
   const notes = progress[node.id]?.notes ?? ''
   const age = ageOf(node)
   const planned = plan.some((p) => p.nodeId === node.id && !p.done)
+  // any page that is a lesson, or a leaf with its own content, can be tracked and planned
+  const trackable = node.lesson || (node.children.length === 0 && hasContent(node))
   const images = Array.from(new Set([node.id, ...(node.lesson ? node.children.map((c) => c.id) : [])].flatMap((id) => (id === node.id ? node.images : node.children.find((c) => c.id === id)?.images ?? []))))
 
   return (
@@ -85,7 +87,7 @@ export default function LessonPage() {
           <span className="chip">Album p. {node.page}</span>
         </div>
         <h1 className="lesson-title">{node.title}</h1>
-        {node.lesson && (
+        {trackable && (
           <div className="lesson-actions">
             <StatusControl value={status} onChange={(s) => setStatus(node.id, s)} />
             <button
@@ -188,7 +190,7 @@ export default function LessonPage() {
               </div>
             </section>
           )}
-          {node.lesson && (
+          {trackable && (
             <section className="card">
               <h3 className="eyebrow" style={{ marginBottom: 10 }}>Notes</h3>
               <textarea

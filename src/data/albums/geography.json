@@ -73,13 +73,9 @@
      "lesson": true,
      "sections": [
       {
-       "label": "",
-       "kind": "intro",
+       "label": "Material for the work with the globes",
+       "kind": "materials",
        "blocks": [
-        {
-         "type": "sub",
-         "text": "Material for the work with the globes"
-        },
         {
          "type": "item",
          "level": 0,

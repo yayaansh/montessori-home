@@ -2,6 +2,7 @@ import { NavLink, Outlet, Link, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useStore } from './store'
 import { asset } from '../data/paths'
+import { RouteErrorBoundary } from '../components/ErrorBoundary'
 
 export function Loading() {
   return (
@@ -51,7 +52,9 @@ export function Shell({ mode }: { mode: 'guide' | 'learn' }) {
           </nav>
         </div>
       </header>
-      <Outlet />
+      <RouteErrorBoundary resetKey={loc.pathname}>
+        <Outlet />
+      </RouteErrorBoundary>
     </div>
   )
 }

@@ -385,6 +385,12 @@ def parse_blocks(lines: list[str]) -> list[dict]:
         b["text"] = fix_symbols(fix_unknown(b["text"]))
         if b["type"] == "item":
             b.pop("indent", None)
+        # a sub-heading such as "Presentation of the division" opens a section of its own
+        if b["type"] == "sub" and re.match(
+            r"^(presentations?|materials?|direct aims?|indirect aims?|follow[- ]?ups?|further explorations?|extensions?|etymolog|observations?|pre-?requisites?)\b",
+            b["text"], re.I,
+        ):
+            b["type"] = "label"
         if b["text"]:
             out.append(b)
     # merge a 'sub' that is immediately followed by a 'para' that starts lowercase (false positive)

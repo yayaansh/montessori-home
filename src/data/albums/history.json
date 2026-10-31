@@ -12133,11 +12133,13 @@
         {
          "type": "para",
          "text": "The national geography comes last to give the children a very good vision of the world how their own place has a part of this great whole – the world. The national history done in the Montessori classroom has to be done in line with the national curriculum when it comes to the themes. The guide must prepare material to give the children the necessary experiences in order to understand and learn actively. E.g. a history timeline and a blank timeline with movable material. The children can use the history charts to explore the history of their own nation. The children can make their own timeline."
-        },
-        {
-         "type": "sub",
-         "text": "Material suggestions"
-        },
+        }
+       ]
+      },
+      {
+       "label": "Material suggestions",
+       "kind": "materials",
+       "blocks": [
         {
          "type": "item",
          "level": 0,

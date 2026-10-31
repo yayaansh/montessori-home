@@ -4,7 +4,7 @@
  "source": "888151619-Elementary-Arithmetic-album-for-montessori-elementary.pdf",
  "pages": 718,
  "nodeCount": 283,
- "lessonCount": 207,
+ "lessonCount": 220,
  "roots": [
   {
    "id": "arithmetic.children-s-house-arithmetic.7815a",
@@ -1943,16 +1943,12 @@
          "title": "Static Addition",
          "depth": 3,
          "page": 34,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of addition (static operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of addition (static operation)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2030,16 +2026,12 @@
          "title": "Static Subtraction",
          "depth": 3,
          "page": 36,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of subtraction (static operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of subtraction (static operation)"
-            },
             {
              "type": "sub",
              "text": "First presentation (nothing is left in the tray)"
@@ -2131,16 +2123,12 @@
          "title": "Static Multiplication",
          "depth": 3,
          "page": 38,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the multiplication (static operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the multiplication (static operation)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2229,16 +2217,12 @@
          "title": "Static Division",
          "depth": 3,
          "page": 39,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the division (static operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the division (static operation)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2326,16 +2310,12 @@
          "title": "Dynamic Addition",
          "depth": 3,
          "page": 40,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the Changing game for the addition",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the Changing game for the addition"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2444,16 +2424,12 @@
          "title": "Dynamic Subtraction",
          "depth": 3,
          "page": 42,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of changing game for the subtraction",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of changing game for the subtraction"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2553,16 +2529,12 @@
          "title": "Dynamic Multiplication",
          "depth": 3,
          "page": 43,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the multiplication (dynamic operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the multiplication (dynamic operation)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2614,16 +2586,12 @@
          "title": "Dynamic Short Division",
          "depth": 3,
          "page": 44,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the short division (dynamic operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the short division (dynamic operation)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -2694,16 +2662,12 @@
          "title": "Dynamic Long Division",
          "depth": 3,
          "page": 45,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the long division (dynamic operation)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the long division (dynamic operation)"
-            },
             {
              "type": "sub",
              "text": "Additional materials required"
@@ -3236,16 +3200,12 @@
          "title": "Dynamic Addition with the Stamp game",
          "depth": 3,
          "page": 51,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the “Change game” for addition",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the “Change game” for addition"
-            },
             {
              "type": "item",
              "level": 0,
@@ -3303,16 +3263,12 @@
          "title": "Dynamic Subtraction with the Stamp game",
          "depth": 3,
          "page": 52,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the “Change game” for subtraction",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the “Change game” for subtraction"
-            },
             {
              "type": "item",
              "level": 0,
@@ -3398,16 +3354,12 @@
          "title": "Dynamic Multiplication with the Stamp game",
          "depth": 3,
          "page": 53,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the multiplication (dynamic)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the multiplication (dynamic)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -3453,16 +3405,12 @@
          "title": "Dynamic Short division with the Stamp game",
          "depth": 3,
          "page": 54,
-         "lesson": false,
+         "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the short division (dynamic)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the short division (dynamic)"
-            },
             {
              "type": "item",
              "level": 0,
@@ -3507,13 +3455,9 @@
          "lesson": true,
          "sections": [
           {
-           "label": "",
-           "kind": "intro",
+           "label": "Presentation of the long division (dynamic)",
+           "kind": "presentation",
            "blocks": [
-            {
-             "type": "sub",
-             "text": "Presentation of the long division (dynamic)"
-            },
             {
              "type": "sub",
              "text": "Long division with 2 digits for the devisor"
@@ -31122,11 +31066,13 @@
           {
            "type": "para",
            "text": "as in the second or just write the subtraction on the same paper and draw the corresponding divisions that remain after the subtraction. -"
-          },
-          {
-           "type": "sub",
-           "text": "Presentation of the passage to abstraction for addition/subtraction"
-          },
+          }
+         ]
+        },
+        {
+         "label": "Presentation of the passage to abstraction for addition/subtraction",
+         "kind": "presentation",
+         "blocks": [
           {
            "type": "para",
            "text": "“3/8 + 1/4 + 2/8=”"
