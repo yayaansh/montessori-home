@@ -36,7 +36,16 @@
         },
         {
          "type": "para",
-         "text": "Maria Montessori in chapter 17: “Further elaboration through culture and imagination” of the Absorbent mind says that the child at this age learns many new words. He has a sensitiveness for words and he spontaneously accumulates them. If the child it is not helped he will obtain them with effort, therefore it is the guide’s task to facilitate the material “to feed this hunger for words”. In the Children’s House the classified nomenclature is very important and should come in conjunction with the material or experiences in which the children participate."
+         "text": "Maria Montessori in chapter 17: “Further elaboration through culture and imagination”"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the Absorbent mind says that the child at this age learns many new words. He has"
+        },
+        {
+         "type": "para",
+         "text": "a sensitiveness for words and he spontaneously accumulates them. If the child it is not helped he will obtain them with effort, therefore it is the guide’s task to facilitate the material “to feed this hunger for words”. In the Children’s House the classified nomenclature is very important and should come in conjunction with the material or experiences in which the children participate."
         },
         {
          "type": "para",
@@ -79,12 +88,47 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Children’s House  Sandpaper globe  Made with sandpaper for the land and smooth paint for the water  Coloured globe  The continents are coloured each in a different colour"
+         "text": "Children’s House"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Elementary  Blue and white globe  World globe  Physical geography globe with the relief of the land and the depths of the oceans"
+         "text": "Sandpaper globe"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Made with sandpaper for the land and smooth paint for the water"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Coloured globe"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "The continents are coloured each in a different colour"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Elementary"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Blue and white globe"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "World globe"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Physical geography globe with the relief of the land and the depths of the oceans"
         },
         {
          "type": "para",
@@ -98,12 +142,42 @@
         {
          "type": "item",
          "level": 1,
-         "text": "1 map of the world with the continents  This drawer includes two wood cut out maps (one blue & white and one coloured)  3 cardboard maps, two are blank and another one with text for the continents  2 black circles – one for each hemisphere."
+         "text": "1 map of the world with the continents"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "1 map of our continent  1 wood cut out frame  3 cardboard maps for the background: one with the borders of the countries, one with the names of the countries and oceans and seas, one with the capital cities and the names of the oceans and the seas."
+         "text": "This drawer includes two wood cut out maps (one blue & white and one coloured)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "3 cardboard maps, two are blank and another one with text for the continents"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "2 black circles – one for each hemisphere."
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "1 map of our continent"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "1 wood cut out frame"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "3 cardboard maps for the background: one with the borders of the countries, one with the names of the countries and oceans and seas, one with the capital cities and the names of the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ceans and the seas."
         },
         {
          "type": "item",
@@ -379,7 +453,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide introduces Asia and the etymology (“Some people think that in an old language meant “East” – these names are really old and no one really knows.)"
+               "text": "The guide introduces Asia and the etymology (“Some people think that in an"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "ld language meant “East” – these names are really old and no one really"
+              },
+              {
+               "type": "para",
+               "text": "knows.)"
               },
               {
                "type": "item",
@@ -468,7 +551,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide introduces the Pacific Ocean and the etymology. (“It is called Pacific ocean – sounds like the Peaceful ocean – but the Pacific it is not peaceful at all. Magellan navigated the ocean he had a very peaceful expedition and called it the Pacific Ocean”)."
+               "text": "The guide introduces the Pacific Ocean and the etymology. (“It is called Pacific"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "cean – sounds like the Peaceful ocean – but the Pacific it is not peaceful at"
+              },
+              {
+               "type": "para",
+               "text": "all. Magellan navigated the ocean he had a very peaceful expedition and called it the Pacific Ocean”)."
               },
               {
                "type": "item",
@@ -478,7 +570,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide introduces the Arctic Ocean and the etymology. (“It comes from the Greek word for the “bear” – that’s because on top of it there is the constellation of the “Little bear””)."
+               "text": "The guide introduces the Arctic Ocean and the etymology. (“It comes from the Greek word for the “bear” – that’s because on top of it there is the constellation"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f the “Little bear””)."
               },
               {
                "type": "item",
@@ -733,8 +830,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Paper prepared at the size of the puzzle map"
+             "type": "item",
+             "level": 1,
+             "text": "Paper prepared at the size of the puzzle map"
             }
            ]
           }
@@ -786,8 +884,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " The traced map from before"
+             "type": "item",
+             "level": 1,
+             "text": "The traced map from before"
             }
            ]
           }
@@ -836,8 +935,14 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " The blank world map  White prepared slips for the continents and the oceans"
+             "type": "item",
+             "level": 1,
+             "text": "The blank world map"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "White prepared slips for the continents and the oceans"
             }
            ]
           }
@@ -894,8 +999,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Blank paper  Tables with numerical data  The hundreds circle"
+             "type": "item",
+             "level": 1,
+             "text": "Blank paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Tables with numerical data"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "The hundreds circle"
             }
            ]
           }
@@ -1124,8 +1240,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Cards with all the flags of the world  Prepared slips with all the names  Control chart with all the countries flags and names"
+             "type": "item",
+             "level": 1,
+             "text": "Cards with all the flags of the world"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Prepared slips with all the names"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Control chart with all the countries flags and names"
             }
            ]
           }
@@ -1187,8 +1314,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Rectangular color paper"
+             "type": "item",
+             "level": 1,
+             "text": "Rectangular color paper"
             },
             {
              "type": "item",
@@ -1217,8 +1345,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Blank map for Europe  Box with the small flags for Europe from cardboard  Control map with the flags glued"
+             "type": "item",
+             "level": 1,
+             "text": "Blank map for Europe"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Box with the small flags for Europe from cardboard"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Control map with the flags glued"
             }
            ]
           }
@@ -1275,8 +1414,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Music player with the national anthems"
+             "type": "item",
+             "level": 1,
+             "text": "Music player with the national anthems"
             }
            ]
           }
@@ -1335,8 +1475,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Folder with pictures and prepared label  Wall chart with the parts of the flag  Booklet with definitions for the different parts of the flag"
+             "type": "item",
+             "level": 1,
+             "text": "Folder with pictures and prepared label"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Wall chart with the parts of the flag"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Booklet with definitions for the different parts of the flag"
             }
            ]
           }
@@ -1382,7 +1533,42 @@
               {
                "type": "item",
                "level": 0,
-               "text": "Parts of the flag:  Field – the background of the flag  Canton – the upper left part of the field  Flagstaff – the pole of the flag  Ornament - a decorative top for the flag pole  Halyard – the rope for hoisting the flag  Hoist – The reinforced part of the flag through which the rope is inserted - the vertical height of the flag  Fly – The end part of the flag that it’s not attached to the pole"
+               "text": "Parts of the flag:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Field – the background of the flag"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Canton – the upper left part of the field"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Flagstaff – the pole of the flag"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Ornament - a decorative top for the flag pole"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Halyard – the rope for hoisting the flag"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Hoist – The reinforced part of the flag through which the rope is inserted - the vertical height of the flag"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Fly – The end part of the flag that it’s not attached to the pole"
               }
              ]
             },
@@ -1413,31 +1599,97 @@
               {
                "type": "item",
                "level": 0,
-               "text": "Denmark (White Latin cross on red background 2:3 ratio)  The flag of Denmark is red with a white Scandinavian cross that extends to the edges of the flag; the vertical part of the cross is shifted to the hoist side. A banner with a white-on-red cross is attested as having been used by the kings of Denmark since the 14th century. An origin legend with considerable impact on Danish national historiography connects the introduction of the flag to the Battle of Lindanise of 1219. The elongated Nordic cross reflects the use as maritime flag in the 18th century. The flag became popular as national flag in the early 19th century. Its private use was outlawed in 1834, and again permitted in a regulation of 1854. The flag holds the world record of being the oldest continuously used national flag."
+               "text": "Denmark (White Latin cross on red background 2:3 ratio)"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "The flag of Denmark is red with a white Scandinavian cross that extends to the edges of the flag; the vertical part of the cross is shifted to the hoist side. A banner with a white-on-red cross is attested as having been used by the kings of Denmark since the 14th century. An origin legend with considerable impact on Danish national historiography connects the introduction of the flag to the Battle of Lindanise of 1219. The elongated Nordic cross reflects the use as maritime flag in the 18th century. The flag became popular as national flag in the early 19th century. Its private use was outlawed in 1834, and again permitted in a regulation of 1854. The flag holds the world record of being the"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "ldest continuously used national flag."
               },
               {
                "type": "item",
                "level": 0,
-               "text": "Swedish (Yellow Latin cross on blue background 2:3 ratio)  The flag of Sweden consists of a yellow or gold Nordic Cross on a field of blue. The Nordic Cross design traditionally represents Christianity. The design and colors of the Swedish flag are believed to have been inspired by the present coat of arms of Sweden of 1442, which is blue divided quarterly by a cross pattée of gold, and modeled on the Danish flag. Blue and yellow have been used as Swedish colours at least since King Magnus III's royal coat of arms of 1275."
+               "text": "Swedish (Yellow Latin cross on blue background 2:3 ratio)"
               },
               {
                "type": "item",
-               "level": 0,
-               "text": "Norway (Blue/white Latin cross on red background 2:3 ratio)  Fredrik Meltzer submitted his proposal just in time to be exhibited in parliament on 4 May 1821 together with a large number of other proposals. It was approved by both chambers during the following two weeks. Meltzer himself provided no written explanation for his choice of design and colours. However, his intentions may be inferred from an earlier letter of 30 April with his"
+               "level": 1,
+               "text": "The flag of Sweden consists of a yellow or gold Nordic Cross on a field of blue. The Nordic Cross design traditionally represents Christianity. The design and colors of the Swedish flag are believed to have been inspired by the present coat of arms of Sweden of 1442, which is blue divided quarterly by a cross pattée"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f gold, and modeled on the Danish flag. Blue and yellow have"
               },
               {
                "type": "para",
-               "text": "comments regarding the proposal from the flag committee. That design was divided quarterly red and white. Meltzer objected to the colours because they were too similar to those of the Danish flag. He added that it would be equally unseemly to choose the colours of any of \"those states with which we have been or are connected with\". Instead, he recommended a tricolor of red, white and blue, \"three colours that now denote freedom, such as we have seen in the French flag of freedom, and still see in that of the Dutch and Americans, and in the Union of the Englishmen\". His eventual choice a few days later of a Nordic cross was clearly based on the tradition established by the other Nordic countries, Denmark and Sweden. This cross represents Christianity. The red and blue colours also explicitly referred to the same two countries, former and present union partners. It was clearly understood by all who took part in the flag discussions locally, in the press or in parliament what those colours denoted. A predominantly red flag had many adherents among those who were attached to the union with Denmark or to its flag, which for centuries had also been that of Norway. Others, who saw Denmark as an oppressor, favored the blue colour associated with the new Swedish dynasty which was seen as more receptive of Norwegian ambitions of autonomy."
+               "text": "been used as Swedish colours at least since King Magnus III's royal coat of arms of 1275."
               },
               {
                "type": "item",
                "level": 0,
-               "text": "Finland (Blue Latin cross on white background 2:3 ratio)  The flag of Finland, also called siniristilippu (\"Blue Cross Flag\"), dates from the beginning of the 20th century. On a white background, it features a blue Nordic cross, which represents Christianity. The state flag has a coat of arms in the center, but is otherwise identical to the civil flag. The swallow-tailed state flag is used by the military. The presidential standard is identical to the swallow-tailed state flag but also has in its upper left corner the Cross of Liberty after the Order of the Cross of Liberty, which has the President of Finland as its Grand Master. Like Sweden's, Finland's national flag is based on the Scandinavian cross. It was adopted after independence from Russia, when many patriotic Finns wanted a special flag for their country, but its design dates back to the 19th century. The blue coloring is said to represent the country's thousands of lakes and the sky, with white for the snow that covers the land in winter. This colour combination has also been used over the centuries in various Finnish provincial, military, and town flags."
+               "text": "Norway (Blue/white Latin cross on red background 2:3 ratio)"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Fredrik Meltzer submitted his proposal just in time to be exhibited in parliament on 4 May 1821 together with a large number of"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "ther proposals. It was approved by both chambers during the"
+              },
+              {
+               "type": "para",
+               "text": "following two weeks. Meltzer himself provided no written explanation for his choice of design and colours. However, his intentions may be inferred from an earlier letter of 30 April with his"
+              },
+              {
+               "type": "para",
+               "text": "comments regarding the proposal from the flag committee. That design was divided quarterly red and white. Meltzer objected to the colours because they were too similar to those of the Danish flag. He added that it would be equally unseemly to choose the colours of any of \"those states with which we have been or are connected with\". Instead, he recommended a tricolor of red, white and blue, \"three colours that now denote freedom, such as we have seen in the French flag of freedom, and still see in that"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f the Dutch and Americans, and in the Union of the Englishmen\"."
+              },
+              {
+               "type": "para",
+               "text": "His eventual choice a few days later of a Nordic cross was clearly based on the tradition established by the other Nordic countries, Denmark and Sweden. This cross represents Christianity. The red and blue colours also explicitly referred to the same two countries, former and present union partners. It was clearly understood by all who took part in the flag discussions locally, in the press or in parliament what those colours denoted. A predominantly red flag had many adherents among those who were attached to the union with Denmark or to its flag, which for centuries had also been that of Norway. Others, who saw Denmark as an oppressor, favored the blue colour associated with the new Swedish dynasty which was seen as more receptive of Norwegian ambitions of autonomy."
               },
               {
                "type": "item",
                "level": 0,
-               "text": "Iceland (Red/white Latin cross on blue background 2:3 ratio)  Iceland's first national flag was a white cross on a deep blue background. It was first shown in parade in 1897. The modern flag dates from 1915, when a red cross was inserted into the white cross of the original flag. This cross represents Christianity. It was adopted and became the national flag when Iceland gained independence from Denmark in 1918. For the Icelandic people the flag's coloring represents a vision of their country's landscape. The colours stand for 3 of the elements that make up the island. Red is the fire produced by the island's volcanoes, white recalls the ice and snow that covers Iceland, and blue is for the ocean and the sky."
+               "text": "Finland (Blue Latin cross on white background 2:3 ratio)"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "The flag of Finland, also called siniristilippu (\"Blue Cross Flag\"), dates from the beginning of the 20th century. On a white background, it features a blue Nordic cross, which represents Christianity. The state flag has a coat of arms in the center, but is"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "therwise identical to the civil flag. The swallow-tailed state flag"
+              },
+              {
+               "type": "para",
+               "text": "is used by the military. The presidential standard is identical to the swallow-tailed state flag but also has in its upper left corner the Cross of Liberty after the Order of the Cross of Liberty, which has the President of Finland as its Grand Master. Like Sweden's, Finland's national flag is based on the Scandinavian cross. It was adopted after independence from Russia, when many patriotic Finns wanted a special flag for their country, but its design dates back to the 19th century. The blue coloring is said to represent the country's thousands of lakes and the sky, with white for the snow that covers the land in winter. This colour combination has also been used over the centuries in various Finnish provincial, military, and town flags."
+              },
+              {
+               "type": "item",
+               "level": 0,
+               "text": "Iceland (Red/white Latin cross on blue background 2:3 ratio)"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Iceland's first national flag was a white cross on a deep blue background. It was first shown in parade in 1897. The modern flag dates from 1915, when a red cross was inserted into the white cross of the original flag. This cross represents Christianity. It was adopted and became the national flag when Iceland gained independence from Denmark in 1918. For the Icelandic people the flag's coloring represents a vision of their country's landscape. The colours stand for 3 of the elements that make up the island. Red is the fire produced by the island's volcanoes, white recalls the ice and snow that covers Iceland, and blue is for the ocean and the sky."
               },
               {
                "type": "item",
@@ -1652,7 +1904,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide transfers some water from the water tray to the clay tray to fill part of the gap left by the removed clay."
+             "text": "The guide transfers some water from the water tray to the clay tray to fill part"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the gap left by the removed clay."
             },
             {
              "type": "item",
@@ -1709,8 +1966,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Blue/white globe"
+             "type": "item",
+             "level": 1,
+             "text": "Blue/white globe"
             }
            ]
           }
@@ -1731,7 +1989,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide invites the children to find the water/land contrasting forms on the blue/white globe."
+               "text": "The guide invites the children to find the water/land contrasting forms"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "n the blue/white globe."
               }
              ]
             }
@@ -1757,8 +2020,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Colour paper for water and land"
+             "type": "item",
+             "level": 1,
+             "text": "Colour paper for water and land"
             }
            ]
           }
@@ -1784,7 +2048,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide shows to the child how to switch the papers and glue them on paper."
+               "text": "The guide shows to the child how to switch the papers and glue them"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "n paper."
               }
              ]
             }
@@ -1810,8 +2079,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Folder with pictures and prepared label  Wall chart with the contrasting water/land shapes  Booklet with definitions for the different water/land shapes"
+             "type": "item",
+             "level": 1,
+             "text": "Folder with pictures and prepared label"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Wall chart with the contrasting water/land shapes"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Booklet with definitions for the different water/land shapes"
             }
            ]
           }
@@ -1857,7 +2137,37 @@
               {
                "type": "item",
                "level": 0,
-               "text": "Contrasting water/land forms:  Lake – an expanse of water enclosed by land  Island – piece of land surrounded by water  Peninsula – a piece of land extending far out in the water, and therefore almost surrounded by water.  Golf - an inlet of the sea penetrating far into the land  Isthmus – a narrow strip of land joining two large land areas  Strait – a narrow channel of water connecting two extensive areas of sea."
+               "text": "Contrasting water/land forms:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Lake – an expanse of water enclosed by land"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Island – piece of land surrounded by water"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Peninsula – a piece of land extending far out in the water, and therefore almost surrounded by water."
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Golf - an inlet of the sea penetrating far into the land"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Isthmus – a narrow strip of land joining two large land areas"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Strait – a narrow channel of water connecting two extensive areas of sea."
               }
              ]
             }
@@ -1918,8 +2228,19 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " 6 pairs of world maps with the water/land forms in red (with text one and the other blank in each pair)  Prepared slips with the names"
+             "type": "item",
+             "level": 1,
+             "text": "6 pairs of world maps with the water/land forms in red (with text"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne and the other blank in each pair)"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Prepared slips with the names"
             }
            ]
           }
@@ -1971,8 +2292,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Dictionary with the etymologies"
+             "type": "item",
+             "level": 1,
+             "text": "Dictionary with the etymologies"
             },
             {
              "type": "item",
@@ -1982,32 +2304,62 @@
             {
              "type": "item",
              "level": 0,
-             "text": "Island:  Comes from the old English word “igland” which meant “a watery place”. The present form of writing comes from the influence from the French language word “isle”"
+             "text": "Island:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Comes from the old English word “igland” which meant “a watery place”. The present form of writing comes from the influence from the French language word “isle”"
             },
             {
              "type": "item",
              "level": 0,
-             "text": "Lake:  Comes from the Latin word “lacus” which meant “hollow/depression”."
+             "text": "Lake:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Comes from the Latin word “lacus” which meant “hollow/depression”."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "Peninsula:  Comes from the Latin and it meant “almost an island”"
+             "text": "Peninsula:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Comes from the Latin and it meant “almost an island”"
             },
             {
              "type": "item",
              "level": 0,
-             "text": "Golf:  Come from the Latin word for fold."
+             "text": "Golf:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Come from the Latin word for fold."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "Isthmus:  Comes from the Greek word for “narrow passage”."
+             "text": "Isthmus:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Comes from the Greek word for “narrow passage”."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "Straight:  Comes from the French word for “narrow place”"
+             "text": "Straight:"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Comes from the French word for “narrow place”"
             }
            ]
           }
@@ -2031,8 +2383,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " Chart with the size of the lakes/islands/peninsulas etc."
+             "type": "item",
+             "level": 1,
+             "text": "Chart with the size of the lakes/islands/peninsulas etc."
             }
            ]
           }
@@ -2086,8 +2439,9 @@
              "text": "Additional material required"
             },
             {
-             "type": "para",
-             "text": " The trays with the isthmus and the strait"
+             "type": "item",
+             "level": 1,
+             "text": "The trays with the isthmus and the strait"
             }
            ]
           }
@@ -2453,7 +2807,16 @@
         },
         {
          "type": "para",
-         "text": "The second plane child has the imagination as his “servant” to take him on this journey of exploration and discovery, so necessary for the young mind that is thirsty for knowledge."
+         "text": "The second plane child has the imagination as his “servant” to take him on this journey"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f exploration and discovery, so necessary for the young mind that is thirsty for"
+        },
+        {
+         "type": "para",
+         "text": "knowledge."
         },
         {
          "type": "para",
@@ -2461,7 +2824,16 @@
         },
         {
          "type": "para",
-         "text": "The guide should do this story at the beginning of the school year as it provides a lot of thinking and work for the children. When this story is told all the children can be part and listen to it, if they heard it before they will understand more and more. The guide can create a sense of anticipation, announcing the story one or two before: “Tomorrow I’m going to tell you a very special story”. In this way the children can prepare themselves mentally for a very special moment."
+         "text": "The guide should do this story at the beginning of the school year as it provides a lot"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f thinking and work for the children. When this story is told all the children can be part"
+        },
+        {
+         "type": "para",
+         "text": "and listen to it, if they heard it before they will understand more and more. The guide can create a sense of anticipation, announcing the story one or two before: “Tomorrow I’m going to tell you a very special story”. In this way the children can prepare themselves mentally for a very special moment."
         },
         {
          "type": "para",
@@ -2520,7 +2892,17 @@
             {
              "type": "item",
              "level": 1,
-             "text": "Two identical bowls with crushed ice  One just with the ice  One with ice and salt (lower temperature)"
+             "text": "Two identical bowls with crushed ice"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "One just with the ice"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "One with ice and salt (lower temperature)"
             },
             {
              "type": "item",
@@ -2547,7 +2929,22 @@
             {
              "type": "item",
              "level": 1,
-             "text": "Three identical glasses  One empty  One with water  One with a rock"
+             "text": "Three identical glasses"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "One empty"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "One with water"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "One with a rock"
             },
             {
              "type": "item",
@@ -2579,7 +2976,12 @@
             {
              "type": "item",
              "level": 1,
-             "text": "Black paper  Rip the paper and place it in the water"
+             "text": "Black paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Rip the paper and place it in the water"
             }
            ]
           }
@@ -2678,7 +3080,22 @@
             {
              "type": "item",
              "level": 1,
-             "text": "3 test tubes  Water  Oil  Honey or syrup"
+             "text": "3 test tubes"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Water"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Oil"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Honey or syrup"
             },
             {
              "type": "item",
@@ -2879,7 +3296,12 @@
             },
             {
              "type": "para",
-             "text": "\"What He has done is all that has ever happened. He is the Creator and Master Who has made everything; and all things He has made obey his will. He cares and provides for them all, and keeps the whole of His creation in the most wonderful harmony and order.\""
+             "text": "\"What He has done is all that has ever happened. He is the Creator and Master Who has made everything; and all things He has made obey his will. He cares and provides for them all, and keeps the whole of His creation in the most wonderful harmony and"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "rder.\""
             },
             {
              "type": "para",
@@ -2887,7 +3309,12 @@
             },
             {
              "type": "para",
-             "text": "Many people thought this was just a tale. How could someone with no hands and no eyes make things? If God is a spirit who cannot be seen or touched or heard, how could He have made the stars that sparkle overhead, the sea which is always astir, the trees, the flowers and the scent they shed around them? Perhaps He could make invisible things, but how could He make the visible world? It is all very well, they thought, to say that God is everywhere, but who has ever set eyes on Him? How can we be sure He is anywhere? They tell us He is the Master who everybody and everything obeys, but why on earth should we believe that?"
+             "text": "Many people thought this was just a tale. How could someone with no hands and no eyes make things? If God is a spirit who cannot be seen or touched or heard, how could He have made the stars that sparkle overhead, the sea which is always astir, the trees, the flowers and the scent they shed around them? Perhaps He could make invisible things, but how could He make the visible world? It is all very well, they thought, to say that God is everywhere, but who has ever set eyes on Him? How can we be sure He is anywhere? They tell us He is the Master who everybody and everything"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "beys, but why on earth should we believe that?"
             },
             {
              "type": "para",
@@ -2899,7 +3326,16 @@
             },
             {
              "type": "para",
-             "text": "God's creatures do not know that they are obeying. Those that are inanimate just go on existing, those that have life move and go on living. Yet every time a cool wind brushes your cheek, its voice if you could hear it, is saying: \"Lord, I obey.\" When the sun"
+             "text": "God's creatures do not know that they are obeying. Those that are inanimate just go"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n existing, those that have life move and go on living. Yet every time a cool wind"
+            },
+            {
+             "type": "para",
+             "text": "brushes your cheek, its voice if you could hear it, is saying: \"Lord, I obey.\" When the sun"
             },
             {
              "type": "para",
@@ -2907,7 +3343,16 @@
             },
             {
              "type": "para",
-             "text": "At first there was chaos, and darkness was on the face of the deep. God said, \"Let there be light,\" and there was light. Before that, there was only the deep: an immensity of space with no beginning and no end, indescribably dark and cold. Who can imagine that immensity, that darkness and coldness?"
+             "text": "At first there was chaos, and darkness was on the face of the deep. God said, \"Let there be light,\" and there was light. Before that, there was only the deep: an immensity"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f space with no beginning and no end, indescribably dark and cold. Who can"
+            },
+            {
+             "type": "para",
+             "text": "imagine that immensity, that darkness and coldness?"
             },
             {
              "type": "para",
@@ -2915,7 +3360,16 @@
             },
             {
              "type": "para",
-             "text": "This raging fiery cloud of nothingness, too huge to imagine, moved in the immensity of freezing space, which was also nothingness but infinitely vaster: The fiery mass was no bigger than a drop of water in that ocean of space."
+             "text": "This raging fiery cloud of nothingness, too huge to imagine, moved in the immensity"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f freezing space, which was also nothingness but infinitely vaster: The fiery mass was"
+            },
+            {
+             "type": "para",
+             "text": "no bigger than a drop of water in that ocean of space."
             },
             {
              "type": "para",
@@ -2927,7 +3381,16 @@
             },
             {
              "type": "para",
-             "text": "Then there are so many stars that scientists have calculated that if each of them were a grain of sand, all the stars together would cover up the whole of Ireland up to a height of about 400 meters (England or Alabama 200 meters). One of these stars, one of the grains of sand among those thousands of billions of grains of sand, is our sun, and 1 millionth part of this grain is our earth. An invisible speck of nothingness."
+             "text": "Then there are so many stars that scientists have calculated that if each of them were a grain of sand, all the stars together would cover up the whole of Ireland up to a height of about 400 meters (England or Alabama 200 meters). One of these stars, one"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the grains of sand among those thousands of billions of grains of sand, is our sun,"
+            },
+            {
+             "type": "para",
+             "text": "and 1 millionth part of this grain is our earth. An invisible speck of nothingness."
             },
             {
              "type": "para",
@@ -2935,15 +3398,56 @@
             },
             {
              "type": "para",
-             "text": "When God's will called the stars into being,-there was not detail He had not planned. Every scrap of the universe, every speck which we might think too tiny to matter, was given a set of laws to follow. To the little particles which are like smoke, like vapour - which could only be distinguished as light and heat - moving at a fantastic speed He said: as you become cold you shall come closer and become smaller.. And so as they cooled they moved more and more slowly, clinging closer and closer to each other, occupying less and less space. The particles assumed different states which we call the solids, the liquid and the gaseous state. Everything we know is either a gas or a liquid or a solid, and which of these three states it is at any moment depends on how hot or how cold it is. Experiment 2 (“Three states of matter”). Then God gave other instructions. Each of the tiny little particles was given a special love for certain particles and a special dislike for certain others. Some were attracted to each other and some were not. Just like human beings, they like some and refuse to have anything to do with others. In this way they combined and formed themselves into different groups. Experiment 3 (“Power of attraction”) In the solid state, God has made the particles cling so closely together that they are almost impossible to separate. They form a body which will not alter its shape unless one applies force. If a piece is broken off, the particles still cling together. If, for instance you start chipping a flint, the flint and the chips still remain solid pieces of stone. When it came to liquids, God said: you shall hold together also, but not so very closely. So that you will have no shape of your own and will roll over each other. Experiment 4 (“Characteristic movement of liquids”). Thus you shall flow and spread, filling every hollow, every crevice in your path. You will push downwards and sideways, but never upwards. That is why, though we can put our hands in water, we cannot plunge them inside a rock. And to the gases He said: your particles shall not cling together at all. They can move freely in all directions."
+             "text": "When God's will called the stars into being,-there was not detail He had not planned. Every scrap of the universe, every speck which we might think too tiny to matter, was given a set of laws to follow. To the little particles which are like smoke, like vapour - which could only be distinguished as light and heat - moving at a fantastic speed He said: as you become cold you shall come closer and become smaller.. And so as they cooled they moved more and more slowly, clinging closer and closer to each other, occupying less and less space. The particles assumed different states which we call the solids, the liquid and the gaseous state. Everything we know is either a gas or a liquid or a solid, and which of these three states it is at any moment depends"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n how hot or how cold it is. Experiment 2 (“Three states of matter”)."
             },
             {
              "type": "para",
-             "text": "But as the particles were also different individuals, they did not become solid or liquid or gas all at the same time. At a certain temperature some remained solid, others became liquid and still others became gaseous. Experiment 5 (“Different substances change their state of matter”) And so, while obeying these laws the little drop of nothingness that was to become our world, the blazing mass, went on spinning and spinning around itself and sun in the tremendous cold of space. And as time went on, the outer ring of this mass began to dance, a dance of the elements. The particles that were at the outermost edge became cold and shrank; huddling together they hurried to the earth but as soon as they approached the hotter part they became hot and up they went again. Like little angels they carried a bucket of hot, burning coal into the space and returned with some ice. Chart 3a."
+             "text": "Then God gave other instructions. Each of the tiny little particles was given a special love for certain particles and a special dislike for certain others. Some were attracted to each other and some were not. Just like human beings, they like some and refuse to have anything to do with others. In this way they combined and formed themselves into different groups. Experiment 3 (“Power of attraction”) In the solid state, God has made the particles cling so closely together that they are almost impossible to separate. They form a body which will not alter its shape unless"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne applies force. If a piece is broken off, the particles still cling together. If, for"
             },
             {
              "type": "para",
-             "text": "How marvellous it is, and how simple. If you become hot you expand, and as you expand, you become lighter and soar upwards, like a bubble of air in the water. But if you become cold you shrink and fall, as a grain of sand sinks to the bottom of a pond. Because of this law the earth gradually changed from a ball of fire to the earth we know. This was the law that the tiny radiant particles obeyed as they danced their dance; particles too minute to be seen or even imagined, yet numerous enough to have produced the world. For hundreds, thousands, millions of years this dance went on. Finally the particles settled down, like tired dancers, and one after another, they became first liquid and then solid and as they became solid or liquid some of them joined others to which they were attracted forming new substances. The heavier ones went nearer to the heart of the earth and the lighter ones floated above them like oil floating on water. Experiment 6 (“Heavy and light substances”) A thin scum was formed, like the skin which forms on milk when it is boiled and left to cool. It seemed as if the earth had taken some shape. But the elements inside this skin were still very hot and they felt trapped. They wanted to get out. What could they do otherwise? They had to follow the law of God: if you are hot you expand. There was"
+             "text": "instance you start chipping a flint, the flint and the chips still remain solid pieces of stone. When it came to liquids, God said: you shall hold together also, but not so very closely. So that you will have no shape of your own and will roll over each other. Experiment 4 (“Characteristic movement of liquids”). Thus you shall flow and spread, filling every hollow, every crevice in your path. You will push downwards and sideways, but never upwards. That is why, though we can put our hands in water, we cannot plunge them inside a rock. And to the gases He said: your particles shall not cling together at all. They can move freely in all directions."
+            },
+            {
+             "type": "para",
+             "text": "But as the particles were also different individuals, they did not become solid or liquid"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "r gas all at the same time. At a certain temperature some remained solid, others"
+            },
+            {
+             "type": "para",
+             "text": "became liquid and still others became gaseous. Experiment 5 (“Different substances change their state of matter”) And so, while obeying these laws the little drop of nothingness that was to become"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ur world, the blazing mass, went on spinning and spinning around itself and sun in the"
+            },
+            {
+             "type": "para",
+             "text": "tremendous cold of space. And as time went on, the outer ring of this mass began to dance, a dance of the elements. The particles that were at the outermost edge became cold and shrank; huddling together they hurried to the earth but as soon as they approached the hotter part they became hot and up they went again. Like little angels they carried a bucket of hot, burning coal into the space and returned with some ice. Chart 3a."
+            },
+            {
+             "type": "para",
+             "text": "How marvellous it is, and how simple. If you become hot you expand, and as you expand, you become lighter and soar upwards, like a bubble of air in the water. But if you become cold you shrink and fall, as a grain of sand sinks to the bottom of a pond. Because of this law the earth gradually changed from a ball of fire to the earth we know. This was the law that the tiny radiant particles obeyed as they danced their dance; particles too minute to be seen or even imagined, yet numerous enough to have produced the world. For hundreds, thousands, millions of years this dance went on. Finally the particles settled down, like tired dancers, and one after another, they became first liquid and then solid and as they became solid or liquid some of them joined others to which they were attracted forming new substances. The heavier ones went nearer to the heart of the earth and the lighter ones floated above them like oil floating on water. Experiment 6 (“Heavy and light substances”) A thin scum was formed, like the skin which forms on milk when it is boiled and left to cool. It seemed as if the earth had taken some shape. But the elements inside this skin were still very hot and they felt trapped. They wanted to get out. What could they do"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "therwise? They had to follow the law of God: if you are hot you expand. There was"
             },
             {
              "type": "para",
@@ -2951,15 +3455,21 @@
             },
             {
              "type": "para",
-             "text": "Eventually the fighting ceased. As everybody cooled down more and more gases became liquid, more and more liquids became solids. The earth itself shrank and became wrinkled like an old apples that has been left in a cupboard. The wrinkles are the mountains and the hollows are the oceans. For, as soon as the rocks had cooled down, water was able to return to the earth and it rained and rained and rained. And the water, being liquid, filled every hollow and crevice it found in its path. Thus the oceans were formed. Above them was air. The cloud had disappeared. The veil was"
+             "text": "Eventually the fighting ceased. As everybody cooled down more and more gases became liquid, more and more liquids became solids. The earth itself shrank and became wrinkled like an old apples that has been left in a cupboard. The wrinkles are the mountains and the hollows are the oceans. For, as soon as the rocks had cooled down, water was able to return to the earth and it rained and rained and rained. And the water, being liquid, filled every hollow and crevice it found in its path. Thus the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ceans were formed. Above them was air. The cloud had disappeared. The veil was"
             },
             {
              "type": "para",
-             "text": "withdrawn and the sun could once again smile upon its beautiful little daughter: the earth. Chart 5a. Rocks, water, air: solids, liquids and gases. Today, as it was yesterday and millions of years ago, God's laws are obeyed in the self-same way. The world spins round itself and round and round the sun. And today, as it was millions of years ago, the earth and all the elements and compounds it is made of, as they fulfil their task, whisper with one voice:"
+             "text": "withdrawn and the sun could once again smile upon its beautiful little daughter: the earth. Chart 5a. Rocks, water, air: solids, liquids and gases. Today, as it was yesterday and millions of years ago, God's laws are obeyed in the self-same way. The world spins round itself and round and round the sun. And today, as it was millions of years ago, the earth and all the elements and compounds it is made of, as they fulfil their task, whisper with"
             },
             {
-             "type": "para",
-             "text": "\"Lord, Thy will be done; we obey\""
+             "type": "item",
+             "level": 1,
+             "text": "ne voice: \"Lord, Thy will be done; we obey\""
             }
            ]
           }
@@ -3134,7 +3644,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "A weight tied to a string with different lengths to demonstrate that the speed of the planets increases when the arm is shorter"
+             "text": "A weight tied to a string with different lengths to demonstrate that the speed"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the planets increases when the arm is shorter"
             }
            ]
           }
@@ -3167,7 +3682,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "To inspire the children in the exploration of the universe, to open a door for their own work of research"
+             "text": "To inspire the children in the exploration of the universe, to open a door for their"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "wn work of research"
             },
             {
              "type": "para",
@@ -3307,7 +3827,16 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Container pierced along the height  The holes are covered with tape Gases"
+         "text": "Container pierced along the height"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "The holes are covered with tape"
+        },
+        {
+         "type": "para",
+         "text": "Gases"
         },
         {
          "type": "item",
@@ -3494,12 +4023,41 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Stand with 3 test tubes taped on  Water, oil and honey Experiment 3"
+         "text": "Stand with 3 test tubes taped on"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "8 strips of wood: Balsa and Linden  5mm thick  0.5 m long, 1m long, 1.5 m long, 2 m long  10 mm thick  0.5 m long, 1m long, 1.5 m long, 2 m long"
+         "text": "Water, oil and honey"
+        },
+        {
+         "type": "para",
+         "text": "Experiment 3"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "8 strips of wood: Balsa and Linden"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "5mm thick"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "0.5 m long, 1m long, 1.5 m long, 2 m long"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "10 mm thick"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "0.5 m long, 1m long, 1.5 m long, 2 m long"
         },
         {
          "type": "item",
@@ -4006,7 +4564,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide talks about the facts that some particles like to stick together and other don’t"
+             "text": "The guide talks about the facts that some particles like to stick together and"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ther don’t"
             }
            ]
           }
@@ -4079,7 +4642,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide does a second experiment and brings copper sulphate crystals and adds water and invites the children observe how the copper sulphate crystals dissolve into the water"
+             "text": "The guide does a second experiment and brings copper sulphate crystals and adds water and invites the children"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "bserve how the copper sulphate crystals dissolve into the"
+            },
+            {
+             "type": "para",
+             "text": "water"
             },
             {
              "type": "item",
@@ -4106,7 +4678,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide does a third experiment and places piece of marble on a plate and on top of it adds hydrochloric acid"
+             "text": "The guide does a third experiment and places piece of marble on a plate and"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n top of it adds hydrochloric acid"
             },
             {
              "type": "item",
@@ -4279,7 +4856,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide puts a few drops of hydrochloric acid in a bowl and on the interior of the lid of the bowl it adds a little bit of ammonia with a cotton bud."
+             "text": "The guide puts a few drops of hydrochloric acid in a bowl and on the interior"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the lid of the bowl it adds a little bit of ammonia with a cotton bud."
             },
             {
              "type": "item",
@@ -4642,7 +5224,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide says that this all you need to know to start exploring by yourself with other liquids."
+               "text": "The guide says that this all you need to know to start exploring by yourself with"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "ther liquids."
               }
              ]
             }
@@ -5238,7 +5825,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide talks about the lithosphere and says that it can vary from a couple of kilometers to 70 kilometers"
+               "text": "The guide talks about the lithosphere and says that it can vary from a couple"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f kilometers to 70 kilometers"
               },
               {
                "type": "item",
@@ -5281,7 +5873,12 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Colour pencil, graph paper"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Colour pencil, graph paper"
               },
               {
                "type": "item",
@@ -5508,7 +6105,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide says that at the beginning the crust was made of two types of rocks the basalt and the granite. The granite was less dense, and before the crust was even solid, when the Earth was still cooling down it floated on top of the basalt and in some places the granites got stock in a sea of basalt. Eventually the crust of the Earth cooled down so now we can find layers of granite on top of the basalt. Experiment with the container of water, bring rocks of basalt and granite and"
+               "text": "The guide says that at the beginning the crust was made of two types of rocks the basalt and the granite. The granite was less dense, and before the crust was even solid, when the Earth was still cooling down it floated on top of the basalt and in some places the granites got stock in a sea of basalt. Eventually the crust of the Earth cooled down so now we can find layers of granite on top"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f the basalt."
+              },
+              {
+               "type": "para",
+               "text": "Experiment with the container of water, bring rocks of basalt and granite and"
               }
              ]
             }
@@ -5723,7 +6329,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide says that we should see now what is the density of the granite and of the basalt. To find it we should divide the weight by the volume."
+               "text": "The guide says that we should see now what is the density of the granite and"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f the basalt. To find it we should divide the weight by the volume."
               }
              ]
             }
@@ -5930,7 +6541,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "Isostasy (Greek ísos \"equal\", stásis \"standstill\") is the state of gravitational equilibrium between Earth's crust (or lithosphere) and mantle such that the crust \"floats\" at an elevation that depends on its thickness and density. This concept is invoked to explain how different topographic heights can exist at Earth's surface. When a certain area of Earth's crust reaches the state of isostasy, it is said to be in isostatic equilibrium. Isostasy does not upset equilibrium but instead restores it (a negative feedback). It is generally accepted that Earth is a dynamic system that responds to loads in many different ways. However, isostasy provides an important 'view' of the processes that are happening in areas that are experiencing vertical movement. Certain areas (such as the Himalayas) are not in isostatic equilibrium, which has forced researchers to identify other reasons to explain their topographic heights (in the case of the Himalayas, which are still rising, by proposing that their elevation is being supported by the force of the impacting Indian Plate; the Basin and Range Province of the Western US is another example of a region not in isostatic equilibrium.) Although originally defined in terms of continental crust and mantle, it has subsequently been interpreted in terms of lithosphere and asthenosphere, particularly with respect to oceanic island volcanoes such as the Hawaiian Islands. In the simplest example, isostasy is the principle of buoyancy wherein an object immersed in a fluid is buoyed with a force equal to the weight of the displaced fluid. On a geological scale, isostasy can be observed where Earth's strong crust or lithosphere exerts stress on the weaker mantle or asthenosphere, which, over geological time, flows laterally such that the load is accommodated by height adjustments. The general term 'isostasy' was coined in 1889 by the American geologist Clarence Dutton"
+               "text": "Isostasy (Greek ísos \"equal\", stásis \"standstill\") is the state of gravitational equilibrium between Earth's crust (or lithosphere) and mantle such that the crust \"floats\" at an elevation that depends on its thickness and density. This concept is invoked to explain how different topographic heights can exist at Earth's surface. When a certain area of Earth's crust reaches the state of isostasy, it is said to be in isostatic equilibrium. Isostasy does not upset equilibrium but instead restores it (a negative feedback). It is generally accepted that Earth is a dynamic system that responds to loads in many different ways. However, isostasy provides an important 'view' of the processes that are happening in areas that are experiencing vertical movement. Certain areas (such as the Himalayas) are not in isostatic equilibrium, which has forced researchers to identify other reasons to explain their topographic heights (in the case of the Himalayas, which are still rising, by proposing that their elevation is being supported by the force of the impacting Indian Plate; the Basin and Range Province of the Western US is another example of a region not in isostatic equilibrium.) Although originally defined in terms of continental crust and mantle, it has subsequently been interpreted in terms of lithosphere and asthenosphere, particularly with respect to oceanic island volcanoes such as the Hawaiian Islands. In the simplest example, isostasy is the principle of buoyancy wherein an object immersed in a fluid is buoyed with a force equal to the weight of the displaced fluid. On a geological scale, isostasy can be observed where Earth's strong crust or lithosphere exerts stress on the weaker mantle or asthenosphere, which,"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "ver geological time, flows laterally such that the load is accommodated by"
+              },
+              {
+               "type": "para",
+               "text": "height adjustments. The general term 'isostasy' was coined in 1889 by the American geologist Clarence Dutton"
               }
              ]
             },
@@ -6059,12 +6679,26 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says that the igneous word comes from the Latin word igneus for “fire”. These rocks are formed through the cooling, solidification of magma or lava. Due to their origin these rocks do not contain any fossils. Some examples of igneous rocks are: basalt, obsidian and pumice"
+             "text": "The guide says that the igneous word comes from the Latin word igneus for “fire”. These rocks are formed through the cooling, solidification of magma or lava. Due to their origin these rocks do not contain any fossils. Some examples"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f igneous rocks are: basalt, obsidian and pumice"
             },
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says that the sedimentary rocks are formed at the earth's surface by the accumulation and cementation of fragments of earlier rocks, minerals, and organisms or as chemical precipitates and organic growths in water (sedimentation). The guide reminds the children of the work of the river of Erosion. The guide says that the word sedimentary comes from the Latin word sedimentum which means “to settle”. Some examples of sedimentary rocks: sandstone, limestone and shale."
+             "text": "The guide says that the sedimentary rocks are formed at the earth's surface by the accumulation and cementation of fragments of earlier rocks, minerals, and"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "rganisms or as chemical precipitates and organic growths in water"
+            },
+            {
+             "type": "para",
+             "text": "(sedimentation). The guide reminds the children of the work of the river of Erosion. The guide says that the word sedimentary comes from the Latin word sedimentum which means “to settle”. Some examples of sedimentary rocks: sandstone, limestone and shale."
             },
             {
              "type": "item",
@@ -6091,7 +6725,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says that the surface of the Earth it is made of plates instead of just one complete piece of land. We call this plates: tectonic plates. There are 7 big plates and around 20 smaller ones. These plates are slowly drifting on the mantel. A long time ago all the continents were forming a large unique continent. With the time these plates started to drift away and when they meet each other they collide. The plates move as fast as our nails grow, it might seems slow but with the time they push into each other and create what we call the mountains."
+             "text": "The guide says that the surface of the Earth it is made of plates instead of just"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne complete piece of land. We call this plates: tectonic plates. There are 7"
+            },
+            {
+             "type": "para",
+             "text": "big plates and around 20 smaller ones. These plates are slowly drifting on the mantel. A long time ago all the continents were forming a large unique continent. With the time these plates started to drift away and when they meet each other they collide. The plates move as fast as our nails grow, it might seems slow but with the time they push into each other and create what we call the mountains."
             },
             {
              "type": "item",
@@ -6132,7 +6775,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide invites the children to think about another types of mountains. These mountains are created because the surface of the Earth due to pressure has formed cracks. These kinds of blocks of fractured rocks are called faults. When this happens over a long time, one of the blocks of rock it is moved upwards and creates mountain with a flat top called a block mountain. The upper part of the mountain it is called Horst and the valley created on the sides it is called Graben."
+             "text": "The guide invites the children to think about another types of mountains. These mountains are created because the surface of the Earth due to pressure has formed cracks. These kinds of blocks of fractured rocks are called faults. When this happens over a long time, one of the blocks of rock it is moved upwards and creates mountain with a flat top called a block mountain. The upper part"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the mountain it is called Horst and the valley created on the sides it is called"
+            },
+            {
+             "type": "para",
+             "text": "Graben."
             },
             {
              "type": "item",
@@ -6269,7 +6921,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide continues and says that when the tectonic plates moves away from one another – we call this a divergent boundary. On land where the crust it is thicket it creates a canyon with steep edges. We can call this formation a valley ridge."
+             "text": "The guide continues and says that when the tectonic plates moves away from"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne another – we call this a divergent boundary. On land where the crust it is"
+            },
+            {
+             "type": "para",
+             "text": "thicket it creates a canyon with steep edges. We can call this formation a valley ridge."
             },
             {
              "type": "item",
@@ -6344,8 +7005,9 @@
              "text": "Additional material required:"
             },
             {
-             "type": "para",
-             "text": " Classified nomenclature"
+             "type": "item",
+             "level": 1,
+             "text": "Classified nomenclature"
             },
             {
              "type": "item",
@@ -6374,8 +7036,9 @@
              "text": "Additional material required:"
             },
             {
-             "type": "para",
-             "text": " Jars with the slips that represent the layers"
+             "type": "item",
+             "level": 1,
+             "text": "Jars with the slips that represent the layers"
             },
             {
              "type": "item",
@@ -6404,8 +7067,9 @@
              "text": "Additional material required:"
             },
             {
-             "type": "para",
-             "text": " Classified nomenclature"
+             "type": "item",
+             "level": 1,
+             "text": "Classified nomenclature"
             },
             {
              "type": "item",
@@ -6452,25 +7116,67 @@
             },
             {
              "type": "para",
-             "text": "a sequence known as Bowen's reaction series. Most major igneous rocks are found along this scale. About 64.7% of the Earth's crust by volume consists of igneous rocks, making it the most plentiful category. Of these, 66% are basalts and gabbros, 16% are granite, and 17% granodiorites and diorites. Only 0.6% are syenites and 0.3% peridotites and dunites. The oceanic crust is 99% basalt, which is an igneous rock of mafic composition. Granites and similar rocks, known as meta-granitoids, form much of the continental crust.[7] Over 700 types of igneous rocks have been described, most of them having formed beneath the surface of Earth's crust. These have diverse properties, depending on their composition and the temperature and pressure conditions in which they were formed. Igneous rocks are divided into two main categories:"
-            },
-            {
-             "type": "para",
-             "text": " Plutonic or intrusive rocks result when magma cools and crystallizes slowly within the Earth's crust. A common example of this type is granite."
-            },
-            {
-             "type": "para",
-             "text": " Volcanic or extrusive rocks result from magma reaching the surface either as lava or fragmental ejecta, forming minerals such as pumice or basalt."
+             "text": "a sequence known as Bowen's reaction series. Most major igneous rocks are found along this scale. About 64.7% of the Earth's crust by volume consists of igneous rocks, making it the most plentiful category. Of these, 66% are basalts and gabbros, 16% are granite, and 17% granodiorites and diorites. Only 0.6% are syenites and 0.3% peridotites and dunites. The"
             },
             {
              "type": "item",
              "level": 1,
-             "text": "Sedimentary rocks are formed at the earth's surface by the accumulation and cementation of fragments of earlier rocks, minerals, and organisms or as chemical precipitates and organic growths in water (sedimentation). This process causes clastic sediments (pieces of rock) or organic particles (detritus) to settle and accumulate, or for minerals to chemically precipitate (evaporite) from a solution. The particulate matter then undergoes compaction and cementation at moderate temperatures and pressures (diagenesis). Before being deposited, sediments are formed by weathering of earlier rocks by erosion in a source area and then transported to the place of deposition by water, wind, ice, mass movement or glaciers (agents of denudation). Mud rocks comprise 65% (mudstone, shale and siltstone); sandstones 20 to 25% and carbonate rocks 10 to 15% (limestone and dolomite). About 7.9% of the crust by volume is composed of sedimentary rocks, with 82% of those being shales, while the remainder consists of limestone (6%), sandstone and arkoses (12%). Sedimentary rocks often contain fossils. Sedimentary rocks form under the influence of gravity and typically are deposited in horizontal or near horizontal layers or strata and may be referred to as stratified rocks. A small fraction of sedimentary rocks deposited on steep slopes will show cross bedding where one layer stops abruptly along an interface where another layer eroded the first as it was laid atop the first."
+             "text": "ceanic crust is 99% basalt, which is an igneous rock of mafic"
+            },
+            {
+             "type": "para",
+             "text": "composition. Granites and similar rocks, known as meta-granitoids, form much of the continental crust.[7] Over 700 types of igneous rocks have been described, most of them having formed beneath the surface of Earth's crust. These have diverse properties, depending on their composition and the temperature and pressure conditions in which they were formed. Igneous rocks are divided into two main categories:"
             },
             {
              "type": "item",
              "level": 1,
-             "text": "Metamorphic rocks are formed by subjecting any rock type— sedimentary rock, igneous rock or another older metamorphic rock—to different temperature and pressure conditions than those in which the original rock was formed. This process is called metamorphism, meaning to \"change in form\". The result is a profound change in physical properties and chemistry of the stone. The original rock, known as the protolith, transforms into other mineral types or other forms of the same minerals, by recrystallization. The temperatures and pressures required for this process are always higher than those found at the Earth's surface: temperatures greater than 150 to 200 °C and pressures of 1500 bars. Metamorphic rocks compose 27.4% of the crust by volume. The three major classes of metamorphic rock are based upon the formation mechanism. An intrusion of magma that heats the surrounding rock causes contact metamorphism—a temperature-dominated transformation. Pressure metamorphism occurs when sediments are buried deep under the ground; pressure is dominant, and temperature plays a smaller role. This is termed burial metamorphism, and it can result in rocks such as jade. Where both heat and pressure play a role, the mechanism is termed regional metamorphism. This is typically found in mountain-building regions. Depending on the structure, metamorphic rocks are divided into two general categories. Those that possess a texture are referred to as foliated; the remainders are termed non- foliated. The name of the rock is then determined based on the types of minerals present. Schists are foliated rocks that are primarily composed of lamellar minerals such as micas. A gneiss has visible bands of differing lightness, with a common example being the granite gneiss. Other varieties of foliated rock include slates, phyllites, and mylonite. Familiar examples of non-foliated metamorphic rocks include marble, soapstone, and serpentine. This branch contains quartzite—a metamorphosed form of sandstone—and hornfels."
+             "text": "Plutonic or intrusive rocks result when magma cools and crystallizes slowly within the Earth's crust. A common example of this type is granite."
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Volcanic or extrusive rocks result from magma reaching the surface either as lava or fragmental ejecta, forming minerals such as pumice or basalt."
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Sedimentary rocks are formed at the earth's surface by the accumulation and cementation of fragments of earlier rocks, minerals, and organisms or as chemical precipitates and organic growths in water (sedimentation). This process causes clastic sediments (pieces of rock)"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "r organic particles (detritus) to settle and accumulate, or for minerals"
+            },
+            {
+             "type": "para",
+             "text": "to chemically precipitate (evaporite) from a solution. The particulate matter then undergoes compaction and cementation at moderate temperatures and pressures (diagenesis). Before being deposited, sediments are formed by weathering of earlier rocks by erosion in a source area and then transported to the place of deposition by water, wind, ice, mass movement or glaciers (agents of denudation). Mud rocks comprise 65% (mudstone, shale and siltstone); sandstones 20 to 25% and carbonate rocks 10 to 15% (limestone and dolomite). About 7.9% of the crust by volume is composed of sedimentary rocks, with 82% of those being shales, while the remainder consists of limestone (6%), sandstone and arkoses (12%). Sedimentary rocks often contain fossils. Sedimentary rocks form under the influence of gravity and typically are deposited in horizontal or near horizontal layers or strata and may be referred to as stratified rocks. A small fraction of sedimentary rocks deposited on steep slopes will show cross bedding where one layer stops abruptly along an interface where another layer eroded the first as it was laid atop the first."
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Metamorphic rocks are formed by subjecting any rock type— sedimentary rock, igneous rock or another older metamorphic rock—to different temperature and pressure conditions than those in which the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "riginal rock was formed. This process is called metamorphism, meaning"
+            },
+            {
+             "type": "para",
+             "text": "to \"change in form\". The result is a profound change in physical properties and chemistry of the stone. The original rock, known as the protolith, transforms into other mineral types or other forms of the same minerals, by recrystallization. The temperatures and pressures required for this process are always higher than those found at the Earth's surface:"
+            },
+            {
+             "type": "para",
+             "text": "temperatures greater than 150 to 200 °C and pressures of 1500 bars. Metamorphic rocks compose 27.4% of the crust by volume. The three major classes of metamorphic rock are based upon the formation mechanism. An intrusion of magma that heats the surrounding rock causes contact metamorphism—a temperature-dominated transformation. Pressure metamorphism occurs when sediments are buried deep under the ground; pressure is dominant, and temperature plays a smaller role. This is termed burial metamorphism, and it can result in rocks such as jade. Where both heat and pressure play a role, the mechanism is termed regional metamorphism. This is typically found in mountain-building regions. Depending on the structure, metamorphic rocks are divided into two general categories. Those that possess a texture are referred to as foliated; the remainders are termed non- foliated. The name of the rock is then determined based on the types of minerals present. Schists are foliated rocks that are primarily composed"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f lamellar minerals such as micas. A gneiss has visible bands of differing"
+            },
+            {
+             "type": "para",
+             "text": "lightness, with a common example being the granite gneiss. Other varieties of foliated rock include slates, phyllites, and mylonite. Familiar examples of non-foliated metamorphic rocks include marble, soapstone, and serpentine. This branch contains quartzite—a metamorphosed form of sandstone—and hornfels."
             }
            ]
           },
@@ -6869,7 +7575,12 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide talks about the fact that this part of the Earth is in the light and the other is in the dark"
+                 "text": "The guide talks about the fact that this part of the Earth is in the light and the"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "ther is in the dark"
                 },
                 {
                  "type": "item",
@@ -6916,7 +7627,16 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide says that the chart presents our Earth and Sun. The guide says that we talk about “Dawn” when our part of the Earth comes into the light of the Sun, “Noon” when our place on Earth it is facing directly the sun, “Sunset” when our part of the Earth moves out of the light of the Sun and “Night” when the Sun does not shine directly on our place on the planet."
+                 "text": "The guide says that the chart presents our Earth and Sun. The guide says that we talk about “Dawn” when our part of the Earth comes into the light of the Sun, “Noon” when our place on Earth it is facing directly the sun, “Sunset” when"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "ur part of the Earth moves out of the light of the Sun and “Night” when the"
+                },
+                {
+                 "type": "para",
+                 "text": "Sun does not shine directly on our place on the planet."
                 }
                ]
               }
@@ -7032,7 +7752,12 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Day and night disk"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Day and night disk"
               }
              ]
             }
@@ -7082,7 +7807,12 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Day and night disk"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Day and night disk"
               }
              ]
             }
@@ -7735,7 +8465,12 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide brings a dark surface and uses a lantern to shine it perpendicularly on the paper."
+                 "text": "The guide brings a dark surface and uses a lantern to shine it perpendicularly"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "n the paper."
                 },
                 {
                  "type": "item",
@@ -7745,7 +8480,16 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide shines the lantern obliquely and invites the child to mark the outline of the surface lit. Chart 12a – count the rays and measure the surface – discussion about which"
+                 "text": "The guide shines the lantern obliquely and invites the child to mark the outline"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "f the surface lit."
+                },
+                {
+                 "type": "para",
+                 "text": "Chart 12a – count the rays and measure the surface – discussion about which"
                 }
                ]
               }
@@ -7792,7 +8536,12 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide invites the child to think where it is going to be hotter – in a place where more rays warm a surface or a in a place where less rays warm that other surface"
+                 "text": "The guide invites the child to think where it is going to be hotter – in a place where more rays warm a surface or a in a place where less rays warm that"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "ther surface"
                 },
                 {
                  "type": "item",
@@ -8483,7 +9232,12 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Calendar"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Calendar"
               }
              ]
             }
@@ -8766,7 +9520,12 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide talks about the lines that the child might already know, pointing them on the map: the equator, the tropics of the Cancer and the Capricorn."
+                 "text": "The guide talks about the lines that the child might already know, pointing them"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "n the map: the equator, the tropics of the Cancer and the Capricorn."
                 },
                 {
                  "type": "item",
@@ -8846,7 +9605,17 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Chart with the terrestrial zones  Prepared labels with the terrestrial zones"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Chart with the terrestrial zones"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Prepared labels with the terrestrial zones"
               }
              ]
             }
@@ -8896,11 +9665,22 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Chart with the terrestrial zones  Prepared labels with the terrestrial zones"
+               "text": "Additional material required:"
               },
               {
-               "type": "para",
-               "text": " Sun symbol"
+               "type": "item",
+               "level": 1,
+               "text": "Chart with the terrestrial zones"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Prepared labels with the terrestrial zones"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Sun symbol"
               }
              ]
             }
@@ -9373,7 +10153,87 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Globes  Globe 1: Earth with coloured continents  Globe 2: Poles  Globe 3: Longitudes  Globe 4: Latitudes  Globe 5: Prime meridian  Globe 6: Equator  Globe 7: Tropics  Globe 8: Arctic and Antarctic zones  Globe 9: Meridian  Globe 10: Northern hemisphere  Globe 11: Southern hemisphere  Globe 12: Eastern hemisphere  Globe 13: Torrid zone  Globe 14: Temperate zone  Globe 15: Frigid zone"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globes"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 1: Earth with coloured continents"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 2: Poles"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 3: Longitudes"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 4: Latitudes"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 5: Prime meridian"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 6: Equator"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 7: Tropics"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 8: Arctic and Antarctic zones"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 9: Meridian"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 10: Northern hemisphere"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 11: Southern hemisphere"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 12: Eastern hemisphere"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 13: Torrid zone"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 14: Temperate zone"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Globe 15: Frigid zone"
               }
              ]
             }
@@ -9814,7 +10674,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide says that this kind of rain produced by the terrain it is called orographic rain or relief rain."
+               "text": "The guide says that this kind of rain produced by the terrain it is called"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "rographic rain or relief rain."
               }
              ]
             }
@@ -10482,7 +11347,27 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Heat resistant recipient  Coloured paper – cut in small pieces  Burner  Jug of water"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Heat resistant recipient"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Coloured paper – cut in small pieces"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Burner"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Jug of water"
               },
               {
                "type": "item",
@@ -11075,7 +11960,22 @@
               {
                "type": "item",
                "level": 1,
-               "text": "Additional material required:  Sun  Red and blue arrows  Chart 3bis"
+               "text": "Additional material required:"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Sun"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Red and blue arrows"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "Chart 3bis"
               },
               {
                "type": "item",
@@ -11733,7 +12633,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide brings the chart 14 and inspects it with the children. The guide says that these are the main rivers and their tributaries in Europe. The guide can start a discussion with some interesting facts that will lead the children to do their own work of research. (E.g. which countries shape is given by its rivers)"
+               "text": "The guide brings the chart 14 and inspects it with the children. The guide says that these are the main rivers and their tributaries in Europe. The guide can start a discussion with some interesting facts that will lead the children to do their"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "wn work of research. (E.g. which countries shape is given by its rivers)"
               }
              ]
             }
@@ -11856,7 +12761,12 @@
               {
                "type": "item",
                "level": 1,
-               "text": "In old stage river has lost all erosional capacity and deposition is on peak. Prominent features are sluggish river flow, very wide channel, flattening of river; water divide eroded away, peneplain, boondocks and delta."
+               "text": "In old stage river has lost all erosional capacity and deposition is on peak. Prominent features are sluggish river flow, very wide channel, flattening"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f river; water divide eroded away, peneplain, boondocks and delta."
               },
               {
                "type": "item",
@@ -12027,7 +12937,12 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide can interest the children find where this pillars exist and to do their own work of research in what kind of climates."
+               "text": "The guide can interest the children find where this pillars exist and to do their"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "wn work of research in what kind of climates."
               }
              ]
             },
@@ -12533,7 +13448,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "Why rain is not salty? Sun puts energy onto the Earth's surface and that includes the ocean surface, and every square metre gets energy at the rate of, on average, about 1 kilowatt, so 1,000 joules per second. This gives energy to the particles of water in the sea and dissolved in the sea are obviously some ions, sodium and chloride, and lots of others as well, that's why the sea is salty. But the water molecules, although they are sticky and they stick to other water molecules because they are what's called dipole molecules, when you give enough energy to the water molecule, it can break the bonds to the other water molecules, holding it into the water, and it can escape as water vapour. It isn't possible to give energy in the same way to the ions, or at least not sufficient energy to make them boil off and get into a vapour state like the water. And this is because they are charged and that charge on them makes them a lot stickier, and they interact with other molecules of water, and other ions in the water, far more strongly than a water molecule does. So, it's far easier for water to escape at the temperatures that we see than those other ion species. They then go up into the air as water vapour until they fall in temperature and this enables them when they also reach a certain height in the atmosphere and interact with other water molecules, dust particles and even dandruff. And they form little droplets, and then you have a cloud. And if you make that air get even colder because for instance, the air has to rise and the air expands as it rises, and the temperature drops, then you get precipitation. The water comes out of the cloud and because just fresh water went up into the air, there's only fresh water to come back out of the cloud, and as a consequence, you get fresh rain. And that's why rivers and streams contain fresh water, but the sea is salty because as the fresh water filters down through the land, it takes a small concentration of salts out of the land and out of the air too, back into the sea where they slowly concentrate. They're now at sort of steady state concentrations because if the sea were to become any more concentrated, other chemical reactions would kick in and remove some of the salt, or some of the other things as minerals in a solid form."
+               "text": "Why rain is not salty? Sun puts energy onto the Earth's surface and that includes the ocean surface, and every square metre gets energy at the rate of, on average, about 1 kilowatt, so 1,000 joules per second. This gives energy to the particles of water in the sea and dissolved in the sea are obviously some ions, sodium and chloride, and lots of others as well, that's why the sea is salty. But the water molecules, although they are sticky and they stick to other water molecules because they are what's called dipole molecules, when you give enough energy to the water molecule, it can break the bonds to the other water molecules, holding it into the water, and it can escape as water vapour. It isn't possible to give energy in the same way to the ions, or at least not sufficient energy to make them boil off and get into a vapour state like the water. And this is because they are charged and that charge on them makes them a lot stickier, and they interact with other molecules of water, and other ions in the water, far more strongly than a water molecule does. So, it's far easier for water to escape at the temperatures that we see than those other ion species. They then go up into the air as water vapour until they fall in temperature and this enables them when they also reach a certain height in the atmosphere and interact with other water molecules, dust particles and even dandruff. And they form little droplets, and then you have a cloud. And if you make that air get even colder because for instance, the air has to rise and the air expands as it rises, and the temperature drops, then you get precipitation. The water comes out of the cloud and because just fresh water went up into the air, there's only fresh water to come back out of the cloud, and as a consequence, you get fresh rain. And that's why rivers and streams contain fresh water, but the sea is salty because as the fresh water filters down through the land, it takes a small concentration of salts out of the land and out"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f the air too, back into the sea where they slowly concentrate."
+              },
+              {
+               "type": "para",
+               "text": "They're now at sort of steady state concentrations because if the sea were to become any more concentrated, other chemical reactions would kick in and remove some of the salt, or some of the other things as minerals in a solid form."
               }
              ]
             },
@@ -12637,7 +13561,16 @@
               {
                "type": "item",
                "level": 0,
-               "text": "The guide says that by white are represented the coniferous trees that have for leaves needles, as in these areas there are short summers with limited amount of rainfalls. In the extreme North, the climate is very cold and the vegetation is generally short. The land it is called tundra, a word from Lappish (Finno-Ugric) tundar, said to mean \"elevated vat land”, high-topped hill,\" or \"a marshy plain.\""
+               "text": "The guide says that by white are represented the coniferous trees that have for leaves needles, as in these areas there are short summers with limited amount"
+              },
+              {
+               "type": "item",
+               "level": 1,
+               "text": "f rainfalls. In the extreme North, the climate is very cold and the vegetation is"
+              },
+              {
+               "type": "para",
+               "text": "generally short. The land it is called tundra, a word from Lappish (Finno-Ugric) tundar, said to mean \"elevated vat land”, high-topped hill,\" or \"a marshy plain.\""
               }
              ]
             },
@@ -13043,24 +13976,47 @@
              "text": "1. The Earth on which we live"
             },
             {
-             "type": "para",
-             "text": " Earth"
+             "type": "item",
+             "level": 1,
+             "text": "Earth"
             },
             {
              "type": "para",
              "text": "2. The parts of the Earth"
             },
             {
-             "type": "para",
-             "text": " Atmosphere  Lithosphere  Hydrosphere  Barysphere  Biosphere"
+             "type": "item",
+             "level": 1,
+             "text": "Atmosphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lithosphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Hydrosphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Barysphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Biosphere"
             },
             {
              "type": "para",
              "text": "3. Surface of the globe"
             },
             {
-             "type": "para",
-             "text": " Land and water"
+             "type": "item",
+             "level": 1,
+             "text": "Land and water"
             },
             {
              "type": "sub",
@@ -13071,16 +14027,38 @@
              "text": "1. Strata of the Atmosphere"
             },
             {
-             "type": "para",
-             "text": " Troposphere  Stratosphere  Ionosphere  Exosphere"
+             "type": "item",
+             "level": 1,
+             "text": "Troposphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Stratosphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Ionosphere"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Exosphere"
             },
             {
              "type": "para",
              "text": "2. Parts of the Barysphere"
             },
             {
-             "type": "para",
-             "text": " Mantle  Crust"
+             "type": "item",
+             "level": 1,
+             "text": "Mantle"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crust"
             },
             {
              "type": "sub",
@@ -13091,16 +14069,53 @@
              "text": "1. The Parts of the Lithosphere"
             },
             {
-             "type": "para",
-             "text": " Continents  Parts of the world  Island"
+             "type": "item",
+             "level": 1,
+             "text": "Continents"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Parts of the world"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Island"
             },
             {
              "type": "para",
              "text": "2. Types of Islands and their groupings"
             },
             {
-             "type": "para",
-             "text": " Continental island  Oceanis island  Reef  Emerging bank  Group of islands  Archipelago"
+             "type": "item",
+             "level": 1,
+             "text": "Continental island"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Oceanis island"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Reef"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Emerging bank"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Group of islands"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Archipelago"
             },
             {
              "type": "sub",
@@ -13111,52 +14126,164 @@
              "text": "1. The coast and its types"
             },
             {
-             "type": "para",
-             "text": " Coast line"
+             "type": "item",
+             "level": 1,
+             "text": "Coast line"
             },
             {
-             "type": "para",
-             "text": " Low coast  High coast  Irregular coast  Regular coast"
+             "type": "item",
+             "level": 1,
+             "text": "Low coast"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "High coast"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Irregular coast"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Regular coast"
             },
             {
              "type": "para",
              "text": "2. Types of low coasts"
             },
             {
-             "type": "para",
-             "text": " Low irregular coast-line  Low regular coast-line  Low sandy coast-line  Low stony coast-line"
+             "type": "item",
+             "level": 1,
+             "text": "Low irregular coast-line"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Low regular coast-line"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Low sandy coast-line"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Low stony coast-line"
             },
             {
              "type": "para",
              "text": "3. Types of high coasts"
             },
             {
-             "type": "para",
-             "text": " High irregular coast-line  High regular coast-line"
+             "type": "item",
+             "level": 1,
+             "text": "High irregular coast-line"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "High regular coast-line"
             },
             {
              "type": "para",
              "text": "4. Types of irregular coast-lines of emergence"
             },
             {
-             "type": "para",
-             "text": " Peninsula  Promontory  Cape  Point  Spit  Isthmus"
+             "type": "item",
+             "level": 1,
+             "text": "Peninsula"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Promontory"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Cape"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Point"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Spit"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Isthmus"
             },
             {
              "type": "para",
              "text": "5. Types of peninsula"
             },
             {
-             "type": "para",
-             "text": " Peninsula  Headland"
+             "type": "item",
+             "level": 1,
+             "text": "Peninsula"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Headland"
             },
             {
              "type": "para",
              "text": "6. Types of irregular coast-lines of submergence"
             },
             {
-             "type": "para",
-             "text": " Gulf  Fjord  Bay  Cove  Harbor and jetty  Channel  Strait  Artificial canal  Lagoon"
+             "type": "item",
+             "level": 1,
+             "text": "Gulf"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Fjord"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Bay"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Cove"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Harbor and jetty"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Channel"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Strait"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Artificial canal"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lagoon"
             },
             {
              "type": "sub",
@@ -13167,8 +14294,29 @@
              "text": "1. Relief forms"
             },
             {
-             "type": "para",
-             "text": " Plain  Mountain  Hill  Valley  Depression"
+             "type": "item",
+             "level": 1,
+             "text": "Plain"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mountain"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Hill"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Valley"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Depression"
             },
             {
              "type": "sub",
@@ -13179,8 +14327,34 @@
              "text": "1. The parts of a mountain"
             },
             {
-             "type": "para",
-             "text": " Base  Slope  Summit  Peak  Crest  Face"
+             "type": "item",
+             "level": 1,
+             "text": "Base"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Slope"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Summit"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Peak"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crest"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Face"
             },
             {
              "type": "sub",
@@ -13191,24 +14365,102 @@
              "text": "1. Groupings of Mountains"
             },
             {
-             "type": "para",
-             "text": " Mountain chain  Mountain massif  Mountain system"
+             "type": "item",
+             "level": 1,
+             "text": "Mountain chain"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mountain massif"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mountain system"
             },
             {
              "type": "para",
              "text": "2. Parts of a chain of mountains"
             },
             {
-             "type": "para",
-             "text": " Group of mountains  Crest of a chain  Watershed  Divide  Orographic axis  Longitudinal valley  Pass  Saddle  Col"
+             "type": "item",
+             "level": 1,
+             "text": "Group of mountains"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crest of a chain"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Watershed"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Divide"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Orographic axis"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Longitudinal valley"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Pass"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Saddle"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Col"
             },
             {
              "type": "para",
              "text": "3. Types of Mountain chains and their parts"
             },
             {
-             "type": "para",
-             "text": " Primary chains  Secondary chain  Spur  Escarpment  Range  Orographic knot"
+             "type": "item",
+             "level": 1,
+             "text": "Primary chains"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Secondary chain"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Spur"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Escarpment"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Range"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Orographic knot"
             },
             {
              "type": "sub",
@@ -13219,8 +14471,34 @@
              "text": "1. Types of plains"
             },
             {
-             "type": "para",
-             "text": " Lowland  Highland  Rise  Flatland  Tableland  Plateau"
+             "type": "item",
+             "level": 1,
+             "text": "Lowland"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Highland"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Rise"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Flatland"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Tableland"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Plateau"
             },
             {
              "type": "sub",
@@ -13231,12 +14509,59 @@
              "text": "1. Some types of valleys and their parts"
             },
             {
-             "type": "para",
-             "text": " River valley"
+             "type": "item",
+             "level": 1,
+             "text": "River valley"
             },
             {
-             "type": "para",
-             "text": " Glacial valley  Canyon  Vale  Valley Head  Walls or sides  Floor or bottom  Mouth  Gorge  Precipice  Ravine"
+             "type": "item",
+             "level": 1,
+             "text": "Glacial valley"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Canyon"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Vale"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Valley Head"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Walls or sides"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Floor or bottom"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mouth"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Gorge"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Precipice"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Ravine"
             },
             {
              "type": "sub",
@@ -13247,32 +14572,106 @@
              "text": "1. The parts of the hydrosphere"
             },
             {
-             "type": "para",
-             "text": " Ocean  Sea  Glacier  Water course  Pooled water"
+             "type": "item",
+             "level": 1,
+             "text": "Ocean"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Sea"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Glacier"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Water course"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Pooled water"
             },
             {
              "type": "para",
              "text": "2. Types of seas"
             },
             {
-             "type": "para",
-             "text": " Open sea  Adjacent sea  Inland sea  Interinsular sea"
+             "type": "item",
+             "level": 1,
+             "text": "Open sea"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Adjacent sea"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Inland sea"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Interinsular sea"
             },
             {
              "type": "para",
              "text": "3. Types of glaciers"
             },
             {
-             "type": "para",
-             "text": " Alpine or Valley glacier  Piedmont glacier  Continental glacier  Iceberg"
+             "type": "item",
+             "level": 1,
+             "text": "Alpine or Valley glacier"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Piedmont glacier"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Continental glacier"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Iceberg"
             },
             {
              "type": "para",
              "text": "4. Parts of a glacier"
             },
             {
-             "type": "para",
-             "text": " Tongue of glacier  Face  Mouth  Crevasse  Serac"
+             "type": "item",
+             "level": 1,
+             "text": "Tongue of glacier"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Face"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mouth"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crevasse"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Serac"
             },
             {
              "type": "sub",
@@ -13283,28 +14682,62 @@
              "text": "1. Parts of an Alpine Glacier"
             },
             {
-             "type": "para",
-             "text": " Collective basin  Ablatory basin"
+             "type": "item",
+             "level": 1,
+             "text": "Collective basin"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Ablatory basin"
             },
             {
              "type": "para",
              "text": "2. Types of crevasses"
             },
             {
-             "type": "para",
-             "text": " Marginal  Transversal"
+             "type": "item",
+             "level": 1,
+             "text": "Marginal"
             },
             {
-             "type": "para",
-             "text": " Longitudinal  Radial"
+             "type": "item",
+             "level": 1,
+             "text": "Transversal"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Longitudinal"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Radial"
             },
             {
              "type": "para",
              "text": "3. Moraine and types of moraine"
             },
             {
-             "type": "para",
-             "text": " Moraine  Frontal moraine  Lateral moraine  Terminal moraine"
+             "type": "item",
+             "level": 1,
+             "text": "Moraine"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Frontal moraine"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lateral moraine"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Terminal moraine"
             },
             {
              "type": "sub",
@@ -13315,16 +14748,53 @@
              "text": "1. Water courses"
             },
             {
-             "type": "para",
-             "text": " Stream  Torrent  River  Channel"
+             "type": "item",
+             "level": 1,
+             "text": "Stream"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Torrent"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "River"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Channel"
             },
             {
              "type": "para",
              "text": "2. Parts of a river"
             },
             {
-             "type": "para",
-             "text": " Spring or source  Course  Bed  Bank: right and left  Mouth or outlet"
+             "type": "item",
+             "level": 1,
+             "text": "Spring or source"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Course"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Bed"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Bank: right and left"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mouth or outlet"
             },
             {
              "type": "sub",
@@ -13335,24 +14805,87 @@
              "text": "1. The parts of the course of a river"
             },
             {
-             "type": "para",
-             "text": " Upper  Lower  Rapids  Cascade  Cataract  Meander"
+             "type": "item",
+             "level": 1,
+             "text": "Upper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lower"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Rapids"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Cascade"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Cataract"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Meander"
             },
             {
              "type": "para",
              "text": "2. Types of river mouth"
             },
             {
-             "type": "para",
-             "text": " Simple  Delta  Bird’s foot delta  Estuary"
+             "type": "item",
+             "level": 1,
+             "text": "Simple"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Delta"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Bird’s foot delta"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Estuary"
             },
             {
              "type": "para",
              "text": "3. The river basin and its task"
             },
             {
-             "type": "para",
-             "text": " River basin  Affluent  Subtributary  Tributary  Confluence"
+             "type": "item",
+             "level": 1,
+             "text": "River basin"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Affluent"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Subtributary"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Tributary"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Confluence"
             },
             {
              "type": "sub",
@@ -13363,16 +14896,43 @@
              "text": "1. Types of pooled water"
             },
             {
-             "type": "para",
-             "text": " Lake  Tributaries  Pool or pond  Swamp"
+             "type": "item",
+             "level": 1,
+             "text": "Lake"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Tributaries"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Pool or pond"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Swamp"
             },
             {
              "type": "para",
              "text": "2. Types of lakes"
             },
             {
-             "type": "para",
-             "text": " Seepage lake  Crater lake  Ox-bow lake"
+             "type": "item",
+             "level": 1,
+             "text": "Seepage lake"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crater lake"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Ox-bow lake"
             },
             {
              "type": "sub",
@@ -13383,44 +14943,165 @@
              "text": "1. The volcano and its parts"
             },
             {
-             "type": "para",
-             "text": " Volcano  Cone  Crater  Conduit  Center"
+             "type": "item",
+             "level": 1,
+             "text": "Volcano"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Cone"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Crater"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Conduit"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Center"
             },
             {
              "type": "para",
              "text": "2. Kinds of volcanoes"
             },
             {
-             "type": "para",
-             "text": " Active  Dormant  Extinct  Underwater"
+             "type": "item",
+             "level": 1,
+             "text": "Active"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Dormant"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Extinct"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Underwater"
             },
             {
              "type": "para",
              "text": "3. Phases of a volcano"
             },
             {
-             "type": "para",
-             "text": " Eruptions  Explosions  Dejections  Emanations  Extinction"
+             "type": "item",
+             "level": 1,
+             "text": "Eruptions"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Explosions"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Dejections"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Emanations"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Extinction"
             },
             {
              "type": "para",
              "text": "4. Volcano products"
             },
             {
-             "type": "para",
-             "text": " Magma  Lava  Lapilli  Pumice  Smoke, gas, vapour"
+             "type": "item",
+             "level": 1,
+             "text": "Magma"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lava"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Lapilli"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Pumice"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Smoke, gas, vapour"
             },
             {
              "type": "para",
              "text": "5. Pseudovolcanic Phenomena"
             },
             {
-             "type": "para",
-             "text": " Solfatora  Mofette  Mud-pot  Mud-volcano  Fumarole  Boraciferous fumarole"
+             "type": "item",
+             "level": 1,
+             "text": "Solfatora"
             },
             {
-             "type": "para",
-             "text": " Geyser  Thermal spring  Stufa  Fountain"
+             "type": "item",
+             "level": 1,
+             "text": "Mofette"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mud-pot"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Mud-volcano"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Fumarole"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Boraciferous fumarole"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Geyser"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Thermal spring"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Stufa"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Fountain"
             }
            ]
           }
@@ -13520,102 +15201,352 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 0 – Italy in Europe and the world  Presents the country in the context of the world, continent, and the country in red"
+         "text": "Chart 0 – Italy in Europe and the world"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 1 – Italy, our country  Corresponds to the puzzle map  The country in the colour of the puzzle piece, green, with the coastal boarders marked in blue"
+         "text": "Presents the country in the context of the world, continent, and the country in red"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 2 – The capital, Rome  Country in white the capital marked"
+         "text": "Chart 1 – Italy, our country"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 3 – Boundaries  Each neighbour has the border in the colour in the colour of the puzzle piece"
+         "text": "Corresponds to the puzzle map"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 4 – The seas and coasts of Italy  The coasts are in different colours representing the names of each part"
+         "text": "The country in the colour of the puzzle piece, green, with the coastal boarders marked in blue"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 5,a – Gulfs of Italy  Chart 5 – has the names of the gulfs and has the gulfs coloured (written map)  Chart 5a – no names (mute/work map)  Prepared slips with the gulfs"
+         "text": "Chart 2 – The capital, Rome"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 6,a – Ports of Italy  Chart 6 – has the names of the ports and has the ports coloured (written map)  Chart 6a – no names (mute/work map)  Prepared slips with the ports"
+         "text": "Country in white the capital marked"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 7,a – Islands of Italy  Chart 7 – has the names of the islands and has the islands coloured (written map)  Chart 7a – no names (mute/work map)  Prepared slips with the islands"
+         "text": "Chart 3 – Boundaries"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 8,a – Channels and straits of Italy  Chart 8 – has the names of the channels and straits and has the channels and straights coloured (written map)  Chart 8a – no names (mute/work map)  Prepared slips with the channels and straights"
+         "text": "Each neighbour has the border in the colour in the colour of the puzzle piece"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 9,a,b,c,d – Mountain system of Italy  Chart 9 – has the names of the mountain ranges and has the mountain ranges coloured (written map)  Chart 9a – no names (mute/work map)  Prepared slips with the mountain ranges  Chart 9b – depicts one range - Alps  Chart 9c – depicts one range - Apennine  Chart 9d – depicts one range – Sardo-corso"
+         "text": "Chart 4 – The seas and coasts of Italy"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 10,a – Volcanoes of Italy  Chart 10 – has the names of the volcanoes and has the volcanoes coloured (written map)  Chart 10a – no names (mute/work map)  Prepared slips with the volcanoes"
+         "text": "The coasts are in different colours representing the names of each part"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 11,a – Plains of Italy  Chart 11 – has the names of the plains and has the plains coloured (written map)  Chart 11a – no names (mute/work map)  Prepared slips with the plains"
+         "text": "Chart 5,a – Gulfs of Italy"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 12,a – Rivers of Italy  Chart 12 – has the names of the rivers and has the rivers coloured (written map)  Chart 12a – no names (mute/work map)  Prepared slips with the rivers"
+         "text": "Chart 5 – has the names of the gulfs and has the gulfs coloured (written map)"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 13,a – Lakes of Italy  Chart 13 – has the names of the lakes and has the lakes coloured (written map)  Chart 13a – no names (mute/work map)  Prepared slips with the lakes"
+         "text": "Chart 5a – no names (mute/work map)"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 14 – Depressions of Italy  Chart 14 – has the names of the depressions and has the depressions coloured (written map)"
+         "text": "Prepared slips with the gulfs"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 15,a – Mountain passes and tunnels of Italy  Chart 15 – has the names of the mountain passes and tunnels and has the mountain passes and tunnels coloured (written map)  Chart 15a – no names (mute/work map)  Prepared slips with the mountain passes and tunnels"
+         "text": "Chart 6,a – Ports of Italy"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 16,a – Roman roads of Italy  Chart 16 – has the names of the roman roads and has the roman roads coloured (written map)  Chart 16a – no names (mute/work map)  Prepared slips with the roman roads"
+         "text": "Chart 6 – has the names of the ports and has the ports coloured (written map)"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 17,a – Railways of Italy  Chart 17 – has the names of the railways and has the railways coloured (written map)  Chart 17a – no names (mute/work map)  Prepared slips with the railways"
+         "text": "Chart 6a – no names (mute/work map)"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 18,a – Coats of arms of the regional capitals of Italy  Chart 18 – has the pictures of the coats of arms(written map)  Chart 18a – no pictures (mute/work map)  Prepared pictographs with the coats of arms"
+         "text": "Prepared slips with the ports"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Chart 19 – Complete map of Italy  Chart 19 – has the names and symbols present on the previous maps (mute/work map)"
+         "text": "Chart 7,a – Islands of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 7 – has the names of the islands and has the islands coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 7a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the islands"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 8,a – Channels and straits of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 8 – has the names of the channels and straits and has the channels and straights coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 8a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the channels and straights"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9,a,b,c,d – Mountain system of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9 – has the names of the mountain ranges and has the mountain ranges coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the mountain ranges"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9b – depicts one range - Alps"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9c – depicts one range - Apennine"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 9d – depicts one range – Sardo-corso"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 10,a – Volcanoes of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 10 – has the names of the volcanoes and has the volcanoes coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 10a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the volcanoes"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 11,a – Plains of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 11 – has the names of the plains and has the plains coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 11a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the plains"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 12,a – Rivers of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 12 – has the names of the rivers and has the rivers coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 12a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the rivers"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 13,a – Lakes of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 13 – has the names of the lakes and has the lakes coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 13a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the lakes"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 14 – Depressions of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 14 – has the names of the depressions and has the depressions coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 15,a – Mountain passes and tunnels of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 15 – has the names of the mountain passes and tunnels and has the mountain passes and tunnels coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 15a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the mountain passes and tunnels"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 16,a – Roman roads of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 16 – has the names of the roman roads and has the roman roads coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 16a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the roman roads"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 17,a – Railways of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 17 – has the names of the railways and has the railways coloured (written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 17a – no names (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared slips with the railways"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 18,a – Coats of arms of the regional capitals of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 18 – has the pictures of the coats of arms(written map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 18a – no pictures (mute/work map)"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Prepared pictographs with the coats of arms"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 19 – Complete map of Italy"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Chart 19 – has the names and symbols present on the previous maps (mute/work map)"
         }
        ]
       },
@@ -13734,17 +15665,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           }
          ]
         }
@@ -14083,17 +16074,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           }
          ]
         }
@@ -14343,17 +16394,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           }
          ]
         }
@@ -14591,17 +16702,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           },
           {
            "type": "item",
@@ -14877,8 +17048,9 @@
                "text": "Additional material required:"
               },
               {
-               "type": "para",
-               "text": " Paper 50cm x 50cm"
+               "type": "item",
+               "level": 1,
+               "text": "Paper 50cm x 50cm"
               },
               {
                "type": "item",
@@ -14935,17 +17107,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           },
           {
            "type": "item",
@@ -15076,7 +17308,16 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide says that barter was a good enough solution as long as the people where almost self-sufficient. There was exchange even a very, very long time ago in form of gifts. As the people started to specialize and started to produce something in a quantity larger than for the self-use then the constant exchange of goods started. There were societies like the Ancient Egypt where barter was used with success for a long time. Barter required people with the same ideals, good record keeping and personal trust."
+                 "text": "The guide says that barter was a good enough solution as long as the people where almost self-sufficient. There was exchange even a very, very long time ago in form of gifts. As the people started to specialize and started to produce something in a quantity larger than for the self-use then the constant exchange"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "f goods started. There were societies like the Ancient Egypt where barter was"
+                },
+                {
+                 "type": "para",
+                 "text": "used with success for a long time. Barter required people with the same ideals, good record keeping and personal trust."
                 },
                 {
                  "type": "item",
@@ -15219,17 +17460,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           }
          ]
         }
@@ -15268,7 +17569,25 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide says that if we go back in time we will get back to the times where only barter was used – a horse for a sheep, a sheep for ten candles and so on. It was hard to decide how valuable something is. What happened is that any commodity that was traded often became a standard for trading. In that ancient times they would trade a lot of stock, so they could use them as a value of measure. The Ancient Greeks used ox as a standard stock. Imagine that, everything could be connected to the oxen (e.g. one sword for 20 oxen.). The romans also used a stock but this time sheep. Their word for money was sheep: pecunia. Romans had to pay fines if they did something wrong – the fines had to be paid in sheep."
+                 "text": "The guide says that if we go back in time we will get back to the times where"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "nly barter was used – a horse for a sheep, a sheep for ten candles and so on."
+                },
+                {
+                 "type": "para",
+                 "text": "It was hard to decide how valuable something is. What happened is that any commodity that was traded often became a standard for trading. In that ancient times they would trade a lot of stock, so they could use them as a value"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "f measure. The Ancient Greeks used ox as a standard stock. Imagine that,"
+                },
+                {
+                 "type": "para",
+                 "text": "everything could be connected to the oxen (e.g. one sword for 20 oxen.). The romans also used a stock but this time sheep. Their word for money was sheep: pecunia. Romans had to pay fines if they did something wrong – the fines had to be paid in sheep."
                 },
                 {
                  "type": "item",
@@ -15435,17 +17754,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           },
           {
            "type": "item",
@@ -15536,7 +17915,16 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide says that what it is interesting about the bread, the shoes, the tools – if I use them, no one else can use them at the same time. There are also other things that we need: we are at school. Does everyone need their own school or they can share it? The school we can share it, it is special – everyone in the community can use it and more than one person at the same time."
+                 "text": "The guide says that what it is interesting about the bread, the shoes, the tools – if I use them, no one else can use them at the same time. There are also other things that we need: we are at school. Does everyone need their own school"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "r they can share it? The school we can share it, it is special – everyone in the"
+                },
+                {
+                 "type": "para",
+                 "text": "community can use it and more than one person at the same time."
                 }
                ]
               }
@@ -15696,17 +18084,77 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Series A: 3 folders (Where we source our material needs?)  A1: From whom do we get our bread?  Cards: Baker, Miller, Farmer (wheat)  A2: From whom do we get our meat?  Cards: Butcher, Slaughterer, Farmer (stock)  A3: From whom do we get our clothes?  Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+           "text": "Series A: 3 folders (Where we source our material needs?)"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series B: 2 folders (What does the producer needs?)  B1: The farmer whom does he/she need?  Cards: baker, toolmaker, shoemaker, butcher, tailor, mason  B2: The toolmaker whom does he/she need?  Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+           "text": "A1: From whom do we get our bread?"
           },
           {
            "type": "item",
            "level": 1,
-           "text": "Series C: 1 folder (What does the producer produce)  C1: The farmer what does he produce?  Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
+           "text": "Cards: Baker, Miller, Farmer (wheat)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A2: From whom do we get our meat?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Butcher, Slaughterer, Farmer (stock)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "A3: From whom do we get our clothes?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: Tailor, Fabric salesman, Fabric manufacturer, farmer (cotton grower)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series B: 2 folders (What does the producer needs?)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B1: The farmer whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, toolmaker, shoemaker, butcher, tailor, mason"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "B2: The toolmaker whom does he/she need?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: baker, butcher, shoemaker, tailor, mason, miner,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Series C: 1 folder (What does the producer produce)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "C1: The farmer what does he produce?"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Cards: cotton, silk worm on mulberry leaf, fruits, wheat, wool, dairy products, grapes for wine, livestock, poultry"
           },
           {
            "type": "item",
@@ -15832,7 +18280,12 @@
                 {
                  "type": "item",
                  "level": 0,
-                 "text": "The guide brings the bowl and says that the money that are collected inside are for the common goods and services. Everyone has to contribute. This contributions are called taxes. The taxes are paid to the government that the taxes are spent on the common goods and services according to the needs of the community."
+                 "text": "The guide brings the bowl and says that the money that are collected inside are for the common goods and services. Everyone has to contribute. This contributions are called taxes. The taxes are paid to the government that the taxes are spent on the common goods and services according to the needs"
+                },
+                {
+                 "type": "item",
+                 "level": 1,
+                 "text": "f the community."
                 },
                 {
                  "type": "item",
@@ -16169,7 +18622,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The children can do with the children a map with the exports and the imports of the country."
+             "text": "The children can do with the children a map with the exports and the imports"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the country."
             }
            ]
           }
@@ -16191,7 +18649,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The children can do with the children a map with the exports and the imports of the country."
+             "text": "The children can do with the children a map with the exports and the imports"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the country."
             }
            ]
           },

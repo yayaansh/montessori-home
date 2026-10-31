@@ -1,4 +1,4 @@
-import { useCallback, useRef, useState, type CSSProperties, type ReactNode } from 'react'
+import { useCallback, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react'
 
 export interface Piece<T = unknown> {
   id: string
@@ -76,6 +76,15 @@ export function Mat<T>({ pieces, onMove, onDrop, onRaise, onRemove, render, size
     const H = el.clientHeight
     return { x: Math.max(-w * 0.3, Math.min(W - w * 0.7, x)), y: Math.max(-h * 0.3, Math.min(H - h * 0.7, y)) }
   }
+
+  // keep newly placed pieces inside the mat on narrow screens
+  useEffect(() => {
+    for (const p of pieces) {
+      const c = clamp(p, p.x, p.y)
+      if (c.x !== p.x || c.y !== p.y) onMove(p.id, c.x, c.y)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pieces.length])
 
   const onPointerDown = (e: React.PointerEvent, p: Piece<T>) => {
     if ((e.target as HTMLElement).closest('.rm')) return

@@ -116,6 +116,22 @@ def fix_unknown(text: str) -> str:
     return text
 
 
+SYMBOL_MAP = {
+    "": "≈", "": "∴", "": "∼", "": "≅", "": "°",
+    "": "×", "": "÷", "": "≤", "": "≥", "": "≠",
+    "": "→", "": "√", "": "∞", "": "±", "": "°",
+    "": "″", "": "′", "": "∠", "": "⊥", "": "∣",
+    "": "", "": "•", "": "•", "": "•",
+}
+
+
+def fix_symbols(text: str) -> str:
+    """Replace Symbol-font private-use glyphs that pdftotext leaves behind."""
+    for k, v in SYMBOL_MAP.items():
+        text = text.replace(k, v)
+    return re.sub(r"[-]", "", text)
+
+
 def slug(s: str) -> str:
     s = norm(s).replace(" ", "-")
     return s[:60].strip("-") or "node"
@@ -301,8 +317,8 @@ def locate_nodes(nodes: list[Node], pages: list[list[str]], page_offsets: list[i
 
 # --------------------------------------------------------------------------- blocks
 
-BULLET_RE = re.compile(r"^(?:[-–•▪·]|o)\s+(.*)$")
-SUBBULLET_RE = re.compile(r"^(?:o|▪|•|·|◦)\s+(.*)$")
+BULLET_RE = re.compile(r"^(?:[-–•▪·]|o)\s*(.+)$")
+SUBBULLET_RE = re.compile(r"^(?:o|▪|•|·|◦|[])\s*(.+)$")
 
 
 def parse_blocks(lines: list[str]) -> list[dict]:
@@ -366,7 +382,7 @@ def parse_blocks(lines: list[str]) -> list[dict]:
     out = []
     for b in blocks:
         b["text"] = re.sub(r"\s+", " ", b["text"]).strip()
-        b["text"] = fix_unknown(b["text"])
+        b["text"] = fix_symbols(fix_unknown(b["text"]))
         if b["type"] == "item":
             b.pop("indent", None)
         if b["text"]:

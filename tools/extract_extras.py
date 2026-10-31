@@ -160,10 +160,12 @@ def word_problems() -> list[dict]:
                     continue
                 if re.fullmatch(r"\d{1,2}", text):
                     continue
-                looks_header = "?" not in text and len(text) < 80 and (("/" in text or ":" in text) or b[0] > 380)
+                looks_header = "?" not in text and len(text) < 80 and (("/" in text or ":" in text or "(" in text) or b[0] > 380)
                 if looks_header:
                     header = header or text
                     continue
+                if "?" not in text and ("=" in text or len(text) < 90):
+                    continue  # a worked solution or stray label, not a problem
                 if len(text) < 25 and not re.search(r"\d", text):
                     continue
                 if any(p["text"] == text for p in problems):

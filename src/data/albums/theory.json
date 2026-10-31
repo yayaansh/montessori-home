@@ -40,7 +40,12 @@
         },
         {
          "type": "para",
-         "text": "The goal of development is to become adult with all its characteristics (L’uomo). This goal comes from within, as something given by nature as this energy can’t come from outside."
+         "text": "The goal of development is to become adult with all its characteristics (L’uomo). This goal comes from within, as something given by nature as this energy can’t come from"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "utside."
         },
         {
          "type": "para",
@@ -52,7 +57,16 @@
         },
         {
          "type": "para",
-         "text": "The laws of development are disclosed by the child and are revealed with the help of observation. The behaviour of a child can’t be interpreted with the “causalistic” thinking of the adult. The behaviour has to be interpreted in a way in which it helps the child, by looking at the behaviour and understanding its goal."
+         "text": "The laws of development are disclosed by the child and are revealed with the help"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f observation. The behaviour of a child can’t be interpreted with the “causalistic”"
+        },
+        {
+         "type": "para",
+         "text": "thinking of the adult. The behaviour has to be interpreted in a way in which it helps the child, by looking at the behaviour and understanding its goal."
         },
         {
          "type": "para",
@@ -150,12 +164,14 @@
            "text": "At this stage we can talk about three kinds of sensitivity:"
           },
           {
-           "type": "para",
-           "text": " Sensitivity for the acquision of culture The child is hungry for knowledge and understanding asking questions such as “How ?” and “Why?”. The child wants to understand the world where he is living."
+           "type": "item",
+           "level": 1,
+           "text": "Sensitivity for the acquision of culture The child is hungry for knowledge and understanding asking questions such as “How ?” and “Why?”. The child wants to understand the world where he is living."
           },
           {
-           "type": "para",
-           "text": " Sensitivity for imagination"
+           "type": "item",
+           "level": 1,
+           "text": "Sensitivity for imagination"
           },
           {
            "type": "para",
@@ -182,8 +198,27 @@
            "text": "plane the imagination is used to talk about the reality. Maria Montessori called this type of imagination “the eyes of the mind”."
           },
           {
+           "type": "item",
+           "level": 1,
+           "text": "Sensitivity for morality Here we talk about morality in the context of the human being being able to live together. If in the first plane of development the child absorbs the natural environment with all the morality, value systems and religion, in the seond plane"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f development they are going to question what surrounds them, including the"
+          },
+          {
            "type": "para",
-           "text": " Sensitivity for morality Here we talk about morality in the context of the human being being able to live together. If in the first plane of development the child absorbs the natural environment with all the morality, value systems and religion, in the seond plane of development they are going to question what surrounds them, including the rules and the values of the society. If the rules in the Children’s House are intended as a form of respect for the others and not debatable , in Elementary the rules can be discussed with the children and a consent has to be reached as it should be a community of equals. Maria Montessori said that this sensitivity is where they are most vulnerable and where we should take a lot of care."
+           "text": "rules and the values of the society. If the rules in the Children’s House are intended as a form of respect for the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "thers and not debatable , in Elementary the rules can be discussed with the"
+          },
+          {
+           "type": "para",
+           "text": "children and a consent has to be reached as it should be a community of equals. Maria Montessori said that this sensitivity is where they are most vulnerable and where we should take a lot of care."
           },
           {
            "type": "para",
@@ -227,8 +262,9 @@
          "kind": "intro",
          "blocks": [
           {
-           "type": "para",
-           "text": "ourselves”"
+           "type": "item",
+           "level": 1,
+           "text": "urselves”"
           },
           {
            "type": "para",
@@ -260,20 +296,72 @@
            "text": "The brain continues to develop till the age of 24. It is the frontal lobe which is responsibile for the decision making, the one that develops the most. At different ages we can talk of different kinds of independence:"
           },
           {
-           "type": "para",
-           "text": " Mental (0-6 years old)  Moral (values) (6-12 years old)  Economic (12-18 years old)  Spiritual (18-24 years old)"
+           "type": "item",
+           "level": 1,
+           "text": "Mental (0-6 years old)"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "Moral (values) (6-12 years old)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Economic (12-18 years old)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Spiritual (18-24 years old)"
+          },
+          {
+           "type": "para",
            "text": "Descriptions that we can give to the stages of development:"
           },
           {
-           "type": "para",
-           "text": " 0-3 years old: Spiritual embryo ( Formation of man)  3-6 years old: Constructive perfectionsm (Mobel Kinder) – Blessed age of play ( as they always do things with their hands)  6-12 years old: Age of rudeness (quite self-asserted)  12-18: Erd Kinder (Farm school)  18-24: Age of hapiness"
+           "type": "item",
+           "level": 1,
+           "text": "0-3 years old: Spiritual embryo ( Formation of man)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "3-6 years old: Constructive perfectionsm (Mobel Kinder) – Blessed age of play ( as they always do things with their hands)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "6-12 years old: Age of rudeness (quite self-asserted)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "12-18: Erd Kinder (Farm school)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "18-24: Age of hapiness"
           },
           {
            "type": "para",
-           "text": "In the Montessori education we can talk about different planes of education:  0-6 years old: The home  6-12 years old: Cosmic education  12-18 years old: The land"
+           "text": "In the Montessori education we can talk about different planes of education:"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "0-6 years old: The home"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "6-12 years old: Cosmic education"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "12-18 years old: The land"
           },
           {
            "type": "para",
@@ -366,7 +454,16 @@
         },
         {
          "type": "para",
-         "text": "When we talk about animals we talk about instincts. Each creature has a specific way of life. An animal left to itself doesn’t have the freedom to live something other than a good animal life. He will grow according to the pattern of that species."
+         "text": "When we talk about animals we talk about instincts. Each creature has a specific way"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f life. An animal left to itself doesn’t have the freedom to live something other than"
+        },
+        {
+         "type": "para",
+         "text": "a good animal life. He will grow according to the pattern of that species."
         },
         {
          "type": "para",
@@ -478,7 +575,39 @@
           },
           {
            "type": "para",
-           "text": "“Nature gives small children an intrinsic sensibility to order, as built up by an inner sense which is a sense not of distinction between things but of distinction of the relationship between things, so that it perceives an environment as a whole with interdependent parts. Only in such an environment, known as a whole, is it possible for the child to orient himself and to act with purpose; without it he would have no basis on which to build his perception of relationship. It would be like having furniture without a house to put it in. What would be the use of an accumulation of external images without the order that brings them into organised relation? If man knew only separate objects and not their relations, he would find himself in an inextricable confusion. It is to the child's labours that man owes the faculty, which seems a gift of nature of orienting himself, of finding his way about, in the world. In the sensitive period of order, nature gives the first lesson, in the same way as a teacher will show a child a plan of the classroom, to prepare him for the study of geographical maps. Or we may say that by this first lesson nature has given man a compass to orient him in the world. In the same way she gives the small child the power of exact reproduction of the sounds that make up language, that language that is capable of infinite development, and which the adult will evolve through the ages. Man's mind does not spring from nothing; is built up on the foundations laid by the child in his sensitive periods.”"
+           "text": "“Nature gives small children an intrinsic sensibility to order, as built up by an inner sense which is a sense not of distinction between things but of distinction"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the relationship between things, so that it perceives an environment as a"
+          },
+          {
+           "type": "para",
+           "text": "whole with interdependent parts. Only in such an environment, known as a whole, is it possible for the child to orient himself and to act with purpose; without it he would have no basis on which to build his perception of relationship. It would be like having furniture without a house to put it in. What would be the use of an accumulation of external images without the order that brings them into organised relation? If man knew only separate objects and not their relations, he would find himself in an inextricable confusion. It is to the child's labours that man owes the faculty, which seems a gift of nature of"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rienting himself, of finding his way about, in the world. In the sensitive period"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f order, nature gives the first lesson, in the same way as a teacher will show a"
+          },
+          {
+           "type": "para",
+           "text": "child a plan of the classroom, to prepare him for the study of geographical maps. Or we may say that by this first lesson nature has given man a compass to orient him in the world. In the same way she gives the small child the power"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f exact reproduction of the sounds that make up language, that language"
+          },
+          {
+           "type": "para",
+           "text": "that is capable of infinite development, and which the adult will evolve through the ages. Man's mind does not spring from nothing; is built up on the foundations laid by the child in his sensitive periods.”"
           },
           {
            "type": "sub",
@@ -486,11 +615,12 @@
           },
           {
            "type": "para",
-           "text": "For children every place is an unknown place and there so they need order to orientate."
+           "text": "For children every place is an unknown place and there so they need order to"
           },
           {
-           "type": "para",
-           "text": "“When we lose our sense of orientation we don’t simply feel physically lost, we feel lost in our mind” Mario Montessori"
+           "type": "item",
+           "level": 1,
+           "text": "rientate. “When we lose our sense of orientation we don’t simply feel physically lost, we feel lost in our mind” Mario Montessori"
           },
           {
            "type": "para",
@@ -498,7 +628,21 @@
           },
           {
            "type": "para",
-           "text": "surroundings of his place). We don’t talk of a sense of order in the second plane of development but for the exploration of more knowledge the child needs order. When we offer to the children the cosmic fables in elementary, it helps them to find a first orientation."
+           "text": "surroundings of his place). We don’t talk of a sense of order in the second plane"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f development but for the exploration of more knowledge the child needs"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rder."
+          },
+          {
+           "type": "para",
+           "text": "When we offer to the children the cosmic fables in elementary, it helps them to find a first orientation."
           },
           {
            "type": "para",
@@ -523,7 +667,21 @@
          "blocks": [
           {
            "type": "para",
-           "text": "Exploration means setting venture into the unknown to discover or to understand something new. The tendency to explore is connected to the curiosity. For explorations it is very important to be sure where we are, so orientation is a requisite for satisfactory exploration. Without orientation the exploration might become just meaningless wandering. Exploring it helps the human beings discover whatever it is required to satisfy their human needs. We have explored all the aspects of our natural environment always driven by our needs. The humans start with a certain physical environment and slowly expand, adapting and creating even a spiritual territory. The first plane children explore the immediate environment, perceptible to the senses. Through explorations the unknown world in which he entered becomes known. The second plane children are not only attracted to the immediate environment and as they want to explore a more extended environment (the society, the world and the universe). The reality is still being explored but not the one so tangible only with the senses. None of these realities can be explored only with the senses as it requires the power of imagination (“the eyes of the mind”). Now the child needs a different kind of help, he needs to orientate through stories and key lessons. It helps to mention also the exploration of the moral and social aspects of the life. The third plane adolescent is interested to explore the adult world of work and the society."
+           "text": "Exploration means setting venture into the unknown to discover or to understand something new. The tendency to explore is connected to the curiosity. For explorations it is very important to be sure where we are, so orientation is a requisite for satisfactory exploration. Without orientation the exploration might become just meaningless wandering. Exploring it helps the human beings discover whatever it is required to satisfy their human needs. We have explored all the aspects of our natural environment always driven by our needs. The humans start with a certain physical environment and slowly expand, adapting and creating even a spiritual territory. The first plane children explore the immediate environment, perceptible to the senses. Through explorations the unknown world in which he entered becomes known. The second plane children are not only attracted to the immediate environment and as they want to explore a more extended environment (the society, the world and the universe). The reality is still being explored but not the one so tangible only with the senses. None of these realities can be explored only with the senses as it requires the power of imagination (“the eyes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the mind”). Now the child needs a different kind of help, he needs to"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rientate through stories and key lessons."
+          },
+          {
+           "type": "para",
+           "text": "It helps to mention also the exploration of the moral and social aspects of the life. The third plane adolescent is interested to explore the adult world of work and the society."
           }
          ]
         }
@@ -544,11 +702,43 @@
          "blocks": [
           {
            "type": "para",
-           "text": "To orientate and to explore are related and also we can say the same thing about to observe. Observation should be connected with all the senses not only the sight. To observe we can think of it as an exploration with the senses. The more acute are the senses the easier is to observe. Observation is a way to get impressions of the environment. The little child in the first year of life observes everything around him and tastes everything. Everything the child comes in contact with he will absorb it. During the second year of life the child starts observing the small objects and the"
+           "text": "To orientate and to explore are related and also we can say the same thing about to observe. Observation should be connected with all the senses not"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "nly the sight."
           },
           {
            "type": "para",
-           "text": "details, sometimes so small, almost invisible. Between the ages of 3 to 6 the child is refining the skills of observation. As the child enhances his powers of observation, the world becomes a richer place. In this way the mind becomes more prepared for what it will come later. The second plane child is capable of looking at the reality with different eyes. (E.g. observing the leaves in different ways at different ages.) The child is ready to observe in a new way when the mind is prepared to see a different reality, with the eyes of understanding. As the child grows older he becomes more aware and starts reasoning in a more abstract way. The mind that looks through the relationship between cause and effect. We can say that knowledge begins with the power to observe. If we observe nature with a reasoning mind we can find answers to our needs. Human beings observed many things in nature and then reproduced them in supernature. Observation can be an important force for creation."
+           "text": "To observe we can think of it as an exploration with the senses. The more acute are the senses the easier is to observe. Observation is a way to get impressions"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the environment."
+          },
+          {
+           "type": "para",
+           "text": "The little child in the first year of life observes everything around him and tastes everything. Everything the child comes in contact with he will absorb it. During the second year of life the child starts observing the small objects and the"
+          },
+          {
+           "type": "para",
+           "text": "details, sometimes so small, almost invisible. Between the ages of 3 to 6 the child is refining the skills of observation. As the child enhances his powers of observation, the world becomes a richer place. In this way the mind becomes more prepared for what it will come later. The second plane child is capable of looking at the reality with different eyes. (E.g. observing the leaves in different ways at different ages.) The child is ready to observe in a new way when the mind is prepared to see a different reality, with the eyes of understanding. As the child grows older he becomes more aware and starts reasoning in a more abstract way. The mind that looks through the relationship between cause and effect. We can say that knowledge begins with the power to"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "bserve. If we observe nature with a reasoning mind we can find answers to"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ur needs. Human beings observed many things in nature and then"
+          },
+          {
+           "type": "para",
+           "text": "reproduced them in supernature. Observation can be an important force for creation."
           }
          ]
         }
@@ -602,7 +792,16 @@
           },
           {
            "type": "para",
-           "text": "second plane child uses those in order to make use of the imagination. Imagination helped the humanity to evolve and to progress. Without the help of imagination the humans couldn’t build the supernature. Every time we think about different civilizations we use the power of imagination."
+           "text": "second plane child uses those in order to make use of the imagination. Imagination helped the humanity to evolve and to progress. Without the help"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f imagination the humans couldn’t build the supernature. Every time we think"
+          },
+          {
+           "type": "para",
+           "text": "about different civilizations we use the power of imagination."
           }
          ]
         }
@@ -622,8 +821,9 @@
          "kind": "intro",
          "blocks": [
           {
-           "type": "para",
-           "text": "oneself)"
+           "type": "item",
+           "level": 1,
+           "text": "neself)"
           },
           {
            "type": "para",
@@ -700,11 +900,21 @@
           },
           {
            "type": "para",
-           "text": "“What was forgotten was to give exactness to the children. The importance of this detail was not understood, but it is the centre of everything. It is from this that there comes activity, joy, work, perfectionment. The point is not to render a person exact in the usual way of acting, tied to details instead of to the whole, it is to render the mind capable of seeing. Without which capacity one remains blind, grows in a blind way, when the details of exactness, which gave such brilliant results in the beginning are neglected there comes about decadence in our education even if gran ideas are dawn by theory”. Maria"
+           "text": "“What was forgotten was to give exactness to the children. The importance"
           },
           {
-           "type": "sub",
-           "text": "Montessori’s letter to her former student Giuliana Sorge"
+           "type": "item",
+           "level": 1,
+           "text": "f this detail was not understood, but it is the centre of everything. It is from"
+          },
+          {
+           "type": "para",
+           "text": "this that there comes activity, joy, work, perfectionment. The point is not to render a person exact in the usual way of acting, tied to details instead of to the whole, it is to render the mind capable of seeing. Without which capacity"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne remains blind, grows in a blind way, when the details of exactness, which gave such brilliant results in the beginning are neglected there comes about decadence in our education even if gran ideas are dawn by theory”. Maria Montessori’s letter to her former student Giuliana Sorge"
           },
           {
            "type": "para",
@@ -720,11 +930,12 @@
           },
           {
            "type": "para",
-           "text": "And if we look now at the sensorial apparatus which is able to evoke such deep concentration (remarkable in very small children between the ages of three and four), there is no doubt that this apparatus may be regarded not only as a help to exploring the environment, but also to the development of"
+           "text": "And if we look now at the sensorial apparatus which is able to evoke such deep concentration (remarkable in very small children between the ages of three and four), there is no doubt that this apparatus may be regarded not"
           },
           {
-           "type": "para",
-           "text": "the mathematical mind.” Maria Montessori – The Absorbent Mind"
+           "type": "item",
+           "level": 1,
+           "text": "nly as a help to exploring the environment, but also to the development of the mathematical mind.” Maria Montessori – The Absorbent Mind"
           },
           {
            "type": "para",
@@ -749,7 +960,16 @@
          "blocks": [
           {
            "type": "para",
-           "text": "It is very wrong to think that to calculate it is strictly connected to mathematics. We calculate all the time in our daily life, in order to move, to manipulate objects, to navigate, to explore or to observe. The control of error comes from the environment that surrounds us. The young children have to make an effort to calculate the precise movements of the body. The adults in order to calculate developed many instruments that come as aids."
+           "text": "It is very wrong to think that to calculate it is strictly connected to mathematics. We calculate all the time in our daily life, in order to move, to manipulate"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "bjects, to navigate, to explore or to observe. The control of error comes from"
+          },
+          {
+           "type": "para",
+           "text": "the environment that surrounds us. The young children have to make an effort to calculate the precise movements of the body. The adults in order to calculate developed many instruments that come as aids."
           }
          ]
         }
@@ -791,7 +1011,16 @@
          "blocks": [
           {
            "type": "para",
-           "text": "It is a tendency to improve oneself at some activity. There is always going to be room for improvement but this road brings intrinsic satisfaction. Improving oneself is not trying to become perfect but to reach that level of satisfaction from within. Exaggerated praise and rewards are in the end counterproductive."
+           "text": "It is a tendency to improve oneself at some activity. There is always going to be room for improvement but this road brings intrinsic satisfaction. Improving"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "neself is not trying to become perfect but to reach that level of satisfaction"
+          },
+          {
+           "type": "para",
+           "text": "from within. Exaggerated praise and rewards are in the end counterproductive."
           }
          ]
         }
@@ -812,7 +1041,16 @@
          "blocks": [
           {
            "type": "para",
-           "text": "Self-control is required to control movement but also the mind and the will. In Children’s House there are two exercises related to this tendency: walking on the line and the silence game. The ability of self-control is linked to learning to obey oneself. The minimum rules that are in the Children’s House are very challenging for the young children but are also important to help them develop self-control. If you can control yourself you gain patience."
+           "text": "Self-control is required to control movement but also the mind and the will. In Children’s House there are two exercises related to this tendency: walking on the line and the silence game. The ability of self-control is linked to learning to"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "bey oneself. The minimum rules that are in the Children’s House are very"
+          },
+          {
+           "type": "para",
+           "text": "challenging for the young children but are also important to help them develop self-control. If you can control yourself you gain patience."
           }
          ]
         }
@@ -837,7 +1075,21 @@
           },
           {
            "type": "para",
-           "text": "The advantages of communication are: passing knowledge from one to another, organise ourselves and work in a collaborative way. If we organize ourselves we can work as one. It has been of crucial importance for the survival of the specie. After some time we passed from spoken language to written language as soon as the groups increased in size. The children are capable to acquire this ability long before they will need this instruments as adults. We use language to communicate with ourselves when thinking, language comes also as means of self-expression. Language is a very deep and innate characteristic of the human beings."
+           "text": "The advantages of communication are: passing knowledge from one to another, organise ourselves and work in a collaborative way. If we organize"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "urselves we can work as one. It has been of crucial importance for the survival"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the specie."
+          },
+          {
+           "type": "para",
+           "text": "After some time we passed from spoken language to written language as soon as the groups increased in size. The children are capable to acquire this ability long before they will need this instruments as adults. We use language to communicate with ourselves when thinking, language comes also as means of self-expression. Language is a very deep and innate characteristic of the human beings."
           }
          ]
         }
@@ -858,7 +1110,16 @@
          "blocks": [
           {
            "type": "para",
-           "text": "Human beings are social beings, we always lived in groups. For the right development of the child he needs to develop in a group. Jean Marc Gaspard Hard (1788 -1828) found a wild boy in the French woods (Aveyron) and called him Victor. After a certain period of time Victor made some improvements but he never could adapt to society completely or communicate more than a few words. Human environment is mandatory for the development of the person and so is the association with the other human beings. Children have to grow up in association with other human beings. The first plane children are especially attracted to the adults, we can say as well that they like the company of the other children. In Children’s House the children form bonds of affection which is called social cohesion by Maria Montessori. From the years 3 to 6 Maria Montessori talks about a society embryo. This is a very important time for the formation of character. For the flourishing of the social values it is important to have a mix age community. For the second plane children they tent to associate with their friends and peers instead of the family. At this moment of their life they like to form groups and to work together. We expect the children to collaborate, share work and share ideas. It’s a practice society. For the adolescents they become involved in the adult’s society to the extent of even bringing an economic value to the community. They need to associate and to work together as a whole. It would not be important to create a supernature without of the tendency to associate and work in groups."
+           "text": "Human beings are social beings, we always lived in groups. For the right development of the child he needs to develop in a group. Jean Marc Gaspard Hard (1788 -1828) found a wild boy in the French woods (Aveyron) and called him Victor. After a certain period of time Victor made some improvements but he never could adapt to society completely or communicate more than a few words. Human environment is mandatory for the development of the person and so is the association with the other human beings. Children have to grow up in association with other human beings. The first plane children are especially attracted to the adults, we can say as well that they like the company of the other children. In Children’s House the children form bonds of affection which is called social cohesion by Maria Montessori. From the years 3 to 6 Maria Montessori talks about a society embryo. This is a very important time for the formation of character. For the flourishing of the social values it is important to have a mix age community. For the second plane children they tent to associate with their friends and peers instead of the family. At this moment of their life they like to form groups and to work together. We expect the children to collaborate, share work and share ideas. It’s a practice society. For the adolescents they become involved in the adult’s society to the extent"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f even bringing an economic value to the community. They need to associate"
+          },
+          {
+           "type": "para",
+           "text": "and to work together as a whole. It would not be important to create a supernature without of the tendency to associate and work in groups."
           }
          ]
         }
@@ -921,19 +1182,73 @@
          "blocks": [
           {
            "type": "para",
-           "text": "For animals we can think of a pattern of developemnt that it is specific for a specie but for the humans we can think of individual patterns. This is the reason why any causalistic approach cannot work – the individual should be allowed to develop according to his individual pattern. The adult cannot be the creator of the child, the child is not something to be molded or filled instead we have to see the children as a human being that should be respected and just aided in her process of development if required avoiding to help more than necessary. The period from 0 to 18 years old can be viewed as a start of a new life. The four planes of development are identified by Maria Montessori as:"
+           "text": "For animals we can think of a pattern of developemnt that it is specific for a specie but for the humans we can think of individual patterns. This is the reason why any causalistic approach cannot work – the individual should be allowed to develop according to his individual pattern. The adult cannot be the creator of the child, the child is not something to be molded or filled instead we have to see the children as a human being that should be respected and just aided in her process of development if required avoiding to help more than necessary. The period from 0 to 18 years old can be viewed as a start of a new life. The four planes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f development are identified by Maria Montessori as:"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "0 – 6 years old [First plane]: Infancy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "6-12 years old [Second plane]: Childhood"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "12-18 years old [Third plane]: Adolescence"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "18-24 years olf [Forth plane]: Maturity"
           },
           {
            "type": "para",
-           "text": " 0 – 6 years old [First plane]: Infancy  6-12 years old [Second plane]: Childhood  12-18 years old [Third plane]: Adolescence  18-24 years olf [Forth plane]: Maturity The first and the third plane of development can be also called “self-construction” planes. The first plane of the development can be split in a three-fold:  Human being who is developing  Human being who is adapting  Human being who is an unique individual"
+           "text": "The first and the third plane of development can be also called “self-construction” planes. The first plane of the development can be split in a three-fold:"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Human being who is developing"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Human being who is adapting"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "Human being who is an unique individual"
           },
           {
            "type": "para",
-           "text": "In the first part of the first plane of development, the sensitivies are peaking and in the second part are slowly fading. Maria Montessori calls the child of the first subplane an “Unconscious creator” because the child creates a human being. The child of the second plane of development is called a “Conscious worker/explorer”. It is the second subplane is when the consciousness is developing. The child is doing a work of perfectionment at this time, a perfectionment of the senses, movement and language."
+           "text": "In the first part of the first plane of development, the sensitivies are peaking and in the second part are slowly fading. Maria Montessori calls the child of the first subplane an “Unconscious creator” because the child creates a human being. The child of the second plane of development is called a “Conscious worker/explorer”. It is the second subplane is when the consciousness is developing. The child is doing a work"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f perfectionment at this time, a perfectionment of the senses, movement and"
           },
           {
            "type": "para",
-           "text": "The nature gives to the child the absorbment mind and lots of creative energy in order to succesfully do the work of development required in this stage of their life. The absorbment mind it is called by Maria unconscius absorbment mind during the first 3 years of life and consciuous absorbment mind in the next three years of life (3-6 years old)."
+           "text": "language."
+          },
+          {
+           "type": "para",
+           "text": "The nature gives to the child the absorbment mind and lots of creative energy in order to succesfully do the work of development required in this stage of their life. The absorbment mind it is called by Maria unconscius absorbment mind during the first 3 years of life and consciuous absorbment mind in the next three years of life (3-6 years"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ld)."
           }
          ]
         }
@@ -981,8 +1296,9 @@
            "text": "Physical changes / Body proportions"
           },
           {
-           "type": "para",
-           "text": " The babies has very different  The body proportions of a 6 years"
+           "type": "item",
+           "level": 1,
+           "text": "The babies has very different • The body proportions of a 6 years"
           },
           {
            "type": "para",
@@ -994,15 +1310,16 @@
           },
           {
            "type": "para",
-           "text": "head is big and the legs are short.  The body lengthens, becomes"
+           "text": "head is big and the legs are short. • The body lengthens, becomes"
           },
           {
            "type": "para",
            "text": "thinner and the legs strengthen."
           },
           {
-           "type": "para",
-           "text": " The 6 years old lost the baby fat."
+           "type": "item",
+           "level": 1,
+           "text": "The 6 years old lost the baby fat."
           },
           {
            "type": "para",
@@ -1017,16 +1334,18 @@
            "text": "teeth."
           },
           {
-           "type": "para",
-           "text": " The hair gets stronger and thicker."
+           "type": "item",
+           "level": 1,
+           "text": "The hair gets stronger and thicker."
           },
           {
-           "type": "sub",
+           "type": "para",
            "text": "Environment"
           },
           {
-           "type": "para",
-           "text": " The child functions in the  The 6-12 years old children need"
+           "type": "item",
+           "level": 1,
+           "text": "The child functions in the • The 6-12 years old children need"
           },
           {
            "type": "para",
@@ -1053,12 +1372,13 @@
            "text": "Characteristics"
           },
           {
-           "type": "para",
-           "text": " Creative plane with self-  Health, strength and stability"
+           "type": "item",
+           "level": 1,
+           "text": "Creative plane with self- • Health, strength and stability"
           },
           {
            "type": "para",
-           "text": "construction and self-perfection.  Ideal time for the acquisition of"
+           "text": "construction and self-perfection. • Ideal time for the acquisition of"
           },
           {
            "type": "para",
@@ -1086,7 +1406,12 @@
           },
           {
            "type": "para",
-           "text": "The strong legs of the child in the second plane of development symbolize the need of a larger environment for the child and an intellectual need for exploration."
+           "text": "The strong legs of the child in the second plane of development symbolize the need"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f a larger environment for the child and an intellectual need for exploration."
           },
           {
            "type": "para",
@@ -1098,7 +1423,16 @@
           },
           {
            "type": "para",
-           "text": "The second plane child develops an ability to picture a reality that he cannot see it physically around him, an ability to experience what is inaccessible to the senses. The older child is still seeking reality, but the only way to see, picture and experience the reality at the level of the world, universe is the imagination. Only in this way he can develop a sense of belonging to a whole world and become a citizen of “La Nazione Unica” (the single nation of humanity)."
+           "text": "The second plane child develops an ability to picture a reality that he cannot see it physically around him, an ability to experience what is inaccessible to the senses. The"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "lder child is still seeking reality, but the only way to see, picture and experience the"
+          },
+          {
+           "type": "para",
+           "text": "reality at the level of the world, universe is the imagination. Only in this way he can develop a sense of belonging to a whole world and become a citizen of “La Nazione Unica” (the single nation of humanity)."
           },
           {
            "type": "para",
@@ -1125,32 +1459,37 @@
            "text": "Infancy Childhood"
           },
           {
-           "type": "para",
-           "text": " Order helps the little children  Older children can discover"
+           "type": "item",
+           "level": 1,
+           "text": "Order helps the little children • Older children can discover"
           },
           {
-           "type": "para",
-           "text": "orientate themselves universal laws – a cosmic order"
+           "type": "item",
+           "level": 1,
+           "text": "rientate themselves universal laws – a cosmic order"
           },
           {
-           "type": "para",
-           "text": " Gives the little children a sense of  The older children find the"
+           "type": "item",
+           "level": 1,
+           "text": "Gives the little children a sense of • The older children find the"
           },
           {
            "type": "para",
            "text": "security relationship of how the things"
           },
           {
-           "type": "para",
-           "text": " Young children have a sensitive function. Connectivity and"
+           "type": "item",
+           "level": 1,
+           "text": "Young children have a sensitive function. Connectivity and"
           },
           {
            "type": "para",
            "text": "period for order interdependence of the world."
           },
           {
-           "type": "para",
-           "text": " The little children look for  The older child needs to look for"
+           "type": "item",
+           "level": 1,
+           "text": "The little children look for • The older child needs to look for"
           },
           {
            "type": "para",
@@ -1161,8 +1500,9 @@
            "text": "hidden level. He has to finds his"
           },
           {
-           "type": "para",
-           "text": "orientation there."
+           "type": "item",
+           "level": 1,
+           "text": "rientation there."
           },
           {
            "type": "para",
@@ -1177,24 +1517,27 @@
            "text": "Infancy Childhood"
           },
           {
-           "type": "para",
-           "text": " The senses are very acute when  Older children can pass from the"
+           "type": "item",
+           "level": 1,
+           "text": "The senses are very acute when • Older children can pass from the"
           },
           {
            "type": "para",
            "text": "the child is very young. love of the wind to understand"
           },
           {
-           "type": "para",
-           "text": " The little child is in love with the where the wind comes from. The"
+           "type": "item",
+           "level": 1,
+           "text": "The little child is in love with the where the wind comes from. The"
           },
           {
            "type": "para",
            "text": "world that surrounds him. love from the infancy drives the"
           },
           {
-           "type": "para",
-           "text": " When the little children don’t feel interests of the human being"
+           "type": "item",
+           "level": 1,
+           "text": "When the little children don’t feel interests of the human being"
           },
           {
            "type": "para",
@@ -1209,8 +1552,9 @@
            "text": "allowed to experience it."
           },
           {
-           "type": "para",
-           "text": " The love of the world that they"
+           "type": "item",
+           "level": 1,
+           "text": "The love of the world that they"
           },
           {
            "type": "para",
@@ -1235,8 +1579,9 @@
            "text": "Infancy Childhood"
           },
           {
-           "type": "para",
-           "text": " The basic acquisition of language  Older children can pass from the"
+           "type": "item",
+           "level": 1,
+           "text": "The basic acquisition of language • Older children can pass from the"
           },
           {
            "type": "para",
@@ -1259,8 +1604,9 @@
            "text": "already know. during the childhood."
           },
           {
-           "type": "para",
-           "text": " The young child gradually passes  The cosmic fables open new"
+           "type": "item",
+           "level": 1,
+           "text": "The young child gradually passes • The cosmic fables open new"
           },
           {
            "type": "para",
@@ -1348,15 +1694,29 @@
           },
           {
            "type": "para",
-           "text": "“Man is conscious of his own intellectual and physical needs and the claims on him of and society. He is fighting for himself, family and nation but yet to be conscious of"
+           "text": "“Man is conscious of his own intellectual and physical needs and the claims on him"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f and society. He is fighting for himself, family and nation but yet to be conscious of this deeper cosmic task, collaborations, work with others for the whole universe”"
+          },
+          {
+           "type": "sub",
+           "text": "Maria Montessori"
           },
           {
            "type": "para",
-           "text": "this deeper cosmic task, collaborations, work with others for the whole universe” Maria Montessori"
+           "text": "With the cosmic education it is presented the whole, starting with the biggest whole: the universe. This is done with the cosmic fables and stories – these are called “Stories of truth” by Mario Montessori. These stories have an emphasis on reality and come to answer part of the questions that the children might have. The stories are"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ffered as a help for the second plane children, these stories provides the seeds that"
           },
           {
            "type": "para",
-           "text": "With the cosmic education it is presented the whole, starting with the biggest whole: the universe. This is done with the cosmic fables and stories – these are called “Stories of truth” by Mario Montessori. These stories have an emphasis on reality and come to answer part of the questions that the children might have. The stories are offered as a help for the second plane children, these stories provides the seeds that can grow with the children."
+           "text": "can grow with the children."
           },
           {
            "type": "para",
@@ -1423,7 +1783,12 @@
         },
         {
          "type": "para",
-         "text": "In the Children’s House the discipline is there to help the child in making good choices within the freedom offered. In the general context discipline is thought of as a capacity to obey blindly the instructions of the other members of society (Discipline is defined in the dictionary as the practice of training people to obey rules or a code of behaviour, using punishment to correct disobedience). In the Montessori context discipline is connected to one’s self-control and capacity of making choices for themselves. Discipline can be seen as an interior order of the individual this is why the discipline requires freedom to be obtained and at the same time the freedom requires one’s self discipline."
+         "text": "In the Children’s House the discipline is there to help the child in making good choices within the freedom offered. In the general context discipline is thought of as a capacity to obey blindly the instructions of the other members of society (Discipline is defined in the dictionary as the practice of training people to obey rules or a code of behaviour, using punishment to correct disobedience). In the Montessori context discipline is connected to one’s self-control and capacity of making choices for themselves. Discipline can be seen as an interior order of the individual this is why the discipline requires freedom to be obtained and at the same time the freedom requires"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne’s self discipline."
         },
         {
          "type": "para",
@@ -1504,15 +1869,16 @@
           },
           {
            "type": "para",
-           "text": "Freedom of choice is fundamental to the Montessori approach. This is because choice allows children to discover their needs, interests and abilities. Furthermore, freedom of choice encourages children to be engaged in their learning, and thus discover the outcome of the activity."
+           "text": "Freedom of choice is fundamental to the Montessori approach. This is because choice allows children to discover their needs, interests and abilities. Furthermore, freedom of choice encourages children to be engaged in their learning, and thus discover the"
           },
           {
-           "type": "sub",
-           "text": "Freedom of time"
+           "type": "item",
+           "level": 1,
+           "text": "utcome of the activity."
           },
           {
            "type": "para",
-           "text": "Freedom of time allows children to work with the same material for as long as they like. In effect, this encourages children to learn at their own pace, develop the skills of concentration, and learn patience to wait their turn."
+           "text": "Freedom of time Freedom of time allows children to work with the same material for as long as they like. In effect, this encourages children to learn at their own pace, develop the skills of concentration, and learn patience to wait their turn."
           },
           {
            "type": "sub",
@@ -2003,7 +2369,16 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Maria Montessori writes “Creative Development in the Child” which are a reflection of the course that she gave there. The work comes in two volumes and includes the Children’s House and Elementary work, as at that time it was offered in one course. The part of the course for Elementary it was developed based on some of the questions that the children asked in that time in India. With careful observation, Maria and Mario Montessori both understood that the education had to help the “hungry mind” of the child to develop and the materials had to serve as aids for the development. Mario Montessori shared some of these questions that the children had: ”How do plants grow? They don’t eat or drink”, “How do butterflies eat? They don’t have teeth”, “Why does winter come? It is so cold”, “The Sun is so small in comparison with the Earth”. As it is clear from the children’s questions, a kind of aids to their imagination had to be created to help the children understand the universe, the live on Earth and how it was all created."
+         "text": "Maria Montessori writes “Creative Development in the Child” which are a reflection of the course that she gave there. The work comes in two volumes and includes the Children’s House and Elementary work, as at that time it was offered in one course. The part of the course for Elementary it was developed based on some of the questions that the children asked in that time in India. With careful observation, Maria and Mario Montessori both understood that the education had to help the “hungry mind” of the child to develop and the materials had to serve as aids for the development. Mario Montessori shared some of these questions that the children had: ”How do plants grow? They don’t eat"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "r drink”, “How do butterflies eat? They don’t have teeth”, “Why does"
+        },
+        {
+         "type": "para",
+         "text": "winter come? It is so cold”, “The Sun is so small in comparison with the Earth”. As it is clear from the children’s questions, a kind of aids to their imagination had to be created to help the children understand the universe, the live on Earth and how it was all created."
         },
         {
          "type": "item",
@@ -2140,7 +2515,21 @@
         },
         {
          "type": "para",
-         "text": "decisions. If we take all these characteristics together we can observe the child in the second plane of development as being very interested in the humanity, the work that has been carried, how this work impacted their life and how this work can be carried out in the future. The second plane child works in conscious way, a work to satisfy his own hungry mind and that makes him a worthy member of the groups that he has formed. With work and responsibility a love towards the universe, the life and humanity is developed and together with this a sense of human solidarity that links them to the cosmic work that it is taking place."
+         "text": "decisions. If we take all these characteristics together we can observe the child in the second plane of development as being very interested in the humanity, the work that has been carried, how this work impacted their life and how this work can be carried"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ut in the future. The second plane child works in conscious way, a work to satisfy his"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "wn hungry mind and that makes him a worthy member of the groups that he has"
+        },
+        {
+         "type": "para",
+         "text": "formed. With work and responsibility a love towards the universe, the life and humanity is developed and together with this a sense of human solidarity that links them to the cosmic work that it is taking place."
         }
        ]
       }
@@ -2187,12 +2576,22 @@
         {
          "type": "item",
          "level": 1,
-         "text": "Physical environment  Motives for activity"
+         "text": "Physical environment"
         },
         {
          "type": "item",
          "level": 1,
-         "text": "Social environment  Adult and other children"
+         "text": "Motives for activity"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Social environment"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "Adult and other children"
         },
         {
          "type": "item",
@@ -2251,7 +2650,16 @@
         },
         {
          "type": "para",
-         "text": "Children are the centre of the Montessori classroom. The role of the teacher is to observe and guide, being mindful of children’s changing interests, developmental needs, and emotions. Teachers plan daily lessons for each child."
+         "text": "Children are the centre of the Montessori classroom. The role of the teacher is to"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "bserve and guide, being mindful of children’s changing interests, developmental"
+        },
+        {
+         "type": "para",
+         "text": "needs, and emotions. Teachers plan daily lessons for each child."
         },
         {
          "type": "sub",
@@ -2379,7 +2787,25 @@
         },
         {
          "type": "para",
-         "text": "\"Scientific observation then has established that education is not what the teacher gives; education is a natural process spontaneously carried out by the human individual, and is acquired not by listening to words but by experiment upon the environment. The task of the teacher becomes that of preparing a series of motives of cultural activity, spread over a specially prepared environment, and then refraining from obtrusive interference. Human teachers can only help the great work that is being done, as servants help the master. Doing so, they will be witnesses to the unfolding of the human soul and to the rising of a New Man who will not be the victim of events, but will have the clarity of vision to direct and shape the future of human society.\""
+         "text": "\"Scientific observation then has established that education is not what the teacher gives; education is a natural process spontaneously carried out by the human individual, and is acquired not by listening to words but by experiment upon the environment. The task of the teacher becomes that of preparing a series of motives"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f cultural activity, spread over a specially prepared environment, and then refraining"
+        },
+        {
+         "type": "para",
+         "text": "from obtrusive interference. Human teachers can only help the great work that is being done, as servants help the master. Doing so, they will be witnesses to the unfolding of the human soul and to the rising of a New Man who will not be the victim"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f events, but will have the clarity of vision to direct and shape the future of human"
+        },
+        {
+         "type": "para",
+         "text": "society.\""
         },
         {
          "type": "para",
@@ -2460,7 +2886,12 @@
         },
         {
          "type": "para",
-         "text": "The guide should also have short conferences with the students from time to time to make sure that they are on track with their work. This conferences can be daily, weekly or even monthly depending on each child and they progress in the classroom."
+         "text": "The guide should also have short conferences with the students from time to time to make sure that they are on track with their work. This conferences can be daily, weekly"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "r even monthly depending on each child and they progress in the classroom."
         },
         {
          "type": "para",
@@ -2484,7 +2915,12 @@
         },
         {
          "type": "para",
-         "text": "When the children arrive to a new environment they have to be helped to be orientated and to learn the rules of the environment."
+         "text": "When the children arrive to a new environment they have to be helped to be"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rientated and to learn the rules of the environment."
         },
         {
          "type": "para",
@@ -2523,7 +2959,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "Science has showed that the human brain for some individuals works best in the afternoon, having an afternoon work cycle might be beneficial for some of the children"
+         "text": "Science has showed that the human brain for some individuals works best in the afternoon, having an afternoon work cycle might be beneficial for some"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the children"
         },
         {
          "type": "item",
@@ -2776,7 +3217,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "Independence: to be able to function independently as an adult. It is a process of becoming independent. There are different stages of independence depending on the age of the child: functional/physical, intellectual/moral, economic, social independence."
+         "text": "Independence: to be able to function independently as an adult. It is a process"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f becoming independent. There are different stages of independence"
+        },
+        {
+         "type": "para",
+         "text": "depending on the age of the child: functional/physical, intellectual/moral, economic, social independence."
         },
         {
          "type": "item",
@@ -2818,7 +3268,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The second plane children can do more work in the environment, taking care of the environment for example. The children should be given the responsibility appropriate for his age."
+         "text": "The second plane children can do more work in the environment, taking care"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the environment for example. The children should be given the responsibility"
+        },
+        {
+         "type": "para",
+         "text": "appropriate for his age."
         },
         {
          "type": "item",
@@ -2858,7 +3317,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The second plane society, there is an organization of work, establishing for themselves the rules. This organization of the work, the collective work, is the one that drives the humanity towards the development."
+         "text": "The second plane society, there is an organization of work, establishing for themselves the rules. This organization of the work, the collective work, is the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne that drives the humanity towards the development."
         },
         {
          "type": "item",
@@ -2908,7 +3372,16 @@
         },
         {
          "type": "para",
-         "text": "Maria Montessori used this term to describe the mind of the child during the first plane of development. She used the terms “sponge mind” to give us an idea of the mind of the child but later she corrected herself as the sponge might get saturated at some point and it is not quite right for the mind of the child (The absorbent mind retains everything, whereas a sponge that is saturated will start to lose the liquid). During the first plane, the child becomes functionally independent, develops his personality and adapts to his environment and group. Analyzing the absorbent mind helps us to understand how this process of self-construction happens."
+         "text": "Maria Montessori used this term to describe the mind of the child during the first plane"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f development. She used the terms “sponge mind” to give us an idea of the mind of"
+        },
+        {
+         "type": "para",
+         "text": "the child but later she corrected herself as the sponge might get saturated at some point and it is not quite right for the mind of the child (The absorbent mind retains everything, whereas a sponge that is saturated will start to lose the liquid). During the first plane, the child becomes functionally independent, develops his personality and adapts to his environment and group. Analyzing the absorbent mind helps us to understand how this process of self-construction happens."
         },
         {
          "type": "para",
@@ -2977,7 +3450,16 @@
            "blocks": [
             {
              "type": "para",
-             "text": "At birth the child cannot communicate but by the age of 2.5 years old the child is able to speak the language(s) of his environment. Just by being part of the environment the child develops his language(s) knowledge. The child needs the opportunity to practice both speaking and listening as absorption alone isn’t enough. The richer the language in the environment, the richer will be the child’s language. The period between birth and six years old it is the perfect period for the language acquisition. The adults should not dumb down language, for example trying to “baby talk”, as the child can absorb the language without difficulties."
+             "text": "At birth the child cannot communicate but by the age of 2.5 years old the child is able to speak the language(s) of his environment. Just by being part of the environment the child develops his language(s) knowledge. The child needs the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "pportunity to practice both speaking and listening as absorption alone isn’t enough."
+            },
+            {
+             "type": "para",
+             "text": "The richer the language in the environment, the richer will be the child’s language. The period between birth and six years old it is the perfect period for the language acquisition. The adults should not dumb down language, for example trying to “baby talk”, as the child can absorb the language without difficulties."
             }
            ]
           }
@@ -3060,11 +3542,25 @@
         },
         {
          "type": "para",
-         "text": "The botanists observed these sensitive periods in the study of the butterfly, where they observed certain sensitivities of the caterpillar (where the caterpillar was drawn to light)."
+         "text": "The botanists observed these sensitive periods in the study of the butterfly, where they"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "bserved certain sensitivities of the caterpillar (where the caterpillar was drawn to"
         },
         {
          "type": "para",
-         "text": "Maria Montessori discovered that the Human Being has as well certain innate sensitivities that draw the child to create human characteristics and functions. These innate sensitivities drive the child to interact with the environment and have a constructive role in the fundamental development of the child during the first 6 years of life."
+         "text": "light)."
+        },
+        {
+         "type": "para",
+         "text": "Maria Montessori discovered that the Human Being has as well certain innate sensitivities that draw the child to create human characteristics and functions. These innate sensitivities drive the child to interact with the environment and have a constructive role in the fundamental development of the child during the first 6 years"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f life."
         }
        ]
       }
@@ -3105,7 +3601,12 @@
          "blocks": [
           {
            "type": "para",
-           "text": "These sensitive periods are universal and are not influenced by the culture, location or beliefs of the group of people where the child is born."
+           "text": "These sensitive periods are universal and are not influenced by the culture, location"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "r beliefs of the group of people where the child is born."
           }
          ]
         }
@@ -3159,7 +3660,12 @@
           },
           {
            "type": "para",
-           "text": "We can look at the sensitive periods as windows of opportunity for the development of the child."
+           "text": "We can look at the sensitive periods as windows of opportunity for the development"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the child."
           }
          ]
         }
@@ -3210,7 +3716,16 @@
            "blocks": [
             {
              "type": "para",
-             "text": "Order is a part of our life and we as humans tend to seek it even in the everyday life. While talking about order for the child, Maria Montessori talked about the child as a new comer in the world who has to make sense of the environment that surrounds him. It is trough external order that the child can build the internal order. Maria Montessori said that the sensitive period for order is one of the most important but yet mysterious. The children in the sensitive period for order have a love for order. The sensitive period for order is very important for the acquisition for language."
+             "text": "Order is a part of our life and we as humans tend to seek it even in the everyday life. While talking about order for the child, Maria Montessori talked about the child as a new comer in the world who has to make sense of the environment that surrounds him. It is trough external order that the child can build the internal"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "rder. Maria Montessori said that the sensitive period for order is one of the most"
+            },
+            {
+             "type": "para",
+             "text": "important but yet mysterious. The children in the sensitive period for order have a love for order. The sensitive period for order is very important for the acquisition for language."
             }
            ]
           }
@@ -3332,7 +3847,16 @@
             },
             {
              "type": "para",
-             "text": "The adult should never forget that he/she is a constant role model. The appearance, movement, language and care should be cared about as the child in the first plane of development has a desire to look-up at the adult in the group and absorb what he/she sees."
+             "text": "The adult should never forget that he/she is a constant role model. The appearance, movement, language and care should be cared about as the child in the first plane"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f development has a desire to look-up at the adult in the group and absorb what"
+            },
+            {
+             "type": "para",
+             "text": "he/she sees."
             },
             {
              "type": "para",
@@ -3365,7 +3889,16 @@
        "blocks": [
         {
          "type": "para",
-         "text": "“To animals perfection of movement is giving by nature, and the grace of the tiger or the squirrel is due to the wealth of opposition put into play to attain that harmony. In man this mechanism, is not there at birth, so has to be created, and this is done by"
+         "text": "“To animals perfection of movement is giving by nature, and the grace of the tiger"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "r the squirrel is due to the wealth of opposition put into play to attain that harmony."
+        },
+        {
+         "type": "para",
+         "text": "In man this mechanism, is not there at birth, so has to be created, and this is done by"
         },
         {
          "type": "para",
@@ -3403,7 +3936,16 @@
           },
           {
            "type": "para",
-           "text": "Around 18 months old the child as described by Dr. Maria Montessori enters in a period of Maximum effort, he walks carrying heavy objects – as a way to gain more strength. The child will try to use movement to get to know their environment and to develop its movement capacities already acquired. It is a characteristic of the man to think with his hands. The hands are the most important tool of the human being."
+           "text": "Around 18 months old the child as described by Dr. Maria Montessori enters in a period"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f Maximum effort, he walks carrying heavy objects – as a way to gain more strength."
+          },
+          {
+           "type": "para",
+           "text": "The child will try to use movement to get to know their environment and to develop its movement capacities already acquired. It is a characteristic of the man to think with his hands. The hands are the most important tool of the human being."
           },
           {
            "type": "para",
@@ -3520,7 +4062,17 @@
             {
              "type": "item",
              "level": 1,
-             "text": "Enrichment of the vocabulary  Naming the objects in the environment  Social language (Grace and Courtesy)"
+             "text": "Enrichment of the vocabulary"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Naming the objects in the environment"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "Social language (Grace and Courtesy)"
             },
             {
              "type": "para",
@@ -3725,8 +4277,13 @@
            "text": "The prepared environment in Children’s House offers opportunities for the co-"
           },
           {
+           "type": "item",
+           "level": 1,
+           "text": "rdination of movement, language, independence, repetition, concentration,"
+          },
+          {
            "type": "para",
-           "text": "ordination of movement, language, independence, repetition, concentration, problem solving, refinement of the senses, social development and to explore the world culture. In the prepared environment the children are offered the opportunity to explore by themselves and are not taught."
+           "text": "problem solving, refinement of the senses, social development and to explore the world culture. In the prepared environment the children are offered the opportunity to explore by themselves and are not taught."
           }
          ]
         }
@@ -3894,7 +4451,16 @@
            "blocks": [
             {
              "type": "para",
-             "text": "In the practical life area there are activities that deal with the care of oneself and care of the environment. The daily life activities give opportunities to develop co- ordinated movement, independence, concentration and an “I can do it” attitude. There are group activities such as “Grace and Courtesy”, “Walking on the line” and the “Silence game”."
+             "text": "In the practical life area there are activities that deal with the care of oneself and care of the environment. The daily life activities give opportunities to develop co-"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "rdinated movement, independence, concentration and an “I can do it” attitude."
+            },
+            {
+             "type": "para",
+             "text": "There are group activities such as “Grace and Courtesy”, “Walking on the line” and the “Silence game”."
             }
            ]
           }
@@ -3915,7 +4481,12 @@
            "blocks": [
             {
              "type": "para",
-             "text": "The activities in the sensorial area help the child to get a refined sensory perception, organize and classify the impressions received."
+             "text": "The activities in the sensorial area help the child to get a refined sensory perception,"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "rganize and classify the impressions received."
             }
            ]
           }
@@ -4135,7 +4706,12 @@
            "blocks": [
             {
              "type": "para",
-             "text": "Freedom of movement in the environment is offered to allow the child to explore and observe."
+             "text": "Freedom of movement in the environment is offered to allow the child to explore and"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "bserve."
             }
            ]
           }
@@ -4156,7 +4732,25 @@
            "blocks": [
             {
              "type": "para",
-             "text": "Limits or boundaries are always present in the Children’s House. The material is limited, one of each, encouraging the children to be respectful, take turns and learn to be patient. There is respect for the work of another, where children can join an activity only if the other invited. Returning the work back it is important as a sign of finalising an activity and also helps with the order and independence in environment."
+             "text": "Limits or boundaries are always present in the Children’s House. The material is limited,"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne of each, encouraging the children to be respectful, take turns and learn to be"
+            },
+            {
+             "type": "para",
+             "text": "patient. There is respect for the work of another, where children can join an activity"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "nly if the other invited. Returning the work back it is important as a sign of finalising"
+            },
+            {
+             "type": "para",
+             "text": "an activity and also helps with the order and independence in environment."
             }
            ]
           }
@@ -4243,11 +4837,12 @@
         },
         {
          "type": "para",
-         "text": "“… the adult must pass from the role of commanding creator to be obeyed to a role of a scientist who studies how best he can help the process of developing life.” AMI"
+         "text": "“… the adult must pass from the role of commanding creator to be obeyed to a role"
         },
         {
-         "type": "sub",
-         "text": "Communications 2002"
+         "type": "item",
+         "level": 1,
+         "text": "f a scientist who studies how best he can help the process of developing life.” AMI Communications 2002"
         },
         {
          "type": "para",
@@ -4401,7 +4996,12 @@
         },
         {
          "type": "para",
-         "text": "The Children’s House tries to foster the self-discipline through engagement to support the child’s development and adaptation. This can be done by offering the child rich motives for activity, activities that respond to the child’s development, activities offered in the way that they are of interest and appealing to the child."
+         "text": "The Children’s House tries to foster the self-discipline through engagement to support the child’s development and adaptation. This can be done by offering the child rich motives for activity, activities that respond to the child’s development, activities"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ffered in the way that they are of interest and appealing to the child."
         },
         {
          "type": "para",
@@ -4539,15 +5139,25 @@
            "blocks": [
             {
              "type": "para",
-             "text": "The freedom to be/to observe allows the child to observe his colleagues, to take his own time to reflect on some of the things that considers important and just to feel free to have a rest if he feels he needs one."
+             "text": "The freedom to be/to observe allows the child to observe his colleagues, to take his"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "wn time to reflect on some of the things that considers important and just to feel"
+            },
+            {
+             "type": "para",
+             "text": "free to have a rest if he feels he needs one."
             },
             {
              "type": "para",
              "text": "“Work is the cornerstone of freedom. The freedom of our children has as its limit the community, for freedom does not mean doing what one wants, but being master of"
             },
             {
-             "type": "para",
-             "text": "oneself” Maria Montessori"
+             "type": "item",
+             "level": 1,
+             "text": "neself” Maria Montessori"
             }
            ]
           }
@@ -4769,7 +5379,25 @@
        "blocks": [
         {
          "type": "para",
-         "text": "Our lives are in constant connection with the others, the child needs the presence of other humans. The first child’s social group is family, so that the child has a feel of safety, love and care. It is very important that in the family the children get the rules of behaviour (code of conduct). The child should be able to be part in the life of the family. At around 2.5 years old the children’s need a broader social environment, in some cultures the children go to kindergarten or play groups."
+         "text": "Our lives are in constant connection with the others, the child needs the presence of"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ther humans. The first child’s social group is family, so that the child has a feel of"
+        },
+        {
+         "type": "para",
+         "text": "safety, love and care. It is very important that in the family the children get the rules"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f behaviour (code of conduct). The child should be able to be part in the life of the"
+        },
+        {
+         "type": "para",
+         "text": "family. At around 2.5 years old the children’s need a broader social environment, in some cultures the children go to kindergarten or play groups."
         },
         {
          "type": "para",
@@ -4785,7 +5413,12 @@
         },
         {
          "type": "para",
-         "text": "The benefits of a mixed-age group are that children develop respect for the others and their activity, are exposed to a wide range of activities, the younger children learn by observing the older children, the older children have the opportunity to validate their knowledge by helping the younger, they develop in a non-competitive environment, it reflects the real community, fewer adults as the children can work and organize their community."
+         "text": "The benefits of a mixed-age group are that children develop respect for the others and their activity, are exposed to a wide range of activities, the younger children learn by observing the older children, the older children have the opportunity to validate their knowledge by helping the younger, they develop in a non-competitive environment, it reflects the real community, fewer adults as the children can work and"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rganize their community."
         },
         {
          "type": "para",
@@ -4845,7 +5478,12 @@
         },
         {
          "type": "para",
-         "text": "The key tasks of the child in the first plane of development are adaptation, self- construction and the creation of the personality. The practical life activities respond to the child’s development as these activities are based on the human tendencies and the absorbent mind. It is important to mention that these activities support the adaption of the child and the development of the sensitivities of the child (language, order, coordinated movement and social behavior)."
+         "text": "The key tasks of the child in the first plane of development are adaptation, self- construction and the creation of the personality. The practical life activities respond to the child’s development as these activities are based on the human tendencies and the absorbent mind. It is important to mention that these activities support the adaption of the child and the development of the sensitivities of the child (language,"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rder, coordinated movement and social behavior)."
         },
         {
          "type": "para",
@@ -5022,7 +5660,12 @@
            "blocks": [
             {
              "type": "para",
-             "text": "The children with the help of this activity develop their coordinated movement, balance, equilibrium and self-control. For this activity a meandering line it is recommended if the activity is carried indoors and an ellipse if the activity is carried outdoors and faster steps and skipping is used."
+             "text": "The children with the help of this activity develop their coordinated movement, balance, equilibrium and self-control. For this activity a meandering line it is recommended if the activity is carried indoors and an ellipse if the activity is carried"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "utdoors and faster steps and skipping is used."
             }
            ]
           }
@@ -5068,8 +5711,13 @@
              "text": "The practical life activities benefit the development of the individual as well as the group, the effort is collective which brings responsibility and the children can contribute each of them depending on their capacity, it creates a space of cooperation and collaboration. “We must understand that the exercises of practical life are not intended as training"
             },
             {
+             "type": "item",
+             "level": 1,
+             "text": "f practical skills. They are a kind of gymnastic training for the harmonious"
+            },
+            {
              "type": "para",
-             "text": "of practical skills. They are a kind of gymnastic training for the harmonious development of the psychic and motor parts of the individual. The individual becomes a unity so that a movement is not just a movement of the hand but of the"
+             "text": "development of the psychic and motor parts of the individual. The individual becomes a unity so that a movement is not just a movement of the hand but of the"
             },
             {
              "type": "para",
@@ -5110,11 +5758,12 @@
         },
         {
          "type": "para",
-         "text": "“If training of this sort is undertaken at an age when the formative periods naturally over, it will be difficult and imperfect. The secret of preparing one for a particular skill consists in utilising that period of life between the ages of three and six , when there is a natural inclination to perfect one’s senses and movements” Maria Montessori –"
+         "text": "“If training of this sort is undertaken at an age when the formative periods naturally"
         },
         {
-         "type": "sub",
-         "text": "Discovery of the child"
+         "type": "item",
+         "level": 1,
+         "text": "ver, it will be difficult and imperfect. The secret of preparing one for a particular skill consists in utilising that period of life between the ages of three and six , when there is a natural inclination to perfect one’s senses and movements” Maria Montessori – Discovery of the child"
         },
         {
          "type": "para",

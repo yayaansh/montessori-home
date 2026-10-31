@@ -126,7 +126,7 @@ function TreeNode({
           </Link>
           <div className="tmeta">
             {age && <span className="chip small">{age.label}</span>}
-            {node.lesson ? <StatusChip status={status} /> : lessons > 0 && <span className="tcount">{lessons} lessons</span>}
+            {node.lesson ? <StatusChip status={status} /> : lessons > 0 && <span className="tcount">{lessons} {lessons === 1 ? 'lesson' : 'lessons'}</span>}
           </div>
         </div>
       )}

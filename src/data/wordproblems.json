@@ -563,7 +563,7 @@
   "id": "06-fractions-different-denominator-word-problems-addition-and-subtraction-fraction-different-denominator-2-steps-pdf",
   "topic": "Fractions - Different denominator",
   "name": "Addition and Subtraction Fraction (2-steps)",
-  "header": "",
+  "header": "Add & Sub Fractions Diff. Denominator (2-steps)",
   "steps": 2,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems Addition and Subtraction Fraction Different Denominator (2-steps).pdf",
   "problems": [
@@ -573,62 +573,58 @@
    },
    {
     "n": 2,
-    "text": "Add & Sub Fractions Diff. Denominator (2-steps)"
-   },
-   {
-    "n": 3,
     "text": "Jack ate 1/6 of a pizza, gave 2/9 of it to his friend, and saved the rest for later. How much pizza did they eat together?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Lisa walked 3/10 of a mile, another 1/4 of a mile, and took a break for 10 minutes. How far did she walk in total?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Ryan spent 1/8 of his money on a toy, 3/16 on a book, and some on a snack. How much money did he spend altogether?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Alex drank 1/6 of a bottle of juice, 1/4 of a bottle of water, and left the rest. How much did he drink in total?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Olivia spent 2/9 of her allowance on candy, 1/3 on a toy, and saved the rest. How much of her allowance did she spend?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Zoe read 1/4 of a book in the morning, 2/5 in the evening, and watched a movie. How much of the book did she read?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "Luke used 1/7 of a gallon of paint, 3/14 for his project, and cleaned his brushes. How much paint did he use in total?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Leo planted 1/6 of his garden with flowers, 2/9 with vegetables, and trimmed the bushes. How much of his garden was planted?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Mia wrote 3/10 of her essay, then another 1/4 of it, and checked her emails. How much of her essay did she write in total?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "Benny has 1/4 of last week's allowance, 1/2 of this week's allowance, and an advance of 2/3 of next week's allowance. Benny can only spend 5/7 of this money on cards. How much allowance in total does Benny have left?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Dan picked 2/3 of a bucket of limes, and Jason picked 1/10 of a bucket of limes. Benny picked 1/12 of limes, while Dan ate 3/4 of the pickings. How many buckets were picked?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "Jason ate 7/12 of a pumpkin, while Sara ate 3/4 of a pumpkin, and 1/2 of an apple. Alyssa also ate 1/6 of a pumpkin. In total, how much pumpkin did these three eat?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "Alyssa planted 5/6 rows of turnips, 1/3 rows of peppers and 1/2 rows of carrots in a garden. Alyssa also planted 3/10 of a row of dogwood trees. How many rows of vegetables did Alyssa plant?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "Sara planted 1/5 rows of carrots, 3/10 rows of radishes and 1/3 rows of turnips in a garden. Sara also planted 8/9 of a row of walnut trees. How many rows of vegetables did Sara plant?"
    }
   ]
@@ -637,7 +633,7 @@
   "id": "06-fractions-different-denominator-word-problems-addition-fraction-different-denominator-1-step-pdf",
   "topic": "Fractions - Different denominator",
   "name": "Addition Fraction (1-step)",
-  "header": "",
+  "header": "Addition Fractions Diff. Denominator (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems Addition Fraction Different Denominator (1-step).pdf",
   "problems": [
@@ -647,62 +643,58 @@
    },
    {
     "n": 2,
-    "text": "Addition Fractions Diff. Denominator (1-step)"
-   },
-   {
-    "n": 3,
     "text": "A recipe requires 2/5 cup of sugar, and another recipe needs 1/10 cup of sugar. How much sugar is needed in total?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "John drank 3/8 of a bottle of juice in the morning and 1/4 in the evening. How much juice did he drink in total?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Sara read 2/3 of a book and then read another 1/6. How much of the book did she read?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "A gardener used 1/2 of a bag of soil in one flowerbed and 3/10 in another. How much soil did he use in total?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Emily has 3/7 of a pizza, and she gets another 1/14 from her brother. How much pizza does she have now?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Henry has 5/12 of a yard of fabric and buys another 1/4. How much fabric does he have in total?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A painter used 3/10 of a gallon of paint on one wall and 1/5 on another. How much paint did he use in total?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Lisa drank 1/3 of a bottle of water and then drank another 1/6. How much water did she drink in total?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Tom ate 5/8 of a pie and then ate another 1/16. How much pie did he eat in total?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "A cyclist rode 3/5 of a mile in the morning and 1/4 of a mile in the evening. How many miles did he ride in total?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Maria has 2/7 of a pound of flour and adds another 1/14. How much flour does she have now?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "A baker used 5/6 of a cup of sugar in one recipe and 1/8 in another. How much sugar did he use in total?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "A runner completed 3/4 of a mile and then ran another 1/5. How many miles did he run in total?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "A chef used 2/9 of a cup of oil in one dish and 1/6 in another. How much oil did he use in total?"
    }
   ]
@@ -711,7 +703,7 @@
   "id": "06-fractions-different-denominator-word-problems-all-operations-fraction-different-denominator-1-step-pdf",
   "topic": "Fractions - Different denominator",
   "name": "All Operations Fraction (1-step)",
-  "header": "",
+  "header": "Fractions All Arithmetic Operations Diff Denominators (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems All Operations Fraction Different Denominator (1-step).pdf",
   "problems": [
@@ -721,62 +713,54 @@
    },
    {
     "n": 2,
-    "text": "Fractions All Arithmetic Operations Diff Denominators (1-step)"
-   },
-   {
-    "n": 3,
     "text": "Emily had 3/4 of a pizza. She ate 1/3 of it and then shared 1/6 of what was left with her friend. How much pizza did Emily share?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Michael has 2/3 of a bag of candies. He gave away 1/6 of them to his friend. What fraction of the candies did Michael give away?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Sarah has 1/2 of a cake. She wants to share it equally with 1/4 of her friends. How much cake will each friend get?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Ethan has 3/4 of a gallon of water. He needs to fill 1/2 of a smaller container. How much water will Ethan transfer?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Lily has 3/4 of a pound of nuts. She wants to divide it equally into 1/3 pound portions for her recipes. How many portions can Lily make?"
    },
    {
-    "n": 8,
-    "text": "Divide the fraction of nuts Lily has (3/4) by the portion size (1/3): 3/4 ÷ 1/3 = 9/4 or 2.25 portions"
-   },
-   {
-    "n": 9,
+    "n": 7,
     "text": "Jacob has 1/3 of a yard of fabric. He needs 1/4 of a yard for each mask he's making. How many masks can Jacob make?"
    },
    {
-    "n": 10,
+    "n": 8,
     "text": "Mia has 1/2 of a pie. She wants to give 1/5 of it to her neighbor. How much pie will Mia give to her neighbor?"
    },
    {
-    "n": 11,
+    "n": 9,
     "text": "Ben has 3/4 of a gallon of paint. He used 1/3 of it for painting. How much paint does Ben have left?"
    },
    {
-    "n": 12,
+    "n": 10,
     "text": "Anna has 1/3 of a bag of chips. She ate 1/6 of them and then shared 1/2 of what was left with her friends. How much did Anna share with each friend?"
    },
    {
-    "n": 13,
+    "n": 11,
     "text": "Emily has 2/3 of a box of pencils. She needs 1/4 of a box for her project. How many boxes does Emily need to complete her project?"
    },
    {
-    "n": 14,
+    "n": 12,
     "text": "Sarah has 3/4 of a gallon of milk. She drank 1/2 of it and then spilled 1/6 of what was left. How much milk did Sarah spill?"
    },
    {
-    "n": 15,
+    "n": 13,
     "text": "Jason has 1/3 of a cake. He wants to share it equally among 1/2 of his friends. How much cake will each friend get?"
    },
    {
-    "n": 16,
+    "n": 14,
     "text": "Lily has 1/2 of a pound of nuts. She wants to divide it equally into 1/3 pound portions for her recipes. How many portions can Lily make?"
    }
   ]
@@ -785,7 +769,7 @@
   "id": "06-fractions-different-denominator-word-problems-all-operations-fraction-different-denominator-2-steps-pdf",
   "topic": "Fractions - Different denominator",
   "name": "All Operations Fraction (2-steps)",
-  "header": "",
+  "header": "Fractions All Arithmetic Operations Diff Denominators (2-steps)",
   "steps": 2,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems All Operations Fraction Different Denominator (2-steps).pdf",
   "problems": [
@@ -795,58 +779,54 @@
    },
    {
     "n": 2,
-    "text": "Fractions All Arithmetic Operations Diff Denominators (2-steps)"
-   },
-   {
-    "n": 3,
     "text": "Three friends shared a pizza. Mindy ate 1/3 of the pizza, Oliver ate 2/5 of the pizza, and Kristi ate 1/6 of the pizza. How much of the pizza is left?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Three friends shared a pizza. Mindy ate 1/6 of the pizza, Martha ate 1/6 of the pizza, and Ben ate 3/5 of the pizza. How much of the pizza is left?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Gabriela is making 3 batches of cupcakes. Each batch calls for 14/5 cups of flour. Gabriela has 29/3 cups of flour in the cupboard. How much flour will Gabriela have left after making the cupcakes?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Vianna is making 3 batches of cupcakes. Each batch calls for 7/6 cups of sugar. Vianna has 23/6 cups of sugar in the cupboard. How much sugar will Vianna have left after making the cupcakes?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Ella is making 2 batches of cupcakes. Each batch calls for 11/6 cups of sugar. Ella has 21/4 cups of sugar in the cupboard. How much sugar will Ella have left after making the cupcakes?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Aubrey is filling jars with candy. Aubrey has 13/6 ounces of caramels and 12/5 ounces of chocolates. Each jar will hold total 3/5 ounces of candy (containing caramels, chocolates, or both). How many jars can Aubrey fill?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "In order to pass, Angelina must get 3/4 of the items correct on a 60-item quiz in 5 subjects. How many items does she need to get correct in order to pass the quiz in each subject?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "During the exam, the students are given 5/ 6 of an hour to complete the test for each subject. If Angelina finished the first subject in 2/ 3 of an hour, how much more time does she have left before starting the second subject? How long is the examination time for all 5 subjects altogether?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Catherine is reading a novel that has 400 pages. She read 1/5 of the total number of pages yesterday and 3/10 of the total number of pages today. How many more pages does she need to read to finish the novel?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "There are 1/4 more grade 6 than grade 5 pupils where Mr. Jordan works. If there are 248 students in grade 5, how many grade 6 pupils are there in the school?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Aida works as a teacher’s aide for Mr. Jordan. She spent 8 1/3 hours assisting Mr. Jordan, including her lunch break. If her lunch was only 11/12 of an hour, how much time did she spend assisting teacher Jordan?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "Mr. Carlo spent 2 1/4 hours checking the test papers of his 54 students from 2 sections in his mathematics course. In minutes, how much time did he spend checking each test paper?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "1/8 of a pizza costs 2 dollars. In an hour, 6 1/4 pizzas were sold. How much money was made at the food booth in that hour?"
    }
   ]
@@ -855,7 +835,7 @@
   "id": "06-fractions-different-denominator-word-problems-division-fraction-different-denominator-1-step-pdf",
   "topic": "Fractions - Different denominator",
   "name": "Division Fraction (1-step)",
-  "header": "",
+  "header": "Division Fractions Different Denominators (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems Division Fraction Different Denominator (1-step).pdf",
   "problems": [
@@ -865,62 +845,58 @@
    },
    {
     "n": 2,
-    "text": "Division Fractions Different Denominators (1-step)"
-   },
-   {
-    "n": 3,
     "text": "Jason has 3/5 of a gallon of milk and wants to pour 1/3 of it into each of his 2 cups. How much milk will be in each cup?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Olivia has 2/3 of a bag of flour and needs to use 1/2 of it for baking cookies. How much flour does she use for the cookies?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "David has 3/4 of a yard of fabric and cuts it into pieces that are each 1/3 of a yard long. How many pieces can he cut?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Jessica has 1/3 of a box of chocolates and wants to share it equally among 2 friends. How much chocolate will each friend get?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Tyler has 3/4 of a sandwich and wants to give 1/2 of it to his friend. What fraction of the whole sandwich does his friend get?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Sophia has 2/5 of a toy train track and wants to divide it into segments that are each 1/4 of a track long. How many segments can she make?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "Matthew has 3/2 of a puzzle and wants to divide it equally among 3 friends. How much puzzle does each friend get?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Ethan has 2/3 of a tank of gas and uses 1/2 of it on a road trip. How much gas did he use?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Lily has 3/5 of a cake and wants to cut it into pieces that are each 1/4 of the cake. How many pieces can she cut?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "Ryan has 1/2 of a box of crayons and shares 1/3 of it with his sister. What fraction of the crayons did he share?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Mia has 2/3 of a basket of apples and gives 1/2 of it to her friend. How much does Mia give away?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "Alex has 3/4 of a pizza and wants to give 1/3 of it to his neighbor. What fraction of the pizza does Alex give away?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "Sarah has 2/5 of a jar of cookies and wants to distribute 1/4 of it to each of her 2 friends. How much does each friend get?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "Jacob has 3/2 of a yard of fabric and needs to use 1/3 of it for making a scarf. How much fabric does he use for the scarf?"
    }
   ]
@@ -929,7 +905,7 @@
   "id": "06-fractions-different-denominator-word-problems-multiplication-fraction-different-denominator-1-step-pdf",
   "topic": "Fractions - Different denominator",
   "name": "Multiplication Fraction (1-step)",
-  "header": "",
+  "header": "Multiplication Fractions Different Denominators (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems Multiplication Fraction Different Denominator (1-step).pdf",
   "problems": [
@@ -939,62 +915,58 @@
    },
    {
     "n": 2,
-    "text": "Multiplication Fractions Different Denominators (1-step)"
-   },
-   {
-    "n": 3,
     "text": "Tom is baking cookies and needs 3/4 of a cup of sugar for one batch. If he wants to make 2/3 of a batch, how much sugar does he need?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Emma bought 5/8 of a bottle of a special glue for an art project. If she only used 3/4 of that amount, how much glue did she use?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Alex is filling a tank with water. If he fills 3/5 of the tank and 1/4 of that amount leaks out, how much water leaked?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Jack is painting a wall that requires 2/3 of a gallon of paint. If he paints 3/4 of the wall, how much paint does he use?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Sarah is planting flowers in her garden. She plants 4/5 of her flowers in the morning and 1/2 of them in the afternoon. How many flowers did she plant in the afternoon?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Mark is cutting a piece of wood that is 5/6 of a meter long. If he cuts 2/3 of it, how long is the piece he cuts?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A recipe calls for 3/5 of a cup of milk. If Julie uses 2/3 of the required amount, how much milk does she use?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Leo has 4/7 of a pound of chocolate. If he gives away 1/4 of it, how much chocolate does he give away?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Mia has 6/10 of a bag of marbles. If she loses 1/3 of them, how many marbles did she lose?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "Ben is mixing a solution and uses 3/8 of a liter of liquid. If he needs to add 1/2 of that amount again, how much more liquid does he need to add?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Emma is knitting a scarf. She completes 5/6 of the scarf and then knits 2/3 of what’s left. How much of the scarf did she knit in the end?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "Liam buys 7/9 of a pound of fruit. If he eats 1/3 of it, how much fruit did he eat?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "A car travels 4/5 of a mile per minute. If it travels for 3/4 of an hour, how far does it travel?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "The recipe for a smoothie calls for 2/3 of a cup of yogurt. If the recipe makes 1/2 of that amount, how much yogurt is used?"
    }
   ]
@@ -1003,7 +975,7 @@
   "id": "06-fractions-different-denominator-word-problems-subtraction-fraction-different-denominator-1-step-pdf",
   "topic": "Fractions - Different denominator",
   "name": "Subtraction Fraction (1-step)",
-  "header": "",
+  "header": "Addition Fractions Diff. Denominator (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Different denominator/Word Problems Subtraction Fraction Different Denominator (1-step).pdf",
   "problems": [
@@ -1013,62 +985,58 @@
    },
    {
     "n": 2,
-    "text": "Addition Fractions Diff. Denominator (1-step)"
-   },
-   {
-    "n": 3,
     "text": "Jason has 3/5 of a pizza. He gave away 1/3 of it to his friend. How much pizza does he have left?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Emily bought a fabric piece that was 7/8 of a yard long. She cut off 3/4 of it for a project. How much fabric is left?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Lucas has a box of cookies that weighs 1 1/2 pounds. He ate 3/4 of a pound. How much do the cookies weigh now?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Maria has 2/3 of a liter of juice. She poured out 1/2 of it into a glass. How much juice does she have left?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "John has 4/5 of a bag of marbles. He lost 3/4 of them while playing. How many marbles does he have now?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Lisa has 5/6 of a cake. She shared 1/2 of it with her sister. How much cake is left for Lisa?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "Alex has 3/4 of a gallon of milk. He spilled 1/3 of it. How much milk does Alex have left?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Jason owns a farm with 3/4 of an acre planted with vegetables. He harvested 2/3 of them. How much area is still planted?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Emily has 2/3 of a pound of apples. She gave away 1/2 of them. How many apples does she have left?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "Lucas has 4/5 of a box of chocolates and 1/2 of a sandwich. He ate 2/3 of the chocolates. How many chocolates are left in the box?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Maria has a rope that is 5/6 of a meter long. The rope is yellow.She cut off 1/3 of it. How much rope is left?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "John has a collection of stamps that weighs 1 1/2 pounds. He removed 2/3 of a pound. How much do the stamps weigh now?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "Lisa has 4/5 of a cake left from a party and 2/5 of a pack with balloons. She ate 3/4 of what was left. How much cake does Lisa have left now?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "Jason has 2/3 of a gallon of paint. He spilled 1/2 of it accidentally. Latter he bought 3 cans of paint thinner to clean the floor. How much paint does Jason have left?"
    }
   ]
@@ -1077,7 +1045,7 @@
   "id": "06-fractions-same-denominator-word-problems-addition-fraction-same-denominator-1-step-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Addition Fraction (1-step)",
-  "header": "",
+  "header": "Addition Fractions Same Denominator (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Addition Fraction Same Denominator (1-step).pdf",
   "problems": [
@@ -1087,62 +1055,58 @@
    },
    {
     "n": 2,
-    "text": "Addition Fractions Same Denominator (1-step)"
-   },
-   {
-    "n": 3,
     "text": "In a garden, 5/12 of the flowers are red and 4/12 are yellow. What fraction of the flowers are either red or yellow?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Tom ran 2/6 of a mile in the morning and 3/6 of a mile in the evening. How far did he run in total?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "A recipe calls for 3/10 cup of sugar and 4/10 cup of flour. How much sugar and flour combined does the recipe need?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Mary read 5/9 of a book on Monday and 2/9 of the book on Tuesday. What fraction of the book has she read so far?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "In a class survey, 3/15 of students prefer apples and 7/15 prefer bananas. What fraction of the class prefers either apples or bananas?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "John spent 4/7 of his allowance on a toy and 2/7 on candy. What fraction of his allowance did he spend in total?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A carpenter used 5/16 of a board for one project and 7/16 for another. What fraction of the board did he use altogether?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "In a pie eating contest, Amy ate 4/20 of a pie and Bob ate 9/20 of a pie. What fraction of a pie did they eat combined?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Lisa practiced piano for 3/4 of an hour in the morning and 1/4 of an hour in the afternoon. How long did she practice in total?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "At a school fair, 2/5 of the students visited the art booth and 1/5 visited the science booth. The fair had 10 different booths and lasted for 4 hours. What fraction of students visited either the art or science booth?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "In a 24-hour period, Jack slept for 7/16 of the day and worked for 5/16 of the day. He has 3 cats and 2 dogs. What fraction of the day did Jack spend either sleeping or working?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "A recipe for a large cake that serves 20 people calls for 3/8 cup of cocoa and 2/8 cup of vanilla extract. The cake bakes at 350°F for 45 minutes. How much cocoa and vanilla extract combined does the recipe use?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "On a 300-page book, Emma read 4/10 of the pages on Saturday and 3/10 on Sunday. The book has 15 chapters and was published in 2020. What fraction of the book did Emma read over the weekend?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "In a survey of 500 people about their favorite seasons, 3/20 chose spring and 7/20 chose summer. The survey was conducted online and took 3 days to complete. What fraction of people chose either spring or summer as their favorite season?"
    }
   ]
@@ -1151,7 +1115,7 @@
   "id": "06-fractions-same-denominator-word-problems-addition-fraction-same-denominator-2-steps-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Addition Fraction (2-steps)",
-  "header": "",
+  "header": "Addition Fractions Same Denominator (2-steps)",
   "steps": 2,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Addition Fraction Same Denominator (2-steps).pdf",
   "problems": [
@@ -1161,62 +1125,58 @@
    },
    {
     "n": 2,
-    "text": "Addition Fractions Same Denominator (2-steps)"
-   },
-   {
-    "n": 3,
     "text": "During a road trip, Sarah drove 3/10 of the distance, Mike drove 4/10, and Lisa drove the remaining portion. What fraction of the trip did Lisa drive?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "In a garden, 1/8 of the flowers are red, 3/8 are yellow, and 2/8 are blue. What fraction of the flowers are not red, yellow, or blue?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Tom spent 2/15 of his allowance on books, 5/15 on games, and 4/15 on snacks. What fraction of his allowance does he have left?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "In a class project, Emma completed 3/20 of the work, Jake did 7/20, and Sophia did 6/20. What fraction of the project is left to be done?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "A pizza was cut into 16 slices. If John ate 3/16, Mary ate 5/16, and Peter ate 4/16, what fraction of the pizza is left?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "In a 24-hour day, Sam slept for 1/6 of the day, worked for 3/6, and spent the rest on leisure activities. What fraction of the day did Sam spend on leisure?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A cake recipe calls for 2/9 cup of sugar, 3/9 cup of flour, and 1/9 cup of cocoa powder. What fraction of a cup do these three ingredients make together?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "In a survey, 4/25 of people prefer vanilla ice cream, 7/25 prefer chocolate, and 9/25 prefer strawberry. What fraction prefers one of these three flavors?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "During a race, Runner A completed 5/20 of the course, Runner B completed 8/20, and Runner C completed 4/20. What fraction of the race course is left?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "In a fruit basket, 3/18 of the fruits are apples, 5/18 are oranges, and 7/18 are bananas. What fraction of the fruits in the basket are not apples, oranges, or bananas?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "A student spent 4/14 of their study time on math, 3/14 on science, and 5/14 on history. What fraction of their study time was spent on these three subjects combined?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "In a library, 2/30 of the books are mystery novels, 8/30 are science fiction, and 7/30 are romance. What fraction of the books fall into these three genres?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "On a farm, 5/24 of the land is used for corn, 7/24 for wheat, and 6/24 for soybeans. What fraction of the land is used for other crops or purposes?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "In a piggy bank, 3/22 of the coins are pennies, 6/22 are nickels, and 8/22 are dimes. What fraction of the coins are not pennies, nickels, or dimes?"
    }
   ]
@@ -1225,7 +1185,7 @@
   "id": "06-fractions-same-denominator-word-problems-division-fraction-by-a-whole-1-step-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Division Fraction [by a whole] (1-step)",
-  "header": "",
+  "header": "Fraction division by a whole number (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Division Fraction [by a whole] (1-step).pdf",
   "problems": [
@@ -1235,62 +1195,58 @@
    },
    {
     "n": 2,
-    "text": "Fraction division by a whole number (1-step)"
-   },
-   {
-    "n": 3,
     "text": "John has 5/6 of a pizza, and he wants to share it equally among 5 friends. How much pizza does each friend get?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "A piece of ribbon is 7/8 meters long, and it needs to be cut into 2 equal pieces. How long is each piece?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Sarah has 9/10 of a gallon of juice, and she pours it equally into 3 bottles. How much juice is in each bottle?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Lisa has 5/12 of a cake, and she wants to cut it into 5 equal slices. How much cake is in each slice?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "A gardener has 2/3 of a bag of soil and wants to divide it equally among 4 plants. How much soil does each plant get?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Emily has 4/5 of a cup of flour, and she needs to divide it into 4 portions. How much flour is in each portion?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A bottle contains 7/10 liters of water, and it needs to be poured equally into 7 glasses. How much water is in each glass?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Henry has 11/12 of a yard of fabric, and he wants to cut it into 3 equal pieces. How long is each piece?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "A container holds 8/9 of a liter of milk, and it is poured equally into 4 cups. How much milk is in each cup?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "Mike has 5/7 of a pound of nuts, and he wants to share it equally among 5 friends. How much does each friend get?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "A painter has 3/8 of a gallon of paint, and it needs to be divided into 2 equal parts. How much paint is in each part?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "A baker has 6/11 of a loaf of bread and needs to cut it into 3 equal slices. How much bread is in each slice?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "A chef has 7/12 of a pound of cheese, and he needs to divide it into 7 portions. How much cheese is in each portion?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "A piece of string is 9/20 meters long, and it needs to be cut into 3 equal pieces. How long is each piece?"
    }
   ]
@@ -1299,7 +1255,7 @@
   "id": "06-fractions-same-denominator-word-problems-multiplication-fraction-same-denominator-1-step-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Multiplication Fraction (1-step)",
-  "header": "",
+  "header": "Multiplication Fractions (Whole number) (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Multiplication Fraction Same Denominator (1-step).pdf",
   "problems": [
@@ -1309,62 +1265,58 @@
    },
    {
     "n": 2,
-    "text": "Multiplication Fractions (Whole number) (1-step)"
-   },
-   {
-    "n": 3,
     "text": "John has 5 bags of apples. Each bag weighs 3/4 pounds. What is the total weight of the apples?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "There are 6 packets of seeds, and each packet contains 1/2 cup of seeds. How many cups of seeds are there in total?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Lisa has 8 ribbons, and each ribbon is 7/8 meters long. How many meters of ribbon does Lisa have?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "A recipe calls for 1/3 cup of milk per serving. If Henry makes 4 servings, how much milk does he need?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "A gardener planted 7 rows of flowers, and each row contains 2/5 of an acre of flowers. How many acres of flowers did the gardener plant?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "A carpenter used 1/6 of a plank to make one shelf. If he makes 9 shelves, how many planks does he use in total?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "Sarah read 2/7 of a book each day. How much of the book did she read in 3 days?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "Each pen in a box weighs 3/10 ounces. If there are 12 pens in the box, what is the total weight of the pens?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "A dog eats 4/5 of a cup of food per meal. If it eats 2 meals a day, how much food does the dog eat in one day?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "A painter covers 1/8 of a wall with one stroke. If he makes 16 strokes, what fraction of the wall does he cover?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Emily has 10 packs of markers, and each pack contains 3/4 of a dozen markers. How many markers does Emily have? (Assume a dozen is 12 markers)"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "A marathon runner drinks 2/9 of a gallon of water every 2 miles. How much water does she drink over 18 miles?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "A recipe requires 3/4 of a teaspoon of salt. If you want to make the recipe 5 times, how much salt do you need?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "Mike needs 1/2 of a gallon of paint to paint one wall. If he wants to paint 3 walls, how many gallons of paint does he need?"
    }
   ]
@@ -1373,7 +1325,7 @@
   "id": "06-fractions-same-denominator-word-problems-subtraction-fraction-same-denominator-1-step-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Subtraction Fraction (1-step)",
-  "header": "",
+  "header": "Subtraction Fractions Same Denominator (1-step)",
   "steps": 1,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Subtraction Fraction Same Denominator (1-step).pdf",
   "problems": [
@@ -1383,62 +1335,58 @@
    },
    {
     "n": 2,
-    "text": "Subtraction Fractions Same Denominator (1-step)"
-   },
-   {
-    "n": 3,
     "text": "A container has 10/12 liters of juice. If you pour out 3/12 liters, how much juice remains?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Mike walked 17/18 miles in the morning, 9/18 miles in the afternoon, and in the evening, he walked 4/18 miles. How much farther did he walk in the morning compared to the evening?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "Sarah read 14/15 of her book and then re-read 7/15 of it. How much new portion did she read?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "There are 19/20 cups of flour in a bowl. If 6/20 cups are used for baking, how much flour is left?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "A tank was filled with 17/19 gallons of water. If 8/19 gallons are drained, how many gallons remain?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Out of 13/16 of a chocolate bar, Julia ate 5/16. How much of the chocolate bar is left?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A cake recipe calls for 2/9 cup of sugar, 3/9 cup of flour, and 1/9 cup of cocoa powder. What fraction of a cup do these three ingredients make together?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "A rope measured 18/20 meters. If a piece 9/20 meters long is cut off, how long is the remaining rope?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "There were 16/18 meters of fabric. If 7/18 meters are used for a dress, how much fabric is left?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "A group of friends drank 14/17 liters of lemonade. If 9/17 liters are consumed, how much lemonade remains?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "Emma had 15/19 of a gallon of paint. She used 7/19 of it to paint a wall. How much paint does she have left?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "Out of 12/14 of a cake, Alex ate 5/14. How much of the cake is left?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "There are 13/15 liters of milk. The recipe also requires 3/15 liters of cream. If 6/15 liters of milk are used for cooking, how much milk remains?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "A basket had 18/19 kilograms of apples. If 9/19 kilograms are taken out, how many kilograms are left?"
    }
   ]
@@ -1447,7 +1395,7 @@
   "id": "06-fractions-same-denominator-word-problems-subtraction-fraction-same-denominator-2-steps-pdf",
   "topic": "Fractions - Same denominator",
   "name": "Subtraction Fraction (2-steps)",
-  "header": "",
+  "header": "Subtraction Fractions Same Denominator (2-steps)",
   "steps": 2,
   "file": "/printables/Arithmetic/Word problems (Mathematics)/06.Fractions/Same denominator/Word Problems Subtraction Fraction Same Denominator (2-steps).pdf",
   "problems": [
@@ -1457,62 +1405,58 @@
    },
    {
     "n": 2,
-    "text": "Subtraction Fractions Same Denominator (2-steps)"
-   },
-   {
-    "n": 3,
     "text": "A bookshelf had 19/20 of its space filled with books. If 6/20 of the books were removed and then 4/20 of new books added, how much space is now filled with books?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "Out of 14/15 of a project, Sarah completed 5/15 and then another 4/15. How much of the project does she have left to complete?"
    },
    {
-    "n": 5,
+    "n": 4,
     "text": "A class had 18/19 hours of lessons. If 5/19 hours were for math and another 4/19 hours for science, how much time is left for other subjects?"
    },
    {
-    "n": 6,
+    "n": 5,
     "text": "Out of 15/17 kilograms of sugar, 6/17 were used for baking and another 5/17 for cooking. How much sugar is left?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "Mike walked 16/18 miles in the morning and 7/18 miles in the afternoon. How much farther did he walk in total than his friend who walked 10/18 miles?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "Sarah read 14/15 of her book, then re-read 4/15 of it. If she read another 3/15, how much of her book has she read in total?"
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "There are 19/20 cups of flour in a bowl. If 6/20 cups are used for baking and another 5/20 cups for cooking, how much flour is left?"
    },
    {
-    "n": 10,
+    "n": 9,
     "text": "A tank was filled with 17/19 gallons of water. If 6/19 gallons are drained and then another 5/19 gallons are added, how many gallons remain?"
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "Out of 13/16 of a chocolate bar, Julia ate 4/16. If she then ate another 3/16, how much of the chocolate bar is left?"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "A rope measured 18/20 meters. If a piece 7/20 meters long is cut off and then another piece 4/20 meters long is cut off, how long is the remaining rope?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "There were 16/18 meters of fabric. If 5/18 meters are used for a dress and another 4/18 meters for a skirt, how much fabric is left?"
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "A group of friends drank 14/17 liters of lemonade. If they consumed 5/17 liters at lunch and another 3/17 liters at dinner, how much lemonade remains?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "Emma had 15/19 of a gallon of paint. She used 6/19 of it to paint a wall and another 5/19 to paint a door. How much paint does she have left?"
    },
    {
-    "n": 16,
+    "n": 15,
     "text": "Out of 12/14 of a cake, Alex ate 4/14. If he then ate another 3/14, how much of the cake is left?"
    }
   ]
@@ -2021,58 +1965,34 @@
    },
    {
     "n": 2,
-    "text": "A rectangular playground is 15 meters long and 10 meters wide. Calculate its perimeter."
-   },
-   {
-    "n": 3,
     "text": "A regular pentagon has sides of 6 centimeters each. What is its perimeter?"
    },
    {
-    "n": 4,
+    "n": 3,
     "text": "An irregular quadrilateral has sides measuring 8 cm, 12 cm, 9 cm, and 11 cm. Find its perimeter."
    },
    {
-    "n": 5,
-    "text": "A regular hexagon has sides of 4 inches each. Calculate its perimeter."
-   },
-   {
-    "n": 6,
+    "n": 4,
     "text": "A trapezoid has parallel sides of 10 and 14 meters, and non-parallel sides of 7 and 9 meters. What is its perimeter?"
    },
    {
-    "n": 7,
+    "n": 5,
     "text": "An octagonal stop sign has sides of 9 inches each. What is its perimeter?"
    },
    {
-    "n": 8,
-    "text": "A rhombus has four equal sides, each measuring 13 centimeters. Calculate its perimeter."
-   },
-   {
-    "n": 9,
+    "n": 6,
     "text": "A rectangular field is 120 yards long and 80 yards wide. What is its perimeter?"
    },
    {
-    "n": 10,
-    "text": "An equilateral triangle has sides of 15 meters each. Find its perimeter."
-   },
-   {
-    "n": 11,
-    "text": "A regular decagon has sides of 5 centimeters each. Calculate its perimeter."
-   },
-   {
-    "n": 12,
+    "n": 7,
     "text": "An irregular pentagon has sides of 7 cm, 9 cm, 11 cm, 8 cm, and 10 cm. What is its perimeter?"
    },
    {
-    "n": 13,
-    "text": "A square courtyard has sides of 25 feet each. Find its perimeter."
-   },
-   {
-    "n": 14,
+    "n": 8,
     "text": "A parallelogram has two sides of 12 meters and two sides of 8 meters. Calculate its perimeter."
    },
    {
-    "n": 15,
+    "n": 9,
     "text": "A regular heptagon has sides of 3 inches each. What is its perimeter?"
    }
   ]
@@ -2103,46 +2023,34 @@
    },
    {
     "n": 5,
-    "text": "A regular hexagon has sides of 0.25 meters each. Calculate its perimeter in centimeters."
-   },
-   {
-    "n": 6,
     "text": "A trapezoid has parallel sides of 1.2 meters and 140 centimeters, and non-parallel sides of 0.9 meters and 95 centimeters. What is its perimeter in meters?"
    },
    {
-    "n": 7,
+    "n": 6,
     "text": "An octagonal playground has sides of 2.5 meters each. What is its perimeter in centimeters?"
    },
    {
-    "n": 8,
+    "n": 7,
     "text": "A rhombus has four equal sides, each measuring 75 centimeters. Calculate its perimeter in meters."
    },
    {
-    "n": 9,
+    "n": 8,
     "text": "A rectangular poster is 80 centimeters long and 0.5 meters wide. What is its perimeter in millimeters?"
    },
    {
-    "n": 10,
-    "text": "An equilateral triangle has sides of 0.75 meters each. Find its perimeter in centimeters."
-   },
-   {
-    "n": 11,
-    "text": "A regular decagon has sides of 35 centimeters each. Calculate its perimeter in meters."
-   },
-   {
-    "n": 12,
+    "n": 9,
     "text": "A parallelogram has two sides of 1.2 meters and two sides of 80 centimeters. Calculate its perimeter in centimeters."
    },
    {
-    "n": 13,
+    "n": 10,
     "text": "A regular heptagon has sides of 0.4 meters each. What is its perimeter in millimeters?"
    },
    {
-    "n": 14,
+    "n": 11,
     "text": "An isosceles triangle has two sides of 100 centimeters each and a base of 0.9 meters. Find its perimeter in meters."
    },
    {
-    "n": 15,
+    "n": 12,
     "text": "A rectangular table is 1.5 meters long and 750 millimeters wide. Calculate its perimeter in centimeters."
    }
   ]
@@ -2251,58 +2159,50 @@
    },
    {
     "n": 2,
-    "text": "A rectangular rug measures 300 cm in length and 200 cm in width. Calculate its area."
-   },
-   {
-    "n": 3,
     "text": "A farmer's rectangular field is 125 meters long and 80 meters wide. What is the area of the field?"
    },
    {
-    "n": 4,
-    "text": "A rectangular tablet screen is 24 cm long and 18 cm wide. Find its area."
-   },
-   {
-    "n": 5,
+    "n": 3,
     "text": "A rectangular billboard measures 10 meters in length and 6 meters in height. What is the area of the billboard?"
    },
    {
-    "n": 6,
+    "n": 4,
     "text": "A parallelogram-shaped field has a base of 25 meters and a height of 12 meters. Calculate its area."
    },
    {
-    "n": 7,
+    "n": 5,
     "text": "A designer is creating a parallelogram-shaped logo with a base of 80 cm and a height of 30 cm. What is the area of the logo?"
    },
    {
-    "n": 8,
+    "n": 6,
     "text": "A parallelogram-shaped swimming pool has a base of 50 meters and a perpendicular height of 20 meters. Find its area."
    },
    {
-    "n": 9,
+    "n": 7,
     "text": "A parallelogram picture frame has a base of 35 cm and a height of 28 cm. What is the area of the frame?"
    },
    {
-    "n": 10,
+    "n": 8,
     "text": "A parallelogram-shaped solar panel has a base of 200 cm and a height of 150 cm. Calculate its area."
    },
    {
-    "n": 11,
+    "n": 9,
     "text": "A triangular flag has a base of 60 cm and a height of 45 cm. What is its area?"
    },
    {
-    "n": 12,
+    "n": 10,
     "text": "An architect is designing a triangular garden with a base of 8 meters and a height of 6 meters. Calculate the garden's area."
    },
    {
-    "n": 13,
+    "n": 11,
     "text": "A triangular slice of pizza has a base of 20 cm and a height of 15 cm. What is the area of the slice?"
    },
    {
-    "n": 14,
+    "n": 12,
     "text": "A triangular roof section has a base of 12 meters and a height of 5 meters. Find its area."
    },
    {
-    "n": 15,
+    "n": 13,
     "text": "An artist is creating a triangular mosaic with a base of 150 cm and a height of 100 cm. What is the area of the mosaic?"
    }
   ]
@@ -2349,30 +2249,26 @@
    },
    {
     "n": 9,
-    "text": "A circular pizza has a diameter of 35 cm. Calculate its area in square decimeters. (Use π = 3.14)"
-   },
-   {
-    "n": 10,
     "text": "A parallelogram-shaped banner has a base of 1.8 m and a height of 90 cm. Calculate its area in square decimeters."
    },
    {
-    "n": 11,
+    "n": 10,
     "text": "A rectangular field is 0.25 km long and 180 m wide. What is its area in hectares? (1 hectare = 10,000 m²)"
    },
    {
-    "n": 12,
+    "n": 11,
     "text": "A rhombus-shaped kite has diagonals of 80 cm and 0.6 m. What is its area in square centimeters?"
    },
    {
-    "n": 13,
+    "n": 12,
     "text": "A trapezoid-shaped garden bed has parallel sides of 3 m and 4.5 m, with a height of 250 cm. Find its area in square meters."
    },
    {
-    "n": 14,
+    "n": 13,
     "text": "An equilateral triangle has sides of 12 dm. If its height is 10.39 dm, what is its area in square meters?"
    },
    {
-    "n": 15,
+    "n": 14,
     "text": "A circular running track has a radius of 50 m. What is the area inside the track in hectares? (Use π = 3.14, 1 hectare = 10,000 m²)"
    }
   ]
@@ -2435,15 +2331,7 @@
    },
    {
     "n": 13,
-    "text": "A sphere has a radius of 4 meters. Calculate the volume of the sphere."
-   },
-   {
-    "n": 14,
     "text": "The diameter of a spherical water tank is 10 feet. What is the volume of the tank?"
-   },
-   {
-    "n": 15,
-    "text": "A basketball has a radius of 12 inches. Find the volume of the basketball."
    }
   ]
  },
@@ -2505,15 +2393,7 @@
    },
    {
     "n": 13,
-    "text": "A sphere has a radius of 50 cm. Calculate the volume of the sphere in cubic meters."
-   },
-   {
-    "n": 14,
     "text": "The diameter of a spherical ball is 1.2 meters. What is the volume of the ball in cubic centimeters?"
-   },
-   {
-    "n": 15,
-    "text": "A globe has a radius of 60 cm. Find the volume of the globe in cubic meters."
    }
   ]
  },

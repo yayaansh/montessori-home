@@ -28,7 +28,25 @@
        "blocks": [
         {
          "type": "para",
-         "text": "To start the study of arithmetic it is worth first to review the three period lesson as presented in the Discovery of the Child. For the first period (association), the guide should present only the necessary words in a clear voice without adding any other extra words. For the second period (recognition of the name with the object): the guide will check if the name has remained associated with the object in the child’s memory. Between the first and the second period a few moments of silence are required. This second period is the most important of all, as it contains the real lesson, the real mnemonic and associative aid. If the second period is not successful the guide should suspend the lesson without correcting the child and get back to it in other moment. The third period (remembering the name corresponding to the object) is a rapid verification of the lesson first given. The guide asks the child to name the object, but if the guide can notice some insecurity, he can repeat the second period to help the child feel more comfortable."
+         "text": "To start the study of arithmetic it is worth first to review the three period lesson as presented in the Discovery of the Child. For the first period (association), the guide should present only the necessary words in a clear voice without adding any other extra words. For the second period (recognition of the name with the object): the guide will check if the name has remained associated with the object in the child’s memory. Between the first and the second period a few moments of silence are required. This second period is the most important of all, as it contains the real lesson, the real mnemonic and associative aid. If the second period is not successful the guide should suspend the lesson without correcting the child and get back to it in"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ther moment. The third period (remembering the name corresponding to the object)"
+        },
+        {
+         "type": "para",
+         "text": "is a rapid verification of the lesson first given. The guide asks the child to name the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "bject, but if the guide can notice some insecurity, he can repeat the second period"
+        },
+        {
+         "type": "para",
+         "text": "to help the child feel more comfortable."
         }
        ]
       }
@@ -512,7 +530,12 @@
          "blocks": [
           {
            "type": "para",
-           "text": "In this work, it is the first time that the children work with the number 0. Maria Montessori said that the children should understand what the number 0 means. The guide can introduce this concept after doing the spindle box presentation with a game like the one Maria Montessori described in the “The Discovery of the Child” (The game of zero)."
+           "text": "In this work, it is the first time that the children work with the number 0. Maria Montessori said that the children should understand what the number 0 means. The guide can introduce this concept after doing the spindle box presentation with a game like the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne Maria Montessori described in the “The Discovery of the Child” (The game of zero)."
           }
          ]
         },
@@ -523,7 +546,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "Two boxes with five compartment each, with the numbers from 0 to 9 printed on the back of the compartment"
+           "text": "Two boxes with five compartment each, with the numbers from 0 to 9 printed"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the back of the compartment"
           },
           {
            "type": "item",
@@ -714,10 +742,15 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Now it’s the time for the odd numbers. “Please turn the cards of all the odd number”"
+           "text": "Now it’s the time for the odd numbers. “Please turn the cards of all the"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "dd number”"
+          },
+          {
+           "type": "para",
            "text": "Third period"
           },
           {
@@ -1226,15 +1259,34 @@
         },
         {
          "type": "para",
-         "text": "As it is so simple, it makes it great to introduce it even to the young children. With a correct and visual explanation of the decimal system, the child can feel empowered to go on and explore all by himself. Once the child had understood the functioning of the decimal system, counting and calculating are just procedures offered by the decimal system."
+         "text": "As it is so simple, it makes it great to introduce it even to the young children. With a correct and visual explanation of the decimal system, the child can feel empowered to go on and explore all by himself. Once the child had understood the functioning of the decimal system, counting and calculating are just procedures"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ffered by the decimal system."
         },
         {
          "type": "para",
-         "text": "The root or the foundation of the decimal system has been explained to the child with the pre-elementary materials (zero to nine), now that he has a good understanding of the foundation he can go further with the exploration. The problem arises with the number 10, a moment in which a new order is needed: the order of the tens, and once 90 is reached another new order is required: the order of the hundreds. If we have a quick look at the table presented below, we can see that every time an order gets to the digit 9 a new one starts with the digit 1. The value of these numbers is given not by the digit itself but by its position. The different positions of the numbers are given by placing a 0 at the end, one for the tens, two for the hundreds."
+         "text": "The root or the foundation of the decimal system has been explained to the child with the pre-elementary materials (zero to nine), now that he has a good understanding of the foundation he can go further with the exploration. The problem arises with the number 10, a moment in which a new order is needed: the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rder of the tens, and once 90 is reached another new order is required: the order of"
         },
         {
          "type": "para",
-         "text": "Offering the decimal system, as a material for the child is possible and this material not only offers a simple way to visualize otherwise abstract concepts but it allows the child to work with an exact material/instrument to build the necessary understanding of the beauty of the decimal system."
+         "text": "the hundreds. If we have a quick look at the table presented below, we can see that every time an order gets to the digit 9 a new one starts with the digit 1. The value of these numbers is given not by the digit itself but by its position. The different positions of the numbers are given by placing a 0 at the end, one for the tens, two for the hundreds."
+        },
+        {
+         "type": "para",
+         "text": "Offering the decimal system, as a material for the child is possible and this material not only offers a simple way to visualize otherwise abstract concepts but it allows the child to work with an exact material/instrument to build the necessary understanding"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the beauty of the decimal system."
         },
         {
          "type": "para",
@@ -1327,7 +1379,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places in the tray one unit of 1, one of 10, one of 100 and one cube of 1000"
+           "text": "The guide places in the tray one unit of 1, one of 10, one"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 100 and one cube of 1000"
           },
           {
            "type": "item",
@@ -1342,7 +1399,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide asks the child what’s the golden bead square of 100, the guide says “It’s hundred”"
+           "text": "The guide asks the child what’s the golden bead square"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 100, the guide says “It’s hundred”"
           },
           {
            "type": "item",
@@ -1723,7 +1785,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide introduces the sign for greater then. He points that one of the sides of the sign is larger when the other one. The larger side points to the larger quantity. The guide places the sign between the quantities and another one between the symbol cards."
+           "text": "The guide introduces the sign for greater then. He points that one"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the sides of the sign is larger"
+          },
+          {
+           "type": "para",
+           "text": "when the other one. The larger side points to the larger quantity. The guide places the sign between the quantities and another one between the symbol cards."
           },
           {
            "type": "item",
@@ -2011,10 +2082,15 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says: “Do you know what you did?”, “What we did is another operation, it is called subtraction. To subtract means to take away.”"
+             "text": "The guide says: “Do you know what you did?”, “What we did is another"
             },
             {
-             "type": "sub",
+             "type": "item",
+             "level": 1,
+             "text": "peration, it is called subtraction. To subtract means to take away.”"
+            },
+            {
+             "type": "para",
              "text": "Following presentations (something is left in the tray)"
             },
             {
@@ -2068,12 +2144,22 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide prepares three children trays with the same symbol cards on each of them."
+             "text": "The guide prepares three children trays with the same symbol cards on each"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f them."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "The guide asks the children to take they their quantity without showing to the others what they’ve got."
+             "text": "The guide asks the children to take they their quantity without showing to the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "thers what they’ve got."
             },
             {
              "type": "item",
@@ -2083,7 +2169,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says that it is going to put all their beads together to do a special operation today."
+             "text": "The guide says that it is going to put all their beads together to do a special"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "peration today."
             },
             {
              "type": "item",
@@ -2659,7 +2750,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide starts distributing the green ribbons to the 14 children and tying them on their wrists"
+             "text": "The guide starts distributing the green ribbons to the 14 children and tying them"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n their wrists"
             },
             {
              "type": "item",
@@ -2699,7 +2795,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "Now the guide doesn’t have thousands anymore so it gives a hundred golden bead square to the “Decurion” and a ten golden beads bars to each of the other 4 children"
+             "text": "Now the guide doesn’t have thousands anymore so it gives a hundred golden bead square to the “Decurion” and a ten golden beads bars to each of the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ther 4 children"
             },
             {
              "type": "item",
@@ -2886,7 +2987,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "Each of the first 5 columns is divided in 4 parts. The top part has numbers written in hierarchical order (10 000, 1000, 100, 10, 1). The second part is made of rows of 10 squares. The last two parts are blank."
+           "text": "Each of the first 5 columns is divided in 4 parts. The top part has numbers written in hierarchical order (10 000, 1000, 100, 10, 1). The second part is made of rows"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 10 squares. The last two parts are blank."
           }
          ]
         },
@@ -2942,7 +3048,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide counts the black and red dots and marks the number in the part 4 of each column."
+           "text": "The guide counts the black and red dots and marks the number in the part 4"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f each column."
           }
          ]
         },
@@ -3052,7 +3163,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide presents the stamp game square of 1 and it’s corresponding value of golden beads (the guide talks about the colour of the stamps and the numbers written on them) – at the end places it under the corresponding value in golden beads."
+           "text": "The guide presents the stamp game square of 1 and it’s corresponding value"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f golden beads (the guide talks about the colour of the stamps and the"
+          },
+          {
+           "type": "para",
+           "text": "numbers written on them) – at the end places it under the corresponding value in golden beads."
           },
           {
            "type": "item",
@@ -3250,7 +3370,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide shows to change a unit from a higher hierarchy in 10 of the lower one"
+             "text": "The guide shows to change a unit from a higher hierarchy in 10 of the lower"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne"
             },
             {
              "type": "item",
@@ -4299,7 +4424,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to put the golden bead square on top of each other to make a cube"
+           "text": "The guide invites the child to put the golden bead square on top of each"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther to make a cube"
           },
           {
            "type": "item",
@@ -4778,7 +4908,16 @@
        "blocks": [
         {
          "type": "para",
-         "text": "The memory is the capacity to recall owns mind, knowledge or experiences belonging to the past. We can talk of three stages of the memory: recording, retention and the recalling. The better the recording of the knowledge the better is the retaining the knowledge and the recalling. The quality of the recording depends on the motivation, curiosity and the attention that is being paid. Therefor it is crucial the interest someone has and on the one who evokes that interest. What is being recorded has to come in a sequence with the knowledge already obtained it cannot come as a separate experience, this has to do with the unconscious tendency of the brain to carry on with the previous experiences. Maria Montessori talked about the subconscious as a deposit/storage of impressions that has been absorbed and knowledge that has been acquired. Mario Montessori said that the subconscious can be compared to a room in darkness in which are stored experiences, experiences which the individual has acquired during his life. This room is not arranged in a harmonious way, instead everything is piled up like in a warehouse. The mind seeking a solution is a like the beam of a lighthouse searching until finding it and bring it to the light of the consciousness. All the experiences accumulated even the forgotten ones are the base of the identity of the individual. The construction of the subconscious mind is not only having to do with the building of the organism but also with the functioning of the organism."
+         "text": "The memory is the capacity to recall owns mind, knowledge or experiences belonging to the past. We can talk of three stages of the memory: recording, retention and the recalling. The better the recording of the knowledge the better is the retaining the knowledge and the recalling. The quality of the recording depends on the motivation, curiosity and the attention that is being paid. Therefor it is crucial the interest someone has and on the one who evokes that interest. What is being recorded has to come in a sequence with the knowledge already obtained it cannot come as a separate experience, this has to do with the unconscious tendency of the brain to carry on with the previous experiences. Maria Montessori talked about the subconscious as a deposit/storage of impressions that has been absorbed and knowledge that has been acquired. Mario Montessori said that the subconscious can be compared to a room in darkness in which are stored experiences, experiences which the individual has acquired during his life. This room is not arranged in a harmonious way, instead everything is piled up like in a warehouse. The mind seeking a solution is a like the beam of a lighthouse searching until finding it and bring it to the light of the consciousness. All the experiences accumulated even the forgotten ones are the base of the identity of the individual. The construction of the subconscious mind is not"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "nly having to do with the building of the organism but also with the functioning of"
+        },
+        {
+         "type": "para",
+         "text": "the organism."
         }
        ]
       }
@@ -5164,7 +5303,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide asks the child if there are any combinations repeated. The child observes that now all the combinations are different."
+             "text": "The guide asks the child if there are any combinations repeated. The child"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "bserves that now all the combinations are different."
             },
             {
              "type": "sub",
@@ -5228,7 +5372,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "Exploring with the combinations of the number is using the commuting property of addition."
+             "text": "Exploring with the combinations of the number is using the commuting property"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f addition."
             },
             {
              "type": "item",
@@ -5479,7 +5628,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide places his fingers on both numbers that correspond to the addends on the chart"
+             "text": "The guide places his fingers on both numbers that correspond to the addends"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the chart"
             },
             {
              "type": "item",
@@ -6432,12 +6586,22 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide takes the longest grey bead bar and looks for the exact equivalent of colour bead bars to match it."
+             "text": "The guide takes the longest grey bead bar and looks for the exact equivalent"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f colour bead bars to match it."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says “8 taken away 8 equals” and so on for the rest of the matching of the grey bead bars."
+             "text": "The guide says “8 taken away 8 equals” and so on for the rest of the matching"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the grey bead bars."
             },
             {
              "type": "item",
@@ -6551,12 +6715,22 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide takes the longest grey bead bar and looks for the exact equivalent of colour bead bars to match it."
+             "text": "The guide takes the longest grey bead bar and looks for the exact equivalent"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f colour bead bars to match it."
             },
             {
              "type": "item",
              "level": 0,
-             "text": "The guide says “8 taken away 8 equals” and so on for the rest of the matching of the grey bead bars."
+             "text": "The guide says “8 taken away 8 equals” and so on for the rest of the matching"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the grey bead bars."
             },
             {
              "type": "item",
@@ -6706,7 +6880,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide shows to the child the new strips – and asks the child to count them out"
+             "text": "The guide shows to the child the new strips – and asks the child to count them"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ut"
             },
             {
              "type": "item",
@@ -6731,7 +6910,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide invites the child to take a blue strip and place it in the continuation of the neutral strip"
+             "text": "The guide invites the child to take a blue strip and place it in the continuation"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the neutral strip"
             },
             {
              "type": "item",
@@ -6876,7 +7060,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "This exercise comes to visually reinforce the fact that the subtraction is the opposition of the addition"
+             "text": "This exercise comes to visually reinforce the fact that the subtraction is the"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "pposition of the addition"
             },
             {
              "type": "item",
@@ -6977,7 +7166,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide shows how to place one finger for the minuend on the red 15 and another for the subtrahend on the blue -8. The guide continues with the fingers on their respective column and row until the fingers meet."
+             "text": "The guide shows how to place one finger for the minuend on the red 15 and another for the subtrahend on the blue -8. The guide continues with the fingers"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n their respective column and row until the fingers meet."
             },
             {
              "type": "item",
@@ -7096,7 +7290,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide thinks of a combination that has that difference, places the fingers on the board to find the corresponding position for that tile"
+             "text": "The guide thinks of a combination that has that difference, places the fingers"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the board to find the corresponding position for that tile"
             },
             {
              "type": "item",
@@ -8045,7 +8244,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "Booklet with all the combinations of the multiplication – 10 pages (multiplication of 1, multiplication of 2, and so on up to 10). All the multiplication keep the first number constant (multiplicand) and the second one increases (multiplier)."
+             "text": "Booklet with all the combinations of the multiplication – 10 pages (multiplication"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 1, multiplication of 2, and so on up to 10). All the multiplication keep the first"
+            },
+            {
+             "type": "para",
+             "text": "number constant (multiplicand) and the second one increases (multiplier)."
             },
             {
              "type": "item",
@@ -8779,7 +8987,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "Control chart 1/2 for the combination and result and chart 3 for the placement of the result"
+             "text": "Control chart 1/2 for the combination and result and chart 3 for the placement"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the result"
             }
            ]
           },
@@ -9186,7 +9399,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "1 tray with the squares from the cabinet of powers"
+             "text": "1 tray with the squares from the cabinet"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f powers"
             },
             {
              "type": "sub",
@@ -9231,7 +9449,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The child continues until reaching the golden bead bars and makes the square of 100."
+             "text": "The child continues until reaching the golden bead bars and makes the square"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 100."
             },
             {
              "type": "item",
@@ -9241,7 +9464,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide invites the child to check his squares with the ones from the cabinet of powers by superimposing."
+             "text": "The guide invites the child to check his squares with the ones from the cabinet"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f powers by superimposing."
             },
             {
              "type": "item",
@@ -9693,7 +9921,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide shows the child how to read the result by counting the beads that one skittle receives or by looking at the number of the row on the left side."
+             "text": "The guide shows the child how to read the result by counting the beads that"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne skittle receives or by looking at the number of the row on the left side."
             },
             {
              "type": "item",
@@ -9941,7 +10174,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "At the end of the work (after 81 forms) the child would have found 120 combinations with remainder and 81 combinations without remainder, a total of 201 combinations"
+             "text": "At the end of the work (after 81 forms) the child would have found 120 combinations with remainder and 81 combinations without remainder, a total"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 201 combinations"
             },
             {
              "type": "para",
@@ -9999,7 +10237,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "For example to check the 36 : 9, the child will have to place the first finger on the column of 36 on the top row and the second finger on the row for :9. The first finger goes down on the column and the second finger continues to right on the row until the finger meet and the child reads the result 4"
+             "text": "For example to check the 36 : 9, the child will have to place the first finger on the column of 36 on the top row and the second finger on the row for :9. The first finger goes down on the column and the second finger continues to right"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the row until the finger meet and the child reads the result 4"
             },
             {
              "type": "item",
@@ -10094,7 +10337,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "A board (chart 1) with squares with 36 columns and 10 rows – on the first row there are all the dividends for the operations without remainder. The columns of 7, 5, 3, 2, 1 have a pink background"
+             "text": "A board (chart 1) with squares with 36 columns and 10 rows – on the first row there are all the dividends for the operations without remainder. The columns"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 7, 5, 3, 2, 1 have a pink background"
             },
             {
              "type": "item",
@@ -10199,7 +10447,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "A board (chart 2) with squares with 36 columns and 10 rows – on the first row there are all the dividends for the operations without remainder. The columns of 7, 5, 3, 2, 1 have a pink background. The squares of the board for the quotients are all empty."
+             "text": "A board (chart 2) with squares with 36 columns and 10 rows – on the first row there are all the dividends for the operations without remainder. The columns"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 7, 5, 3, 2, 1 have a pink background. The squares of the board for the"
+            },
+            {
+             "type": "para",
+             "text": "quotients are all empty."
             },
             {
              "type": "item",
@@ -10772,7 +11029,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide invites the child to make the quantity 24 with the colour bead bars of 9 – the child can’t do it"
+             "text": "The guide invites the child to make the quantity 24 with the colour bead bars"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 9 – the child can’t do it"
             },
             {
              "type": "item",
@@ -10807,7 +11069,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide invites the child to continue by himself until reaching the colour bead of 1"
+             "text": "The guide invites the child to continue by himself until reaching the colour bead"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f 1"
             },
             {
              "type": "item",
@@ -11018,7 +11285,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide gets to 10 hundreds and shows to the child how to exchange with one thousand"
+             "text": "The guide gets to 10 hundreds and shows to the child how to exchange with"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne thousand"
             },
             {
              "type": "para",
@@ -11050,12 +11322,22 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide counts ten units on the small bead frame and writes 1 on the paper on the blue line"
+             "text": "The guide counts ten units on the small bead frame and writes 1 on the paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the blue line"
             },
             {
              "type": "item",
              "level": 0,
-             "text": "The guide counts two tens on the small bead frame and writes 2 on the paper on the blue line under the previous number"
+             "text": "The guide counts two tens on the small bead frame and writes 2 on the paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the blue line under the previous number"
             },
             {
              "type": "item",
@@ -11065,7 +11347,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide counts ten tens on the small bead frame and writes 1 on the paper on the red line"
+             "text": "The guide counts ten tens on the small bead frame and writes 1 on the paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the red line"
             },
             {
              "type": "item",
@@ -11110,7 +11397,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide counts two tens on the small bead frame and writes 2 on the paper on the blue line under the previous number and the 0 on the green line for the units"
+             "text": "The guide counts two tens on the small bead frame and writes 2 on the paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the blue line under the previous number and the 0 on the green line for the"
+            },
+            {
+             "type": "para",
+             "text": "units"
             },
             {
              "type": "item",
@@ -11120,7 +11416,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide counts ten tens on the small bead frame and writes 1 on the paper on the red line then the 0 on the blue line for the tens and on the green line for the units"
+             "text": "The guide counts ten tens on the small bead frame and writes 1 on the paper"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the red line then the 0 on the blue line for the tens and on the green line for"
+            },
+            {
+             "type": "para",
+             "text": "the units"
             },
             {
              "type": "item",
@@ -11362,7 +11667,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide will form the second number starting from the units adding to the first one just formed."
+             "text": "The guide will form the second number starting from the units adding to the first"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne just formed."
             },
             {
              "type": "item",
@@ -11465,7 +11775,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide will form the second number starting from the units adding to the first one just formed."
+             "text": "The guide will form the second number starting from the units adding to the first"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne just formed."
             },
             {
              "type": "item",
@@ -11732,7 +12047,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide can help with this path towards abstraction by using the correct way of addressing the challenge as the child progresses. For example instead of “5 tens plus 7 tens” the guide might use “In the tens we have 5 + 7 “ and the child the respond 12 – “one hundred and two tens”"
+             "text": "The guide can help with this path towards abstraction by using the correct way"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f addressing the challenge as the child progresses. For example instead of “5"
+            },
+            {
+             "type": "para",
+             "text": "tens plus 7 tens” the guide might use “In the tens we have 5 + 7 “ and the child the respond 12 – “one hundred and two tens”"
             }
            ]
           },
@@ -12089,7 +12413,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide takes the division board and forms the devisor by placing 3 skittles on the numbers at the top"
+             "text": "The guide takes the division board and forms the devisor by placing 3 skittles"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the numbers at the top"
             },
             {
              "type": "item",
@@ -12168,7 +12497,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide takes the division board and forms the devisor by placing 4 skittles on the numbers at the top of the board"
+             "text": "The guide takes the division board and forms the devisor by placing 4 skittles"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the numbers at the top of the board"
             },
             {
              "type": "item",
@@ -12462,7 +12796,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "For the concept of group division, we are interested to see how many groups of a number equal with the devisor we can form. (E.g. 70:9 =?) How many groups of 9 can we form? - We can form 7 groups and we will have a remainder of 7."
+             "text": "For the concept of group division, we are interested to see how many groups"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f a number equal with the devisor we can form. (E.g. 70:9 =?) How many"
+            },
+            {
+             "type": "para",
+             "text": "groups of 9 can we form? - We can form 7 groups and we will have a remainder of 7."
             },
             {
              "type": "item",
@@ -13494,7 +13837,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes 3 fifths, 4 times – using the cardboard material after the fifths of the circle are finished."
+           "text": "The guide takes 3 fifths, 4 times – using the cardboard material after the fifths"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the circle are finished."
           },
           {
            "type": "item",
@@ -13872,7 +14220,16 @@
         },
         {
          "type": "para",
-         "text": "Today we have a new story, but before I begin with this new story, do you remember the story of the ox and the house, the story that we can think now as the story of the alphabet. Let us think of that story. With that story, we learned how the people found a new silent way to communicate, talk to each other. The story of the ox was about the written language, about how the people first spoke and wrote and about how the people first listened and read. Today we want to think of some particular words and their specific signs. Do we have words answering to questions such as: “How many?” or “How long?”. Well if we think of our day to day, we might ask ourselves: “How many oranges I need to last me all the week?” Of course, the people a long time ago, they did not have supermarkets to buy their food, they had to go out and find their food. They had to gather plants, hunt animals and not only that they had names for the different plants or animals, we think that they also had words for answering questions like “How many?”. So let us imagine that times. Imagine that the people came back from a hunt and they wanted to tell the other people how many animals they saw, or how many bushes with berries they saw or how many bushes they picked and how many were left for others."
+         "text": "Today we have a new story, but before I begin with this new story, do you remember the story of the ox and the house, the story that we can think now as the story of the alphabet. Let us think of that story. With that story, we learned how the people found a new silent way to communicate, talk to each other. The story of the ox was about the written language, about how the people first spoke and wrote and about how the people first listened and read. Today we want to think of some particular words and their specific signs. Do we have words answering to questions such as: “How many?” or “How long?”. Well if we think of our day to day, we might ask ourselves: “How many oranges I need to last me all the week?” Of course, the people a long time ago, they did not have supermarkets to buy their food, they had to go out and find their food. They had to gather plants, hunt animals and not only that they had names for the different plants or animals, we think that they also had words for answering questions like “How many?”. So let us imagine that times. Imagine that the people came back from a hunt and they wanted to tell the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ther people how many animals they saw, or how many bushes with berries"
+        },
+        {
+         "type": "para",
+         "text": "they saw or how many bushes they picked and how many were left for others."
         },
         {
          "type": "para",
@@ -13904,7 +14261,16 @@
         },
         {
          "type": "para",
-         "text": "While the Sumerians were developing this system, the Egyptians were developing their own number system. Egyptians like the Sumerians were farmers. The Egyptians unlike the Sumerians were unified under a king, which they though as a god, they called him a pharaoh. During this time because they were so many under the king, they had many things to carve on the stone or print on papyrus. Do you remember their special signs? – the hieroglyphs. These are their special hieroglyphs for numbers."
+         "text": "While the Sumerians were developing this system, the Egyptians were developing their own number system. Egyptians like the Sumerians were farmers. The Egyptians unlike the Sumerians were unified under a king, which they though as a god, they called him a pharaoh. During this time because they were so many under the king, they had many things to carve on the stone"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "r print on papyrus. Do you remember their special signs? – the hieroglyphs."
+        },
+        {
+         "type": "para",
+         "text": "These are their special hieroglyphs for numbers."
         },
         {
          "type": "para",
@@ -13940,7 +14306,16 @@
         },
         {
          "type": "para",
-         "text": "We see these signs in many places, movies, clocks, in books or to indicate the years on plaques. Not everyone agrees of how these signs came into existence, now we will explore what some of the people think and we will came back to it in the future. The sign for 1 has like little feet, and it was repeated for 2, 3 or 4 and here it is the sign for 5. For the number 4 they did like this IIII like adding, but if you represent it like this IV, it means ”one less than 5”, like a subtraction. The 5 might reminds us of the peace sign or the letter “V”. Some people think it was for this separation in the hand. If we know the sign for 5 and 1 we can make the rest up to 9. You remember how we made 4 in a different way, a more economical one. Look like this IX (can remember us of 10-1). The sign for 10 can represent two hands making the signs for 5. Can you imagine how to write 49? For the number 50 we have this sign that looks like L, and for 100 we have C. The say 100 in Latin it is Centum and if we draw the C with hard corners and cut in half we will get our L for 50. Let us look at the signs for 500 and 1000. In Latin 1000 is Mille, so they wrote an M. The romans might have wrote the M in a more cursive way and the half of it is the D that we can see here. (Note: The children can explore the rest) Now if we look at this number, then we can decode it, right?"
+         "text": "We see these signs in many places, movies, clocks, in books or to indicate the years on plaques. Not everyone agrees of how these signs came into existence, now we will explore what some of the people think and we will came back to it in the future. The sign for 1 has like little feet, and it was repeated for 2, 3 or 4 and here it is the sign for 5. For the number 4 they did like this IIII like adding, but if you represent it like this IV, it means ”one less than 5”, like a subtraction. The 5 might reminds us of the peace sign or the letter “V”. Some people think it was for this separation in the hand. If we know the sign for 5 and 1 we can make the rest up to 9. You remember how we made 4 in a different way, a more economical"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne. Look like this IX (can remember us of 10-1). The sign for 10 can represent"
+        },
+        {
+         "type": "para",
+         "text": "two hands making the signs for 5. Can you imagine how to write 49? For the number 50 we have this sign that looks like L, and for 100 we have C. The say 100 in Latin it is Centum and if we draw the C with hard corners and cut in half we will get our L for 50. Let us look at the signs for 500 and 1000. In Latin 1000 is Mille, so they wrote an M. The romans might have wrote the M in a more cursive way and the half of it is the D that we can see here. (Note: The children can explore the rest) Now if we look at this number, then we can decode it, right?"
         },
         {
          "type": "para",
@@ -13976,7 +14351,16 @@
         },
         {
          "type": "para",
-         "text": "If we want to think of how these numbers were pronounced we can look at the other chart from Sanskrit. This book coming from India also had the zero in it. The Indian word for 0 was “sunya” (pronounced shunia) and it meant empty. This Indian word: “empty”, was translated into Arabic and became “sifr”. Later in Latin became “zephyrum”, then “zephiro” in Italian and in English, we got to call it “zero”. Once the Arabs had these Indian numbers, they took them everywhere including to Spain and this is how we got them."
+         "text": "If we want to think of how these numbers were pronounced we can look at the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ther chart from Sanskrit. This book coming from India also had the zero in it."
+        },
+        {
+         "type": "para",
+         "text": "The Indian word for 0 was “sunya” (pronounced shunia) and it meant empty. This Indian word: “empty”, was translated into Arabic and became “sifr”. Later in Latin became “zephyrum”, then “zephiro” in Italian and in English, we got to call it “zero”. Once the Arabs had these Indian numbers, they took them everywhere including to Spain and this is how we got them."
         },
         {
          "type": "para",
@@ -13984,7 +14368,16 @@
         },
         {
          "type": "para",
-         "text": "We took our numbers from the Arabs, so we tend to call them Arab numbers or numerals but it would be fairer to call them Hindu-Arab numerals. How many symbols do we need to write all our numbers? Ten signs – it is not a lot of signs to be able to write an infinite number of numbers. With these ten signs I can write numbers as big as 10, 100, 1000, 10 000, 100 000, 1 000 000 or 1 000 000 000 000 000. The zero is the one that helps us to make so easily big numbers. It took a lot of time to bring the zero; it was no use for them at the beginning to have a number for empty/nothing. Now, we can ask ourselves then why the Indians needed the zero? In Europe, the Europeans took a long time to accept these numbers, as they liked their own roman numbers as impractical as they were. After some time they changed their mind and understood the power of 0 and this helped the mathematics – opening so many doors for the usage of the numbers."
+         "text": "We took our numbers from the Arabs, so we tend to call them Arab numbers or numerals but it would be fairer to call them Hindu-Arab numerals. How many symbols do we need to write all our numbers? Ten signs – it is not a lot of signs to be able to write an infinite number of numbers. With these ten signs I can write numbers as big as 10, 100, 1000, 10 000, 100 000, 1 000 000 or 1 000 000 000 000 000. The zero is the one that helps us to make so easily big numbers. It took a lot of time to bring the zero; it was no use for them at the beginning to have a number for empty/nothing. Now, we can ask"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "urselves then why the Indians needed the zero?"
+        },
+        {
+         "type": "para",
+         "text": "In Europe, the Europeans took a long time to accept these numbers, as they liked their own roman numbers as impractical as they were. After some time they changed their mind and understood the power of 0 and this helped the mathematics – opening so many doors for the usage of the numbers."
         }
        ]
       },
@@ -14027,10 +14420,19 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The arithmetical operations with any other number system is challenging, the scholars in that times didn’t use their numerical systems for arithmetical operations, which would be carried out in a concrete fashion, instead they used them only for recording the answers."
+         "text": "The arithmetical operations with any other number system is challenging, the scholars in that times didn’t use their numerical systems for arithmetical"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "perations, which would be carried out in a concrete fashion, instead they"
         },
         {
          "type": "para",
+         "text": "used them only for recording the answers."
+        },
+        {
+         "type": "sub",
          "text": "Important points of the “Story of the Numbers”"
         },
         {
@@ -14347,7 +14749,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the child to bring to the mat a hundred, then a million, and so on. If there is a group of children, each child can take a turn and the others help the guide to check if the child brought the correct quantity. If the quantity is correct, the child the child takes it back to the place where he found it."
+         "text": "The guide invites the child to bring to the mat a hundred, then a million, and so"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n. If there is a group of children, each child can take a turn and the others"
+        },
+        {
+         "type": "para",
+         "text": "help the guide to check if the child brought the correct quantity. If the quantity is correct, the child the child takes it back to the place where he found it."
         },
         {
          "type": "item",
@@ -14684,7 +15095,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide starts counting (from 1 to 1 000 000) and writes on the special notation paper using only the numbers from 1 to 9 for each hierarchy (E.g. For 10 the guide writes 1 on the vertical line for the tens and nothing on the vertical line for units)"
+           "text": "The guide starts counting (from 1 to 1 000 000) and writes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the special notation paper using only the numbers from"
+          },
+          {
+           "type": "para",
+           "text": "1 to 9 for each hierarchy (E.g. For 10 the guide writes 1 on the vertical line for the tens and nothing on the vertical line for units)"
           },
           {
            "type": "sub",
@@ -14841,10 +15261,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide reads and records the partial product (136 928) of the multiplication on the left side of the notation paper."
+           "text": "The guide reads and records the partial product (136 928) of the multiplication"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "n the left side of the notation paper."
+          },
+          {
+           "type": "para",
            "text": "Put the large bead frame back to 0"
           },
           {
@@ -14860,10 +15285,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide reads and records the partial product (684 640) of the multiplication on the left side of the notation paper. The zero for the units is in red."
+           "text": "The guide reads and records the partial product (684 640) of the multiplication"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "n the left side of the notation paper. The zero for the units is in red."
+          },
+          {
+           "type": "para",
            "text": "Sum the two partial products to get the final answer"
           },
           {
@@ -14946,10 +15376,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide reads and records the partial product (6 944) of the multiplication on the left side of the notation paper."
+           "text": "The guide reads and records the partial product (6 944) of the multiplication"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "n the left side of the notation paper."
+          },
+          {
+           "type": "para",
            "text": "Put the large bead frame back to 0"
           },
           {
@@ -14965,7 +15400,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide reads and records the partial product (277 760) of the multiplication on the left side of the notation paper. The zero for the units is in red. Multiply de third multiplicand (with the red zeros) by 4 using the large bead frame to record the answers"
+           "text": "The guide reads and records the partial product (277 760) of the multiplication"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the left side of the notation paper. The zero for the units is in red."
+          },
+          {
+           "type": "para",
+           "text": "Multiply de third multiplicand (with the red zeros) by 4 using the large bead frame to record the answers"
           },
           {
            "type": "item",
@@ -15125,7 +15569,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide forms the multiplier with the grey cards and places it on the right part of the frame over the corresponding circles Flip the unused hierarchies on the grey card (3) and multiply by 2, recording on the board"
+           "text": "The guide forms the multiplier with the grey cards and places it on the right part"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the frame over the corresponding circles"
+          },
+          {
+           "type": "para",
+           "text": "Flip the unused hierarchies on the grey card (3) and multiply by 2, recording on the board"
           },
           {
            "type": "item",
@@ -15190,7 +15643,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide forms the multiplier with the grey cards and places it on the right part of the frame over the corresponding circles Flip the unused hierarchies on the grey card (3) and multiply by 2, recording on the board"
+           "text": "The guide forms the multiplier with the grey cards and places it on the right part"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the frame over the corresponding circles"
+          },
+          {
+           "type": "para",
+           "text": "Flip the unused hierarchies on the grey card (3) and multiply by 2, recording on the board"
           },
           {
            "type": "item",
@@ -15265,7 +15727,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide forms the multiplier with the grey cards and places it on the right part of the frame over the corresponding circles Flip the unused hierarchies on the grey card (3 and 6) and multiply by 4, recording on the board"
+           "text": "The guide forms the multiplier with the grey cards and places it on the right part"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the frame over the corresponding circles"
+          },
+          {
+           "type": "para",
+           "text": "Flip the unused hierarchies on the grey card (3 and 6) and multiply by 4, recording on the board"
           },
           {
            "type": "item",
@@ -15356,7 +15827,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide forms the multiplier with the grey cards and places it on the right part of the frame over the corresponding circles Flip the unused hierarchies on the grey card (3 and 6) and multiply by 4, recording on the board but carrying mentally"
+           "text": "The guide forms the multiplier with the grey cards and places it on the right part"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the frame over the corresponding circles Flip the unused hierarchies on the grey card (3 and 6) and multiply by 4, recording on the board but carrying mentally"
           },
           {
            "type": "item",
@@ -15536,10 +16012,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide presents to the child how he can use a diagonal movement to find out to which hierarchy does that square belong."
+           "text": "The guide presents to the child how he can use a diagonal movement to find"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "ut to which hierarchy does that square belong."
+          },
+          {
+           "type": "para",
            "text": "Forming numbers and reading numbers on the checkerboard"
           },
           {
@@ -15631,7 +16112,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide starts from the first row, from the units doing the operations: 6 times 4 is 24 so in the first square a bead bar of 4 and in the next one, for the tens, a bead bar of 2. The bead bar that it is carried it is places in the left upper corner of the square."
+           "text": "The guide starts from the first row, from the units doing the operations: 6 times 4 is 24 so in the first square a bead bar of 4 and in the next one, for the tens, a bead bar of 2. The bead bar that it is carried it is places in the left upper corner"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the square."
           },
           {
            "type": "item",
@@ -15680,7 +16166,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply first by 4 so he flips the cards with the 2 and 6 Multiply by 4 placing the necessary bead bars (the answer of the multiplication) on the first row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply first by 4 so he flips the cards with the 2 and 6 Multiply by 4 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the first row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15695,7 +16186,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 4 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication) on the second row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 4 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the second row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15710,7 +16206,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 6 so he flips the cards with the 2 and 4 Multiply by 6 placing the necessary bead bars (the answer of the multiplication) on the third row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 6 so he flips the cards with the 2 and 4 Multiply by 6 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the third row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15787,7 +16288,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply first by 4 so he flips the card with the 2 and 6 Multiply by 4 placing the necessary bead bars (the answer of the multiplication) on the first row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply first by 4 so he flips the card with the 2 and 6 Multiply by 4 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the first row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15821,7 +16327,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 4 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication) on the second row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 4 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the second row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15851,7 +16362,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 6 so he flips the cards with the 2 and 4 Multiply by 6 placing the necessary bead bars (the answer of the multiplication) on the third row, carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 6 so he flips the cards with the 2 and 4 Multiply by 6 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the third row, carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15925,7 +16441,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply first by 6 so he flips the card with the 2 and 7 Multiply by 6 placing the necessary bead bars (the answer of the multiplication) on the first row, mentally carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply first by 6 so he flips the card with the 2 and 7 Multiply by 6 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the first row, mentally carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15949,7 +16470,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 7 so he flips the cards with the 2 and 6 Multiply by 7 placing the necessary bead bars (the answer of the multiplication) on the second row, mentally carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 7 so he flips the cards with the 2 and 6 Multiply by 7 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the second row, mentally carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -15969,7 +16495,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 7 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication) on the third row, mentally carrying to the next square the necessary beads"
+           "text": "The guide says that he is going to multiply now by 2 so he flips the cards with the 7 and 6 Multiply by 2 placing the necessary bead bars (the answer of the multiplication)"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the third row, mentally carrying to the next square the necessary beads"
           },
           {
            "type": "item",
@@ -16105,7 +16636,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide starts coloring in blue on the square paper a rectangle with a height of 4 squares and a width of 6 squares on the right."
+           "text": "The guide starts coloring in blue on the square paper a rectangle with a height"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 squares and a width of 6 squares on the right."
           },
           {
            "type": "item",
@@ -16155,7 +16691,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide starts coloring in red on the square paper a rectangle with a height of 6 squares and a width of 6 squares on the right."
+           "text": "The guide starts coloring in red on the square paper a rectangle with a height"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 6 squares and a width of 6 squares on the right."
           },
           {
            "type": "item",
@@ -16225,7 +16766,20 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues for the second row, from the hundreds doing the operations: 6 times 6 is 36 so in the first square a bead bar of 6 and 3 in the mind. The guide continues until all the calculation for the third row are done Do the calculations on paper for the “multiplying by the hundreds” and compare with the result on the board"
+           "text": "The guide continues for the second row, from the hundreds doing the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "perations: 6 times 6 is 36 so in the first square a bead bar of 6 and 3 in the mind."
+          },
+          {
+           "type": "para",
+           "text": "The guide continues until all the calculation for the third row are done"
+          },
+          {
+           "type": "para",
+           "text": "Do the calculations on paper for the “multiplying by the hundreds” and compare with the result on the board"
           },
           {
            "type": "item",
@@ -16991,7 +17545,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he wants to find what gives him thousands so he writes th = t x h and th = h x t. He continues writing 1 x 1 and 1x1 and the results 1000, 1000 on the right side"
+           "text": "The guide says that he wants to find what gives him thousands so he writes th = t x h and th = h x t. He continues writing 1 x 1 and 1x1 and the results 1000, 1000"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the right side"
           },
           {
            "type": "item",
@@ -18170,7 +18729,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide does the multiplication in his mind (7 x 4 = 28, 28 plus 19 from before is 47, 47 plus 3 from the multiplication of the tens is 50) and on the checkerboard, on the first row, he keeps in mind 5."
+           "text": "The guide does the multiplication in his mind (7 x 4 = 28, 28 plus 19 from before is 47, 47 plus 3 from the multiplication of the tens is 50) and on the checkerboard,"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the first row, he keeps in mind 5."
           },
           {
            "type": "item",
@@ -19184,7 +19748,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that the answer for our division is “how many group we have obtained”."
+         "text": "The guide says that the answer for our division is “how many group we have"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "btained”."
         },
         {
          "type": "item",
@@ -19336,12 +19905,26 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide moves down the tiles of the thousands and hundreds and places one orange placeholder over the white stripe on top the hundreds. As we are making groups of hundreds."
+         "text": "The guide moves down the tiles of the thousands and hundreds and places"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne orange placeholder over the white stripe on top the hundreds. As we are"
+        },
+        {
+         "type": "para",
+         "text": "making groups of hundreds."
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide places looks how many groups of 32 hundreds he could make. It is possible to make only 1 so it places one card with the number 1 over the orange placeholder."
+         "text": "The guide places looks how many groups of 32 hundreds he could make. It is possible to make only 1 so it places one card with the number 1 over the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "range placeholder."
         },
         {
          "type": "item",
@@ -19421,7 +20004,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide moves down the tiles of the thousand, hundreds, tens and places one orange placeholder over the white stripe in the place of the tens (the last hierarchy)."
+         "text": "The guide moves down the tiles of the thousand, hundreds, tens and places"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne orange placeholder over the white stripe in the place of the tens (the last"
+        },
+        {
+         "type": "para",
+         "text": "hierarchy)."
         },
         {
          "type": "item",
@@ -19456,7 +20048,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide forms 3 groups with the necessary exchanges, but there is still 1 tile of ten and 3 tiles of units left that cannot be included in the group."
+         "text": "The guide forms 3 groups with the necessary exchanges, but there is still 1 tile"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f ten and 3 tiles of units left that cannot be included in the group."
         },
         {
          "type": "item",
@@ -19571,7 +20168,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide moves down the tiles of the thousands and hundreds and places one orange placeholder over the white stripe in the place of the hundreds (the last hierarchy)."
+         "text": "The guide moves down the tiles of the thousands and hundreds and places"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne orange placeholder over the white stripe in the place of the hundreds (the"
+        },
+        {
+         "type": "para",
+         "text": "last hierarchy)."
         },
         {
          "type": "item",
@@ -20020,7 +20626,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites Silje to form the divisor by placing the corresponding skittles on the boards. 4 blue skittles and 3 green skittles. Bring the first two hierarchies, check how many groups can be formed (each child works individually with a board)"
+           "text": "The guide invites Silje to form the divisor by placing the corresponding skittles"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the boards. 4 blue skittles and 3 green skittles."
+          },
+          {
+           "type": "para",
+           "text": "Bring the first two hierarchies, check how many groups can be formed (each child works individually with a board)"
           },
           {
            "type": "item",
@@ -20204,7 +20819,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "In a division with 3 digits in the divisor in the first comparison between the board of the hundreds and the board of tens these three situations can occur:"
+           "text": "In a division with 3 digits in the divisor in the first comparison between the board"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the hundreds and the board of tens these three situations can occur:"
           },
           {
            "type": "item",
@@ -20259,7 +20879,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "For the long division with complete reasoning, more than one child can work simultaneously with the material. One way of working is to be each in charge of one board trying to form groups of how many skittles his board has. They work independently and have to make sure at the end that they formed the same number of groups."
+           "text": "For the long division with complete reasoning, more than one child can work simultaneously with the material. One way of working is to be each in charge"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f one board trying to form groups of how many skittles his board has. They"
+          },
+          {
+           "type": "para",
+           "text": "work independently and have to make sure at the end that they formed the same number of groups."
           },
           {
            "type": "item",
@@ -20433,7 +21062,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that if we change of the order and the multiplier we saw that the answers are always the same. We can think of this as a propriety or a law of the multiplication. It even has a name: commutative propriety."
+           "text": "The guide says that if we change of the order and the multiplier we saw that the answers are always the same. We can think of this as a propriety or a law"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the multiplication. It even has a name: commutative propriety."
           },
           {
            "type": "item",
@@ -21305,7 +21939,16 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide brings two envelopes this time each only with cards and places them on the table with the multiplication sign in between. Form the equation, multiply as before, beads placed under the cards"
+             "text": "The guide brings two envelopes this time each only with cards and places them"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the table with the multiplication sign in between."
+            },
+            {
+             "type": "para",
+             "text": "Form the equation, multiply as before, beads placed under the cards"
             },
             {
              "type": "item",
@@ -21739,7 +22382,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide take two red bead bars of 1 and says this is “1x2 = 2” and places it on the mat horizontally under the red bead bar of 1"
+             "text": "The guide take two red bead bars of 1 and says this is “1x2 = 2” and places it"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "n the mat horizontally under the red bead bar of 1"
             },
             {
              "type": "item",
@@ -22058,7 +22706,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide continues with the child until all the beads have changed the colour of the bead decanomial square."
+             "text": "The guide continues with the child until all the beads have changed the colour"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f the bead decanomial square."
             },
             {
              "type": "item",
@@ -22159,7 +22812,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide looks at the red bead of 1 but says that he can’t do anything to that one"
+             "text": "The guide looks at the red bead of 1 but says that he can’t do anything to that"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne"
             },
             {
              "type": "item",
@@ -22248,7 +22906,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide looks at the red bead of 1 but says that he can’t do anything to that one"
+             "text": "The guide looks at the red bead of 1 but says that he can’t do anything to that"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "ne"
             },
             {
              "type": "item",
@@ -22288,7 +22951,12 @@
             {
              "type": "item",
              "level": 0,
-             "text": "The guide changes the cubes made from squares with cubes from the cabinet of powers."
+             "text": "The guide changes the cubes made from squares with cubes from the cabinet"
+            },
+            {
+             "type": "item",
+             "level": 1,
+             "text": "f powers."
             },
             {
              "type": "item",
@@ -22512,7 +23180,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the rectangles with the number 3 on them and in continuation of the rectangles with 2."
+           "text": "The guide takes the rectangles with the number 3 on them and in continuation"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the rectangles with 2."
           },
           {
            "type": "item",
@@ -22576,7 +23249,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide brings the “Folder 1” and invites the child to take out one combination. Looks at the combinations and lines it up with the square corresponding. (E.g. 1x3 goes on the left with the text horizontally and 3x1 foes on the top of the square with the text horizontally)"
+           "text": "The guide brings the “Folder 1” and invites the child to take out one combination. Looks at the combinations and lines it up with the square corresponding. (E.g. 1x3 goes on the left with the text horizontally and 3x1 foes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the top of the square with the text horizontally)"
           },
           {
            "type": "item",
@@ -22616,12 +23294,22 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to take out one combination. Looks at the combination and lines it up with the squares corresponding to the multiplication. (5x6 goes on the left with the text horizontally in the intersection of the lines from the squares of 5 and 6)"
+           "text": "The guide invites the child to take out one combination. Looks at the combination and lines it up with the squares corresponding to the multiplication. (5x6 goes on the left with the text horizontally in the intersection"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the lines from the squares of 5 and 6)"
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The child can take over and place the other rectangles from the folder, takes out the next random folder, and works in the same way."
+           "text": "The child can take over and place the other rectangles from the folder, takes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ut the next random folder, and works in the same way."
           },
           {
            "type": "item",
@@ -22969,12 +23657,22 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes 1 bead bar of 10 and a bead bar of 2, places them horizontally on the mat."
+           "text": "The guide takes 1 bead bar of 10 and a bead bar of 2, places them horizontally"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the mat."
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes 2 bead bars of 10 and 2 bead bars of 2, places them horizontally on the mat and under places result vertically with two bead bars of 10 and one bead bar of 4."
+           "text": "The guide takes 2 bead bars of 10 and 2 bead bars of 2, places them horizontally on the mat and under places result vertically with two bead bars"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 10 and one bead bar of 4."
           },
           {
            "type": "item",
@@ -23118,7 +23816,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "When the child finishes with the chain, he can continue by adding bead bars of 3."
+           "text": "When the child finishes with the chain, he can continue by adding bead bars"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 3."
           },
           {
            "type": "item",
@@ -23340,7 +24043,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child for the first ten multiplications of each number has to use the multiplication facts. For the next ones he can use the tables with the multiples of the number (the ones he had previously worked on) or understand the abstract concept of skip counting."
+           "text": "The child for the first ten multiplications of each number has to use the multiplication facts. For the next ones he can use the tables with the multiples"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the number (the ones he had previously worked on) or understand the"
+          },
+          {
+           "type": "para",
+           "text": "abstract concept of skip counting."
           },
           {
            "type": "item",
@@ -23609,7 +24321,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide chooses three numbers, writes them on the small pieces of paper “2”, “3” and “4” and places the numbers on top of the board"
+           "text": "The guide chooses three numbers, writes them"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the small pieces of paper “2”, “3” and “4”"
+          },
+          {
+           "type": "para",
+           "text": "and places the numbers on top of the board"
           },
           {
            "type": "item",
@@ -23634,7 +24355,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to place the pegs for the numbers repeatedly until all the sticks align. The guide might need to place the one of the numbers multiple times to reach or pass the other number. (E.g. when the numbers chosen are “2”, ”7” and “9 – the number “2” has to be placed 4 times until overcoming 9 and just then place again the 7 and the 9)."
+           "text": "The guide invites the child to place the pegs for the numbers repeatedly until all the sticks align. The guide might need to place the one of the numbers multiple times to reach or pass the other number. (E.g. when the numbers chosen are “2”, ”7” and “9 – the number “2” has to be placed 4 times until"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "vercoming 9 and just then place again the 7 and the 9)."
           },
           {
            "type": "item",
@@ -23787,7 +24513,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide chooses two numbers, writes them on the small pieces of paper “!2”, “18” and “27” and places the numbers on top of the board"
+           "text": "The guide chooses two numbers, writes them"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the small pieces of paper “!2”, “18” and"
+          },
+          {
+           "type": "para",
+           "text": "“27” and places the numbers on top of the board"
           },
           {
            "type": "item",
@@ -23946,7 +24681,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes on a small paper “2” and places it under the groups formed on the table."
+           "text": "The guide writes on a small paper “2” and places it under the groups formed"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the table."
           },
           {
            "type": "item",
@@ -23966,7 +24706,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes on a small paper “3” and places it under the groups formed on the table."
+           "text": "The guide writes on a small paper “3” and places it under the groups formed"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the table."
           },
           {
            "type": "item",
@@ -23986,7 +24731,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes on a small paper “4” and places it under the groups formed on the table."
+           "text": "The guide writes on a small paper “4” and places it under the groups formed"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the table."
           },
           {
            "type": "item",
@@ -24401,7 +25151,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that now we can make the number 24 with the numbers that we used to divide it. He says that we can say: “We can make our number again by making a multiplication and now the numbers “2” and “3” are going to be our factors for the multiplication, these are prime factors.”"
+           "text": "The guide says that now we can make the number 24 with the numbers that we used to divide it. He says that we can say: “We can make our number again by making a multiplication and now the numbers “2” and “3” are going to be"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ur factors for the multiplication, these are prime factors.”"
           },
           {
            "type": "item",
@@ -24527,7 +25282,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says “Let’s look for the 3, we have it once in our first number and once in the second and once in the third.”"
+           "text": "The guide says “Let’s look for the 3, we have it once in our first number and"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "nce in the second and once in the third.”"
           },
           {
            "type": "item",
@@ -24566,7 +25326,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that for the GCF the child has to look for the common factors/divisors common to the three numbers and take it the lowest number of times possible."
+           "text": "The guide says that for the GCF the child has to look for the common factors/divisors common to the three numbers and take it the lowest number"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f times possible."
           },
           {
            "type": "item",
@@ -24773,7 +25538,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to write down the numbers using the powers instead of repeating the multiplication factors."
+           "text": "The guide invites the child to write down the numbers using the powers instead"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f repeating the multiplication factors."
           },
           {
            "type": "item",
@@ -24923,7 +25693,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that the trees have to plant at a distance of 12 m from each other."
+           "text": "The guide says that the trees have to plant at a distance of 12 m from each"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther."
           },
           {
            "type": "item",
@@ -25784,7 +26559,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that 1000 is the first hierarchy that is divisible by 8. Another way of saying is that 103 is the first power of 10 divisible by 8."
+           "text": "The guide says that 1000 is the first hierarchy that is divisible by 8. Another way"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f saying is that 103 is the first power of 10 divisible by 8."
           },
           {
            "type": "item",
@@ -26436,7 +27216,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide changes 10 green pegs with a blue peg, undoes the other square and places the pegs vertically on the first column in the upper left corner"
+           "text": "The guide changes 10 green pegs with a blue peg, undoes the other square and places the pegs vertically"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the first column in the upper left corner"
           },
           {
            "type": "item",
@@ -26581,7 +27366,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide looks at the thousands and says that if from each thousand takes one bead away than they will be divisible by 9. The guide places 4 golden beads under the thousands."
+           "text": "The guide looks at the thousands and says that if from each thousand takes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne bead away than they will be divisible by 9. The guide places 4 golden"
+          },
+          {
+           "type": "para",
+           "text": "beads under the thousands."
           },
           {
            "type": "item",
@@ -26610,7 +27404,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide lets the child to work in this manner for some time and later comes back to use small slips of paper with the remainders written on paper instead of using the golden beads. Sum the numbers on the small slips of paper and check if the sum is divisible by 9"
+           "text": "The guide lets the child to work in this manner for some time and later comes back to use small slips of paper with the remainders written on paper instead"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f using the golden beads. Sum the numbers on the small slips of paper and check if the sum is divisible by 9"
           },
           {
            "type": "item",
@@ -27096,7 +27895,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he wants to present the cabinet in a different way. Today this cabinet represents a continent and each colour represents a reign. In each kingdoms, there is a king/queen, a prince or princess, the nobles and the ordinary citizens."
+           "text": "The guide says that he wants to present the cabinet in a different way. Today this cabinet represents a continent and each colour represents a reign. In each kingdoms, there is a king/queen, a prince or princess, the nobles and the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rdinary citizens."
           },
           {
            "type": "item",
@@ -27126,7 +27930,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide brings the bead and says that the bead is the citizen of the kingdom of 7"
+           "text": "The guide brings the bead and says that the bead is the citizen of the kingdom"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 7"
           },
           {
            "type": "item",
@@ -27223,7 +28032,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide checks the product on the back of “7x7” - 49 and looks on the back of the new label where also 49 is written. The guide turns the new label and reads 72 or 7 squared."
+           "text": "The guide checks the product on the back of “7x7” - 49 and looks on the back"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the new label where also 49 is written. The guide turns the new label and"
+          },
+          {
+           "type": "para",
+           "text": "reads 72 or 7 squared."
           },
           {
            "type": "item",
@@ -27297,7 +28115,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide counts the squares 1, 2, 3 …7 and at the end places a cube on top of the last square. Counting the squares (7x7 taken 1 time…) and placing the label with 7x7x7"
+           "text": "The guide counts the squares 1, 2, 3 …7 and at the end places a cube on top"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the last square."
+          },
+          {
+           "type": "para",
+           "text": "Counting the squares (7x7 taken 1 time…) and placing the label with 7x7x7"
           },
           {
            "type": "item",
@@ -27822,7 +28649,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he wants to take the 23 twice, so he adds the 2 yellow cubes, the white prism and the green prism to the yellow large cube and writes 23 x 2 on a slip of paper – he says that there is another way in which we can write 24"
+           "text": "The guide says that he wants to take the 23 twice, so he adds the 2 yellow cubes, the white prism and the green prism to the yellow large cube and writes 23 x 2"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n a slip of paper – he says that there is another way in which we can write 24"
           },
           {
            "type": "item",
@@ -27895,7 +28727,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child doubles the quantity by placing other two cubes and the guide writes on slip of paper 21 x 2 and on the other side 22"
+           "text": "The child doubles the quantity by placing other two cubes and the guide writes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n slip of paper 21 x 2 and on the other side 22"
           },
           {
            "type": "item",
@@ -27905,7 +28742,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child doubles the quantity by placing other four cubes and the guide writes on slip of paper 22 x 2 and on the other side 23"
+           "text": "The child doubles the quantity by placing other four cubes and the guide writes"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n slip of paper 22 x 2 and on the other side 23"
           },
           {
            "type": "item",
@@ -27923,7 +28765,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes on a piece of paper 24 and reviews with the child the concepts of base and exponent"
+           "text": "The guide writes on a piece of paper 24 and reviews with the child the concepts"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f base and exponent"
           },
           {
            "type": "item",
@@ -28141,7 +28988,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that he wants to take the 34 three times, so he adds the 3 yellow cubes, the 2 white prisms, the 2 green prisms, the medium yellow cube and another white prism to the existing white large prism and writes 34 x 3 on a slip of paper – he says that there is another way in which we can write 35"
+           "text": "The guide says that he wants to take the 34 three times, so he adds the 3 yellow cubes, the 2 white prisms, the 2 green prisms, the medium yellow cube and another white prism to the existing white large prism and writes 34 x 3 on a slip"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f paper – he says that there is another way in which we can write 35"
           },
           {
            "type": "item",
@@ -28309,7 +29161,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the small cube and says it represent the unit. A unit without power. The guide says that it is “1” and writes a ticket with the number 1 and on the other side 100."
+           "text": "The guide takes the small cube and says it represent the unit. A unit without power. The guide says that it is “1” and writes a ticket with the number 1 and"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the other side 100."
           },
           {
            "type": "item",
@@ -29998,8 +30855,9 @@
            "text": "The child does the equivalences and replaces the material writing as always"
           },
           {
-           "type": "para",
-           "text": "on the back of the slips 8 and 9 12 12"
+           "type": "item",
+           "level": 1,
+           "text": "n the back of the slips 8 and 9 12 12"
           },
           {
            "type": "item",
@@ -30078,7 +30936,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child can do now the subtraction and writes the difference 3/10 on a slip of paper"
+           "text": "The child can do now the subtraction and writes the difference 3/10 on a slip"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f paper"
           },
           {
            "type": "para",
@@ -30096,7 +30959,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide presents a rectangle and says this is our whole for the thirds and this other rectangle is the whole for the fourth"
+           "text": "The guide presents a rectangle and says this is our whole for the thirds and this"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther rectangle is the whole for the fourth"
           },
           {
            "type": "item",
@@ -30181,7 +31049,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide uses other paper to record the addition and offers to the child 2 options: cut the divisions coloured and sum them or just write the addition on the same paper and draw the corresponding divisions all together."
+           "text": "The guide uses other paper to record the addition and offers to the child 2"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ptions: cut the divisions coloured and sum them or just write the addition on"
+          },
+          {
+           "type": "para",
+           "text": "the same paper and draw the corresponding divisions all together."
           },
           {
            "type": "sub",
@@ -30235,11 +31112,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide uses other paper to record the subtraction and offers to the child 2 options: cut the divisions coloured and subtract from the first quantity as many as in the second or just write the subtraction on the same paper and draw the corresponding divisions that remain after the subtraction."
+           "text": "The guide uses other paper to record the subtraction and offers to the child 2"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ptions: cut the divisions coloured and subtract from the first quantity as many"
           },
           {
            "type": "para",
-           "text": "-"
+           "text": "as in the second or just write the subtraction on the same paper and draw the corresponding divisions that remain after the subtraction. -"
           },
           {
            "type": "sub",
@@ -30566,7 +31448,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide does the equivalence 2/8 are equivalence 1/4 and writes on a slip of paper but it doesn’t place any material Multiplying a fraction by a fraction “3/5 x 1/2 =”"
+           "text": "The guide does the equivalence 2/8 are equivalence 1/4 and writes on a slip"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f paper but it doesn’t place any material"
+          },
+          {
+           "type": "para",
+           "text": "Multiplying a fraction by a fraction “3/5 x 1/2 =”"
           },
           {
            "type": "item",
@@ -31086,7 +31977,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide sums what the 3 fractions of the skittles got: 3/8 and writes it on a slip of paper Dividing a fraction by a fraction “1/2 ÷ 2/5 =”"
+           "text": "The guide sums what the 3 fractions of the skittles got: 3/8 and writes it on a slip"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f paper"
+          },
+          {
+           "type": "para",
+           "text": "Dividing a fraction by a fraction “1/2 ÷ 2/5 =”"
           },
           {
            "type": "item",
@@ -31549,7 +32449,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "To get the idea of the wine mixed with the water the guide places the thirds opposite to each other"
+         "text": "To get the idea of the wine mixed with the water the guide places the thirds"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "pposite to each other"
         },
         {
          "type": "item",
@@ -31578,7 +32483,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "“One Sunday Julia receives a package of sweets. The mother says that the sweets have to be divided in 7 parts and she is allowed to drink only a 1/7 per day. On Sunday manages to abide by the daily ratio, but on Monday she eats also the sweets for the Tuesday. What fraction of the sweets remains for the rest of the week? “ Notes for the problem:"
+         "text": "“One Sunday Julia receives a package of sweets. The mother says that the sweets have to be divided in 7 parts and she is allowed to drink only a 1/7 per day. On Sunday manages to abide by the daily ratio, but on Monday she eats also the sweets for the Tuesday. What fraction of the sweets remains for the rest"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the week? “"
+        },
+        {
+         "type": "para",
+         "text": "Notes for the problem:"
         },
         {
          "type": "item",
@@ -31606,7 +32520,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "“We have a pole and we know that 5/6 of the height is 10m. What is the height of our pole? “ Notes for the problem:"
+         "text": "“We have a pole and we know that 5/6 of the height is 10m. What is the height"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f our pole? “"
+        },
+        {
+         "type": "para",
+         "text": "Notes for the problem:"
         },
         {
          "type": "item",
@@ -32061,7 +32984,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide brings 10 pale blue discs and places them in a column on the right of the green discs."
+         "text": "The guide brings 10 pale blue discs and places them in a column on the right"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the green discs."
         },
         {
          "type": "item",
@@ -32086,7 +33014,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide brings 10 pale green discs and places them in a column on the right of the pale red discs. 3 period lesson and practice exchanging"
+         "text": "The guide brings 10 pale green discs and places them in a column on the right"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the pale red discs."
+        },
+        {
+         "type": "para",
+         "text": "3 period lesson and practice exchanging"
         },
         {
          "type": "item",
@@ -32237,7 +33174,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide talks about the colours of the hierarchies that go darker at the left of the unit and lighter at the right of unit."
+         "text": "The guide talks about the colours of the hierarchies that go darker at the left of the unit and lighter at the right"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f unit."
         },
         {
          "type": "item",
@@ -32255,7 +33197,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide takes the symbol cards from the bank game and places them on the mat on the floor and the child reads them.(Units on the right and the millions on the far left)"
+         "text": "The guide takes the symbol cards from the bank game and places them on the mat on the floor and the child reads them.(Units on the right and the millions"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the far left)"
         },
         {
          "type": "item",
@@ -32307,7 +33254,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide continues in the same manner until reaching the million on the left of the unit and on the right of the unit the millionth. Introduction of the symbols from the yellow board (1 000 000 000 to 0.000 001)"
+         "text": "The guide continues in the same manner until reaching the million on the left"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the unit and on the right of the unit the millionth."
+        },
+        {
+         "type": "para",
+         "text": "Introduction of the symbols from the yellow board (1 000 000 000 to 0.000 001)"
         },
         {
          "type": "item",
@@ -32342,7 +33298,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide takes both sets showing only the 1s and super imposes them in such a way that know only the 1 is showing giving the child a visual representation of all the hierarchies."
+         "text": "The guide takes both sets showing only the 1s and super imposes them in such a way that know only the 1 is showing giving the child a visual representation"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f all the hierarchies."
         },
         {
          "type": "item",
@@ -33038,7 +33999,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to add two discs at a time for the tenths and count until reaching 2 units or 20 tenths but this time to place the symbol cards also on top of the quantity."
+           "text": "The guide invites the child to add two discs at a time for the tenths and count until reaching 2 units or 20 tenths but this time to place the symbol cards also"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n top of the quantity."
           },
           {
            "type": "item",
@@ -33239,7 +34205,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the blue pen and draws with the help of a ruler a vertical line on the left of the green line."
+           "text": "The guide takes the blue pen and draws with the help of a ruler a vertical line"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the left of the green line."
           },
           {
            "type": "item",
@@ -33932,7 +34903,7 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes 1 = 50 = 0.50 2 100 Place a third, ask to how many hundredths it corresponds, write the equivalence: 1/3 = 33/100 = 0.33 "
+           "text": "The guide writes 1 = 50 = 0.50 2 100 Place a third, ask to how many hundredths it corresponds, write the equivalence: 1/3 = 33/100 = 0.33 ≈"
           },
           {
            "type": "item",
@@ -33962,12 +34933,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that because it is not exact we can use a sign for circa, which is a word for “around” "
+           "text": "The guide says that because it is not exact we can use a sign for circa, which is a word for “around” ≈"
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The guide writes 1 = 33 = 0.33 3 100 Place a fourth, ask to how many hundredths it corresponds, write the equivalence: 1/4 = 25/100 = 0.25"
+           "text": "The guide writes 1 = 33 = 0.33≈ 3 100 Place a fourth, ask to how many hundredths it corresponds, write the equivalence: 1/4 = 25/100 = 0.25"
           },
           {
            "type": "item",
@@ -34195,7 +35166,7 @@
           },
           {
            "type": "para",
-           "text": "and writes 33/100 "
+           "text": "and writes 33/100 ≈"
           },
           {
            "type": "item",
@@ -34213,7 +35184,7 @@
           },
           {
            "type": "para",
-           "text": "and writes 12/100 "
+           "text": "and writes 12/100 ≈"
           },
           {
            "type": "item",
@@ -34227,7 +35198,7 @@
           },
           {
            "type": "para",
-           "text": "70  100"
+           "text": "70 ≈ 100"
           },
           {
            "type": "item",
@@ -34251,7 +35222,7 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child looks how many hundredths is 1/3 - finds out it is circa 33 hundredths and writes 0.33 "
+           "text": "The child looks how many hundredths is 1/3 - finds out it is circa 33 hundredths and writes 0.33 ≈"
           },
           {
            "type": "item",
@@ -34261,12 +35232,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child looks how many hundredths is 1/8 - finds out it is circa 12 hundredths and writes 0.12 "
+           "text": "The child looks how many hundredths is 1/8 - finds out it is circa 12 hundredths and writes 0.12 ≈"
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to write the addition 0.33 + 0.20 + 0.12 = 0.70 "
+           "text": "The guide invites the child to write the addition 0.33 + 0.20 + 0.12 = 0.70 ≈"
           }
          ]
         },
@@ -34277,7 +35248,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The centesimal circle is not always precise so the child has to remember when the numbers are not exact to use the sign for circa  in the results if the operation contains approximate numbers."
+           "text": "The centesimal circle is not always precise so the child has to remember when the numbers are not exact to use the sign for circa ≈ in the results if the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "peration contains approximate numbers."
           }
          ]
         },
@@ -34435,10 +35411,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to place the symbol and operations cards for the operation - placed horizontally."
+           "text": "The guide invites the child to place the symbol and operations cards for the"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "peration - placed horizontally."
+          },
+          {
+           "type": "para",
            "text": "Review the previous knowledge about the multiplication by 10"
           },
           {
@@ -34493,7 +35474,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that the 0 pushed the 2 one hierarchy forward and now the result is 2 units but we can also think of 2 units as 20 tenths. Place the symbol cards out of the board to write the equation and the result out of the board"
+           "text": "The guide says that the 0 pushed the 2 one hierarchy forward and now the result is 2 units but we can also think of 2 units as 20 tenths. Place the symbol cards out of the board to write the equation and the result out"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the board"
           },
           {
            "type": "item",
@@ -34531,7 +35517,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide talks that it would take a very long time to place 100 times the 2 discs of hundredths"
+           "text": "The guide talks that it would take a very long time to place 100 times the 2 discs"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f hundredths"
           },
           {
            "type": "item",
@@ -34596,7 +35587,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that the 0 pushed the 2 one hierarchy forward, two times and now the result is 2 units but we can also think of 2 units as 200 hundredths. Place the symbol cards out of the board to write the equation and the result out of the board"
+           "text": "The guide says that the 0 pushed the 2 one hierarchy forward, two times and now the result is 2 units but we can also think of 2 units as 200 hundredths. Place the symbol cards out of the board to write the equation and the result out"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the board"
           },
           {
            "type": "item",
@@ -34611,7 +35607,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child can work in the traditional way but if he understood, the child can use the grey zeros to push the 0.002 symbol card 3 positions to the left. Place the symbol cards out of the board to write the equation and the result out of the board"
+           "text": "The child can work in the traditional way but if he understood, the child can use the grey zeros to push the 0.002 symbol card 3 positions to the left. Place the symbol cards out of the board to write the equation and the result out"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the board"
           },
           {
            "type": "item",
@@ -34636,7 +35637,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to look at the colours of the cards and at the position of the dot."
+           "text": "The guide invites the child to look at the colours of the cards and at the position"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the dot."
           },
           {
            "type": "para",
@@ -34808,7 +35814,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places the symbol card with 4 on the board. He says that the yellow board has a rule; the multiplier can be only a whole number so the guide suggests using the card with “00” to push to the right this time the symbol card of the multiplicand."
+           "text": "The guide places the symbol card with 4 on the board. He says that the yellow board has a rule; the multiplier can be only a whole number so the guide suggests using the card with “00” to push to the right this time the symbol card"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the multiplicand."
           },
           {
            "type": "item",
@@ -34878,12 +35889,26 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues and changes to the next multiplicand card and returns the 0 grey card to the multiplier. He places the card for 2 units and moves it one position to the right pushing it with the grey 0."
+           "text": "The guide continues and changes to the next multiplicand card and returns the 0 grey card to the multiplier. He places the card for 2 units and moves it"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne position to the right pushing it with the grey 0."
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The guide reads the new multiplication to be realized: 0.2 x 6, does it and places on the yellow board 1 bead for the units and 2 disks for the tenths. Multiply the next hierarchy of the multiplier (3) with each hierarchy of the multiplicand starting from the lowest,"
+           "text": "The guide reads the new multiplication to be realized: 0.2 x 6, does it and places"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the yellow board 1 bead for the units and 2 disks for the tenths."
+          },
+          {
+           "type": "para",
+           "text": "Multiply the next hierarchy of the multiplier (3) with each hierarchy of the multiplicand starting from the lowest,"
           },
           {
            "type": "item",
@@ -34980,7 +36005,12 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Half of the board with squares in darker hierarchical colours and the other half with square in lighter hierarchical colours."
+           "text": "Half of the board with squares in darker hierarchical colours and the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther half with square in lighter hierarchical colours."
           },
           {
            "type": "item",
@@ -35258,7 +36288,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that now he is going to place two bead bars and places them on the same row and asks the child to read it Say a number and the child forms it on the board"
+           "text": "The guide says that now he is going to place two bead bars and places them"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the same row and asks the child to read it"
+          },
+          {
+           "type": "para",
+           "text": "Say a number and the child forms it on the board"
           },
           {
            "type": "item",
@@ -35305,7 +36344,12 @@
           {
            "type": "item",
            "level": 1,
-           "text": "Half of the board with squares in darker hierarchical colours and the other half with square in lighter hierarchical colours."
+           "text": "Half of the board with squares in darker hierarchical colours and the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther half with square in lighter hierarchical colours."
           },
           {
            "type": "item",
@@ -35400,7 +36444,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide shows how to form the equation with the symbol cards and the operation cards Exchange the multiplicand with white digit cards and the multiplier with grey digit cards"
+           "text": "The guide shows how to form the equation with the symbol cards and the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "peration cards"
+          },
+          {
+           "type": "para",
+           "text": "Exchange the multiplicand with white digit cards and the multiplier with grey digit cards"
           },
           {
            "type": "item",
@@ -35567,7 +36620,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 8 x 6, says it’s 48 and places 1 bead bar of 8 in the square with the digit card of 8 and carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 8 x 6, says it’s 48 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 8 in the square with the digit card of 8 and carries a bead bar of 4 to the"
+          },
+          {
+           "type": "para",
+           "text": "next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -35592,7 +36654,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 8 x 2, says it’s 16 and places 1 bead bar of 6 in the square on top of the square with the digit card of 8 and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 8 x 2, says it’s 16 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 6 in the square on top of the square with the digit card of 8 and carries a"
+          },
+          {
+           "type": "para",
+           "text": "bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -35680,7 +36751,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 8 x 6, says it’s 48 and places 1 bead bar of 8 in the square with the digit card of 8 and carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 8 x 6, says it’s 48 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 8 in the square with the digit card of 8 and carries a bead bar of 4 to the"
+          },
+          {
+           "type": "para",
+           "text": "next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -35705,7 +36785,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 8 x 2, says it’s 16 and places 1 bead bar of 6 in the square on top of the square with the digit card of 8 and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 8 x 2, says it’s 16 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 6 in the square on top of the square with the digit card of 8 and carries a"
+          },
+          {
+           "type": "para",
+           "text": "bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36034,7 +37123,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 6 x 7, says it’s 42 and places 1 bead bar of 2 in the square in column with the digit card of 6, row of the multiplier and carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 6 x 7, says it’s 42 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 2 in the square in column with the digit card of 6, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36059,7 +37157,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 6 x 2, says it’s 12 and places 1 bead bar of 2 in the square in column with the digit card of 6, row of the multiplier and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 6 x 2, says it’s 12 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 2 in the square in column with the digit card of 6, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36152,7 +37259,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 6 x 7, says it’s 42 and places 1 bead bar of 2 in the square in column with the digit card of 6, row of the multiplier and carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 6 x 7, says it’s 42 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 2 in the square in column with the digit card of 6, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 4 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36177,7 +37293,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 6 x 2, says it’s 12 and places 1 bead bar of 2 in the square in column with the digit card of 6, row of the multiplier and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 6 x 2, says it’s 12 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 2 in the square in column with the digit card of 6, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36292,7 +37417,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 6 x 2, says it’s 12, “2 plus 1 carried is 3” and places 1 bead bar of 3 in the square in column with the digit card of 6, row of the multiplier and carries mentally 1"
+           "text": "The guide continues with the next one, 6 x 2, says it’s 12, “2 plus 1 carried is 3” and places 1 bead bar of 3 in the square in column with the digit card of 6, row"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the multiplier and carries mentally 1"
           },
           {
            "type": "item",
@@ -36496,7 +37626,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 2 x 7, says it’s 14 and places 1 bead bar of 4 in the square in column with the digit card of 2, row of the multiplier and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 2 x 7, says it’s 14 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 in the square in column with the digit card of 2, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36521,7 +37660,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 2 x 2, says it’s 4 and places 1 bead bar of 4 in the square in column with the digit card of 2, row of the multiplier and there is nothing to carry"
+           "text": "The guide continues with the next one, 2 x 2, says it’s 4 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 in the square in column with the digit card of 2, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "there is nothing to carry"
           },
           {
            "type": "item",
@@ -36609,7 +37757,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 2 x 7, says it’s 14 and places 1 bead bar of 4 in the square in column with the digit card of 2, row of the multiplier and carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
+           "text": "The guide continues with the next one, 2 x 7, says it’s 14 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 in the square in column with the digit card of 2, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "carries a bead bar of 1 to the next square to the left and places it in the upper part of the square"
           },
           {
            "type": "item",
@@ -36634,7 +37791,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 2 x 2, says it’s 4 and places 1 bead bar of 4 in the square in column with the digit card of 6, row of the multiplier and there is nothing to carry"
+           "text": "The guide continues with the next one, 2 x 2, says it’s 4 and places 1 bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 in the square in column with the digit card of 6, row of the multiplier and"
+          },
+          {
+           "type": "para",
+           "text": "there is nothing to carry"
           },
           {
            "type": "item",
@@ -36744,7 +37910,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues with the next one, 2 x 2, says it’s 4, “4 plus 1 carried is 5” and places 1 bead bar of 5 in the square in column with the digit card of 2, row of the multiplier"
+           "text": "The guide continues with the next one, 2 x 2, says it’s 4, “4 plus 1 carried is 5” and places 1 bead bar of 5 in the square in column with the digit card of 2, row"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the multiplier"
           },
           {
            "type": "item",
@@ -37133,7 +38304,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide shows how to form the equation with the symbol cards and the operation cards"
+         "text": "The guide shows how to form the equation with the symbol cards and the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "peration cards"
         },
         {
          "type": "item",
@@ -37552,7 +38728,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide shows how the dividend multiplied two times by 10 becomes 400 from 4 Form the new equation with the symbol cards and bring the result from the first one"
+         "text": "The guide shows how the dividend multiplied two times by 10 becomes 400 from 4 Form the new equation with the symbol cards and bring the result from the first"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne"
         },
         {
          "type": "item",
@@ -38152,7 +39333,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the other lid."
+           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther lid."
           },
           {
            "type": "item",
@@ -38181,7 +39367,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes all the grey bead bars and the colour bead bars and orders them from the longest to the shortest with the grey on the left side"
+           "text": "The guide takes all the grey bead bars and the colour bead bars and"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rders them from the longest to the shortest with the grey on the left"
+          },
+          {
+           "type": "para",
+           "text": "side"
           },
           {
            "type": "item",
@@ -38368,7 +39563,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the other lid."
+           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther lid."
           },
           {
            "type": "item",
@@ -38407,7 +39607,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide continues in the same manner until all the grey bead bars have an equal pair and the last bead bar of Y&R of 6 is matched with a grey bead bar of 6."
+           "text": "The guide continues in the same manner until all the grey bead bars have an equal pair and the last bead bar of Y&R of 6 is matched with a grey bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 6."
           }
          ]
         },
@@ -38563,7 +39768,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the other lid."
+           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther lid."
           },
           {
            "type": "item",
@@ -38588,7 +39798,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "At one point the guide gets to bars of (-5 (Y&R) and -7). The guide does the addition and the result is -12. The guide says that now we can use our grey bead bars of 10 and places a grey bead bar of 10 and a Y&R bead bar of 2. The grey bead bar is placed vertically under the snake and the Y&R bead bar of 2 is placed back in the snake."
+           "text": "At one point the guide gets to bars of (-5 (Y&R) and -7). The guide does the addition and the result is -12. The guide says that now we can use our grey bead bars of 10 and places a grey bead bar of 10 and a Y&R bead bar of 2. The grey bead bar is placed vertically under the snake and the Y&R bead bar"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 2 is placed back in the snake."
           },
           {
            "type": "item",
@@ -38603,7 +39818,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes all the grey bead bars and the colour bead bars and orders them from the longest to the shortest with the grey on the left side"
+           "text": "The guide takes all the grey bead bars and the colour bead bars and"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rders them from the longest to the shortest with the grey on the left"
+          },
+          {
+           "type": "para",
+           "text": "side"
           },
           {
            "type": "item",
@@ -38825,7 +40049,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the other lid."
+           "text": "The guide places the grey bead bar in one lid and the colour bead bars in the"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther lid."
           },
           {
            "type": "item",
@@ -40545,7 +41774,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide changes the squares made from beads with square from the cabinet of powers Slips with the multiplications and on the back with the products"
+         "text": "The guide changes the squares made from beads with square from the cabinet"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f powers"
+        },
+        {
+         "type": "para",
+         "text": "Slips with the multiplications and on the back with the products"
         },
         {
          "type": "item",
@@ -40632,7 +41870,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the child to write on the other side of the paper the products of the multiplications"
+         "text": "The guide invites the child to write on the other side of the paper the products"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the multiplications"
         },
         {
          "type": "item",
@@ -41045,7 +42288,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide starts doing the multiplication with 7. He starts with 7x7 and places 7 bead bars of 7, continues with 3 x 7 and places 7 bead bars of 3 next to the ones from before."
+         "text": "The guide starts doing the multiplication with 7. He starts with 7x7 and places 7 bead bars of 7, continues with 3 x 7 and places 7 bead bars of 3 next to the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "nes from before."
         },
         {
          "type": "item",
@@ -41065,15 +42313,25 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide starts doing the multiplication with 3. He starts with 3x7 and places 3 bead bars of 7, continues with 3 x 3 and places 3 bead bars of 3 next to the ones from before but under the previous one – reconstructing the square."
+         "text": "The guide starts doing the multiplication with 3. He starts with 3x7 and places 3 bead bars of 7, continues with 3 x 3 and places 3 bead bars of 3 next to the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "nes from before but under the previous one – reconstructing the square."
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide replaces the 7 bead bars of 7 with a square of 7 and the 3 bead bars of 3 with the square of 3."
+         "text": "The guide replaces the 7 bead bars of 7 with a square of 7 and the 3 bead bars"
         },
         {
-         "type": "sub",
+         "type": "item",
+         "level": 1,
+         "text": "f 3 with the square of 3."
+        },
+        {
+         "type": "para",
          "text": "Write the equation on paper"
         },
         {
@@ -41194,7 +42452,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that for the other two equations we can call them just products of binomials."
+         "text": "The guide says that for the other two equations we can call them just products"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f binomials."
         }
        ]
       },
@@ -41724,7 +42987,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "To help the children to understand that it is impossible to build all the squares only with the golden bead material"
+           "text": "To help the children to understand that it is impossible to build all the squares"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "nly with the golden bead material"
           }
          ]
         },
@@ -42392,7 +43660,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of blue paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of blue paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42402,7 +43675,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of blue paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of blue paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42412,7 +43690,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of green paper to represent the missing hierarchy on the peg board Sum the products and discussion about the role of the little strips of paper in hierarchical colours"
+           "text": "The guide places a little strip of green paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
+          },
+          {
+           "type": "para",
+           "text": "Sum the products and discussion about the role of the little strips of paper in hierarchical colours"
           },
           {
            "type": "item",
@@ -42460,7 +43747,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of green paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of green paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42470,7 +43762,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places 1 red peg horizontally in the continuation of the green strip on the peg board"
+           "text": "The guide places 1 red peg horizontally in the continuation of the green strip"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42480,7 +43777,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of green paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of green paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42520,7 +43822,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of blue paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of blue paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42610,7 +43917,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of blue paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of blue paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42630,7 +43942,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of blue paper to represent the missing hierarchy on the peg board"
+           "text": "The guide places a little strip of blue paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
           },
           {
            "type": "item",
@@ -42640,7 +43957,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide places a little strip of green paper to represent the missing hierarchy on the peg board Sum the products and discussion about the role of the little strips of paper in hierarchical colours"
+           "text": "The guide places a little strip of green paper to represent the missing hierarchy"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the peg board"
+          },
+          {
+           "type": "para",
+           "text": "Sum the products and discussion about the role of the little strips of paper in hierarchical colours"
           },
           {
            "type": "item",
@@ -43665,7 +44991,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the children to work as before but without any other help – only working with the algebraic decanomial"
+         "text": "The guide invites the children to work as before but without any other help –"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "nly working with the algebraic decanomial"
         },
         {
          "type": "item",
@@ -43730,7 +45061,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that if we look in each column, the letter that gives the name of the column is multiplied by all the letters that follow, but not only once – twice, remember that we superimposed"
+         "text": "The guide says that if we look in each column, the letter that gives the name"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the column is multiplied by all the letters that follow, but not only once –"
+        },
+        {
+         "type": "para",
+         "text": "twice, remember that we superimposed"
         },
         {
          "type": "item",
@@ -43876,7 +45216,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that we also know that these bead bars repeated can form other powers"
+           "text": "The guide says that we also know that these bead bars repeated can form"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ther powers"
           },
           {
            "type": "item",
@@ -44042,7 +45387,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide brings the square of 7 and says that he wants to pass to the square of 8"
+           "text": "The guide brings the square of 7 and says that he wants to pass to the square"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 8"
           },
           {
            "type": "item",
@@ -44200,7 +45550,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide brings the square of 7 and says that he wants to pass to the square of 8"
+           "text": "The guide brings the square of 7 and says that he wants to pass to the square"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 8"
           },
           {
            "type": "item",
@@ -44220,7 +45575,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says look we have all the cubes here – but look to there is no cube of 10."
+           "text": "The guide says look we have all the cubes here – but look to there is no cube"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 10."
           },
           {
            "type": "item",
@@ -44234,7 +45594,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the cube of 7 and places it on the table. The guide says that to pass to the next cube we have to prolong the side – but instead of prolonging the sides we have to prolong the faces – the guides indicates one of the faces"
+           "text": "The guide takes the cube of 7 and places it on the table. The guide says that to pass to the next cube we have to prolong the side – but instead of prolonging the sides we have to prolong the faces – the guides indicates one"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the faces"
           },
           {
            "type": "item",
@@ -44274,7 +45639,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to find out what they added to get from the cube of 7 to the cube of 8. In order to find out we have to dismantle the cube."
+           "text": "The guide invites the child to find out what they added to get from the cube"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 7 to the cube of 8. In order to find out we have to dismantle the cube."
           },
           {
            "type": "item",
@@ -44401,7 +45771,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide brings the square of 5 and says that he wants to pass to the square of 9"
+           "text": "The guide brings the square of 5 and says that he wants to pass to the square"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 9"
           },
           {
            "type": "item",
@@ -44416,7 +45791,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the cube of 5 and places it on the table. The guide says that to pass to the next cube we have to prolong the side – but instead of prolonging the sides we have to prolong the faces – the guides indicates one of the faces"
+           "text": "The guide takes the cube of 5 and places it on the table. The guide says that to pass to the next cube we have to prolong the side – but instead of prolonging the sides we have to prolong the faces – the guides indicates one"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the faces"
           },
           {
            "type": "item",
@@ -44455,7 +45835,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide invites the child to find out what they added to get from the cube of 5 to the cube of 9. In order to find out we have to dismantle the cube."
+           "text": "The guide invites the child to find out what they added to get from the cube"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 5 to the cube of 9. In order to find out we have to dismantle the cube."
           },
           {
            "type": "item",
@@ -44470,7 +45855,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide looks and says that we have : 3 times 4 squares of 5, 3 times 5 squares of 4 and the cube of 4 Reconstruct and write"
+           "text": "The guide looks and says that we have : 3 times 4 squares of 5, 3 times 5 squares"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f 4 and the cube of 4"
+          },
+          {
+           "type": "para",
+           "text": "Reconstruct and write"
           },
           {
            "type": "item",
@@ -44599,7 +45993,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the child to do the passage from the square of 7 to the square of 10 with the bead material"
+         "text": "The guide invites the child to do the passage from the square of 7 to the square"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 10 with the bead material"
         },
         {
          "type": "item",
@@ -44763,16 +46162,26 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says all the passages from a cube to another cube are always cubes of binomials."
+         "text": "The guide says all the passages from a cube to another cube are always cubes"
         },
         {
-         "type": "sub",
+         "type": "item",
+         "level": 1,
+         "text": "f binomials."
+        },
+        {
+         "type": "para",
          "text": "Dismantle and analyze"
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the child to find out what they added to get from the cube of 7 to the cube of 10. In order to find out we have to dismantle the cube."
+         "text": "The guide invites the child to find out what they added to get from the cube"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 7 to the cube of 10. In order to find out we have to dismantle the cube."
         },
         {
          "type": "item",
@@ -44787,7 +46196,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide looks and says that we have : 3 times 3 squares of 7, 3 times 7 squares of 3 and the cube of 3 Reconstruct and write"
+         "text": "The guide looks and says that we have : 3 times 3 squares of 7, 3 times 7 squares"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 3 and the cube of 3"
+        },
+        {
+         "type": "para",
+         "text": "Reconstruct and write"
         },
         {
          "type": "item",
@@ -44988,7 +46406,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide invites the child to look the construction that looks like the first layer of the cube of a binomial"
+         "text": "The guide invites the child to look the construction that looks like the first layer"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the cube of a binomial"
         },
         {
          "type": "item",
@@ -45018,7 +46441,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide points out that on the sides of the construction we can see our trinomial (4, 3, 2) Flip the tickets that are not in use and do the multiplication (by the second term) placing wood cubing material – the material placed on the right of the previous one"
+         "text": "The guide points out that on the sides of the construction we can see our trinomial (4, 3, 2) Flip the tickets that are not in use and do the multiplication (by the second term) placing wood cubing material – the material placed on the right of the previous"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne"
         },
         {
          "type": "item",
@@ -45033,7 +46461,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide points out that on the sides of the construction we can see our trinomial (4, 3, 2) Flip the tickets that are not in use and do the multiplication (by the third term) placing wood cubing material – the material placed on the right of the previous one"
+         "text": "The guide points out that on the sides of the construction we can see our trinomial (4, 3, 2) Flip the tickets that are not in use and do the multiplication (by the third term) placing wood cubing material – the material placed on the right of the previous"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne"
         },
         {
          "type": "item",
@@ -45096,7 +46529,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide writes tickets, as he will reconstruct the cube. When he puts the layers on top of each other, he has to remove the tickets."
+         "text": "The guide writes tickets, as he will reconstruct the cube. When he puts the layers"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n top of each other, he has to remove the tickets."
         },
         {
          "type": "item",
@@ -45316,7 +46754,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide identifies each piece. E.g. 2 squares of 5 – 3 times, 6 special pieces of 2 x 3 x 5, 2 squares of 3 – 3 times, 5 squares of 2 – 3 times, 3 squares of 2 – 3 times, the cube of 2"
+         "text": "The guide identifies each piece. E.g. 2 squares of 5 – 3 times, 6 special pieces"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 2 x 3 x 5, 2 squares of 3 – 3 times, 5 squares of 2 – 3 times, 3 squares of 2 – 3"
+        },
+        {
+         "type": "para",
+         "text": "times, the cube of 2"
         },
         {
          "type": "item",
@@ -45405,11 +46852,38 @@
         },
         {
          "type": "para",
-         "text": "The algebraic binomial cube from the Children’s house comes in a box with a section of the cube painted on the lid. The box is hinged so it can be opened on 1 or 2 sides and inside there are 8 pieces (2 cubes and 6 prisms). The cubes are one red and another yellow meanwhile the prisms have a combination of red-black and yellow- black."
+         "text": "The algebraic binomial cube from the Children’s house comes in a box with a section"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the cube painted on the lid. The box is hinged so it can be opened on 1 or 2 sides"
         },
         {
          "type": "para",
-         "text": "The algebraic trinomial cube from the Children’s house comes in a box with a section of the cube painted on the lid. The box is hinged so it can be opened on 1 or 2 sides and inside there are 27 pieces (3 cubes and 24 prisms). The cubes are one orange, one blue and another white meanwhile the prisms have a combination of orange- black, white-black, blue-black and just black."
+         "text": "and inside there are 8 pieces (2 cubes and 6 prisms). The cubes are one red and another yellow meanwhile the prisms have a combination of red-black and yellow- black."
+        },
+        {
+         "type": "para",
+         "text": "The algebraic trinomial cube from the Children’s house comes in a box with a section"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the cube painted on the lid. The box is hinged so it can be opened on 1 or 2 sides"
+        },
+        {
+         "type": "para",
+         "text": "and inside there are 27 pieces (3 cubes and 24 prisms). The cubes are one orange,"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne blue and another white meanwhile the prisms have a combination of orange-"
+        },
+        {
+         "type": "para",
+         "text": "black, white-black, blue-black and just black."
         }
        ]
       },
@@ -45483,7 +46957,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "Note 1: Building it first with the pieces arranged by colour is preferred instead of having them shuffled"
+         "text": "Note 1: Building it first with the pieces arranged by colour is preferred instead"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f having them shuffled"
         },
         {
          "type": "item",
@@ -45526,7 +47005,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "Note 1: Building it first with the pieces arranged by colour is preferred instead of having them shuffled"
+         "text": "Note 1: Building it first with the pieces arranged by colour is preferred instead"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f having them shuffled"
         },
         {
          "type": "item",
@@ -45681,7 +47165,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that he is going to call the edge of the red cube “a”, the edge of the yellow cube “b” therefore the red cube “a3” and the yellow cube “b3”"
+         "text": "The guide says that he is going to call the edge of the red cube “a”, the edge"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the yellow cube “b” therefore the red cube “a3” and the yellow cube “b3”"
         },
         {
          "type": "item",
@@ -45954,7 +47443,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that he is going to call the edge of the orange cube “a”, the edge of the blue cube “b”, the edge of the white cube “c”, therefore the orange cube “a3”, the blue cube “b3” and the white cube “c3”"
+         "text": "The guide says that he is going to call the edge of the orange cube “a”, the edge of the blue cube “b”, the edge of the white cube “c”, therefore the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "range cube “a3”, the blue cube “b3” and the white cube “c3”"
         },
         {
          "type": "item",
@@ -46043,27 +47537,52 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says a2 x a it is a3 so he removes the ticket and places the orange cube The guide continues saying ab x a it is a2b so places the prism with orange/black on the cardboard square and removes the ticket"
+         "text": "The guide says a2 x a it is a3 so he removes the ticket and places the orange cube The guide continues saying ab x a it is a2b so places the prism with"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "range/black on the cardboard square and removes the ticket"
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide repeats saying ab x a it is a2b so places the prism with orange/black on the cardboard square and removes the ticket"
+         "text": "The guide repeats saying ab x a it is a2b so places the prism with orange/black"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the cardboard square and removes the ticket"
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide continues by saying b2 x a it is ab2 so places the prism with blue/black on the cardboard square and removes the ticket"
+         "text": "The guide continues by saying b2 x a it is ab2 so places the prism with blue/black"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the cardboard square and removes the ticket"
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide continues saying ac x a it is a2c so places the prism with orange/black on the cardboard square and removes the ticket"
+         "text": "The guide continues saying ac x a it is a2c so places the prism with"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "range/black on the cardboard square and removes the ticket"
         },
         {
          "type": "item",
          "level": 0,
-         "text": "The guide repeats saying ac x a it is a2c so places the prism with orange/black on the cardboard square and removes the ticket"
+         "text": "The guide repeats saying ac x a it is a2c so places the prism with orange/black"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the cardboard square and removes the ticket"
         },
         {
          "type": "item",
@@ -46325,12 +47844,39 @@
           {
            "type": "item",
            "level": 0,
-           "text": "Part 1: “The story of the three kings – The characters”. Three kings reign in three different countries, each king in its own borders. The largest and most important kingdom is the kingdom of light ruled by king Sun. The smallest is the kingdom of the snows and its King is the King White. The third country of intermediate importance is the Kingdom of air – and its king it is King Blue. Here are our three kings: Sun, Blue and White. All of them are represented by cubes whose size decreases to indicate the different importance of each. The kings are very good friends and one beautiful day they decide to go to a splendid festival organized in their honor in a large city of another country."
+           "text": "Part 1: “The story of the three kings – The characters”. Three kings reign in three different countries, each king in its own borders. The largest and most important kingdom is the kingdom of light ruled by king Sun. The smallest is the kingdom"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the snows and its King is the King White. The third country of intermediate"
+          },
+          {
+           "type": "para",
+           "text": "importance is the Kingdom of air – and its king it is King Blue. Here are our three kings: Sun, Blue and White. All of them are represented by cubes whose size decreases to indicate the different importance of each. The kings are very good friends and one beautiful day they decide to go to a splendid festival"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "rganized in their honor in a large city of another country."
           },
           {
            "type": "item",
            "level": 0,
-           "text": "Part 2: “The procession”. The procession is formed, each king has the same following to that of his friend: 3 nobleman, 3 horseman and 2 bodyguards. It is a beautiful procession. King Sun leads the procession, as he is the most important of all. He is wrapped in an orange cloak. Flanking him to escort him are two guards who are lean but tall, tall as he is. Their uniform is all black. Three nobleman follow them. The noblemen are as tall as their king is, and only a part of their clothes has the same colour as the King Sun – the rest is black. Long time it was possible to distinguish people by their clothes. The three horsemen follow, their clothes are also orange and black. In the second place, we find the king Blue. King Blue it is a little smaller and less imposing than his friend that leads the procession. He has also two bodyguards – tall as he is and dressed in black. Three nobleman and three horsemen follow him – having part of their clothes blue and black. In the back the smallest of all it is the King White, he has two bodyguards as tall as him and it is followed by three nobleman and three horsemen in white and black clothes. The procession continues but the city where they are going it is still far"
+           "text": "Part 2: “The procession”. The procession is formed, each king has the same following to that of his friend: 3 nobleman, 3 horseman and 2 bodyguards. It is a beautiful procession. King Sun leads the procession, as he is the most important of all. He is wrapped in an orange cloak. Flanking him to escort him are two guards who are lean but tall, tall as he is. Their uniform is all black. Three nobleman follow them. The noblemen are as tall as their king is, and only a part"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f their clothes has the same colour as the King Sun – the rest is black. Long"
+          },
+          {
+           "type": "para",
+           "text": "time it was possible to distinguish people by their clothes. The three horsemen follow, their clothes are also orange and black. In the second place, we find the king Blue. King Blue it is a little smaller and less imposing than his friend that leads the procession. He has also two bodyguards – tall as he is and dressed in black. Three nobleman and three horsemen follow him – having part of their clothes blue and black. In the back the smallest of all it is the King White, he has two bodyguards as tall as him and it is followed by three nobleman and"
+          },
+          {
+           "type": "para",
+           "text": "three horsemen in white and black clothes. The procession continues but the city where they are going it is still far"
           },
           {
            "type": "item",
@@ -46409,12 +47955,22 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the next piece ht2. The child says it is hundreds x tens x tens, hundreds x tens it is thousands and thousands x tens it is tens thousands. The guide invites the child to make a new ticket ten thousand on one side and ht2 on the other."
+           "text": "The guide takes the next piece ht2. The child says it is hundreds x tens x tens, hundreds x tens it is thousands and thousands x tens it is tens thousands. The guide invites the child to make a new ticket ten thousand on one side and ht2"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "n the other."
           },
           {
            "type": "item",
            "level": 0,
-           "text": "The guide takes the next piece h2u. The child says it is hundreds x hundreds x units, hundreds x hundreds it is ten thousands and ten thousands x units it is tens thousands. The guide invites the child to make a new ticket ten thousand on one side and h2u on the other."
+           "text": "The guide takes the next piece h2u. The child says it is hundreds x hundreds x units, hundreds x hundreds it is ten thousands and ten thousands x units it is tens thousands. The guide invites the child to make a new ticket ten thousand on"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne side and h2u on the other."
           },
           {
            "type": "item",
@@ -46947,7 +48503,12 @@
           },
           {
            "type": "para",
-           "text": "Choose a number, place the pieces in order, build the cube and say the value of the pieces"
+           "text": "Choose a number, place the pieces in order, build the cube and say the value"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the pieces"
           },
           {
            "type": "item",
@@ -47130,7 +48691,12 @@
           },
           {
            "type": "para",
-           "text": "Choose a number, place the pieces in order, build the cube and say the value of the pieces"
+           "text": "Choose a number, place the pieces in order, build the cube and say the value"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the pieces"
           },
           {
            "type": "item",
@@ -47362,7 +48928,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child does the work and another child writes on paper the operations. Choose a number, place the pieces in order, build the cube and say the value of the pieces"
+           "text": "The child does the work and another child writes on paper the operations. Choose a number, place the pieces in order, build the cube and say the value"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the pieces"
           },
           {
            "type": "item",
@@ -47463,7 +49034,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child does the work and another child writes on paper the operations. Choose a number, place the pieces in order, build the cube and say the value of the pieces"
+           "text": "The child does the work and another child writes on paper the operations. Choose a number, place the pieces in order, build the cube and say the value"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the pieces"
           },
           {
            "type": "item",
@@ -49257,7 +50833,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide shows to the child what is new in the writing. Instead of bringin down one hierarchy, he brings the next two hierarchies and marks the last hierarchy."
+           "text": "The guide shows to the child what is new in the writing. Instead of bringin down"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "ne hierarchy, he brings the next two hierarchies and marks the last hierarchy."
           },
           {
            "type": "item",
@@ -49419,7 +51000,12 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child continues with the next step as before working with the thousands only."
+           "text": "The child continues with the next step as before working with the thousands"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "nly."
           },
           {
            "type": "item",
@@ -49429,7 +51015,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child fills the square and the guide helps the child read the number: 43. In this case we have 3 rows (the height) of 43 so it is 43 x 3 = 129 . The guide writes -129 , draws the horizontal line and brings down the next two hierarchies and marks the last one."
+           "text": "The child fills the square and the guide helps the child read the number: 43. In this case we have 3 rows (the height) of 43 so it is 43 x 3 = 129 . The guide writes"
+          },
+          {
+           "type": "item",
+           "level": 0,
+           "text": "129 , draws the horizontal line and brings down the next two hierarchies and"
+          },
+          {
+           "type": "para",
+           "text": "marks the last one."
           },
           {
            "type": "item",
@@ -49933,7 +51528,16 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The child continues with the next step as before working with the thousands only. There are not enough pegs to prolong the sides so the guide invites the child to place green slips for the missing lines"
+           "text": "The child continues with the next step as before working with the thousands"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "nly. There are not enough pegs to prolong the sides so the guide invites the"
+          },
+          {
+           "type": "para",
+           "text": "child to place green slips for the missing lines"
           },
           {
            "type": "item",
@@ -50170,7 +51774,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that 7 is the place from where we start, it is the bar of 7 that stays on the edge of the cube."
+         "text": "The guide says that 7 is the place from where we start, it is the bar of 7 that stays"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the edge of the cube."
         },
         {
          "type": "item",
@@ -50536,7 +52145,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide looks at the result and says that it is bigger than 48 so we can prolong one more time"
+         "text": "The guide looks at the result and says that it is bigger than 48 so we can prolong"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne more time"
         },
         {
          "type": "item",
@@ -50551,7 +52165,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide looks at the result and says that it is bigger than 48 so we can prolong one more time"
+         "text": "The guide looks at the result and says that it is bigger than 48 so we can prolong"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne more time"
         },
         {
          "type": "item",
@@ -50586,7 +52205,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that he needs to know with what to fill the spaces. With squares of 3, 4 of them on each side"
+         "text": "The guide says that he needs to know with what to fill the spaces. With squares"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 3, 4 of them on each side"
         },
         {
          "type": "item",
@@ -50701,7 +52325,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that he needs to know with what to fill the spaces. With squares of 3, 4 of them on each side."
+         "text": "The guide says that he needs to know with what to fill the spaces. With squares"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 3, 4 of them on each side."
         },
         {
          "type": "item",
@@ -50821,7 +52450,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that he needs to know with what to fill the spaces. With squares of 8, 4 of them on each side."
+         "text": "The guide says that he needs to know with what to fill the spaces. With squares"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f 8, 4 of them on each side."
         },
         {
          "type": "item",
@@ -50974,7 +52608,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide reviews with the children the work with the cube of binomial and the order used as this is our guide cube."
+         "text": "The guide reviews with the children the work with the cube of binomial and the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rder used as this is our guide cube."
         },
         {
          "type": "item",
@@ -51143,7 +52782,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide reviews with the children the work with the cube of trinomial and the order used as this is our guide cube."
+         "text": "The guide reviews with the children the work with the cube of trinomial and the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rder used as this is our guide cube."
         },
         {
          "type": "item",
@@ -51435,7 +53079,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide reviews with the children the work with the cube of binomial and the order used as this is our guide cube."
+         "text": "The guide reviews with the children the work with the cube of binomial and the"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "rder used as this is our guide cube."
         },
         {
          "type": "item",
@@ -51635,7 +53284,16 @@
         },
         {
          "type": "para",
-         "text": "It is not clear when the humans started to use measurements, however we know that one of the first recorded measurement systems was in Egypt, around 5000 years ago. The Egyptians used the cubit, coming from the Latin cubitum meaning “elbow”. Because each cubit was different from person to person, the Pharaoh came with a solution to use his cubit measure all over the territory. The administration created sticks which indicated the standard “cubit”. When the next pharaoh came he wanted a cubit measurement on his size so he ordered new sticks to be made. Soon the people wanted measure things smaller than a cubit so they came up with the palm measument (7 palms in a cubit) and the finger (4 fingers in a palm)."
+         "text": "It is not clear when the humans started to use measurements, however we know that"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne of the first recorded measurement systems was in Egypt, around 5000 years ago."
+        },
+        {
+         "type": "para",
+         "text": "The Egyptians used the cubit, coming from the Latin cubitum meaning “elbow”. Because each cubit was different from person to person, the Pharaoh came with a solution to use his cubit measure all over the territory. The administration created sticks which indicated the standard “cubit”. When the next pharaoh came he wanted a cubit measurement on his size so he ordered new sticks to be made. Soon the people wanted measure things smaller than a cubit so they came up with the palm measument (7 palms in a cubit) and the finger (4 fingers in a palm)."
         },
         {
          "type": "para",
@@ -51655,11 +53313,29 @@
         },
         {
          "type": "para",
-         "text": "The history of the metric system began in the Age of Enlightenment with simple notions of length and weight taken from natural ones, and decimal multiples and fractions of them. The system was so useful it became the standard of France and Europe in half a century. Other dimensions with unity ratios were added, and it went on to be adopted by the world."
+         "text": "The history of the metric system began in the Age of Enlightenment with simple notions"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f length and weight taken from natural ones, and decimal multiples and fractions of"
         },
         {
          "type": "para",
-         "text": "The first practical realisation of the metric system came in 1799, during the French Revolution, when the existing system of measures, which had become impractical for trade, was replaced by a decimal system based on the kilogram and the metre. The basic units were taken from the natural world: the unit of length, the metre, was based on the dimensions of the Earth, and the unit of mass, the kilogram, was based on the mass of water having a volume of one litre or a cubic decimetre. Reference copies for both units were manufactured in platinum and remained the standards of measure for the next 90 years. After a period of reversion to the mesures usuelles due to unpopularity of the metric system, the metrication of France as well as much of Europe was complete by mid-century."
+         "text": "them. The system was so useful it became the standard of France and Europe in half a century. Other dimensions with unity ratios were added, and it went on to be adopted by the world."
+        },
+        {
+         "type": "para",
+         "text": "The first practical realisation of the metric system came in 1799, during the French Revolution, when the existing system of measures, which had become impractical for trade, was replaced by a decimal system based on the kilogram and the metre. The basic units were taken from the natural world: the unit of length, the metre, was based"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n the dimensions of the Earth, and the unit of mass, the kilogram, was based on the"
+        },
+        {
+         "type": "para",
+         "text": "mass of water having a volume of one litre or a cubic decimetre. Reference copies for both units were manufactured in platinum and remained the standards of measure for the next 90 years. After a period of reversion to the mesures usuelles due to unpopularity of the metric system, the metrication of France as well as much of Europe was complete by mid-century."
         },
         {
          "type": "para",
@@ -51874,7 +53550,16 @@
           },
           {
            "type": "para",
-           "text": "They eventually got the needed measurements, but there was a problem- Méchain made a small, but nonetheless significant error very early on in the process of mapping the meridian, which wasn't discovered until later. He failed to take into account that the rotation of the Earth made for a non-uniform shape. As a result, this unintentionally threw off the entire result by a very small margin. This mistake proceed to haunt Méchain for the rest of his life, which wasn't"
+           "text": "They eventually got the needed measurements, but there was a problem- Méchain made a small, but nonetheless significant error very early on in the process of mapping the meridian, which wasn't discovered until later. He failed to take into account that the rotation"
+          },
+          {
+           "type": "item",
+           "level": 1,
+           "text": "f the Earth made for a non-uniform shape. As a result, this"
+          },
+          {
+           "type": "para",
+           "text": "unintentionally threw off the entire result by a very small margin. This mistake proceed to haunt Méchain for the rest of his life, which wasn't"
           },
           {
            "type": "para",
@@ -52917,7 +54602,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide writes on a slip of paper “90” and “km/h” and places it under and on top of the card with “speed”"
+         "text": "The guide writes on a slip of paper “90” and “km/h” and places it under and"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "n top of the card with “speed”"
         },
         {
          "type": "item",
@@ -53129,7 +54819,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide writes on a slip of paper “4” and “h” and places it under and on top of the card with “time”"
+         "text": "The guide writes on a slip of paper “4” and “h” and places it under and on top"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the card with “time”"
         },
         {
          "type": "item",
@@ -54142,7 +55837,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that the rate is 3 for each hundred so if we divide the interest for one year – we can find how many hundreds we have"
+         "text": "The guide says that the rate is 3 for each hundred so if we divide the interest for"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne year – we can find how many hundreds we have"
         },
         {
          "type": "item",
@@ -54223,7 +55923,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that the rate is 3 for each hundred so if we divide the interest for one year – we can find how many hundreds we have"
+         "text": "The guide says that the rate is 3 for each hundred so if we divide the interest for"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "ne year – we can find how many hundreds we have"
         },
         {
          "type": "item",
@@ -54439,7 +56144,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that we are going to take our interest and divide it in between the 6 hundreds to find the interest which each hundred received in this period of time"
+         "text": "The guide says that we are going to take our interest and divide it in between the 6 hundreds to find the interest which each hundred received in this period"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f time"
         },
         {
          "type": "item",
@@ -54522,7 +56232,12 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide says that we are going to take our interest and divide it in between the 6 hundreds to find the interest which each hundred received in this period of time"
+         "text": "The guide says that we are going to take our interest and divide it in between the 6 hundreds to find the interest which each hundred received in this period"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f time"
         },
         {
          "type": "item",
@@ -54697,7 +56412,16 @@
         {
          "type": "item",
          "level": 0,
-         "text": "The guide shows to the child how to write in the “Legend” area the explanation of the quantities represented by each pictogram (e.g. Each tree represents 5 trees)"
+         "text": "The guide shows to the child how to write in the “Legend” area the explanation"
+        },
+        {
+         "type": "item",
+         "level": 1,
+         "text": "f the quantities represented by each pictogram (e.g. Each tree represents 5"
+        },
+        {
+         "type": "para",
+         "text": "trees)"
         },
         {
          "type": "item",
@@ -55029,10 +56753,15 @@
           {
            "type": "item",
            "level": 0,
-           "text": "The guide says that we can add something to the left side to make it a true statement. This time the guide places a plus sign and writes an X on a small slip of paper. The guide says that the X represents the unknown."
+           "text": "The guide says that we can add something to the left side to make it a true statement. This time the guide places a plus sign and writes an X on a small slip"
           },
           {
-           "type": "sub",
+           "type": "item",
+           "level": 1,
+           "text": "f paper. The guide says that the X represents the unknown."
+          },
+          {
+           "type": "para",
            "text": "Find the value of X"
           },
           {
