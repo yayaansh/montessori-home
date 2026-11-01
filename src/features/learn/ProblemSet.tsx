@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import sets from '../../data/wordproblems.json'
 import type { WordProblemSet } from '../../data/types'
 import { useStore } from '../../app/store'
 import { Toaster, toast } from '../../components/ui'
 import { TaskBanner, useTask } from './useTask'
+import { DemoOverlay, bySelector, useDemo, type DemoStep } from './demo'
 import './learn.css'
 
 const SETS = sets as WordProblemSet[]
@@ -26,6 +27,29 @@ function materialFor(topic: string, name: string): { id: string; label: string }
   return { id: 'golden-beads', label: 'Golden beads' }
 }
 
+function operationHint(topic: string, name: string): string {
+  const t = `${topic} ${name}`.toLowerCase()
+  if (/addition/.test(t)) return 'The words “more”, “in total” and “altogether” usually mean adding.'
+  if (/subtraction/.test(t)) return 'Words like “left”, “fewer” and “how many more” usually mean taking away.'
+  if (/multiplication/.test(t)) return 'The same amount taken several times means multiplying.'
+  if (/division/.test(t)) return 'Sharing equally or “each” means dividing.'
+  if (/fraction/.test(t)) return 'Think about the fraction circles: parts of one whole.'
+  return 'Think about which operation the question is asking for.'
+}
+
+/** Highlight numbers or the question sentence inside a problem. */
+function Highlighted({ text, mode }: { text: string; mode: 'none' | 'numbers' | 'question' }): ReactNode {
+  if (mode === 'numbers') {
+    const parts = text.split(/(\d[\d,./:]*\d|\d)/g)
+    return <>{parts.map((p, i) => (/^\d/.test(p) ? <mark key={i} className="demo-hl">{p}</mark> : <span key={i}>{p}</span>))}</>
+  }
+  if (mode === 'question') {
+    const sentences = text.split(/(?<=[.?!])\s+/)
+    return <>{sentences.map((s, i) => (s.trim().endsWith('?') ? <mark key={i} className="demo-hl">{s} </mark> : <span key={i}>{s} </span>))}</>
+  }
+  return <>{text}</>
+}
+
 export default function ProblemSet() {
   const { setId } = useParams()
   const set = SETS.find((s) => s.id === setId)
@@ -35,6 +59,8 @@ export default function ProblemSet() {
   const [i, setI] = useState(0)
   const [showSteps, setShowSteps] = useState(false)
   const [scratch, setScratch] = useState<Record<number, string>>({})
+  const [hl, setHl] = useState<'none' | 'numbers' | 'question'>('none')
+  const demo = useDemo()
   const tk = useTask('problems')
   const doneInSet = set ? work.filter((w) => w.kind === 'problem' && w.ref.startsWith(set.id + '#')).length : 0
   const taskMet = !!tk.spec && doneInSet >= tk.spec.count
@@ -55,6 +81,17 @@ export default function ProblemSet() {
   const isDone = doneRefs.has(`${set.id}#${p.n}`)
   const mat = materialFor(set.topic, set.name)
 
+  const buildDemo = (): DemoStep[] => [
+    { caption: 'Here is how to work on a story problem. First, read it slowly, all the way through.', target: bySelector('.problem-text'), run: () => { setHl('none'); setShowSteps(true) }, wait: 2600 },
+    { caption: 'Find the numbers. These are what you are told.', target: bySelector('.problem-text'), run: () => setHl('numbers'), wait: 2400 },
+    { caption: 'Now find the question. This is what you must work out.', target: bySelector('.problem-text'), run: () => setHl('question'), wait: 2400 },
+    { caption: operationHint(set.topic, set.name), run: () => setHl('none'), wait: 2600 },
+    { caption: `Work it out with the ${mat?.label ?? 'materials'} if it helps. The link is on the right.`, target: bySelector('.ws-side a.card'), wait: 2200 },
+    { caption: 'Write your numbers and your answer here.', target: bySelector('.scratch'), wait: 1800 },
+    { caption: 'Read the problem once more. Does the answer make sense? Then tap Done.', target: bySelector('.btn-done'), wait: 2400 },
+    { caption: 'Your turn.', run: () => setHl('none'), wait: 800 },
+  ]
+
   return (
     <main className="page">
       <Toaster />
@@ -62,6 +99,8 @@ export default function ProblemSet() {
         <Link to="/learn/problems" className="btn btn-ghost btn-sm">← All problems</Link>
         <span className="chip">{set.topic}</span>
         <span className="muted small">{set.name}</span>
+        <span className="sp" style={{ flex: 1 }} />
+        <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} compact />
       </div>
       <TaskBanner t={tk} />
       {tk.spec && !tk.done && (
@@ -75,7 +114,9 @@ export default function ProblemSet() {
             <div className="eyebrow" style={{ marginBottom: 12 }}>
               Problem {p.n} of {set.problems.length} {isDone && '· done ✓'}
             </div>
-            <p className="problem-text">{p.text}</p>
+            <p className="problem-text">
+              <Highlighted text={p.text} mode={hl} />
+            </p>
           </div>
           <div className="card">
             <h3 className="eyebrow" style={{ marginBottom: 8 }}>My working</h3>
@@ -84,7 +125,7 @@ export default function ProblemSet() {
           <div className="row between">
             <button className="btn btn-ghost" onClick={() => setI((x) => Math.max(0, x - 1))} disabled={i === 0}>← Previous</button>
             <button
-              className={`btn ${isDone ? 'btn-ghost' : ''}`}
+              className={`btn btn-done ${isDone ? 'btn-ghost' : ''}`}
               onClick={() => {
                 if (!isDone) {
                   logWork({ kind: 'problem', ref: `${set.id}#${p.n}`, label: `${set.name} · problem ${p.n}`, detail: scratch[i]?.trim() ? `Answer: ${scratch[i].trim().slice(0, 80)}` : undefined })

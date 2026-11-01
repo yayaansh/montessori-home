@@ -25,6 +25,9 @@ Open http://localhost:5173. `npm run build` produces a static site in `dist/` (i
 - `src/data/pathways.ts` – the built-in learning paths: one per subject, each a sequence of stages pairing the album
   lessons the guide presents with practice tasks the child completes on her own. Tasks open a material or activity with
   `?task=<id>`; the page checks the task's condition and records completion. The guide can mark a stage as suggested.
+  Every task is attached to the lesson it reinforces (`LESSON_OF`), and `/learn/lesson/:id` is the child-facing lesson page.
+- `src/features/learn/demo.tsx` – the "Show me how" player: each material and activity builds a list of steps (pointer
+  target, action, caption) that plays like a short demo video on the real material, without completing the child's task.
 
 Progress, notes, the plan and the journal are stored in the browser (localStorage). Settings → Export backup moves them
 between devices.

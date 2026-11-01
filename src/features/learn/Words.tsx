@@ -3,6 +3,7 @@ import dictionary from '../../data/dictionary.json'
 import type { DictionaryEntry } from '../../data/types'
 import { useWorkLogger } from './useWorkLogger'
 import { TaskBanner, useTask } from './useTask'
+import { DemoOverlay, bySelector, useDemo, type DemoStep } from './demo'
 import './learn.css'
 
 const ENTRIES = dictionary as DictionaryEntry[]
@@ -65,11 +66,20 @@ export default function Words() {
     setFlipped((f) => !f)
   }
 
+  const demo = useDemo()
   const taskMet = !!tk.spec && seen.size >= Math.min(tk.spec.count, Math.max(deck.length, 1))
   useEffect(() => {
-    if (taskMet && tk.active && !tk.done) tk.complete()
+    if (taskMet && tk.active && !tk.done && !demo.playing) tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [taskMet, tk.active, tk.done])
+  }, [taskMet, tk.active, tk.done, demo.playing])
+
+  const buildDemo = (): DemoStep[] => [
+    { caption: 'This is a word card. The front shows a word we use today.', target: bySelector('.flash-card'), wait: 1500 },
+    { caption: 'Tap the card to turn it over…', target: bySelector('.flash-card'), run: () => setFlipped(true), wait: 1600 },
+    { caption: 'The back tells you which old language the word comes from, the old word, and what it meant.', wait: 2600 },
+    { caption: 'Tap Next for another word.', target: bySelector('.flash-nav .btn:not(.btn-ghost)'), run: () => go(1), wait: 1400 },
+    { caption: tk.spec ? `Turn over ${tk.spec.count} cards and the task is done. Your turn.` : 'Turn over as many as you like. Your turn.', wait: 2000 },
+  ]
 
   return (
     <main className="page page-narrow">
@@ -86,12 +96,15 @@ export default function Words() {
           {seen.size} of {Math.min(tk.spec.count, Math.max(deck.length, 1))} cards turned over.
         </p>
       )}
-      <div className="seg" style={{ marginBottom: 20 }}>
-        {TOPICS.map((t) => (
-          <button key={t.id} className={topic === t.id ? 'on' : ''} onClick={() => { setTopic(t.id); setI(0); setFlipped(false) }}>
-            {t.name}
-          </button>
-        ))}
+      <div className="row between" style={{ marginBottom: 20 }}>
+        <div className="seg">
+          {TOPICS.map((t) => (
+            <button key={t.id} className={topic === t.id ? 'on' : ''} onClick={() => { setTopic(t.id); setI(0); setFlipped(false) }}>
+              {t.name}
+            </button>
+          ))}
+        </div>
+        <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} compact />
       </div>
       {entry ? (
         <div className="flash">

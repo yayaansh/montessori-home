@@ -131,43 +131,41 @@ function StageCard({
         </button>
         {open && (
           <div className="stage-detail">
-            {stage.lessons.length > 0 && (
-              <div>
-                <div className="eyebrow" style={{ marginBottom: 6 }}>With Mum</div>
-                <div className="row" style={{ gap: 8 }}>
-                  {stage.lessons.map((id) => {
-                    const st = progress[id]?.status ?? 'none'
-                    const given = st !== 'none'
-                    return (
-                      <Link key={id} to={`/guide/lesson/${id}`} className={`chip ${given ? 'st-mastered status-chip' : ''}`} style={{ minHeight: 36 }}>
-                        {given ? '✓ ' : '○ '}
-                        {titles[id] ?? '…'}
-                      </Link>
-                    )
-                  })}
+            {stage.lessons.map((id, li) => {
+              const st = progress[id]?.status ?? 'none'
+              const given = st !== 'none'
+              const mine = stage.tasks.filter((t) => t.lesson === id)
+              const doneHere = mine.filter((t) => tasks[t.id]).length
+              return (
+                <div key={id} className="lesson-block">
+                  <Link to={`/learn/lesson/${id}`} className="lesson-card">
+                    <span className="glyph">📖</span>
+                    <span className="t">
+                      Lesson {li + 1}: {titles[id] ?? '…'}
+                      <span className="s">{given ? '✓ Mum has shown you this' : 'Ask Mum to show you this, then practise'}{mine.length ? ` · ${doneHere} of ${mine.length} activities done` : ''}</span>
+                    </span>
+                    <span aria-hidden>›</span>
+                  </Link>
+                  {mine.length > 0 && (
+                    <div className="task-list" style={{ marginLeft: 12 }}>
+                      {mine.map((t) => {
+                        const done = !!tasks[t.id]
+                        return (
+                          <Link key={t.id} to={taskHref(t)} className={`task-row ${done ? 'done' : ''}`}>
+                            <span className="glyph">{KIND_GLYPH[t.spec.kind] ?? '⭐'}</span>
+                            <span className="t">
+                              {t.title}
+                              {t.hint && !done && <span className="s">{t.hint}</span>}
+                            </span>
+                            <span className={`btn btn-sm ${done ? 'btn-ghost' : ''}`}>{done ? '✓ Done' : 'Start'}</span>
+                          </Link>
+                        )
+                      })}
+                    </div>
+                  )}
                 </div>
-              </div>
-            )}
-            {stage.tasks.length > 0 && (
-              <div>
-                <div className="eyebrow" style={{ marginBottom: 6 }}>On your own</div>
-                <div className="task-list">
-                  {stage.tasks.map((t) => {
-                    const done = !!tasks[t.id]
-                    return (
-                      <Link key={t.id} to={taskHref(t)} className={`task-row ${done ? 'done' : ''}`}>
-                        <span className="glyph">{KIND_GLYPH[t.spec.kind] ?? '⭐'}</span>
-                        <span className="t">
-                          {t.title}
-                          {t.hint && !done && <span className="s">{t.hint}</span>}
-                        </span>
-                        <span className={`btn btn-sm ${done ? 'btn-ghost' : ''}`}>{done ? '✓ Done' : 'Start'}</span>
-                      </Link>
-                    )
-                  })}
-                </div>
-              </div>
-            )}
+              )
+            })}
           </div>
         )}
       </div>

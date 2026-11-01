@@ -3,6 +3,7 @@ import { Mat, useMat, type Piece } from './Mat'
 import { useStore } from '../../../app/store'
 import { useWorkLogger } from '../useWorkLogger'
 import { TaskBanner, useTask } from '../useTask'
+import { DemoOverlay, byLabel, bySelector, useDemo, type DemoStep } from '../demo'
 
 const CELL = 46
 const ROW = 60
@@ -29,10 +30,34 @@ export default function MovableAlphabet() {
   const list = tk.spec?.words
   const [wi, setWi] = useState(0)
   const [justRight, setJustRight] = useState(false)
+  const demo = useDemo()
 
   const clearMat = () => {
     mat.clear()
     setCursor({ col: 0, row: 0 })
+  }
+
+  const buildDemo = (): DemoStep[] => {
+    const word = list ? list[Math.min(wi, list.length - 1)] : wordIdx !== null ? WORDS[wordIdx] : prompt.trim() || 'cat'
+    const steps: DemoStep[] = [{ caption: `Watch first. We will write “${word}”. Say it slowly: ${word.split('').join(' · ')}.`, run: clearMat, wait: 1800 }]
+    word.split('').forEach((ch, i) => {
+      if (ch === ' ') {
+        steps.push({ caption: 'A space between the words.', target: byLabel('Space'), run: () => setCursor({ col: i + 1, row: 0 }), wait: 600 })
+        return
+      }
+      steps.push({
+        caption: `“${ch}”${VOWELS.has(ch) ? ' is a vowel, it is blue.' : ' is a consonant, it is red.'}`,
+        target: byLabel(`Letter ${ch}`),
+        run: () => {
+          mat.add('letter', ch, { x: 20 + i * CELL, y: 20 })
+          setCursor({ col: i + 1, row: 0 })
+        },
+        wait: 750,
+      })
+    })
+    steps.push({ caption: `${word}! Now clear the mat and write it yourself.`, target: bySelector('.ws-side .card'), wait: 2000 })
+    steps.push({ caption: '', run: clearMat, wait: 10 })
+    return steps
   }
 
   const place = (ch: string) => {
@@ -81,7 +106,7 @@ export default function MovableAlphabet() {
   const target = list ? list[Math.min(wi, list.length - 1)] : null
 
   useEffect(() => {
-    if (!list || !target || tk.done) return
+    if (!list || !target || tk.done || demo.playing) return
     if (normalized !== target) return
     setJustRight(true)
     if (wi + 1 < list.length) {
@@ -94,7 +119,7 @@ export default function MovableAlphabet() {
     }
     tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [normalized, target, wi, list])
+  }, [normalized, target, wi, list, demo.playing])
 
   const promptText = target ?? (wordIdx !== null ? WORDS[wordIdx] : prompt.trim())
 
@@ -138,6 +163,9 @@ export default function MovableAlphabet() {
           <button onClick={newLine} aria-label="New line" style={{ fontSize: 15 }}>↵</button>
           <button onClick={backspace} aria-label="Remove last letter" style={{ fontSize: 18 }}>⌫</button>
           <button onClick={() => { clearMat(); log.touch() }} aria-label="Clear" style={{ fontSize: 15 }}>clear</button>
+        </div>
+        <div className="row" style={{ marginTop: 10 }}>
+          <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} />
         </div>
       </div>
       <aside className="ws-side">

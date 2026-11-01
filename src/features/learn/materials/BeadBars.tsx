@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Mat, Palette, useMat, type Piece } from './Mat'
+import { Mat, Palette, newId, useMat, type Piece } from './Mat'
 import { useWorkLogger } from '../useWorkLogger'
 import { TaskBanner, useTask } from '../useTask'
+import { DemoOverlay, byLabel, bySelector, useDemo, type DemoStep } from '../demo'
 
 export const BAR_COLOURS: Record<number, string> = {
   1: '#d64545',
@@ -34,10 +35,22 @@ function Bar({ n, label }: { n: number; label?: boolean }) {
   )
 }
 
+function withBar(ps: Piece<number>[], n: number): Piece<number>[] {
+  const row = ps.length
+  return [...ps, { id: newId(), kind: String(n), data: n, x: 24, y: 24 + (row % 14) * (B + 8), z: Math.max(0, ...ps.map((p) => p.z)) + 1 }]
+}
+
+/** Pick a bar that makes the total with at least two bars of the same kind. */
+function factorFor(m: number): number | null {
+  for (const n of [10, 9, 8, 7, 6, 5, 4, 3, 2]) if (m % n === 0 && m / n >= 2) return n
+  return null
+}
+
 export default function BeadBars() {
   const mat = useMat<number>()
   const [labels, setLabels] = useState(false)
   const log = useWorkLogger('material', 'bead-bars', 'Bead bars')
+  const demo = useDemo()
 
   const stats = useMemo(() => {
     const total = mat.pieces.reduce((a, p) => a + p.data, 0)
@@ -59,17 +72,50 @@ export default function BeadBars() {
     return false
   }, [tk.spec, mat.pieces, stats])
   useEffect(() => {
-    if (taskMet && tk.active && !tk.done) tk.complete()
+    if (taskMet && tk.active && !tk.done && !demo.playing) tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [taskMet, tk.active, tk.done])
+  }, [taskMet, tk.active, tk.done, demo.playing])
 
   const add = (n: number) => {
-    const row = mat.pieces.length
-    mat.add(String(n), n, { x: 24, y: 24 + (row % 14) * (B + 8) })
+    mat.setPieces((ps) => withBar(ps, n))
     log.touch(stats.same && stats.same === n ? `${stats.count + 1} × ${n} with bead bars` : `Bead bars up to ${stats.total + n}`)
   }
 
-  const render = (p: Piece<number>) => <Bar n={p.data} label={labels} />
+  const buildDemo = (): DemoStep[] => {
+    const steps: DemoStep[] = [{ caption: 'Watch first. Clear mat.', run: () => mat.clear(), wait: 500 }]
+    const s = tk.spec
+    const lay = (n: number, k: number, say: (i: number) => string) => {
+      for (let i = 1; i <= k; i++) steps.push({ caption: say(i), target: byLabel(`Add bar of ${n}`), run: () => add(n), wait: 650 })
+    }
+    if (s?.staircase) {
+      steps.push({ caption: 'One bar of each colour, from 1 to 10. Shortest first.', wait: 1200 })
+      for (let n = 1; n <= 10; n++) steps.push({ caption: `The bar of ${n}.`, target: byLabel(`Add bar of ${n}`), run: () => add(n), wait: 550 })
+      steps.push({ caption: 'A staircase! Each bar is one bead longer. Clear it and build your own.', wait: 2200 })
+    } else if (s?.table) {
+      const [n, k] = s.table
+      steps.push({ caption: `We lay the bar of ${n}, ${k} times, counting as we go.`, wait: 1300 })
+      lay(n, k, (i) => `${i} × ${n} = ${i * n}`)
+      steps.push({ caption: `${k} bars of ${n} make ${n * k}. Clear the mat and try it.`, target: bySelector('.ws-side .card'), wait: 2200 })
+    } else if (s?.make) {
+      const m = s.make
+      const n = factorFor(m)
+      if (n) {
+        steps.push({ caption: `We want ${m}. Let's try the bar of ${n}.`, wait: 1200 })
+        lay(n, m / n, (i) => `${i} × ${n} = ${i * n}`)
+        steps.push({ caption: `${m / n} bars of ${n} make ${m}. Are there other bars that work? Try them.`, wait: 2400 })
+      } else {
+        steps.push({ caption: `We want ${m} with more than one bar. Try different bars until the total says ${m}.`, wait: 2200 })
+      }
+    } else {
+      steps.push({ caption: 'Tap a bar to place it. Lay the same bar again to build a table.', wait: 1200 })
+      lay(4, 4, (i) => `${i} × 4 = ${i * 4}`)
+      steps.push({ caption: 'Four fours make a square: 16. Now you try.', wait: 2200 })
+    }
+    steps.push({ caption: '', run: () => mat.clear(), wait: 10 })
+    return steps
+  }
+
+  const render = (p: Piece<number>) => <Bar n={p.data} label={labels || demo.playing} />
 
   return (
     <div className="ws">
@@ -84,6 +130,7 @@ export default function BeadBars() {
             </button>
           ))}
           <span className="sp" />
+          <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} />
           <button onClick={() => setLabels((l) => !l)}>{labels ? 'Hide numbers' : 'Show numbers'}</button>
           <button onClick={() => { mat.clear(); log.touch() }}>Clear</button>
         </Palette>

@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Mat, Palette, useMat, type Piece } from './Mat'
+import { Mat, Palette, newId, useMat, type Piece } from './Mat'
 import { useWorkLogger } from '../useWorkLogger'
 import { TaskBanner, useTask } from '../useTask'
+import { DemoOverlay, byLabel, bySelector, useDemo, type DemoStep } from '../demo'
 
 const R = 110 // radius of the frame and of pieces
 const FRAME = { x: 40, y: 30 } // frame top-left on the mat
@@ -78,10 +79,34 @@ export default function Fractions() {
     if (s.show) return inFrame.length === s.show[0] && inFrame.every((p) => p.data.d === s.show![1])
     return false
   })()
+  const demo = useDemo()
   useEffect(() => {
-    if (taskMet && tk.active && !tk.done) tk.complete()
+    if (taskMet && tk.active && !tk.done && !demo.playing) tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [taskMet, tk.active, tk.done])
+  }, [taskMet, tk.active, tk.done, demo.playing])
+
+  /** Put a new piece of 1/d straight into the frame at the next free angle (used by the demo). */
+  const snapNew = (d: number) => {
+    mat.setPieces((ps) => {
+      const used = ps.filter((p) => p.data.inFrame).reduce((a, p) => a + 360 / p.data.d, 0)
+      if (used + 360 / d > 360.01) return ps
+      return [...ps, { id: newId(), kind: String(d), data: { d, inFrame: true, startAngle: used }, x: FRAME.x, y: FRAME.y, z: Math.max(0, ...ps.map((p) => p.z)) + 1 }]
+    })
+  }
+  const buildDemo = (): DemoStep[] => {
+    const s = tk.spec
+    const d = s?.fill ?? s?.show?.[1] ?? 4
+    const k = s?.fill ?? s?.show?.[0] ?? 4
+    const name = d === 1 ? 'whole' : d === 2 ? 'half' : d === 3 ? 'third' : d === 4 ? 'quarter' : `${d}th`
+    const steps: DemoStep[] = [{ caption: 'Watch first. Clear the frame.', run: () => mat.clear(), wait: 500 }]
+    steps.push({ caption: `Tap a ${name} below, then drag it into the green frame.`, target: byLabel(`Add one ${d === 1 ? 'whole' : `${d}th`}`), wait: 1200 })
+    for (let i = 1; i <= k; i++) {
+      steps.push({ caption: i === 1 ? `One ${name}: 1/${d}.` : `${i} ${name}s: ${i}/${d}${i === d ? ' = 1 whole!' : ''}`, target: bySelector('.mat'), run: () => snapNew(d), wait: 900 })
+    }
+    steps.push({ caption: s?.show ? `That is ${k}/${d}. Clear the frame and show it yourself.` : `${d === 1 ? 'The whole fills the frame' : `${d} ${name}s fill the whole circle`}. Clear it and try.`, target: bySelector('.ws-side .card'), wait: 2400 })
+    steps.push({ caption: '', run: () => mat.clear(), wait: 10 })
+    return steps
+  }
 
   const addPiece = (d: number) => {
     const n = mat.pieces.filter((p) => !p.data.inFrame).length
@@ -155,6 +180,7 @@ export default function Fractions() {
             </button>
           ))}
           <span className="sp" />
+          <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} />
           <button onClick={() => setLabels((l) => !l)}>{labels ? 'Hide names' : 'Show names'}</button>
           <button onClick={() => { mat.clear(); log.touch() }}>Clear</button>
         </Palette>

@@ -67,6 +67,7 @@ export default function LearnHome() {
               <div className="muted small" style={{ marginTop: 6 }}>{totalDone} of {totalAll} tasks done across all paths.</div>
             </div>
             <div className="row">
+              {nextTask?.lesson && <Link to={`/learn/lesson/${nextTask.lesson}`} className="btn btn-ghost">The lesson</Link>}
               {nextTask && <Link to={taskHref(nextTask)} className="btn">Start →</Link>}
               <Link to={`/learn/path/${cont.p.album}`} className="btn btn-ghost">See the path</Link>
             </div>

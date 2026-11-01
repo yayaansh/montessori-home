@@ -21,6 +21,7 @@ const Experiments = lazy(() => import('../features/learn/Experiments'))
 const WorkLog = lazy(() => import('../features/learn/WorkLog'))
 const Pathways = lazy(() => import('../features/learn/Pathways'))
 const PathwayPage = lazy(() => import('../features/learn/PathwayPage'))
+const ChildLesson = lazy(() => import('../features/learn/ChildLesson'))
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
             <Route index element={<LearnHome />} />
             <Route path="path" element={<Pathways />} />
             <Route path="path/:album" element={<PathwayPage />} />
+            <Route path="lesson/:nodeId" element={<ChildLesson />} />
             <Route path="materials" element={<Shelf />} />
             <Route path="materials/:materialId" element={<MaterialPage />} />
             <Route path="words" element={<Words />} />

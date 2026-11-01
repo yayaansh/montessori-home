@@ -25,6 +25,8 @@ export interface Task {
   title: string
   hint?: string
   spec: TaskSpec
+  /** The album lesson this activity reinforces (filled in from LESSON_OF below). */
+  lesson?: string
 }
 
 export interface Stage {
@@ -616,11 +618,62 @@ export const PATHWAYS: Pathway[] = [
   },
 ]
 
+// ---------------------------------------------------------------- lesson ↔ activity
+
+/**
+ * Which lesson of its stage each activity reinforces, as an index into the stage's
+ * lessons list. Activities not listed here belong to the stage's first lesson.
+ */
+const LESSON_OF: Record<string, number> = {
+  'num-1-d': 2, 'num-1-e': 2, 'num-1-f': 3, 'num-1-g': 3, 'num-1-h': 1,
+  'num-2-f': 1, 'num-2-g': 1, 'num-2-h': 2, 'num-2-i': 2,
+  'num-3-a': 2, 'num-3-b': 2, 'num-3-e': 2, 'num-3-f': 1, 'num-3-g': 1, 'num-3-i': 1, 'num-3-k': 1,
+  'num-4-a': 2, 'num-4-b': 2, 'num-4-c': 2, 'num-4-d': 2, 'num-4-e': 2, 'num-4-f': 2, 'num-4-g': 2, 'num-4-h': 2, 'num-4-j': 1,
+  'num-5-g': 2, 'num-5-h': 2, 'num-5-i': 2, 'num-5-j': 2, 'num-5-k': 1, 'num-5-l': 1,
+  'num-6-a': 1, 'num-6-b': 1, 'num-6-c': 1,
+  'num-7-i': 1, 'num-7-j': 1, 'num-7-k': 1, 'num-7-l': 1, 'num-7-m': 1, 'num-7-n': 1, 'num-7-o': 2, 'num-7-p': 2, 'num-7-q': 2, 'num-7-r': 2,
+  'num-8-f': 1, 'num-8-g': 1, 'num-8-h': 1,
+  'num-9-c': 1, 'num-9-f': 1, 'num-9-h': 1,
+  'lan-1-a': 1, 'lan-1-b': 1, 'lan-1-d': 2, 'lan-1-e': 2,
+  'lan-2-c': 1, 'lan-2-d': 2, 'lan-2-e': 1, 'lan-2-f': 2,
+  'lan-3-c': 1, 'lan-3-d': 1,
+  'lan-5-b': 1, 'lan-5-c': 1, 'lan-5-e': 1,
+  'lan-6-b': 1, 'lan-6-d': 2, 'lan-6-e': 1, 'lan-6-f': 2,
+  'lan-8-a': 2, 'lan-8-b': 2, 'lan-8-c': 1, 'lan-8-e': 3,
+  'lan-9-b': 1, 'lan-9-c': 2, 'lan-9-d': 1,
+  'geo-1-c': 1, 'geo-1-d': 1,
+  'geo-2-a': 1, 'geo-2-b': 1, 'geo-2-c': 2, 'geo-2-e': 2, 'geo-2-f': 2,
+  'geo-3-c': 1, 'geo-3-e': 1, 'geo-3-f': 2,
+  'bio-2-b': 2, 'bio-2-c': 3, 'bio-2-e': 1,
+  'bio-3-d': 2, 'bio-3-e': 1,
+  'bio-4-a': 1, 'bio-4-b': 1, 'bio-4-c': 1, 'bio-4-e': 2,
+  'geg-1-d': 2, 'geg-1-g': 1,
+  'geg-3-a': 1, 'geg-3-c': 1, 'geg-3-d': 2,
+  'geg-4-a': 1, 'geg-4-b': 2, 'geg-4-d': 2, 'geg-4-e': 2, 'geg-4-f': 1, 'geg-4-g': 2, 'geg-4-h': 3,
+  'his-1-b': 2, 'his-1-d': 3,
+  'his-3-b': 1,
+  'his-4-d': 1, 'his-4-h': 1,
+}
+
+for (const p of PATHWAYS) {
+  for (const s of p.stages) {
+    for (const task of s.tasks) {
+      const idx = LESSON_OF[task.id] ?? 0
+      task.lesson = s.lessons[Math.min(idx, s.lessons.length - 1)]
+    }
+  }
+}
+
 // ---------------------------------------------------------------- helpers
 
 export const ALL_TASKS: { task: Task; stage: Stage; pathway: Pathway }[] = PATHWAYS.flatMap((p) =>
   p.stages.flatMap((s) => s.tasks.map((task) => ({ task, stage: s, pathway: p }))),
 )
+
+/** Activities that reinforce a given album lesson, in path order. */
+export function tasksForLesson(lessonId: string) {
+  return ALL_TASKS.filter((x) => x.task.lesson === lessonId)
+}
 
 export function findTask(id: string | null | undefined) {
   if (!id) return undefined

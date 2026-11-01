@@ -1,22 +1,25 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Mat, Palette, useMat, type Piece } from './Mat'
+import { Mat, Palette, newId, useMat, type Piece } from './Mat'
 import { useStore } from '../../../app/store'
 import { toast } from '../../../components/ui'
 import { useWorkLogger } from '../useWorkLogger'
 import { TaskBanner, useTask } from '../useTask'
+import { DemoOverlay, byLabel, bySelector, places, useDemo, type DemoStep } from '../demo'
 
 type Kind = 'unit' | 'ten' | 'hundred' | 'thousand'
+const KINDS: Kind[] = ['thousand', 'hundred', 'ten', 'unit']
 const VALUE: Record<Kind, number> = { unit: 1, ten: 10, hundred: 100, thousand: 1000 }
+const LABEL: Record<Kind, string> = { unit: 'Add a unit', ten: 'Add a ten bar', hundred: 'Add a hundred square', thousand: 'Add a thousand cube' }
+const NEXT: Partial<Record<Kind, Kind>> = { unit: 'ten', ten: 'hundred', hundred: 'thousand' }
+const PREV: Partial<Record<Kind, Kind>> = { ten: 'unit', hundred: 'ten', thousand: 'hundred' }
 const B = 13 // bead size
 const GAP = 2
 const BAR = B * 10 + GAP * 9
-
 const GOLD = '#d9a93c'
 
 function Bead({ size = B }: { size?: number }) {
   return <span className="bead" style={{ width: size, height: size, background: GOLD }} />
 }
-
 function Unit() {
   return (
     <div style={{ padding: 6 }}>
@@ -62,6 +65,51 @@ const SIZE: Record<Kind, { w: number; h: number }> = {
   thousand: { w: BAR + 24, h: BAR + 24 },
 }
 
+/** Where the n-th piece of a kind goes: thousands and hundreds fan down in columns, tens in a row, units in a block. */
+function spawnPos(kind: Kind, n: number) {
+  const col = KINDS.indexOf(kind)
+  if (kind === 'thousand' || kind === 'hundred') return { x: 24 + col * 190 + (n % 2) * 12, y: 24 + n * 30 }
+  if (kind === 'ten') return { x: 24 + 2 * 190 + (n % 9) * 24, y: 24 + Math.floor(n / 9) * 170 }
+  return { x: 24 + 3 * 190 + (n % 5) * 28, y: 24 + Math.floor(n / 5) * 28 }
+}
+function piece(kind: Kind, z: number, at: { x: number; y: number }): Piece<Kind> {
+  return { id: newId(), kind, data: kind, x: at.x, y: at.y, z }
+}
+function withPiece(ps: Piece<Kind>[], kind: Kind): Piece<Kind>[] {
+  const n = ps.filter((p) => p.data === kind).length
+  return [...ps, piece(kind, Math.max(0, ...ps.map((p) => p.z)) + 1, spawnPos(kind, n))]
+}
+function countOf(ps: Piece<Kind>[]): Record<Kind, number> {
+  const c: Record<Kind, number> = { unit: 0, ten: 0, hundred: 0, thousand: 0 }
+  for (const p of ps) c[p.data]++
+  return c
+}
+/** Exchange ten of the smallest kind that has ten or more for one of the next. */
+function exchangeOnce(ps: Piece<Kind>[]): { ps: Piece<Kind>[]; from: Kind; to: Kind } | null {
+  const c = countOf(ps)
+  for (const from of ['unit', 'ten', 'hundred'] as Kind[]) {
+    const to = NEXT[from]!
+    if (c[from] >= 10) {
+      const ids = ps.filter((p) => p.data === from).slice(0, 10).map((p) => p.id)
+      const rest = ps.filter((p) => !ids.includes(p.id))
+      return { ps: withPiece(rest, to), from, to }
+    }
+  }
+  return null
+}
+/** Remove one piece of a kind, breaking a bigger piece into ten smaller ones when needed. */
+function takeOne(ps: Piece<Kind>[], kind: Kind): Piece<Kind>[] {
+  const hit = ps.find((p) => p.data === kind)
+  if (hit) return ps.filter((p) => p.id !== hit.id)
+  const bigger = NEXT[kind]
+  if (!bigger) return ps
+  const withBigger = takeOne(ps, bigger)
+  if (withBigger.length === ps.length) return ps // nothing to break
+  let out = withBigger
+  for (let i = 0; i < 10; i++) out = withPiece(out, kind)
+  return takeOne(out, kind)
+}
+
 export default function GoldenBeads() {
   const mat = useMat<Kind>()
   const showTotals = useStore((s) => s.settings.showTotals)
@@ -71,49 +119,88 @@ export default function GoldenBeads() {
   const [target, setTarget] = useState<string>(specTarget ? String(specTarget) : '')
   const [showTotal, setShowTotal] = useState(showTotals)
   const log = useWorkLogger('material', 'golden-beads', 'Golden beads')
+  const demo = useDemo()
 
-  const counts = useMemo(() => {
-    const c: Record<Kind, number> = { unit: 0, ten: 0, hundred: 0, thousand: 0 }
-    for (const p of mat.pieces) c[p.data]++
-    return c
-  }, [mat.pieces])
+  const counts = useMemo(() => countOf(mat.pieces), [mat.pieces])
   const total = counts.unit + counts.ten * 10 + counts.hundred * 100 + counts.thousand * 1000
   const targetN = Number(target.replace(/\D/g, '')) || 0
   const matches = targetN > 0 && total === targetN
   useEffect(() => {
-    if (matches && tk.active && !tk.done) tk.complete()
+    if (matches && tk.active && !tk.done && !demo.playing) tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [matches, tk.active, tk.done])
+  }, [matches, tk.active, tk.done, demo.playing])
 
   const add = (k: Kind) => {
-    mat.add(k, k)
+    mat.setPieces((ps) => withPiece(ps, k))
     log.touch(`Built ${total + VALUE[k]} with golden beads`)
   }
-
   const exchange = () => {
-    const order: [Kind, Kind][] = [
-      ['unit', 'ten'],
-      ['ten', 'hundred'],
-      ['hundred', 'thousand'],
-    ]
-    for (const [from, to] of order) {
-      if (counts[from] >= 10) {
-        const ids = mat.pieces.filter((p) => p.data === from).slice(0, 10).map((p) => p.id)
-        const first = mat.pieces.find((p) => p.id === ids[0])!
-        mat.removeMany(ids)
-        mat.add(to, to, { x: first.x, y: first.y })
-        toast(`10 ${from}s → 1 ${to}`)
-        log.touch()
-        return
+    let msg = ''
+    mat.setPieces((ps) => {
+      const r = exchangeOnce(ps)
+      if (!r) return ps
+      msg = `10 ${r.from}s → 1 ${r.to}`
+      return r.ps
+    })
+    setTimeout(() => toast(msg || 'Nothing to exchange yet: you need 10 of a kind'), 0)
+    log.touch()
+  }
+
+  const buildDemo = (): DemoStep[] => {
+    const steps: DemoStep[] = [{ caption: 'Let me show you. First, a clear mat.', run: () => mat.clear(), wait: 600 }]
+    const lay = (n: number, intro: string) => {
+      const p = places(n)
+      steps.push({ caption: `${intro} ${n.toLocaleString()}.`, wait: 900 })
+      for (const k of KINDS) {
+        for (let i = 1; i <= p[k]; i++) {
+          steps.push({ caption: `${i} ${k}${i > 1 ? 's' : ''}${i === p[k] ? '.' : '…'}`, target: byLabel(LABEL[k]), run: () => add(k), wait: 420 })
+        }
       }
     }
-    toast('Nothing to exchange yet: you need 10 of a kind')
+    const spec = tk.spec
+    if (spec?.sum) {
+      const [a, b] = spec.sum
+      lay(a, 'The first number is')
+      lay(b, 'Now the second number,')
+      steps.push({ caption: `Push them together and count. That is ${(a + b).toLocaleString()}.`, target: bySelector('.mat-badge'), wait: 1800 })
+      for (let i = 0; i < 3; i++) {
+        steps.push({
+          caption: 'Ten of a kind? Change them for one of the next kind.',
+          target: byLabel('Exchange'),
+          run: () => mat.setPieces((ps) => exchangeOnce(ps)?.ps ?? ps),
+          wait: 1200,
+        })
+      }
+      steps.push({ caption: `${a.toLocaleString()} + ${b.toLocaleString()} = ${(a + b).toLocaleString()}. Now you try.`, wait: 2000 })
+    } else if (spec?.take) {
+      const [a, b] = spec.take
+      lay(a, 'Lay the big number,')
+      const p = places(b)
+      steps.push({ caption: `Now take away ${b.toLocaleString()}, starting with the units.`, wait: 1200 })
+      for (const k of [...KINDS].reverse()) {
+        for (let i = 1; i <= p[k]; i++) {
+          steps.push({
+            caption: `Put back ${i} ${k}${i > 1 ? 's' : ''}${i === p[k] ? '.' : '…'} (changing a bigger piece if there are none left)`,
+            target: bySelector('.mat'),
+            run: () => mat.setPieces((ps) => takeOne(ps, k)),
+            wait: 450,
+          })
+        }
+      }
+      steps.push({ caption: `What is left is the answer: ${(a - b).toLocaleString()}. Now you try.`, target: bySelector('.mat-badge'), wait: 2200 })
+    } else {
+      const n = spec?.build ?? 1234
+      lay(n, 'We are going to build')
+      steps.push({ caption: `There it is: ${n.toLocaleString()}. Now clear the mat and build it yourself.`, target: bySelector('.mat-badge'), wait: 2200 })
+    }
+    steps.push({ caption: '', run: () => mat.clear(), wait: 10 })
+    return steps
   }
 
   const render = (p: Piece<Kind>) =>
     p.data === 'unit' ? <Unit /> : p.data === 'ten' ? <TenBar /> : p.data === 'hundred' ? <HundredSquare /> : <ThousandCube />
 
-  const digits = targetN ? String(targetN).padStart(1, '0') : ''
+  const digits = targetN ? String(targetN) : ''
   const cardColours = ['#3f7d3a', '#1f5fb0', '#c0392b', '#3f7d3a'] // units, tens, hundreds, thousands
 
   return (
@@ -133,8 +220,8 @@ export default function GoldenBeads() {
               })}
             </div>
           )}
-          {(showTotal || matches) && mat.pieces.length > 0 && (
-            <div className={`mat-badge ${matches ? 'ok' : ''}`}>{matches ? `${total.toLocaleString()} ✓` : total.toLocaleString()}</div>
+          {(showTotal || matches || demo.playing) && mat.pieces.length > 0 && (
+            <div className={`mat-badge ${matches && !demo.playing ? 'ok' : ''}`}>{matches && !demo.playing ? `${total.toLocaleString()} ✓` : total.toLocaleString()}</div>
           )}
         </Mat>
         <Palette>
@@ -143,7 +230,8 @@ export default function GoldenBeads() {
           <button onClick={() => add('hundred')} aria-label="Add a hundred square"><span style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 8px)', gap: 2 }}>{Array.from({ length: 9 }).map((_, i) => <Bead key={i} size={8} />)}</span> 100</button>
           <button onClick={() => add('thousand')} aria-label="Add a thousand cube">🧊 1000</button>
           <span className="sp" />
-          <button onClick={exchange}>Exchange ⇄</button>
+          <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} />
+          <button onClick={exchange} aria-label="Exchange">Exchange ⇄</button>
           <button onClick={() => { mat.clear(); log.touch() }}>Clear mat</button>
         </Palette>
       </div>

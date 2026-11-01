@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useWorkLogger } from '../useWorkLogger'
 import { TaskBanner, useTask } from '../useTask'
+import { DemoOverlay, bySelector, useDemo, type DemoStep } from '../demo'
 
 type Pos = 'noun' | 'article' | 'adjective' | 'verb' | 'adverb' | 'pronoun' | 'preposition' | 'conjunction' | 'interjection'
 
@@ -144,11 +145,30 @@ export default function GrammarSymbols() {
   useEffect(() => {
     if (allRight && !custom.trim()) setSolved((s) => (s.includes(presetIdx) ? s : [...s, presetIdx]))
   }, [allRight, presetIdx, custom])
+  const demo = useDemo()
   const taskMet = !!tk.spec && tk.spec.sentences.every((i) => solved.includes(i))
   useEffect(() => {
-    if (taskMet && tk.active && !tk.done) tk.complete()
+    if (taskMet && tk.active && !tk.done && !demo.playing) tk.complete()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [taskMet, tk.active, tk.done])
+  }, [taskMet, tk.active, tk.done, demo.playing])
+
+  const buildDemo = (): DemoStep[] => {
+    const idx = presetIdx
+    const preset = PRESETS[idx]
+    const ws = tokenize(preset.text)
+    const steps: DemoStep[] = [
+      { caption: `Watch first: “${preset.text}”`, run: () => { setCustom(''); setPlaced({}); setArmed(null); setSolved((s) => s.filter((i) => i !== idx)) }, wait: 1400 },
+    ]
+    ws.forEach((w, i) => {
+      const pos = preset.key[i]
+      const name = POS.find((p) => p.id === pos)!.name
+      steps.push({ caption: `“${w}” is ${/^[aeiou]/i.test(name) ? 'an' : 'a'} ${name.toLowerCase()}: ${HINT[pos]}. Pick up the ${name.toLowerCase()} symbol…`, target: bySelector(`.symbol-palette button:nth-child(${POS.findIndex((p) => p.id === pos) + 1})`), run: () => setArmed(pos), wait: 900 })
+      steps.push({ caption: `…and put it over “${w}”.`, target: bySelector(`.word:nth-child(${i + 1}) .slot`), run: () => { setPlaced((p) => ({ ...p, [i]: pos })); setArmed(null) }, wait: 900 })
+    })
+    steps.push({ caption: 'Every word has its symbol. Clear it and do it yourself.', target: bySelector('.mat-badge'), wait: 2000 })
+    steps.push({ caption: '', run: () => { setPlaced({}); setSolved((s) => s.filter((i) => i !== idx)) }, wait: 10 })
+    return steps
+  }
 
   return (
     <div className="ws">
@@ -176,6 +196,7 @@ export default function GrammarSymbols() {
             </button>
           ))}
           <span className="sp" />
+          <DemoOverlay demo={demo} onStart={() => demo.play(buildDemo())} />
           <button onClick={reset}>Clear</button>
         </div>
         <p className="muted small" style={{ marginTop: 8 }}>Tap a symbol to pick it up, then tap the word it belongs to. Tap a placed symbol to take it off.</p>

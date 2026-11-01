@@ -165,3 +165,39 @@
 .task-title { font-size: 20px; font-weight: 900; }
 .task-detail { margin-left: 10px; font-weight: 900; color: var(--accent); }
 .task-acts { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* demo player ----------------------------------------------------------- */
+.demo-btn { white-space: nowrap; }
+.demo-bar {
+  position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+  width: min(720px, calc(100vw - 32px)); display: flex; align-items: center; gap: 12px; padding: 12px 14px 12px 16px;
+  background: var(--ink); color: var(--paper); border-radius: 18px; box-shadow: var(--shadow-lg); z-index: 90;
+  animation: toast-in 0.25s ease;
+}
+.demo-count { font-size: 12px; font-weight: 800; opacity: 0.7; flex: none; }
+.demo-caption { flex: 1; font-size: 17px; font-weight: 700; line-height: 1.3; }
+.demo-bar .btn { background: var(--paper); color: var(--ink); flex: none; }
+.demo-hand {
+  position: fixed; z-index: 95; font-size: 40px; line-height: 1; pointer-events: none; transform: translate(-30%, -10%) scale(0.9);
+  opacity: 0; transition: left 0.55s cubic-bezier(0.2, 0.8, 0.2, 1), top 0.55s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.2s;
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3));
+}
+.demo-hand.show { opacity: 1; }
+.demo-press { animation: demo-press 0.35s ease; }
+@keyframes demo-press { 0% { transform: scale(1); } 40% { transform: scale(0.92); box-shadow: 0 0 0 6px var(--ochre-2); } 100% { transform: scale(1); } }
+.demo-hl { background: var(--ochre-2); border-radius: 6px; box-shadow: 0 0 0 4px var(--ochre-2); transition: background 0.3s; }
+
+/* child lesson ---------------------------------------------------------- */
+.child-steps { padding-left: 1.6em; display: grid; gap: 10px; font-size: 19px; line-height: 1.5; }
+.child-steps li::marker { font-weight: 900; color: var(--a, var(--accent)); }
+.child-steps .child-sub { list-style: none; margin-left: -1.6em; font-weight: 900; margin-top: 6px; color: var(--ink); }
+
+.lesson-block { margin-top: 8px; }
+.lesson-block + .lesson-block { border-top: 1px dashed var(--line-2); padding-top: 14px; margin-top: 14px; }
+.lesson-card {
+  display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 14px; background: var(--paper); border: 1px solid var(--line-2); min-height: 60px; margin-bottom: 8px;
+}
+.lesson-card:hover { box-shadow: var(--shadow); }
+.lesson-card .glyph { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--a-2); font-size: 20px; flex: none; }
+.lesson-card .t { flex: 1; font-weight: 800; }
+.lesson-card .s { display: block; font-weight: 400; font-size: 13px; color: var(--ink-3); }
