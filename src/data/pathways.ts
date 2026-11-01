@@ -52,12 +52,18 @@ const P = {
   div1: '02-passage-to-abstraction-word-problems-passage-to-abstraction-division-1-step-pdf',
   all2: '02-passage-to-abstraction-word-problems-passage-to-abstraction-all-operations-2-steps-pdf',
   longmul1: '03-long-multiplication-word-problems-long-multiplication-1-step-pdf',
+  longmul2: '03-long-multiplication-word-problems-long-multiplication-2-steps-pdf',
   fracAddSame: '06-fractions-same-denominator-word-problems-addition-fraction-same-denominator-1-step-pdf',
   fracSubSame: '06-fractions-same-denominator-word-problems-subtraction-fraction-same-denominator-1-step-pdf',
+  fracAddSame2: '06-fractions-same-denominator-word-problems-addition-fraction-same-denominator-2-steps-pdf',
   metric1: '08-metric-system-metric-system-measurement-1-step-pdf',
+  metric2: '08-metric-system-metric-system-measurement-2-steps-pdf',
   time: '23-time-word-problems-with-time-pdf',
   perimeter1: '19-perimeter-word-problems-with-perimeter-1-step-pdf',
+  perimeter2: '19-perimeter-word-problems-with-perimeter-2-steps-pdf',
   area1: '20-area-word-problems-with-area-1-step-pdf',
+  area2: '20-area-word-problems-with-area-2-steps-pdf',
+  distance: '11-distance-time-and-speed-word-problems-with-distance-time-and-speed-pdf',
 }
 
 export const PATHWAYS: Pathway[] = [
@@ -75,7 +81,12 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('num-1-a', 'Build the staircase of bars from 1 to 10', { kind: 'bead-bars', staircase: true }, 'Put one bar of each colour on the mat, shortest at the top.'),
           t('num-1-b', 'Lay the bar of 5 two times', { kind: 'bead-bars', table: [5, 2] }, 'Two fives make ten.'),
-          t('num-1-c', 'Discover 6 number words', { kind: 'words', topic: 'maths', count: 6 }),
+          t('num-1-c', 'Lay the bar of 3 three times', { kind: 'bead-bars', table: [3, 3] }, 'Count all the beads at the end.'),
+          t('num-1-d', 'Make 10 with two different bars', { kind: 'bead-bars', make: 10 }, '6 and 4? 7 and 3? 8 and 2?'),
+          t('num-1-e', 'Make 9 with two bars', { kind: 'bead-bars', make: 9 }),
+          t('num-1-f', 'Put 7 golden units on the mat', { kind: 'golden-beads', build: 7 }),
+          t('num-1-g', 'Put 10 golden units on the mat, then press Exchange', { kind: 'golden-beads', build: 10 }, 'Ten units become one ten bar. The total stays 10.'),
+          t('num-1-h', 'Discover 6 number words', { kind: 'words', topic: 'maths', count: 6 }),
         ],
       },
       {
@@ -86,8 +97,13 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('num-2-a', 'Build 1 234 with golden beads', { kind: 'golden-beads', build: 1234 }),
           t('num-2-b', 'Build 3 052 with golden beads', { kind: 'golden-beads', build: 3052 }, 'Careful: there are no tens in this number.'),
-          t('num-2-c', 'Add 1 234 and 2 341', { kind: 'golden-beads', sum: [1234, 2341] }, 'Lay the first number, then the second underneath, then push them together.'),
-          t('num-2-d', 'Take 2 345 away from 4 568', { kind: 'golden-beads', take: [4568, 2345] }, 'Lay the big number, then put back the smaller one.'),
+          t('num-2-c', 'Build 4 507', { kind: 'golden-beads', build: 4507 }, 'No hundreds this time.'),
+          t('num-2-d', 'Build 1 000 with just one piece', { kind: 'golden-beads', build: 1000 }),
+          t('num-2-e', 'Build 2 340', { kind: 'golden-beads', build: 2340 }),
+          t('num-2-f', 'Add 1 234 and 2 341', { kind: 'golden-beads', sum: [1234, 2341] }, 'Lay the first number, then the second underneath, then push them together.'),
+          t('num-2-g', 'Add 2 102 and 1 231', { kind: 'golden-beads', sum: [2102, 1231] }),
+          t('num-2-h', 'Take 2 345 away from 4 568', { kind: 'golden-beads', take: [4568, 2345] }, 'Lay the big number, then put back the smaller one.'),
+          t('num-2-i', 'Take 1 234 away from 3 456', { kind: 'golden-beads', take: [3456, 1234] }),
         ],
       },
       {
@@ -98,9 +114,15 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('num-3-a', 'Add 1 456 and 2 378 with the stamps', { kind: 'stamp-game', sum: [1456, 2378] }, 'You will need to exchange ten units for a ten.'),
           t('num-3-b', 'Add 2 785 and 1 649 with the stamps', { kind: 'stamp-game', sum: [2785, 1649] }),
-          t('num-3-c', 'Take 1 234 away from 5 000', { kind: 'stamp-game', take: [5000, 1234] }, 'You will have to break a thousand into hundreds first.'),
-          t('num-3-d', 'Solve 5 addition story problems', { kind: 'problems', set: P.add1, count: 5 }),
-          t('num-3-e', 'Solve 5 subtraction story problems', { kind: 'problems', set: P.sub1, count: 5 }),
+          t('num-3-c', 'Add 1 999 and 1', { kind: 'stamp-game', sum: [1999, 1] }, 'Watch the exchanges run all the way up.'),
+          t('num-3-d', 'Add 1 275 and 1 848', { kind: 'stamp-game', sum: [1275, 1848] }),
+          t('num-3-e', 'Take 1 234 away from 5 000', { kind: 'stamp-game', take: [5000, 1234] }, 'You will have to break a thousand into hundreds first.'),
+          t('num-3-f', 'Take 1 away from 2 000', { kind: 'stamp-game', take: [2000, 1] }, 'Change a thousand, then a hundred, then a ten.'),
+          t('num-3-g', 'Take 1 876 away from 3 245', { kind: 'stamp-game', take: [3245, 1876] }),
+          t('num-3-h', 'Solve 5 addition story problems', { kind: 'problems', set: P.add1, count: 5 }),
+          t('num-3-i', 'Solve 5 subtraction story problems', { kind: 'problems', set: P.sub1, count: 5 }),
+          t('num-3-j', 'Solve 5 more addition problems', { kind: 'problems', set: P.add1, count: 10 }),
+          t('num-3-k', 'Solve 5 more subtraction problems', { kind: 'problems', set: P.sub1, count: 10 }),
         ],
       },
       {
@@ -110,8 +132,15 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['arithmetic.teens.68cef', 'arithmetic.tens.f2008', 'arithmetic.skip-counting.3e977'],
         tasks: [
           t('num-4-a', 'Lay the bar of 2 ten times and count in twos', { kind: 'bead-bars', table: [2, 10] }, '2, 4, 6, 8…'),
-          t('num-4-b', 'Lay the bar of 5 ten times and count in fives', { kind: 'bead-bars', table: [5, 10] }),
-          t('num-4-c', 'Lay the bar of 10 ten times. What do you reach?', { kind: 'bead-bars', table: [10, 10] }, 'Ten tens make a hundred.'),
+          t('num-4-b', 'Lay the bar of 3 ten times and count in threes', { kind: 'bead-bars', table: [3, 10] }),
+          t('num-4-c', 'Lay the bar of 4 ten times and count in fours', { kind: 'bead-bars', table: [4, 10] }),
+          t('num-4-d', 'Lay the bar of 5 ten times and count in fives', { kind: 'bead-bars', table: [5, 10] }),
+          t('num-4-e', 'Lay the bar of 9 ten times', { kind: 'bead-bars', table: [9, 10] }, 'Look at the pattern in the numbers: 9, 18, 27…'),
+          t('num-4-f', 'Lay the bar of 10 ten times. What do you reach?', { kind: 'bead-bars', table: [10, 10] }, 'Ten tens make a hundred.'),
+          t('num-4-g', 'Make 20 with bars of 4', { kind: 'bead-bars', make: 20 }, 'How many fours is that?'),
+          t('num-4-h', 'Make 30 with bars of 6', { kind: 'bead-bars', make: 30 }),
+          t('num-4-i', 'Build 19 with golden beads', { kind: 'golden-beads', build: 19 }, 'One ten and nine units.'),
+          t('num-4-j', 'Build 70 with golden beads', { kind: 'golden-beads', build: 70 }),
         ],
       },
       {
@@ -121,10 +150,17 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['arithmetic.building-multiplication-tables-with-bead-bars.52786', 'arithmetic.multiplication-board.8bbbf', 'arithmetic.multiplication-games.871c4'],
         tasks: [
           t('num-5-a', 'Make the square of 4', { kind: 'bead-bars', table: [4, 4] }, 'Four bars of four.'),
-          t('num-5-b', 'Lay 3 bars of 6', { kind: 'bead-bars', table: [6, 3] }),
-          t('num-5-c', 'Make 24 with one kind of bar', { kind: 'bead-bars', make: 24 }, 'Try several kinds: twos, threes, fours…'),
-          t('num-5-d', 'Make 36 with one kind of bar', { kind: 'bead-bars', make: 36 }),
-          t('num-5-e', 'Solve 5 multiplication story problems', { kind: 'problems', set: P.mul1, count: 5 }),
+          t('num-5-b', 'Make the square of 6', { kind: 'bead-bars', table: [6, 6] }),
+          t('num-5-c', 'Make the square of 7', { kind: 'bead-bars', table: [7, 7] }),
+          t('num-5-d', 'Lay 3 bars of 6', { kind: 'bead-bars', table: [6, 3] }),
+          t('num-5-e', 'Lay 3 bars of 8', { kind: 'bead-bars', table: [8, 3] }),
+          t('num-5-f', 'Lay 4 bars of 9', { kind: 'bead-bars', table: [9, 4] }),
+          t('num-5-g', 'Make 24 with one kind of bar', { kind: 'bead-bars', make: 24 }, 'Try several kinds: twos, threes, fours…'),
+          t('num-5-h', 'Make 36 with one kind of bar', { kind: 'bead-bars', make: 36 }),
+          t('num-5-i', 'Make 18 with one kind of bar', { kind: 'bead-bars', make: 18 }),
+          t('num-5-j', 'Make 40 with one kind of bar', { kind: 'bead-bars', make: 40 }),
+          t('num-5-k', 'Solve 5 multiplication story problems', { kind: 'problems', set: P.mul1, count: 5 }),
+          t('num-5-l', 'Solve 5 more multiplication problems', { kind: 'problems', set: P.mul1, count: 10 }),
         ],
       },
       {
@@ -134,8 +170,13 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['arithmetic.division-board.0684c', 'arithmetic.dynamic-short-division-with-the-stamp-game.6d180'],
         tasks: [
           t('num-6-a', 'Build 3 696 with the stamps, then share it between 3', { kind: 'stamp-game', build: 3696 }, 'Lay it out, then move the stamps into three equal rows.'),
-          t('num-6-b', 'Solve 5 division story problems', { kind: 'problems', set: P.div1, count: 5 }),
-          t('num-6-c', 'Solve 3 two-step story problems', { kind: 'problems', set: P.all2, count: 3 }),
+          t('num-6-b', 'Build 4 848 with the stamps, then share it between 4', { kind: 'stamp-game', build: 4848 }),
+          t('num-6-c', 'Build 2 466 with the stamps, then share it between 2', { kind: 'stamp-game', build: 2466 }),
+          t('num-6-d', 'Make 12 with bars, then see how many ways it splits', { kind: 'bead-bars', make: 12 }, 'Two sixes, three fours, four threes…'),
+          t('num-6-e', 'Solve 5 division story problems', { kind: 'problems', set: P.div1, count: 5 }),
+          t('num-6-f', 'Solve 5 more division problems', { kind: 'problems', set: P.div1, count: 10 }),
+          t('num-6-g', 'Solve 3 two-step story problems', { kind: 'problems', set: P.all2, count: 3 }),
+          t('num-6-h', 'Solve 3 more two-step problems', { kind: 'problems', set: P.all2, count: 6 }),
         ],
       },
       {
@@ -144,13 +185,24 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'Breaking a whole into equal parts and naming them.',
         lessons: ['arithmetic.concept-of-fractions-for-elementary.5579e', 'arithmetic.nomenclature.4565a', 'arithmetic.equivalence.38ab8'],
         tasks: [
-          t('num-7-a', 'Fill the circle with halves', { kind: 'fractions', fill: 2 }),
-          t('num-7-b', 'Fill the circle with quarters', { kind: 'fractions', fill: 4 }),
-          t('num-7-c', 'Fill the circle with eighths', { kind: 'fractions', fill: 8 }),
-          t('num-7-d', 'Show three quarters', { kind: 'fractions', show: [3, 4] }),
-          t('num-7-e', 'Show five sixths', { kind: 'fractions', show: [5, 6] }),
-          t('num-7-f', 'Solve 5 fraction addition problems', { kind: 'problems', set: P.fracAddSame, count: 5 }),
-          t('num-7-g', 'Solve 5 fraction subtraction problems', { kind: 'problems', set: P.fracSubSame, count: 5 }),
+          t('num-7-a', 'Put the whole circle in the frame', { kind: 'fractions', fill: 1 }),
+          t('num-7-b', 'Fill the circle with halves', { kind: 'fractions', fill: 2 }),
+          t('num-7-c', 'Fill the circle with thirds', { kind: 'fractions', fill: 3 }),
+          t('num-7-d', 'Fill the circle with quarters', { kind: 'fractions', fill: 4 }),
+          t('num-7-e', 'Fill the circle with fifths', { kind: 'fractions', fill: 5 }),
+          t('num-7-f', 'Fill the circle with sixths', { kind: 'fractions', fill: 6 }),
+          t('num-7-g', 'Fill the circle with eighths', { kind: 'fractions', fill: 8 }),
+          t('num-7-h', 'Fill the circle with tenths', { kind: 'fractions', fill: 10 }),
+          t('num-7-i', 'Show one half', { kind: 'fractions', show: [1, 2] }),
+          t('num-7-j', 'Show two thirds', { kind: 'fractions', show: [2, 3] }),
+          t('num-7-k', 'Show three quarters', { kind: 'fractions', show: [3, 4] }),
+          t('num-7-l', 'Show four fifths', { kind: 'fractions', show: [4, 5] }),
+          t('num-7-m', 'Show five sixths', { kind: 'fractions', show: [5, 6] }),
+          t('num-7-n', 'Show seven eighths', { kind: 'fractions', show: [7, 8] }),
+          t('num-7-o', 'Solve 5 fraction addition problems', { kind: 'problems', set: P.fracAddSame, count: 5 }),
+          t('num-7-p', 'Solve 5 fraction subtraction problems', { kind: 'problems', set: P.fracSubSame, count: 5 }),
+          t('num-7-q', 'Solve 5 more fraction addition problems', { kind: 'problems', set: P.fracAddSame, count: 10 }),
+          t('num-7-r', 'Solve 5 two-step fraction problems', { kind: 'problems', set: P.fracAddSame2, count: 5 }),
         ],
       },
       {
@@ -160,8 +212,13 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['arithmetic.large-bead-frame.d68e0', 'arithmetic.checkerboard.93568'],
         tasks: [
           t('num-8-a', 'Build 2 468 with golden beads', { kind: 'golden-beads', build: 2468 }),
-          t('num-8-b', 'Add 3 456 and 4 567', { kind: 'stamp-game', sum: [3456, 4567] }),
-          t('num-8-c', 'Solve 5 long multiplication problems', { kind: 'problems', set: P.longmul1, count: 5 }),
+          t('num-8-b', 'Build 9 999: the biggest four-digit number', { kind: 'golden-beads', build: 9999 }),
+          t('num-8-c', 'Add 4 321 and 4 321: that is 4 321 taken twice', { kind: 'golden-beads', sum: [4321, 4321] }),
+          t('num-8-d', 'Add 3 456 and 4 567', { kind: 'stamp-game', sum: [3456, 4567] }),
+          t('num-8-e', 'Add 6 789 and 1 234', { kind: 'stamp-game', sum: [6789, 1234] }),
+          t('num-8-f', 'Solve 5 long multiplication problems', { kind: 'problems', set: P.longmul1, count: 5 }),
+          t('num-8-g', 'Solve 5 more long multiplication problems', { kind: 'problems', set: P.longmul1, count: 10 }),
+          t('num-8-h', 'Solve 3 two-step multiplication problems', { kind: 'problems', set: P.longmul2, count: 3 }),
         ],
       },
       {
@@ -170,8 +227,14 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'Metres, litres, grams and the clock.',
         lessons: ['arithmetic.story-of-the-meter.c4496', 'arithmetic.introduction-of-the-concept.a51f1'],
         tasks: [
-          t('num-9-a', 'Solve 5 measuring story problems', { kind: 'problems', set: P.metric1, count: 5 }),
-          t('num-9-b', 'Solve 5 time story problems', { kind: 'problems', set: P.time, count: 5 }),
+          t('num-9-a', 'Build 100: the centimetres in a metre', { kind: 'golden-beads', build: 100 }),
+          t('num-9-b', 'Build 1 000: the millilitres in a litre', { kind: 'golden-beads', build: 1000 }),
+          t('num-9-c', 'Build 60: the minutes in an hour', { kind: 'golden-beads', build: 60 }),
+          t('num-9-d', 'Solve 5 measuring story problems', { kind: 'problems', set: P.metric1, count: 5 }),
+          t('num-9-e', 'Solve 5 more measuring problems', { kind: 'problems', set: P.metric1, count: 10 }),
+          t('num-9-f', 'Solve 5 time story problems', { kind: 'problems', set: P.time, count: 5 }),
+          t('num-9-g', 'Solve 3 two-step measuring problems', { kind: 'problems', set: P.metric2, count: 3 }),
+          t('num-9-h', 'Solve 3 distance and speed problems', { kind: 'problems', set: P.distance, count: 3 }),
         ],
       },
     ],
@@ -189,7 +252,10 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.sandpaper-letters.d298b', 'language.movable-alphabet.d5c93', 'language.small-movable-alphabet.3115e'],
         tasks: [
           t('lan-1-a', 'Write five short words', { kind: 'movable-alphabet', words: ['cat', 'dog', 'sun', 'pin', 'mop'] }, 'Say the word slowly and listen for each sound.'),
-          t('lan-1-b', 'Write five longer words', { kind: 'movable-alphabet', words: ['ship', 'frog', 'nest', 'milk', 'jump'] }),
+          t('lan-1-b', 'Write five more short words', { kind: 'movable-alphabet', words: ['hat', 'pig', 'log', 'bus', 'web'] }),
+          t('lan-1-c', 'Write five words with a, e, i, o, u', { kind: 'movable-alphabet', words: ['bag', 'ten', 'six', 'fox', 'cup'] }),
+          t('lan-1-d', 'Write five longer words', { kind: 'movable-alphabet', words: ['ship', 'frog', 'nest', 'milk', 'jump'] }),
+          t('lan-1-e', 'Write five more longer words', { kind: 'movable-alphabet', words: ['fish', 'duck', 'lamp', 'tent', 'ring'] }),
         ],
       },
       {
@@ -199,7 +265,11 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.object-boxes.2485c', 'language.action-words.c028a', 'language.puzzle-words-1.fd89a'],
         tasks: [
           t('lan-2-a', 'Write words with two sounds together', { kind: 'movable-alphabet', words: ['green', 'bread', 'cloud', 'plant', 'stone'] }),
-          t('lan-2-b', 'Discover 5 words about language', { kind: 'words', topic: 'language', count: 5 }),
+          t('lan-2-b', 'Write words with sh, ch and th', { kind: 'movable-alphabet', words: ['chair', 'sheep', 'brush', 'thin', 'bath'] }),
+          t('lan-2-c', 'Write words with long sounds', { kind: 'movable-alphabet', words: ['train', 'boat', 'rain', 'moon', 'tree'] }),
+          t('lan-2-d', 'Write some puzzle words', { kind: 'movable-alphabet', words: ['said', 'come', 'was', 'they', 'once'] }, 'These do not sound the way they look. Look, remember, write.'),
+          t('lan-2-e', 'Write five two-part words', { kind: 'movable-alphabet', words: ['apple', 'water', 'happy', 'little', 'yellow'] }),
+          t('lan-2-f', 'Discover 5 words about language', { kind: 'words', topic: 'language', count: 5 }),
         ],
       },
       {
@@ -209,7 +279,9 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.function-of-the-noun.48d8e', 'language.function-of-the-article.91782'],
         tasks: [
           t('lan-3-a', 'Write six nouns', { kind: 'movable-alphabet', words: ['table', 'river', 'garden', 'window', 'basket', 'flower'] }),
-          t('lan-3-b', 'Mark the symbols in "The cat sleeps."', { kind: 'grammar-symbols', sentences: [0] }, 'Black triangle for the noun, small blue triangle for the article.'),
+          t('lan-3-b', 'Write six more nouns', { kind: 'movable-alphabet', words: ['bird', 'house', 'book', 'moon', 'bread', 'friend'] }),
+          t('lan-3-c', 'Mark the symbols in "The cat sleeps."', { kind: 'grammar-symbols', sentences: [0] }, 'Black triangle for the noun, small blue triangle for the article.'),
+          t('lan-3-d', 'Mark the symbols in "The sun rises."', { kind: 'grammar-symbols', sentences: [16] }),
         ],
       },
       {
@@ -219,6 +291,9 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.adjective.a1134'],
         tasks: [
           t('lan-4-a', 'Mark two sentences with adjectives', { kind: 'grammar-symbols', sentences: [1, 10] }),
+          t('lan-4-b', 'Mark two more sentences with adjectives', { kind: 'grammar-symbols', sentences: [18, 27] }),
+          t('lan-4-c', 'Mark a sentence where "my" describes the noun', { kind: 'grammar-symbols', sentences: [19] }, 'Words like my, your and his tell whose: they take the adjective symbol.'),
+          t('lan-4-d', 'Write six adjectives', { kind: 'movable-alphabet', words: ['big', 'small', 'red', 'soft', 'happy', 'cold'] }),
         ],
       },
       {
@@ -228,7 +303,10 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.verb.6d809', 'language.adverb.85e2a'],
         tasks: [
           t('lan-5-a', 'Mark two sentences with verbs and adverbs', { kind: 'grammar-symbols', sentences: [2, 11] }),
-          t('lan-5-b', 'Write five action words', { kind: 'movable-alphabet', words: ['run', 'jump', 'sing', 'swim', 'read'] }),
+          t('lan-5-b', 'Mark two more', { kind: 'grammar-symbols', sentences: [17, 24] }),
+          t('lan-5-c', 'And two more', { kind: 'grammar-symbols', sentences: [31, 33] }),
+          t('lan-5-d', 'Write five action words', { kind: 'movable-alphabet', words: ['run', 'jump', 'sing', 'swim', 'read'] }),
+          t('lan-5-e', 'Write four adverbs', { kind: 'movable-alphabet', words: ['quickly', 'slowly', 'softly', 'loudly'] }, 'Many adverbs end in -ly.'),
         ],
       },
       {
@@ -238,7 +316,11 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.pronoun.b820d', 'language.preposition.9edcd', 'language.conjunction.455ce'],
         tasks: [
           t('lan-6-a', 'Mark three sentences', { kind: 'grammar-symbols', sentences: [3, 4, 5] }),
-          t('lan-6-b', 'Mark two more sentences', { kind: 'grammar-symbols', sentences: [7, 12] }),
+          t('lan-6-b', 'Mark two with prepositions', { kind: 'grammar-symbols', sentences: [20, 22] }),
+          t('lan-6-c', 'Mark two with pronouns', { kind: 'grammar-symbols', sentences: [28, 29] }),
+          t('lan-6-d', 'Mark two with conjunctions', { kind: 'grammar-symbols', sentences: [23, 34] }),
+          t('lan-6-e', 'Mark two longer sentences', { kind: 'grammar-symbols', sentences: [7, 12] }),
+          t('lan-6-f', 'Write five small joining and placing words', { kind: 'movable-alphabet', words: ['under', 'over', 'behind', 'and', 'but'] }),
         ],
       },
       {
@@ -247,7 +329,10 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'Oh! Wow! Now you know all nine symbols.',
         lessons: ['language.interjection.9dfde'],
         tasks: [
-          t('lan-7-a', 'Mark five whole sentences', { kind: 'grammar-symbols', sentences: [6, 9, 13, 14, 15] }),
+          t('lan-7-a', 'Mark three sentences with interjections', { kind: 'grammar-symbols', sentences: [21, 26, 30] }),
+          t('lan-7-b', 'Mark five whole sentences', { kind: 'grammar-symbols', sentences: [6, 9, 13, 14, 15] }),
+          t('lan-7-c', 'Mark three more', { kind: 'grammar-symbols', sentences: [25, 32, 35] }),
+          t('lan-7-d', 'Mark the last one', { kind: 'grammar-symbols', sentences: [8] }),
         ],
       },
       {
@@ -257,7 +342,10 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['language.suffixes.12e0a', 'language.prefixes.927a7', 'language.compound-words.26901', 'language.word-families.449ee'],
         tasks: [
           t('lan-8-a', 'Write four compound words', { kind: 'movable-alphabet', words: ['sunflower', 'raincoat', 'football', 'bedroom'] }, 'Two words joined into one.'),
-          t('lan-8-b', 'Write words with prefixes and suffixes', { kind: 'movable-alphabet', words: ['unhappy', 'replay', 'kindness', 'helpful'] }),
+          t('lan-8-b', 'Write four more compound words', { kind: 'movable-alphabet', words: ['snowman', 'toothbrush', 'butterfly', 'cupcake'] }),
+          t('lan-8-c', 'Write words with prefixes', { kind: 'movable-alphabet', words: ['unhappy', 'replay', 'untie', 'redo'] }, 'un- means not, re- means again.'),
+          t('lan-8-d', 'Write words with suffixes', { kind: 'movable-alphabet', words: ['kindness', 'helpful', 'careful', 'slowly'] }),
+          t('lan-8-e', 'Write a word family', { kind: 'movable-alphabet', words: ['play', 'player', 'playful', 'replay', 'playing'] }),
         ],
       },
       {
@@ -268,6 +356,8 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('lan-9-a', 'Discover 10 word origins', { kind: 'words', topic: 'all', count: 10 }),
           t('lan-9-b', 'Discover 10 more', { kind: 'words', topic: 'all', count: 20 }),
+          t('lan-9-c', 'Discover 10 more again', { kind: 'words', topic: 'all', count: 30 }),
+          t('lan-9-d', 'Write the names of three old languages', { kind: 'movable-alphabet', words: ['latin', 'greek', 'english'] }),
         ],
       },
     ],
@@ -286,6 +376,9 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('geo-1-a', 'Discover 8 shape words', { kind: 'words', topic: 'geometry', count: 8 }, 'Circle, cube, sphere… where do their names come from?'),
           t('geo-1-b', 'Write the names of four shapes', { kind: 'movable-alphabet', words: ['circle', 'square', 'cube', 'sphere'] }),
+          t('geo-1-c', 'Write four more shapes', { kind: 'movable-alphabet', words: ['triangle', 'rectangle', 'oval', 'cone'] }),
+          t('geo-1-d', 'Discover 4 more shape words', { kind: 'words', topic: 'geometry', count: 12 }),
+          t('geo-1-e', 'Make a square of bars: the square of 3', { kind: 'bead-bars', table: [3, 3] }),
         ],
       },
       {
@@ -294,8 +387,12 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'Straight and curved, parallel and crossing, acute and obtuse.',
         lessons: ['geometry.fundamental-concepts.838b6', 'geometry.lines.93b84', 'geometry.angles.9c4f6'],
         tasks: [
-          t('geo-2-a', 'Discover 8 more geometry words', { kind: 'words', topic: 'geometry', count: 16 }),
-          t('geo-2-b', 'Write four angle words', { kind: 'movable-alphabet', words: ['acute', 'obtuse', 'right', 'straight'] }),
+          t('geo-2-a', 'Lay two bars of 9 side by side, like parallel lines', { kind: 'bead-bars', table: [9, 2] }),
+          t('geo-2-b', 'Write four line words', { kind: 'movable-alphabet', words: ['line', 'point', 'curve', 'parallel'] }),
+          t('geo-2-c', 'Write four angle words', { kind: 'movable-alphabet', words: ['acute', 'obtuse', 'right', 'straight'] }),
+          t('geo-2-d', 'Discover 8 more geometry words', { kind: 'words', topic: 'geometry', count: 20 }),
+          t('geo-2-e', 'Fill the circle with quarters: four right angles', { kind: 'fractions', fill: 4 }, 'Each quarter is a right angle. Four make a full turn.'),
+          t('geo-2-f', 'Show one half: a straight angle', { kind: 'fractions', show: [1, 2] }),
         ],
       },
       {
@@ -305,7 +402,11 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['geometry.triangles.fd223', 'geometry.quadrilaterals.972f3', 'geometry.polygons.5b3db'],
         tasks: [
           t('geo-3-a', 'Build a triangle of bars: 3, 4 and 5', { kind: 'bead-bars', make: 12 }, 'Use the 3 bar, the 4 bar and the 5 bar. Together they make 12 beads.'),
-          t('geo-3-b', 'Discover all the geometry words', { kind: 'words', topic: 'geometry', count: 24 }),
+          t('geo-3-b', 'Build a triangle of bars: 2, 3 and 4', { kind: 'bead-bars', make: 9 }),
+          t('geo-3-c', 'Build a rectangle of bars: 4, 6, 4 and 6', { kind: 'bead-bars', make: 20 }, 'Two long sides and two short sides.'),
+          t('geo-3-d', 'Write four triangle words', { kind: 'movable-alphabet', words: ['isosceles', 'scalene', 'equilateral', 'triangle'] }),
+          t('geo-3-e', 'Write four quadrilateral words', { kind: 'movable-alphabet', words: ['rhombus', 'trapezium', 'rectangle', 'square'] }),
+          t('geo-3-f', 'Discover all the geometry words', { kind: 'words', topic: 'geometry', count: 30 }),
         ],
       },
       {
@@ -315,8 +416,15 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['geometry.area.7fccf'],
         tasks: [
           t('geo-4-a', 'Make the square of 5 with bars', { kind: 'bead-bars', table: [5, 5] }, 'Five bars of five: the area is 25.'),
-          t('geo-4-b', 'Solve 5 perimeter problems', { kind: 'problems', set: P.perimeter1, count: 5 }),
-          t('geo-4-c', 'Solve 5 area problems', { kind: 'problems', set: P.area1, count: 5 }),
+          t('geo-4-b', 'Make the square of 6 with bars', { kind: 'bead-bars', table: [6, 6] }),
+          t('geo-4-c', 'Make a rectangle 4 by 6', { kind: 'bead-bars', table: [6, 4] }, 'Four bars of six: the area is 24.'),
+          t('geo-4-d', 'Make a rectangle 3 by 8', { kind: 'bead-bars', table: [8, 3] }),
+          t('geo-4-e', 'Solve 5 perimeter problems', { kind: 'problems', set: P.perimeter1, count: 5 }),
+          t('geo-4-f', 'Solve 5 area problems', { kind: 'problems', set: P.area1, count: 5 }),
+          t('geo-4-g', 'Solve 4 more perimeter problems', { kind: 'problems', set: P.perimeter1, count: 9 }),
+          t('geo-4-h', 'Solve 5 more area problems', { kind: 'problems', set: P.area1, count: 10 }),
+          t('geo-4-i', 'Solve 3 two-step perimeter problems', { kind: 'problems', set: P.perimeter2, count: 3 }),
+          t('geo-4-j', 'Solve 3 two-step area problems', { kind: 'problems', set: P.area2, count: 3 }),
         ],
       },
     ],
@@ -332,7 +440,11 @@ export const PATHWAYS: Pathway[] = [
         title: 'The story of life',
         blurb: 'How life came to the Earth, told as a great story.',
         lessons: ['biology.the-story-of-life.fa462'],
-        tasks: [t('bio-1-a', 'Discover 6 words from the ages of the Earth', { kind: 'words', topic: 'history', count: 6 })],
+        tasks: [
+          t('bio-1-a', 'Discover 6 words from the ages of the Earth', { kind: 'words', topic: 'history', count: 6 }),
+          t('bio-1-b', 'Write four things every living thing needs', { kind: 'movable-alphabet', words: ['water', 'air', 'food', 'sun'] }),
+          t('bio-1-c', 'Write the order life came in', { kind: 'movable-alphabet', words: ['fish', 'frog', 'reptile', 'bird', 'mammal'] }),
+        ],
       },
       {
         id: 'bio-2',
@@ -341,7 +453,10 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['biology.classified-nomenclature-for-botany.13244', 'biology.needs-of-the-plants.d12b3', 'biology.leaf.c067e', 'biology.root.d06a7'],
         tasks: [
           t('bio-2-a', 'Write the six parts of a plant', { kind: 'movable-alphabet', words: ['root', 'stem', 'leaf', 'flower', 'fruit', 'seed'] }),
-          t('bio-2-b', 'Discover 8 plant words', { kind: 'words', topic: 'biology', count: 8 }),
+          t('bio-2-b', 'Write the parts of a leaf', { kind: 'movable-alphabet', words: ['blade', 'veins', 'margin', 'petiole'] }),
+          t('bio-2-c', 'Write four kinds of root', { kind: 'movable-alphabet', words: ['tap', 'fibrous', 'conical', 'tuberous'] }),
+          t('bio-2-d', 'Discover 8 plant words', { kind: 'words', topic: 'biology', count: 8 }),
+          t('bio-2-e', 'Fill the circle with sixths: six parts of a plant', { kind: 'fractions', fill: 6 }),
         ],
       },
       {
@@ -350,8 +465,11 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'How plants make new plants.',
         lessons: ['biology.flower.3c762', 'biology.fruit.0e883', 'biology.seed.9720b'],
         tasks: [
-          t('bio-3-a', 'Fill the circle with thirds, like the parts of a seed', { kind: 'fractions', fill: 3 }),
-          t('bio-3-b', 'Discover 8 more living-thing words', { kind: 'words', topic: 'biology', count: 16 }),
+          t('bio-3-a', 'Write the parts of a flower', { kind: 'movable-alphabet', words: ['petal', 'sepal', 'stamen', 'pistil'] }),
+          t('bio-3-b', 'Write four flower words from the dictionary', { kind: 'movable-alphabet', words: ['pollen', 'anther', 'style', 'capsule'] }),
+          t('bio-3-c', 'Fill the circle with quarters: a flower with four petals', { kind: 'fractions', fill: 4 }),
+          t('bio-3-d', 'Fill the circle with thirds, like the parts of a seed', { kind: 'fractions', fill: 3 }),
+          t('bio-3-e', 'Discover 8 more living-thing words', { kind: 'words', topic: 'biology', count: 16 }),
         ],
       },
       {
@@ -361,7 +479,11 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['biology.first-knowledge-of-animals.af29a', 'biology.first-classification-of-animals.16569', 'biology.tree-of-life.a91fb'],
         tasks: [
           t('bio-4-a', 'Write the five classes of vertebrates', { kind: 'movable-alphabet', words: ['fish', 'amphibian', 'reptile', 'bird', 'mammal'] }),
-          t('bio-4-b', 'Discover 12 animal words', { kind: 'words', topic: 'biology', count: 28 }),
+          t('bio-4-b', 'Write five invertebrates', { kind: 'movable-alphabet', words: ['insect', 'spider', 'snail', 'worm', 'crab'] }),
+          t('bio-4-c', 'Fill the circle with fifths: five classes', { kind: 'fractions', fill: 5 }),
+          t('bio-4-d', 'Discover 12 animal words', { kind: 'words', topic: 'biology', count: 28 }),
+          t('bio-4-e', 'Discover 12 more animal words', { kind: 'words', topic: 'biology', count: 40 }),
+          t('bio-4-f', 'Write the names of four insect groups', { kind: 'movable-alphabet', words: ['beetle', 'butterfly', 'bee', 'fly'] }),
         ],
       },
     ],
@@ -380,6 +502,11 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('geg-1-a', 'Discover 6 geography words', { kind: 'words', topic: 'geography', count: 6 }, 'Island, isthmus, peninsula…'),
           t('geg-1-b', 'Write the names of four continents', { kind: 'movable-alphabet', words: ['asia', 'africa', 'europe', 'australia'] }),
+          t('geg-1-c', 'Write three more continents', { kind: 'movable-alphabet', words: ['america', 'antarctica', 'oceania'] }),
+          t('geg-1-d', 'Write four land and water forms', { kind: 'movable-alphabet', words: ['island', 'lake', 'gulf', 'cape'] }),
+          t('geg-1-e', 'Build 7 with golden beads: the continents', { kind: 'golden-beads', build: 7 }),
+          t('geg-1-f', 'Build 5 with golden beads: the oceans', { kind: 'golden-beads', build: 5 }),
+          t('geg-1-g', 'Discover all the geography words', { kind: 'words', topic: 'geography', count: 9 }),
         ],
       },
       {
@@ -393,6 +520,8 @@ export const PATHWAYS: Pathway[] = [
           t('geg-2-c', 'Experiment: where did the drops come from?', { kind: 'experiment', number: 5 }),
           t('geg-2-d', 'Experiment: the foggy mirror', { kind: 'experiment', number: 6 }),
           t('geg-2-e', 'Experiment: sinking a cork', { kind: 'experiment', number: 7 }),
+          t('geg-2-f', 'Write the three forms of water', { kind: 'movable-alphabet', words: ['ice', 'water', 'steam'] }),
+          t('geg-2-g', 'Write four water words', { kind: 'movable-alphabet', words: ['rain', 'river', 'ocean', 'cloud'] }),
         ],
       },
       {
@@ -404,6 +533,7 @@ export const PATHWAYS: Pathway[] = [
           t('geg-3-a', 'Experiment: how heat travels in air', { kind: 'experiment', number: 3 }),
           t('geg-3-b', 'Experiment: what pushed the glass up?', { kind: 'experiment', number: 8 }),
           t('geg-3-c', 'Experiment: air streams', { kind: 'experiment', number: 9 }),
+          t('geg-3-d', 'Write four wind words', { kind: 'movable-alphabet', words: ['air', 'wind', 'storm', 'breeze'] }),
         ],
       },
       {
@@ -413,7 +543,13 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['geography.the-earth-s-movement-rotation.8c108', 'geography.the-earth-s-movement-day-and-night.0958c', 'geography.the-earth-s-movement-revolution-and-seasons.e5440', 'geography.the-earth-s-movement-time-zones.debb1'],
         tasks: [
           t('geg-4-a', 'Experiment: magic colours', { kind: 'experiment', number: 4 }, 'Light and colour, just like the sun.'),
-          t('geg-4-b', 'Solve 5 time problems', { kind: 'problems', set: P.time, count: 5 }),
+          t('geg-4-b', 'Write the four seasons', { kind: 'movable-alphabet', words: ['spring', 'summer', 'autumn', 'winter'] }),
+          t('geg-4-c', 'Write the four directions', { kind: 'movable-alphabet', words: ['north', 'south', 'east', 'west'] }),
+          t('geg-4-d', 'Fill the circle with quarters: the four seasons', { kind: 'fractions', fill: 4 }),
+          t('geg-4-e', 'Lay the bar of 6 twice: the twelve months', { kind: 'bead-bars', table: [6, 2] }),
+          t('geg-4-f', 'Build 24 with golden beads: the hours in a day', { kind: 'golden-beads', build: 24 }),
+          t('geg-4-g', 'Build 365 with golden beads: the days in a year', { kind: 'golden-beads', build: 365 }),
+          t('geg-4-h', 'Solve 5 time problems', { kind: 'problems', set: P.time, count: 5 }),
         ],
       },
     ],
@@ -432,6 +568,8 @@ export const PATHWAYS: Pathway[] = [
         tasks: [
           t('his-1-a', 'Discover the names of the ages of the Earth', { kind: 'words', topic: 'history', count: 12 }, 'Cambrian, Jurassic… each one is a place or a word from long ago.'),
           t('his-1-b', 'Write the three gifts of human beings', { kind: 'movable-alphabet', words: ['mind', 'love', 'hands'] }),
+          t('his-1-c', 'Write four ages of the Earth', { kind: 'movable-alphabet', words: ['cambrian', 'devonian', 'jurassic', 'permian'] }),
+          t('his-1-d', 'Build 1 000 with golden beads: the hand made things for a thousand thousand years', { kind: 'golden-beads', build: 1000 }),
         ],
       },
       {
@@ -440,8 +578,11 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'The whole history of the Earth on one clock face.',
         lessons: ['history.clock-of-eras.d1e02'],
         tasks: [
-          t('his-2-a', 'Fill the circle with twelfths, like the hours on a clock', { kind: 'fractions', fill: 10 }, 'Our circle goes up to tenths: fill it with ten tenths.'),
+          t('his-2-a', 'Fill the circle with tenths, like the hours on a clock', { kind: 'fractions', fill: 10 }, 'Our circle goes up to tenths: fill it with ten tenths.'),
           t('his-2-b', 'Show one quarter of the clock', { kind: 'fractions', show: [1, 4] }),
+          t('his-2-c', 'Show half the clock', { kind: 'fractions', show: [1, 2] }),
+          t('his-2-d', 'Show three quarters of the clock', { kind: 'fractions', show: [3, 4] }),
+          t('his-2-e', 'Build 12 with golden beads: the hours on the clock', { kind: 'golden-beads', build: 12 }),
         ],
       },
       {
@@ -451,6 +592,8 @@ export const PATHWAYS: Pathway[] = [
         lessons: ['history.fundamental-human-needs-chart-i.ef994', 'history.fundamental-human-needs-chart-ii.81fea'],
         tasks: [
           t('his-3-a', 'Write five fundamental needs', { kind: 'movable-alphabet', words: ['food', 'shelter', 'clothing', 'transport', 'defence'] }),
+          t('his-3-b', 'Write four needs of the spirit', { kind: 'movable-alphabet', words: ['love', 'art', 'music', 'faith'] }),
+          t('his-3-c', 'Fill the circle with fifths: five material needs', { kind: 'fractions', fill: 5 }),
         ],
       },
       {
@@ -459,8 +602,14 @@ export const PATHWAYS: Pathway[] = [
         blurb: 'Clocks, calendars, BCE and CE.',
         lessons: ['history.introduction-of-the-terms-bce-ce-and-place-arrows.68f6c', 'history.study-of-civilizations.37141'],
         tasks: [
-          t('his-4-a', 'Solve 5 time problems', { kind: 'problems', set: P.time, count: 5 }),
-          t('his-4-b', 'Build the year 2026 with golden beads', { kind: 'golden-beads', build: 2026 }),
+          t('his-4-a', 'Build 60 with golden beads: the minutes in an hour', { kind: 'golden-beads', build: 60 }),
+          t('his-4-b', 'Build 365: the days in a year', { kind: 'golden-beads', build: 365 }),
+          t('his-4-c', 'Build 2 026: this year', { kind: 'golden-beads', build: 2026 }),
+          t('his-4-d', 'Build 2 000: the year the century began', { kind: 'stamp-game', build: 2000 }),
+          t('his-4-e', 'Take 1 900 away from 2 026: how long since 1900?', { kind: 'stamp-game', take: [2026, 1900] }),
+          t('his-4-f', 'Solve 5 time problems', { kind: 'problems', set: P.time, count: 5 }),
+          t('his-4-g', 'Solve 5 more time problems', { kind: 'problems', set: P.time, count: 10 }),
+          t('his-4-h', 'Write the days of the week', { kind: 'movable-alphabet', words: ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'] }),
         ],
       },
     ],
