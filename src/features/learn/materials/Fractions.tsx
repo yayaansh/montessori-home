@@ -98,12 +98,13 @@ export default function Fractions() {
     const d = s?.fill ?? s?.show?.[1] ?? 4
     const k = s?.fill ?? s?.show?.[0] ?? 4
     const name = d === 1 ? 'whole' : d === 2 ? 'half' : d === 3 ? 'third' : d === 4 ? 'quarter' : `${d}th`
+    const plural = d === 2 ? 'halves' : `${name}s`
     const steps: DemoStep[] = [{ caption: 'Watch first. Clear the frame.', run: () => mat.clear(), wait: 500 }]
     steps.push({ caption: `Tap a ${name} below, then drag it into the green frame.`, target: byLabel(`Add one ${d === 1 ? 'whole' : `${d}th`}`), wait: 1200 })
     for (let i = 1; i <= k; i++) {
-      steps.push({ caption: i === 1 ? `One ${name}: 1/${d}.` : `${i} ${name}s: ${i}/${d}${i === d ? ' = 1 whole!' : ''}`, target: bySelector('.mat'), run: () => snapNew(d), wait: 900 })
+      steps.push({ caption: i === 1 ? `One ${name}: 1/${d}.` : `${i} ${plural}: ${i}/${d}${i === d ? ' = 1 whole!' : ''}`, target: bySelector('.mat'), run: () => snapNew(d), wait: 900 })
     }
-    steps.push({ caption: s?.show ? `That is ${k}/${d}. Clear the frame and show it yourself.` : `${d === 1 ? 'The whole fills the frame' : `${d} ${name}s fill the whole circle`}. Clear it and try.`, target: bySelector('.ws-side .card'), wait: 2400 })
+    steps.push({ caption: s?.show ? `That is ${k}/${d}. Clear the frame and show it yourself.` : `${d === 1 ? 'The whole fills the frame' : `${d} ${plural} fill the whole circle`}. Clear it and try.`, target: bySelector('.ws-side .card'), wait: 2400 })
     steps.push({ caption: '', run: () => mat.clear(), wait: 10 })
     return steps
   }
