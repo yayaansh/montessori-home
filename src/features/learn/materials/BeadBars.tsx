@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Mat, Palette, useMat, type Piece } from './Mat'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
 
 export const BAR_COLOURS: Record<number, string> = {
   1: '#d64545',
@@ -45,6 +46,23 @@ export default function BeadBars() {
     return { total, same, count: mat.pieces.length }
   }, [mat.pieces])
 
+  const tk = useTask('bead-bars')
+  const taskMet = useMemo(() => {
+    const s = tk.spec
+    if (!s) return false
+    if (s.staircase) {
+      const vals = mat.pieces.map((p) => p.data).sort((a, b) => a - b)
+      return vals.length === 10 && vals.every((v, i) => v === i + 1)
+    }
+    if (s.table) return stats.same === s.table[0] && stats.count === s.table[1]
+    if (s.make) return stats.count >= 2 && stats.total === s.make
+    return false
+  }, [tk.spec, mat.pieces, stats])
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
+
   const add = (n: number) => {
     const row = mat.pieces.length
     mat.add(String(n), n, { x: 24, y: 24 + (row % 14) * (B + 8) })
@@ -56,6 +74,7 @@ export default function BeadBars() {
   return (
     <div className="ws">
       <div>
+        <TaskBanner t={tk} />
         <Mat pieces={mat.pieces} onMove={mat.move} onRaise={mat.raise} onRemove={mat.remove} render={render} sizeOf={(p) => ({ w: p.data * (B + GAP) + 6, h: B + 6 })} snap={SNAP} hint="Tap a bar below to place it. Lay the same bar again and again to build a table, or make a square." />
         <Palette>
           {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (

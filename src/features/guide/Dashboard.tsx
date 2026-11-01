@@ -5,6 +5,7 @@ import type { Album, AlbumId, Status } from '../../data/types'
 import { levelBand, useStore } from '../../app/store'
 import { AreaChip, ProgressBar, StatusChip, formatDateTime } from '../../components/ui'
 import { useAllAlbums } from './useAlbums'
+import { PATHWAYS, pathwayProgress } from '../../data/pathways'
 import './guide.css'
 
 function countStatuses(album: Album, progress: Record<string, { status: Status }>) {
@@ -21,6 +22,9 @@ export default function Dashboard() {
   const progress = useStore((s) => s.progress)
   const plan = useStore((s) => s.plan)
   const work = useStore((s) => s.work)
+  const tasks = useStore((s) => s.tasks)
+  const recommend = useStore((s) => s.recommend)
+  const setRecommend = useStore((s) => s.setRecommend)
   const settings = useStore((s) => s.settings)
   const band = levelBand(settings.level)
 
@@ -109,6 +113,44 @@ export default function Dashboard() {
             </Link>
           )
         })}
+      </section>
+
+      <section className="card" style={{ marginTop: 28 }}>
+        <div className="row between" style={{ marginBottom: 4 }}>
+          <h2 style={{ fontSize: 20 }}>{settings.childName ? `${settings.childName}'s path` : 'Her path'}</h2>
+          <Link to="/learn/path" className="btn btn-ghost btn-sm">Open her view</Link>
+        </div>
+        <p className="muted small" style={{ marginBottom: 14 }}>
+          The built-in path she follows on her own. You can suggest a step: it is marked “Mum suggests” on her side.
+        </p>
+        <div className="grid grid-3">
+          {PATHWAYS.map((p) => {
+            const prog = pathwayProgress(p, tasks)
+            const pct = prog.total ? Math.round((100 * prog.done) / prog.total) : 0
+            return (
+              <div key={p.album} className={`area-${p.album}`} style={{ background: 'var(--bg-2)', borderRadius: 14, padding: 14, display: 'grid', gap: 8 }}>
+                <div className="row between">
+                  <strong>{p.glyph} {p.title}</strong>
+                  <span className="small muted">{prog.done}/{prog.total}</span>
+                </div>
+                <div className="progress" aria-hidden>
+                  <span style={{ width: `${pct}%`, background: 'var(--a)' }} />
+                </div>
+                <div className="small">
+                  {prog.current ? <>Now at: <strong>{prog.current.title}</strong></> : 'All steps done'}
+                </div>
+                <select className="select" style={{ minHeight: 40, padding: '4px 10px', fontSize: 14 }} value={recommend[p.album] ?? ''} onChange={(e) => setRecommend(p.album, e.target.value || null)} aria-label={`Suggest a step in ${p.title}`}>
+                  <option value="">No suggestion</option>
+                  {p.stages.map((s) => (
+                    <option key={s.id} value={s.id}>
+                      Suggest: {s.title}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )
+          })}
+        </div>
       </section>
 
       <div className="grid grid-2" style={{ marginTop: 28, alignItems: 'start' }}>

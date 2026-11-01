@@ -28,6 +28,7 @@ export function Shell({ mode }: { mode: 'guide' | 'learn' }) {
   ]
   const learnLinks = [
     { to: '/learn', label: 'Home', end: true },
+    { to: '/learn/path', label: 'My path' },
     { to: '/learn/materials', label: 'Materials' },
     { to: '/learn/words', label: 'Words' },
     { to: '/learn/problems', label: 'Problems' },

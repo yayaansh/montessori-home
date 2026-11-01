@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
 
 type Pos = 'noun' | 'article' | 'adjective' | 'verb' | 'adverb' | 'pronoun' | 'preposition' | 'conjunction' | 'interjection'
 
@@ -53,7 +54,7 @@ interface Preset {
   key: Pos[]
 }
 
-const PRESETS: Preset[] = [
+export const PRESETS: Preset[] = [
   { text: 'The cat sleeps.', key: ['article', 'noun', 'verb'] },
   { text: 'A red bird sings.', key: ['article', 'adjective', 'noun', 'verb'] },
   { text: 'The small dog runs quickly.', key: ['article', 'adjective', 'noun', 'verb', 'adverb'] },
@@ -81,20 +82,29 @@ function tokenize(text: string): string[] {
 }
 
 export default function GrammarSymbols() {
-  const [presetIdx, setPresetIdx] = useState(0)
+  const tk = useTask('grammar-symbols')
+  const order = useMemo(() => tk.spec?.sentences ?? PRESETS.map((_, i) => i), [tk.spec])
+  const [presetIdx, setPresetIdx] = useState(order[0] ?? 0)
   const [custom, setCustom] = useState('')
   const [armed, setArmed] = useState<Pos | null>(null)
   const [placed, setPlaced] = useState<Record<number, Pos>>({})
   const [showKey, setShowKey] = useState(false)
+  const [solved, setSolved] = useState<number[]>([])
   const log = useWorkLogger('material', 'grammar-symbols', 'Grammar symbols')
 
   const text = custom.trim() || PRESETS[presetIdx].text
   const words = useMemo(() => tokenize(text), [text])
   const key = custom.trim() ? null : PRESETS[presetIdx].key
+  const pos = Math.max(0, order.indexOf(presetIdx))
 
   const reset = () => {
     setPlaced({})
     setArmed(null)
+  }
+  const go = (d: number) => {
+    setPresetIdx(order[(pos + d + order.length) % order.length])
+    setCustom('')
+    reset()
   }
   const place = (i: number) => {
     if (armed) {
@@ -109,11 +119,21 @@ export default function GrammarSymbols() {
     }
   }
   const allPlaced = words.length > 0 && words.every((_, i) => placed[i])
-  const allRight = key && allPlaced && words.every((_, i) => placed[i] === key[i])
+  const allRight = !!key && allPlaced && words.every((_, i) => placed[i] === key[i])
+
+  useEffect(() => {
+    if (allRight && !custom.trim()) setSolved((s) => (s.includes(presetIdx) ? s : [...s, presetIdx]))
+  }, [allRight, presetIdx, custom])
+  const taskMet = !!tk.spec && tk.spec.sentences.every((i) => solved.includes(i))
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
 
   return (
     <div className="ws">
       <div>
+        <TaskBanner t={tk} />
         <div className="mat" style={{ height: 'auto', minHeight: 220 }}>
           <div className="sentence">
             {words.map((w, i) => (
@@ -144,10 +164,22 @@ export default function GrammarSymbols() {
         <div className="card">
           <h3>Sentence</h3>
           <div className="row" style={{ marginBottom: 8 }}>
-            <button className="btn btn-ghost btn-sm" onClick={() => { setPresetIdx((i) => (i + PRESETS.length - 1) % PRESETS.length); setCustom(''); reset() }}>←</button>
-            <span className="small muted">{custom.trim() ? 'Your own' : `${presetIdx + 1} of ${PRESETS.length}`}</span>
-            <button className="btn btn-ghost btn-sm" onClick={() => { setPresetIdx((i) => (i + 1) % PRESETS.length); setCustom(''); reset() }}>→</button>
+            <button className="btn btn-ghost btn-sm" onClick={() => go(-1)} aria-label="Previous sentence">←</button>
+            <span className="small muted">
+              {custom.trim() ? 'Your own' : `${pos + 1} of ${order.length}`}
+              {tk.spec && !custom.trim() && ` · ${solved.filter((i) => tk.spec!.sentences.includes(i)).length} done`}
+            </span>
+            <button className="btn btn-ghost btn-sm" onClick={() => go(1)} aria-label="Next sentence">→</button>
           </div>
+          {tk.spec && (
+            <div className="row" style={{ gap: 6, marginBottom: 8 }}>
+              {order.map((i, k) => (
+                <button key={i} className={`chip ${solved.includes(i) ? 'st-mastered status-chip' : i === presetIdx ? 'st-presented status-chip' : ''}`} style={{ minHeight: 34 }} onClick={() => { setPresetIdx(i); setCustom(''); reset() }}>
+                  {solved.includes(i) ? '✓ ' : ''}{k + 1}
+                </button>
+              ))}
+            </div>
+          )}
           <textarea className="textarea" style={{ minHeight: 70 }} placeholder="Or type your own sentence…" value={custom} onChange={(e) => { setCustom(e.target.value); reset() }} />
           {key && (
             <label className="row between" style={{ marginTop: 10 }}>

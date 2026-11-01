@@ -2,7 +2,7 @@ import { useStore, type WorkKind } from '../../app/store'
 import { Empty } from '../../components/ui'
 import './learn.css'
 
-const GLYPH: Record<WorkKind, string> = { material: '🧺', words: '🏛️', problem: '🧩', experiment: '🔬', lesson: '📖' }
+const GLYPH: Record<WorkKind, string> = { material: '🧺', words: '🏛️', problem: '🧩', experiment: '🔬', lesson: '📖', task: '⭐' }
 
 export default function WorkLog() {
   const work = useStore((s) => s.work)

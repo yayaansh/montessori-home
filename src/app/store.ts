@@ -19,7 +19,7 @@ export interface PlanItem {
   done?: string
 }
 
-export type WorkKind = 'material' | 'words' | 'problem' | 'experiment' | 'lesson'
+export type WorkKind = 'material' | 'words' | 'problem' | 'experiment' | 'lesson' | 'task'
 
 export interface WorkEntry {
   id: string
@@ -41,7 +41,12 @@ interface State {
   progress: Record<string, ProgressEntry>
   plan: PlanItem[]
   work: WorkEntry[]
+  tasks: Record<string, { done: string }>
+  recommend: Record<string, string> // album -> stage id the guide suggests next
   settings: Settings
+  completeTask: (taskId: string, label: string) => void
+  resetTask: (taskId: string) => void
+  setRecommend: (album: string, stageId: string | null) => void
   setStatus: (nodeId: string, status: Status) => void
   setNotes: (nodeId: string, notes: string) => void
   addToPlan: (item: Omit<PlanItem, 'id' | 'addedAt' | 'day'> & { day?: number | null }) => void
@@ -64,6 +69,8 @@ const initial = {
   progress: {} as Record<string, ProgressEntry>,
   plan: [] as PlanItem[],
   work: [] as WorkEntry[],
+  tasks: {} as Record<string, { done: string }>,
+  recommend: {} as Record<string, string>,
   settings: { childName: '', level: 'first', cursive: false, showTotals: true } as Settings,
 }
 
@@ -112,11 +119,32 @@ export const useStore = create<State>()(
         }),
       clearDonePlan: () => set((s) => ({ plan: s.plan.filter((p) => !p.done) })),
       logWork: (entry) => set((s) => ({ work: [{ ...entry, id: uid(), at: now() }, ...s.work].slice(0, 500) })),
+      completeTask: (taskId, label) =>
+        set((s) => {
+          if (s.tasks[taskId]) return {}
+          return {
+            tasks: { ...s.tasks, [taskId]: { done: now() } },
+            work: [{ id: uid(), at: now(), kind: 'task' as WorkKind, ref: taskId, label }, ...s.work].slice(0, 500),
+          }
+        }),
+      resetTask: (taskId) =>
+        set((s) => {
+          const t = { ...s.tasks }
+          delete t[taskId]
+          return { tasks: t }
+        }),
+      setRecommend: (album, stageId) =>
+        set((s) => {
+          const r = { ...s.recommend }
+          if (stageId) r[album] = stageId
+          else delete r[album]
+          return { recommend: r }
+        }),
       removeWork: (id) => set((s) => ({ work: s.work.filter((w) => w.id !== id) })),
       setSettings: (p) => set((s) => ({ settings: { ...s.settings, ...p } })),
       exportState: () => {
-        const { progress, plan, work, settings } = get()
-        return JSON.stringify({ version: 1, exported: now(), progress, plan, work, settings }, null, 2)
+        const { progress, plan, work, tasks, recommend, settings } = get()
+        return JSON.stringify({ version: 2, exported: now(), progress, plan, work, tasks, recommend, settings }, null, 2)
       },
       importState: (json) => {
         try {
@@ -126,6 +154,8 @@ export const useStore = create<State>()(
             progress: data.progress ?? {},
             plan: data.plan ?? [],
             work: data.work ?? [],
+            tasks: data.tasks ?? {},
+            recommend: data.recommend ?? {},
             settings: { ...initial.settings, ...(data.settings ?? {}) },
           })
           return true

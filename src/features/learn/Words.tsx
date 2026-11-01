@@ -1,7 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import dictionary from '../../data/dictionary.json'
 import type { DictionaryEntry } from '../../data/types'
 import { useWorkLogger } from './useWorkLogger'
+import { TaskBanner, useTask } from './useTask'
 import './learn.css'
 
 const ENTRIES = dictionary as DictionaryEntry[]
@@ -36,10 +37,12 @@ function shuffle<T>(a: T[]): T[] {
 }
 
 export default function Words() {
-  const [topic, setTopic] = useState('all')
+  const tk = useTask('words')
+  const [topic, setTopic] = useState(tk.spec?.topic ?? 'all')
   const [order, setOrder] = useState<number[] | null>(null)
   const [i, setI] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [seen, setSeen] = useState<Set<number>>(() => new Set())
   const log = useWorkLogger('words', 'dictionary', 'Word origins')
 
   const deck = useMemo(() => {
@@ -48,11 +51,25 @@ export default function Words() {
     return order ? order.filter((k) => idx.includes(k)) : idx
   }, [topic, order])
 
-  const entry = deck.length ? ENTRIES[deck[Math.min(i, deck.length - 1)]] : null
+  const entryIndex = deck.length ? deck[Math.min(i, deck.length - 1)] : -1
+  const entry = entryIndex >= 0 ? ENTRIES[entryIndex] : null
   const go = (d: number) => {
     setFlipped(false)
     setI((x) => (x + d + deck.length) % deck.length)
   }
+  const flip = () => {
+    if (!flipped && entry) {
+      setSeen((s) => new Set(s).add(entryIndex))
+      log.touch(`Looked at ${entry.word}`)
+    }
+    setFlipped((f) => !f)
+  }
+
+  const taskMet = !!tk.spec && seen.size >= Math.min(tk.spec.count, Math.max(deck.length, 1))
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
 
   return (
     <main className="page page-narrow">
@@ -63,6 +80,12 @@ export default function Words() {
           <p className="subtitle">Tap the card to turn it over.</p>
         </div>
       </div>
+      <TaskBanner t={tk} />
+      {tk.spec && !tk.done && (
+        <p className="muted small" style={{ marginBottom: 10 }}>
+          {seen.size} of {Math.min(tk.spec.count, Math.max(deck.length, 1))} cards turned over.
+        </p>
+      )}
       <div className="seg" style={{ marginBottom: 20 }}>
         {TOPICS.map((t) => (
           <button key={t.id} className={topic === t.id ? 'on' : ''} onClick={() => { setTopic(t.id); setI(0); setFlipped(false) }}>
@@ -72,10 +95,10 @@ export default function Words() {
       </div>
       {entry ? (
         <div className="flash">
-          <div className={`flash-card ${flipped ? 'flipped' : ''}`} onClick={() => { setFlipped((f) => !f); if (!flipped) log.touch(`Looked at ${entry.word}`) }} role="button" tabIndex={0} onKeyDown={(e) => e.key === ' ' && setFlipped((f) => !f)} aria-label={`Card: ${entry.word}`}>
+          <div className={`flash-card ${flipped ? 'flipped' : ''}`} onClick={flip} role="button" tabIndex={0} onKeyDown={(e) => e.key === ' ' && flip()} aria-label={`Card: ${entry.word}`}>
             <div className="flash-face flash-front">
               <div>
-                <div className="flash-lang">{deck.length ? `${i % deck.length + 1} of ${deck.length}` : ''}</div>
+                <div className="flash-lang">{deck.length ? `${(i % deck.length) + 1} of ${deck.length}` : ''}{seen.has(entryIndex) ? ' · seen' : ''}</div>
                 <div className="flash-word">{entry.word}</div>
                 <div className="muted" style={{ marginTop: 14 }}>Where does it come from?</div>
               </div>

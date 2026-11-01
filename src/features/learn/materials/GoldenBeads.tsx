@@ -1,8 +1,9 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Mat, Palette, useMat, type Piece } from './Mat'
 import { useStore } from '../../../app/store'
 import { toast } from '../../../components/ui'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
 
 type Kind = 'unit' | 'ten' | 'hundred' | 'thousand'
 const VALUE: Record<Kind, number> = { unit: 1, ten: 10, hundred: 100, thousand: 1000 }
@@ -64,7 +65,10 @@ const SIZE: Record<Kind, { w: number; h: number }> = {
 export default function GoldenBeads() {
   const mat = useMat<Kind>()
   const showTotals = useStore((s) => s.settings.showTotals)
-  const [target, setTarget] = useState<string>('')
+  const tk = useTask('golden-beads')
+  const specTarget = tk.spec ? tk.spec.build ?? (tk.spec.sum ? tk.spec.sum[0] + tk.spec.sum[1] : tk.spec.take ? tk.spec.take[0] - tk.spec.take[1] : 0) : 0
+  const showCards = !tk.spec || !!tk.spec.build
+  const [target, setTarget] = useState<string>(specTarget ? String(specTarget) : '')
   const [showTotal, setShowTotal] = useState(showTotals)
   const log = useWorkLogger('material', 'golden-beads', 'Golden beads')
 
@@ -76,6 +80,10 @@ export default function GoldenBeads() {
   const total = counts.unit + counts.ten * 10 + counts.hundred * 100 + counts.thousand * 1000
   const targetN = Number(target.replace(/\D/g, '')) || 0
   const matches = targetN > 0 && total === targetN
+  useEffect(() => {
+    if (matches && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [matches, tk.active, tk.done])
 
   const add = (k: Kind) => {
     mat.add(k, k)
@@ -111,8 +119,9 @@ export default function GoldenBeads() {
   return (
     <div className="ws">
       <div>
+        <TaskBanner t={tk} />
         <Mat pieces={mat.pieces} onMove={mat.move} onRaise={mat.raise} onRemove={mat.remove} render={render} sizeOf={(p) => SIZE[p.data]} hint="Tap a bead, bar, square or cube below to place it on the mat. Drag to move. Tap a piece to put it back.">
-          {targetN > 0 && (
+          {targetN > 0 && showCards && (
             <div className="mat-target numcards" aria-label={`Target ${targetN}`}>
               {digits.split('').map((d, i) => {
                 const place = digits.length - 1 - i

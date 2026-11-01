@@ -1,7 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Mat, useMat, type Piece } from './Mat'
 import { useStore } from '../../../app/store'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
 
 const CELL = 46
 const ROW = 60
@@ -23,6 +24,16 @@ export default function MovableAlphabet() {
   const [wordIdx, setWordIdx] = useState<number | null>(null)
   const [hidePrompt, setHidePrompt] = useState(false)
   const log = useWorkLogger('material', 'movable-alphabet', 'Movable alphabet')
+
+  const tk = useTask('movable-alphabet')
+  const list = tk.spec?.words
+  const [wi, setWi] = useState(0)
+  const [justRight, setJustRight] = useState(false)
+
+  const clearMat = () => {
+    mat.clear()
+    setCursor({ col: 0, row: 0 })
+  }
 
   const place = (ch: string) => {
     const x = 20 + cursor.col * CELL
@@ -66,14 +77,40 @@ export default function MovableAlphabet() {
       .join(' / ')
   }, [mat.pieces])
 
-  const promptText = wordIdx !== null ? WORDS[wordIdx] : prompt.trim()
+  const normalized = written.replace(/\s*\/\s*/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase()
+  const target = list ? list[Math.min(wi, list.length - 1)] : null
+
+  useEffect(() => {
+    if (!list || !target || tk.done) return
+    if (normalized !== target) return
+    setJustRight(true)
+    if (wi + 1 < list.length) {
+      const id = window.setTimeout(() => {
+        clearMat()
+        setWi(wi + 1)
+        setJustRight(false)
+      }, 1100)
+      return () => window.clearTimeout(id)
+    }
+    tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [normalized, target, wi, list])
+
+  const promptText = target ?? (wordIdx !== null ? WORDS[wordIdx] : prompt.trim())
 
   return (
     <div className={`ws ${cursive ? 'cursive' : ''}`}>
       <div>
+        <TaskBanner t={tk} />
         {promptText && !hidePrompt && (
-          <div className="card" style={{ marginBottom: 12, textAlign: 'center', fontSize: 34, fontWeight: 700, letterSpacing: '0.06em' }}>
+          <div className="card" style={{ marginBottom: 12, textAlign: 'center', fontSize: 34, fontWeight: 700, letterSpacing: '0.06em', borderColor: justRight ? 'var(--sage)' : undefined }}>
             {promptText}
+            {list && !tk.done && (
+              <div className="muted small" style={{ fontSize: 14, fontWeight: 400, letterSpacing: 0 }}>
+                Word {Math.min(wi + 1, list.length)} of {list.length}
+                {justRight ? ' · ✓' : ''}
+              </div>
+            )}
           </div>
         )}
         <Mat
@@ -100,23 +137,29 @@ export default function MovableAlphabet() {
           <button onClick={() => place(' ')} aria-label="Space" style={{ gridColumn: 'span 2', fontSize: 15 }}>space</button>
           <button onClick={newLine} aria-label="New line" style={{ fontSize: 15 }}>↵</button>
           <button onClick={backspace} aria-label="Remove last letter" style={{ fontSize: 18 }}>⌫</button>
-          <button onClick={() => { mat.clear(); setCursor({ col: 0, row: 0 }); log.touch() }} aria-label="Clear" style={{ fontSize: 15 }}>clear</button>
+          <button onClick={() => { clearMat(); log.touch() }} aria-label="Clear" style={{ fontSize: 15 }}>clear</button>
         </div>
       </div>
       <aside className="ws-side">
         <div className="card">
           <h3>You wrote</h3>
-          <div style={{ fontSize: 26, fontWeight: 700, minHeight: 36, wordBreak: 'break-word' }} className={cursive ? '' : ''}>
+          <div style={{ fontSize: 26, fontWeight: 700, minHeight: 36, wordBreak: 'break-word' }}>
             {written || <span className="muted" style={{ fontSize: 15, fontWeight: 400 }}>Nothing yet</span>}
           </div>
         </div>
         <div className="card">
           <h3>A word to build</h3>
-          <div className="row" style={{ marginBottom: 8 }}>
-            <button className="btn btn-soft btn-sm" onClick={() => { setWordIdx(Math.floor(Math.random() * WORDS.length)); setPrompt('') }}>Pick a word</button>
-            <button className="btn btn-ghost btn-sm" onClick={() => { setWordIdx(null); setPrompt('') }}>None</button>
-          </div>
-          <input className="input" placeholder="Or type a word or sentence…" value={prompt} onChange={(e) => { setPrompt(e.target.value); setWordIdx(null) }} aria-label="Word to build" />
+          {list ? (
+            <p className="small muted">Your task gives you the words, one at a time. When a word is right, the next one appears.</p>
+          ) : (
+            <>
+              <div className="row" style={{ marginBottom: 8 }}>
+                <button className="btn btn-soft btn-sm" onClick={() => { setWordIdx(Math.floor(Math.random() * WORDS.length)); setPrompt('') }}>Pick a word</button>
+                <button className="btn btn-ghost btn-sm" onClick={() => { setWordIdx(null); setPrompt('') }}>None</button>
+              </div>
+              <input className="input" placeholder="Or type a word or sentence…" value={prompt} onChange={(e) => { setPrompt(e.target.value); setWordIdx(null) }} aria-label="Word to build" />
+            </>
+          )}
           <label className="row between" style={{ marginTop: 10 }}>
             <span className="small">Hide it (dictation)</span>
             <input type="checkbox" checked={hidePrompt} onChange={(e) => setHidePrompt(e.target.checked)} style={{ width: 22, height: 22 }} />

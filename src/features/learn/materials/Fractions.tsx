@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Mat, Palette, useMat, type Piece } from './Mat'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
 
 const R = 110 // radius of the frame and of pieces
 const FRAME = { x: 40, y: 30 } // frame top-left on the mat
@@ -69,6 +70,19 @@ export default function Fractions() {
   }, [inFrame])
   const usedAngle = inFrame.reduce((a, p) => a + 360 / p.data.d, 0)
 
+  const tk = useTask('fractions')
+  const taskMet = (() => {
+    const s = tk.spec
+    if (!s) return false
+    if (s.fill) return inFrame.length === s.fill && inFrame.every((p) => p.data.d === s.fill)
+    if (s.show) return inFrame.length === s.show[0] && inFrame.every((p) => p.data.d === s.show![1])
+    return false
+  })()
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
+
   const addPiece = (d: number) => {
     const n = mat.pieces.filter((p) => !p.data.inFrame).length
     mat.add(String(d), { d, inFrame: false, startAngle: 0 }, { x: FRAME.x + R * 2 + 60 + (n % 3) * 30, y: 30 + (n % 5) * 36 })
@@ -123,6 +137,7 @@ export default function Fractions() {
   return (
     <div className="ws">
       <div>
+        <TaskBanner t={tk} />
         <Mat pieces={mat.pieces} onMove={mat.move} onDrop={onDrop} onRaise={mat.raise} onRemove={mat.remove} render={render} sizeOf={() => ({ w: R * 2, h: R * 2 })} hint="Tap a fraction below, then drag it into the green frame. Fill the whole circle.">
           <div style={{ position: 'absolute', left: FRAME.x - 10, top: FRAME.y - 10, width: R * 2 + 20, height: R * 2 + 20, borderRadius: '50%', background: '#5f8a5f', boxShadow: 'inset 0 2px 8px rgba(0,0,0,0.25)', pointerEvents: 'none' }}>
             <div style={{ position: 'absolute', inset: 10, borderRadius: '50%', background: '#efe6d4' }} />

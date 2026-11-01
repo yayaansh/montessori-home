@@ -1,8 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Mat, Palette, useMat, type Piece } from './Mat'
 import { useStore } from '../../../app/store'
 import { toast } from '../../../components/ui'
 import { useWorkLogger } from '../useWorkLogger'
+import { TaskBanner, useTask } from '../useTask'
+import { describeSpec } from '../../../data/pathways'
 
 type V = 1 | 10 | 100 | 1000
 const COLOUR: Record<V, string> = { 1: '#5aa65a', 10: '#4a7fd0', 100: '#d9534f', 1000: '#5aa65a' }
@@ -21,7 +23,9 @@ export default function StampGame() {
   const mat = useMat<V>()
   const showTotals = useStore((s) => s.settings.showTotals)
   const [showTotal, setShowTotal] = useState(showTotals)
-  const [problem, setProblem] = useState('')
+  const tk = useTask('stamp-game')
+  const specTarget = tk.spec ? tk.spec.build ?? (tk.spec.sum ? tk.spec.sum[0] + tk.spec.sum[1] : tk.spec.take ? tk.spec.take[0] - tk.spec.take[1] : 0) : 0
+  const [problem, setProblem] = useState(tk.task ? describeSpec(tk.task.spec) : '')
   const log = useWorkLogger('material', 'stamp-game', 'Stamp game')
 
   const counts = useMemo(() => {
@@ -30,6 +34,11 @@ export default function StampGame() {
     return c
   }, [mat.pieces])
   const total = counts[1] + counts[10] * 10 + counts[100] * 100 + counts[1000] * 1000
+  const taskMet = specTarget > 0 && total === specTarget
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
 
   const add = (v: V) => {
     // place in the column for its value, stacking downwards
@@ -71,6 +80,7 @@ export default function StampGame() {
   return (
     <div className="ws">
       <div>
+        <TaskBanner t={tk} />
         {problem && (
           <div className="card" style={{ marginBottom: 12, fontSize: 30, fontWeight: 900, textAlign: 'center', letterSpacing: '0.04em' }}>
             {problem}

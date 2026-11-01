@@ -120,3 +120,48 @@
 .work-item .glyph { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--bg-2); font-size: 20px; }
 .work-item .t { font-weight: 800; }
 .work-item .s { font-size: 13px; color: var(--ink-3); }
+
+/* pathways ----------------------------------------------------------- */
+.path-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.path-card { border-top: 6px solid var(--a); gap: 10px; }
+.ring {
+  width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; font-size: 13px;
+  background: conic-gradient(var(--a) var(--pct), var(--bg-2) 0);
+}
+.ring span { width: 42px; height: 42px; border-radius: 50%; background: var(--paper); display: grid; place-items: center; }
+
+.trail { list-style: none; display: flex; flex-direction: column; gap: 0; position: relative; }
+.stage { display: grid; grid-template-columns: 44px 1fr; gap: 14px; padding-bottom: 18px; position: relative; }
+.stage::before { content: ''; position: absolute; left: 21px; top: 44px; bottom: 0; width: 2px; background: var(--line-2); }
+.stage:last-child::before { display: none; }
+.stage-marker {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; font-size: 18px;
+  background: var(--bg-2); color: var(--ink-3); border: 2px solid var(--line-2); position: relative; z-index: 1;
+}
+.stage.done .stage-marker { background: var(--sage); border-color: var(--sage); color: white; }
+.stage.current .stage-marker { background: var(--a); border-color: var(--a); color: white; box-shadow: 0 0 0 6px var(--a-2); }
+.stage-body { padding: 0; overflow: hidden; }
+.stage.current .stage-body { border-color: var(--a); box-shadow: var(--shadow-lg); }
+.stage.recommended .stage-body { border-color: var(--ochre); }
+.stage.upcoming .stage-body { opacity: 0.85; }
+.stage-head { width: 100%; display: flex; align-items: flex-start; gap: 12px; padding: 18px 20px; text-align: left; }
+.stage-head h2 { font-size: 20px; }
+.stage-detail { padding: 0 20px 20px; display: grid; gap: 16px; border-top: 1px solid var(--line); padding-top: 16px; }
+.task-list { display: grid; gap: 8px; }
+.task-row { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 14px; background: var(--bg-2); min-height: 56px; }
+.task-row:hover { background: var(--line); }
+.task-row .glyph { width: 40px; height: 40px; border-radius: 12px; background: var(--paper); display: grid; place-items: center; font-size: 20px; flex: none; }
+.task-row .t { flex: 1; font-weight: 700; display: flex; flex-direction: column; }
+.task-row .s { font-weight: 400; font-size: 13px; color: var(--ink-3); }
+.task-row.done .t { color: var(--ink-3); }
+.task-row.done .glyph { opacity: 0.6; }
+
+.task-banner {
+  display: flex; gap: 14px; align-items: center; flex-wrap: wrap; padding: 14px 18px; border-radius: 18px; margin-bottom: 12px;
+  background: var(--paper); border: 2px solid var(--accent); box-shadow: var(--shadow);
+}
+.task-banner.done { border-color: var(--sage); background: var(--sage-2); }
+.task-main { flex: 1; min-width: 240px; }
+.task-title { font-size: 20px; font-weight: 900; }
+.task-detail { margin-left: 10px; font-weight: 900; color: var(--accent); }
+.task-acts { display: flex; gap: 8px; flex-wrap: wrap; }

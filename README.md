@@ -22,6 +22,9 @@ Open http://localhost:5173. `npm run build` produces a static site in `dist/` (i
 - `src/features/guide/` – the guide side: overview, album trees, lesson pages, weekly planner, printables, search, settings.
 - `src/features/learn/` – the child's corner: digital materials (golden beads, stamp game, bead bars, fraction circles,
   grammar symbols, movable alphabet), word-origin flashcards, story problems, experiments and the work journal.
+- `src/data/pathways.ts` – the built-in learning paths: one per subject, each a sequence of stages pairing the album
+  lessons the guide presents with practice tasks the child completes on her own. Tasks open a material or activity with
+  `?task=<id>`; the page checks the task's condition and records completion. The guide can mark a stage as suggested.
 
 Progress, notes, the plan and the journal are stored in the browser (localStorage). Settings → Export backup moves them
 between devices.

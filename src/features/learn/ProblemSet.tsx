@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import sets from '../../data/wordproblems.json'
 import type { WordProblemSet } from '../../data/types'
 import { useStore } from '../../app/store'
 import { Toaster, toast } from '../../components/ui'
+import { TaskBanner, useTask } from './useTask'
 import './learn.css'
 
 const SETS = sets as WordProblemSet[]
@@ -34,6 +35,13 @@ export default function ProblemSet() {
   const [i, setI] = useState(0)
   const [showSteps, setShowSteps] = useState(false)
   const [scratch, setScratch] = useState<Record<number, string>>({})
+  const tk = useTask('problems')
+  const doneInSet = set ? work.filter((w) => w.kind === 'problem' && w.ref.startsWith(set.id + '#')).length : 0
+  const taskMet = !!tk.spec && doneInSet >= tk.spec.count
+  useEffect(() => {
+    if (taskMet && tk.active && !tk.done) tk.complete()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [taskMet, tk.active, tk.done])
 
   if (!set)
     return (
@@ -55,6 +63,12 @@ export default function ProblemSet() {
         <span className="chip">{set.topic}</span>
         <span className="muted small">{set.name}</span>
       </div>
+      <TaskBanner t={tk} />
+      {tk.spec && !tk.done && (
+        <p className="muted small" style={{ marginBottom: 10 }}>
+          {Math.min(doneInSet, tk.spec.count)} of {tk.spec.count} problems done for this task.
+        </p>
+      )}
       <div className="ws">
         <div className="stack">
           <div className="card" style={{ padding: 28 }}>
